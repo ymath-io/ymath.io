@@ -47,7 +47,7 @@
   @apply text-gray-700 cursor-pointer hover:bg-white dark:text-white dark:hover:bg-gray-700 hover:shadow-lg transition-shadow duration-200 dark:hover:text-white hover:text-current px-3 py-2 rounded-xl text-sm font-medium
 }
 
-.nuxt-content-container {
+.nuxt-content-container, .nuxt-content {
   @apply prose dark:prose-dark
 }
 
