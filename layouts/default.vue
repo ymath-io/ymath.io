@@ -22,7 +22,7 @@
               </div>
             </div>
           </div>
-          <div class='hidden md:block'>
+          <div v-if='false' class='hidden md:block'>
             <div class='ml-4 flex items-center md:ml-6'>
               <button
                 class=' p-1 rounded-full text-gray-400 hover:text-current dark:hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'>
@@ -31,7 +31,7 @@
               </button>
 
               <!-- Profile dropdown -->
-              <div class='ml-3 relative'>
+              <div  class='ml-3  relative'>
                 <div>
                   <button @click='open=!open'
                           class='max-w-xs bg-gray-200 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'>
@@ -61,7 +61,7 @@
           <div class='-mr-2 ml-auto justify-end flex md:hidden'>
             <!-- Mobile menu button -->
             <button @click='expandMenu=!expandMenu'
-                    class='bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-current hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'>
+                    class='bg-gray-100 dark:bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400  hover:bg-gray-200 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-700 focus:ring-white'>
               <span class='sr-only'>Open main menu</span>
               <m-icon class='block h-6 w-6' icon='menu' v-if='!expandMenu'></m-icon>
               <m-icon class='block h-6 w-6' icon='close' v-else></m-icon>
@@ -76,20 +76,20 @@
 
                     <!-- Current: "bg-gray-300 text-current", Default: "text-gray-700 hover:bg-gray-200 hover:text-current" -->
                     <nuxt-link :exact='item.exact' active-class='titlebar-active' :to='item.to'
-                               class='titlebar'>{{ item.name
+                               class='titlebar block my-2'>{{ item.name
                       }}</nuxt-link>
 
 
                 </span>
         </div>
-        <div class='pt-4 pb-3 border-t border-gray-200'>
+        <div v-if='false' class='pt-4 pb-3 border-t border-gray-200 dark:border-gray-700'>
           <div class='flex items-center px-5'>
             <div class='flex-shrink-0'>
               <img class='h-10 w-10 rounded-full'
                    src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
                    alt='' />
             </div>
-            <div class='ml-3'>
+            <div  class='ml-3'>
               <div class='text-base font-medium leading-none text-current'>Tom Cook</div>
               <div class='text-sm font-medium leading-none text-gray-400'>tom@example.com</div>
             </div>

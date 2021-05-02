@@ -40,14 +40,14 @@
 
 
 .titlebar.titlebar-active {
-  @apply bg-green-400 dark:bg-green-500 shadow-xl  text-white px-3 py-2 rounded-xl text-sm font-medium transform -translate-x-6 shadow-primary-xl
+  @apply bg-green-400 dark:bg-green-500 shadow-xl text-white px-3 py-2 rounded-xl text-sm font-medium  shadow-primary-xl
 }
 
 .titlebar:not(.titlebar-active) {
   @apply text-gray-700 cursor-pointer hover:bg-white dark:text-white dark:hover:bg-gray-700 hover:shadow-lg transition-shadow duration-200 dark:hover:text-white hover:text-current px-3 py-2 rounded-xl text-sm font-medium
 }
 
-.nuxt-content {
+.nuxt-content-container {
   @apply prose dark:prose-dark
 }
 

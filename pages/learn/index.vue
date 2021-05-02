@@ -20,8 +20,6 @@
 <script>
 import Vue from 'vue'
 
-const navigation = ['Home', 'Learn', 'Practice', 'About']
-const profile = ['Profile', 'Settings', 'Sign out']
 export default Vue.extend({
   async asyncData({ $content }) {
     const courses = await $content('/', {deep:true})
@@ -30,10 +28,7 @@ export default Vue.extend({
     return {
       courses, fetched: true
     }
-  },
-  data: () => ({
-    navigation, profile, open: false, expandMenu: false
-  })
+  }
 })
 </script>
 
