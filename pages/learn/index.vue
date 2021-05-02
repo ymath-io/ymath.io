@@ -1,12 +1,6 @@
 <template>
   <div>
-    <header class='bg-transparent border-b-2 border-gray-500'>
-      <div class='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8'>
-        <h1 class='text-3xl dark:text-gray-100 font-bold text-gray-900'>
-          Courses
-        </h1>
-      </div>
-    </header>
+    <header-banner>Courses</header-banner>
     <main style='height: 100%'>
       <div v-if='fetched'
         class='max-w-7xl grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto py-6 xs:px-3 xs:mx-5 sm:px-6 md:px-7 lg:px-8'>

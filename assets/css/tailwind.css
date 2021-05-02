@@ -10,6 +10,14 @@
       box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     }
 
+    .select-dark ::selection {
+      background-color: rgba(111, 123, 182, 0.21)
+    }
+
+    .select ::selection {
+      background-color: rgba(155, 170, 252, 0.21)
+    }
+
     .shadow-blue-md {
       box-shadow: 0 2px 4px -1px rgba(0, 118, 255, 0.39);
     }
@@ -32,12 +40,17 @@
 
 
 .titlebar.titlebar-active {
-  @apply bg-green-400 shadow-xl dark:text-gray-800 text-white px-3 py-2 rounded-xl text-sm font-medium transform -translate-x-6 shadow-primary-xl
+  @apply bg-green-400 dark:bg-green-500 shadow-xl  text-white px-3 py-2 rounded-xl text-sm font-medium transform -translate-x-6 shadow-primary-xl
 }
 
 .titlebar:not(.titlebar-active) {
   @apply text-gray-700 cursor-pointer hover:bg-white dark:text-white dark:hover:bg-gray-700 hover:shadow-lg transition-shadow duration-200 dark:hover:text-white hover:text-current px-3 py-2 rounded-xl text-sm font-medium
 }
+
+.nuxt-content {
+  @apply prose dark:prose-dark
+}
+
 
 .stretched-link::after {
   position: absolute;
@@ -49,4 +62,44 @@
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0)
+}
+
+@media (min-width: 768px) {
+  .special.card {
+    width: 30vw;
+    height: 24em;
+  }
+
+  .graph {
+    height: 80vw;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .graph {
+    height: 80vw;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .graph {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .graph {
+    height: 80vw;
+    width: 80vw;
+  }
+}
+
+.graph {
+  margin-left: auto; /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+  display: block
 }

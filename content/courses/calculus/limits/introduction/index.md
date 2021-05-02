@@ -25,7 +25,7 @@ $$
 f(1.1) = 2.1
 $$
 
-In fact, the function is defined for any $x\pm \delta,$ where $\delta \neq 0.$
+In fact, the function is defined for any $1\pm \delta,$ where $\delta \neq 0.$
 
 In this lesson, we'll be considering the case where $\delta$ is very close, but not equal to $0.$
 

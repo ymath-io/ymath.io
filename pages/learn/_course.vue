@@ -1,19 +1,12 @@
 <template>
   <div>
-    <div v-if='fetched'>
-      <header class='border-b-2 border-gray-200 '>
-        <div class='max-w-7xl grid grid-cols-4 mx-auto py-6 px-4 sm:px-6 lg:px-8'>
-          <div class='col-span-1'></div>
-          <h1 class='text-3xl col-span-3 dark:text-gray-100 font-bold text-gray-900'>
-            {{ course.title }}
-          </h1>
-        </div>
-      </header>
+    <div class='select dark:select-dark' v-if='fetched'>
+      <header-banner shift>{{course.title}}</header-banner>
       <main
-        class='max-w-7xl grid gap-8 grid-cols-4 mx-auto py-6 px-4  sm:px-6 md:px-7 lg:px-8'>
+        class='max-w-7xl grid gap-12 grid-cols-4 mx-auto py-6 px-4  sm:px-6 md:px-7 lg:px-8'>
 
         <div class='col-span-1' :key='JSON.stringify(params)'>
-          <h2 class='text-2xl pb-2 font-medium'>Chapters</h2>
+          <h2 class='text-2xl pb-2 dark:text-darkText font-medium'>Chapters</h2>
           <side-bar-item
           :item='{
             title:"Home",
@@ -27,7 +20,7 @@
             :item='subject'
           />
         </div>
-        <div class='col-span-3 prose'>
+        <div class='col-span-3'>
           <nuxt-child />
         </div>
 

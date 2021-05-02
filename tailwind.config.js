@@ -102,7 +102,96 @@ module.exports = {
       pink: colors.pink
     },
     extend: {
+      colors: {
+        dark: "#24283b",
+        darkText:"#e6e8f1"
+      },
 
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme("colors.gray.900"),
+            a: {
+              color: theme("colors.blue.700"),
+              "&:hover": {
+                color: theme("colors.blue.700"),
+                textDecoration: "none",
+              },
+            },
+            "h2 a": {
+              color: theme("colors.gray.900"),
+              textDecoration: "none",
+            },
+            ".tag a": {
+              textDecoration: "none",
+            },
+            "blockquote p:first-of-type":{
+              '&::before': {
+                content: '"" !important',
+              },
+            },
+            "blockquote p:last-of-type":{
+              '&::after': {
+                content: '"" !important',
+              },
+            },
+          },
+        },
+
+        dark: {
+          css: {
+            color: theme("colors.darkText"),
+            a: {
+              color: "#9ECE6A",
+              "&:hover": {
+                color: "#9ECE6A",
+              },
+            },
+
+            "h2 a": {
+              color: "#a9b1d6",
+            },
+
+            h1: {
+              color: theme("colors.darkText"),
+            },
+            h2: {
+              color: theme("colors.darkText"),
+            },
+            h3: {
+              color: theme("colors.darkText"),
+            },
+            h4: {
+              color: theme("colors.darkText"),
+            },
+            h5: {
+              color: theme("colors.darkText"),
+            },
+            h6: {
+              color: theme("colors.darkText"),
+            },
+            blockquote: {
+              color: theme("colors.darkText"),
+            },
+
+            strong: {
+              color: theme("colors.darkText"),
+            },
+
+            code: {
+              color: theme("colors.darkText"),
+            },
+
+            figcaption: {
+              color: theme("colors.gray.500"),
+            },
+
+            "::selection": {
+              backgroundColor: "#6f7bb635",
+            },
+          },
+        },
+      }),
     },
     /*boxShadow: (theme) => {
       return {
@@ -114,6 +203,8 @@ module.exports = {
     boxShadow:['dark','hover','focus'],
     extend: {
       margin: ['hover', 'focus'],
+      typography: ['dark'],
+      borderWidth: ['dark', 'hover', 'focus'],
     }
   },
   plugins: [
