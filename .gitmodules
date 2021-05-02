@@ -1,3 +1,3 @@
 [submodule "content"]
 	path = content
-	url = https://github.com/ymath-io/content
+	url = https://github.com/ymath-io/content.git
