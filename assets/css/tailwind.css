@@ -2,3 +2,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @variants dark, hover, active, focus {
+    .shadow-white-md {
+      --tw-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+
+    .shadow-blue-md {
+      box-shadow: 0 2px 4px -1px rgba(0, 118, 255, 0.39);
+    }
+
+    .shadow-primary-md {
+      box-shadow: 0 2px 4px -1px rgba(40, 167, 69, 0.39);
+    }
+
+    .shadow-primary-lg {
+      box-shadow: 0 4px 6px -2px rgba(40, 167, 69, 0.39);
+    }
+    .shadow-primary-xl {
+      box-shadow: 0 10px 10px -5px rgba(40, 167, 69, 0.39);
+    }
+    .shadow-primary-2xl {
+      box-shadow: 0 25px 50px -12px rgba(40, 167, 69, 0.39);
+    }
+  }
+}
+
+
+.titlebar.titlebar-active {
+  @apply bg-green-400 shadow-xl dark:text-gray-800 text-white px-3 py-2 rounded-xl text-sm font-medium transform -translate-x-6 shadow-primary-xl
+}
+
+.titlebar:not(.titlebar-active) {
+  @apply text-gray-700 cursor-pointer hover:bg-white dark:text-white dark:hover:bg-gray-700 hover:shadow-lg transition-shadow duration-200 dark:hover:text-white hover:text-current px-3 py-2 rounded-xl text-sm font-medium
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0)
+}
