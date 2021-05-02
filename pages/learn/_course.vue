@@ -37,7 +37,7 @@ export default {
     const subjects = await $content('courses', params.course, { deep: true })
       .where({ type: 'chapter' })
       .sortBy('index')
-      .only(['title', 'slug'])
+      .only(['title', 'slug', 'path'])
       .fetch()
     for (const subject of subjects) {
       subject.to = Object.assign([],({ ...subject.path.split('/'), 1:'learn', 4:'' })).join('/')
@@ -47,7 +47,7 @@ export default {
         subject.children = await $content('courses', params.course, params.chapter, { deep: true })
           .where({ type: 'lesson' })
           .sortBy('index')
-          .only(['title', 'slug'])
+          .only(['title', 'slug', 'path'])
           .fetch()
         subject.children.forEach(k=> {
           k.sub = true;
