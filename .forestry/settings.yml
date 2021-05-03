@@ -21,6 +21,12 @@ sections:
   label: Calculus
   create: all
   match: "**/*.md"
+- type: heading
+  label: Configuration
+- type: document
+  path: tailwind.config.js
+  label: Style
+  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
