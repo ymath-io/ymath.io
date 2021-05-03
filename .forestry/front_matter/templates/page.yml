@@ -17,5 +17,6 @@ fields:
       format: markdown
   label: Description
 pages:
+- content/courses/exponents/properties-i-think.md
 - content/home/about.md
 - content/home/faq.md
