@@ -24,8 +24,8 @@ sections:
 - type: heading
   label: Configuration
 - type: document
-  path: tailwind.config.js
-  label: Style
+  path: content/nav.json
+  label: Menu
   match: "**/*"
 upload_dir: static/img
 public_path: "/img"
