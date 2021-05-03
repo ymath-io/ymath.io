@@ -11,10 +11,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Self-paced high school math material, explained to be understood.\n' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/icon.png' },
       { rel:'stylesheet', href:'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'}
     ]
   },
