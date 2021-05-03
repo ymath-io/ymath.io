@@ -22,3 +22,4 @@ fields:
   default: Saumya Singhal
 pages:
 - content/courses/calculus/index.md
+- content/courses/exponents/index.md
