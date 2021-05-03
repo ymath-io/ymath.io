@@ -14,6 +14,7 @@
       <p class='text-gray-400'>
         {{ course.description }}
       </p>
+      <a>{{course.author}}</a>
     </div>
 
   </div>
