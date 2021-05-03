@@ -26,7 +26,6 @@ sections:
 - type: document
   path: content/nav.json
   label: Menu
-  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
