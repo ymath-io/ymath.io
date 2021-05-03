@@ -17,4 +17,4 @@ fields:
   default: lesson
   hidden: true
 pages:
-- content/courses/calculus/integral/introduction/introduction.md
+- content/courses/calculus/integral/introduction/index.md
