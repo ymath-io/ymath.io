@@ -20,3 +20,5 @@ fields:
   label: Author
   description: name of the human who writeth this course
   default: Saumya Singhal
+pages:
+- content/courses/calculus/index.md
