@@ -18,3 +18,4 @@ fields:
   label: Description
 pages:
 - content/home/about.md
+- content/home/faq.md
