@@ -9,12 +9,12 @@
       />
     </div>
 
-    <div class='px-1 md:px-5 pb-5 pt-3 col-span-3 md:col-span-12'>
-      <h1 class='text-xl font-bold  text-green-500'><a class='stretched-link' :href='`/learn/${course.path.split("/")[2]}`'>{{ course.title }}</a></h1>
-      <p class='text-gray-400'>
+    <div class='px-1 md:px-5 grid-rows-4 pb-5 pt-3 col-span-3 md:col-span-12'>
+      <h1 class='text-xl font-bold row-span-1 text-green-500'><a class='stretched-link' :href='`/learn/${course.path.split("/")[2]}`'>{{ course.title }}</a></h1>
+      <p class='text-gray-400 row-span-2'>
         {{ course.description }}
       </p>
-      <a>{{course.author}}</a>
+      <a class='dark:text-white row-span-1 text-gray-100'>{{course.author}}</a>
     </div>
 
   </div>
