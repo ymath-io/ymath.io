@@ -1,0 +1,13 @@
+---
+label: Course
+hide_body: false
+fields:
+- type: text
+  name: type
+  label: type
+- type: text
+  name: description
+  label: description
+- type: text
+  name: title
+  label: title
