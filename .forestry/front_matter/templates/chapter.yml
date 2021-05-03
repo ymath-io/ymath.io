@@ -16,5 +16,3 @@ fields:
 - type: number
   name: index
   label: index
-pages:
-- content/courses/calculus/limits/index.md

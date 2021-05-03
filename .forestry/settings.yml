@@ -5,8 +5,20 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/courses
+  path: content/home
+  label: Home
+  create: all
+  match: "**/*.md"
+- type: heading
   label: Courses
+- type: directory
+  path: content/courses/exponents
+  label: Exponents
+  create: all
+  match: "**/*.md"
+- type: directory
+  path: content/courses/calculus
+  label: Calculus
   create: all
   match: "**/*.md"
 upload_dir: static/img
