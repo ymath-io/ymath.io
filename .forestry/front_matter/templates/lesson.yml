@@ -16,3 +16,5 @@ fields:
   label: type
   default: lesson
   hidden: true
+pages:
+- content/courses/calculus/integral/introduction/introduction.md
