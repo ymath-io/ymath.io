@@ -2,18 +2,11 @@
 type: chapter
 title: Limits
 description: limits are so amazing
-index: 0
+index: 
+
 ---
+Limits are the most basic building block of Calculus. Although most Calculus courses are split into Differential and Integral Calculus, this course contains a separate chapter on limits because understanding them is truly essential to learning Calculus.
 
-# h1
-## h2
-### h3
-#### h4
-**bold** ~~strikethrough~~ *italics* <u>underline</u>
+## How to think about limits
 
-1. one
-2. two
-3. threee
-
-* hi
-* bye
+Limits are meant to be intuitive, and
