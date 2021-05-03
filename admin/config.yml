@@ -4,6 +4,10 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+site_url: https://dev.ymath.io
+display_url: https://dev.ymath.io
+logo_url: https://dev.ymath.io/favicon.png
 
 collections:
   - name: 'blog'
@@ -14,8 +18,15 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+
+  - name: 'courses'
+    label: 'Courses'
+    format: 'frontmatter'
+    folder: 'content/courses'
+    create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'index', name: 'date', widget: 'number' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
