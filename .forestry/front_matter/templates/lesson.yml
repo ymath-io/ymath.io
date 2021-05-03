@@ -16,3 +16,5 @@ fields:
   label: type
   default: lesson
   hidden: true
+pages:
+- content/courses/exponents/properties-i-think.md
