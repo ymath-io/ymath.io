@@ -2,6 +2,7 @@
 type: course
 description: Equip yourself with calculus - it's not scary.
 title: Calculus
+author: Saumya Singhal
 
 ---
 So you want to learn Calculus? Well, this is definitely a try-this-at-home type of thing to do. But first, you're going

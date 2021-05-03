@@ -1,0 +1,20 @@
+---
+label: Lesson
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: number
+  name: index
+  label: index
+- type: text
+  name: type
+  label: type
+  default: lesson
+  hidden: true
+pages:
+- content/courses/exponents/properties-i-think.md

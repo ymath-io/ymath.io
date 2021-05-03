@@ -1,0 +1,25 @@
+---
+label: Course
+hide_body: false
+fields:
+- type: text
+  name: type
+  label: type
+  default: course
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: name of the human who writeth this course
+  default: Saumya Singhal
+pages:
+- content/courses/calculus/index.md
+- content/courses/exponents/index.md

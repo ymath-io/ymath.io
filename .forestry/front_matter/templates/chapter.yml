@@ -1,0 +1,20 @@
+---
+label: Chapter
+hide_body: false
+fields:
+- type: text
+  name: type
+  label: type
+  default: chapter
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: number
+  name: index
+  label: index
+pages:
+- content/courses/calculus/limits/index.md
