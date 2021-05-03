@@ -1,0 +1,10 @@
+title: YMath Content
+lang: en
+description: Documentation for writing YMath courses
+
+remote_theme: rundocs/jekyll-rtd-theme
+readme_index:
+  with_frontmatter: true
+mathjax:
+
+
