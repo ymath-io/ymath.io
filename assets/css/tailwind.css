@@ -11,11 +11,11 @@
     }
 
     .select-dark ::selection {
-      background-color: rgba(111, 123, 182, 0.21)
+      background-color: rgba(111, 181, 127, 0.21)
     }
 
     .select ::selection {
-      background-color: rgba(155, 170, 252, 0.21)
+      background-color: rgba(148, 253, 171, 0.21)
     }
 
     .shadow-blue-md {
@@ -51,6 +51,9 @@
   @apply prose dark:prose-dark
 }
 
+.katex-html .frac-line {
+  border-color: currentColor;
+}
 
 .stretched-link::after {
   position: absolute;

@@ -187,7 +187,7 @@ module.exports = {
             },
 
             "::selection": {
-              backgroundColor: "#6f7bb635",
+              //backgroundColor: "#6f7bb635",
             },
           },
         },

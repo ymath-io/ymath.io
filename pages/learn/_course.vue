@@ -1,11 +1,14 @@
 <template>
   <div>
-    <div class='select dark:select-dark' v-if='fetched'>
-      <header-banner shift>{{course.title}}</header-banner>
-      <main
-        class='max-w-7xl grid gap-12 grid-cols-4 mx-auto py-6 px-4  sm:px-6 md:px-7 lg:px-8'>
+    <div class='select dark:select-dark'  v-if='fetched'>
+      <header-banner shift>
+        {{course.title}}
 
-        <div class='col-span-1' :key='JSON.stringify(params)'>
+      </header-banner>
+      <main
+        class='max-w-7xl h-full grid gap-12 grid-cols-4 mx-auto py-0 px-4  sm:px-6 md:px-7 lg:px-8'>
+
+        <div class='col-span-1  border-r-2 pr-6 dark:border-gray-800 border-gray-200 py-6' :key='JSON.stringify(params)'>
           <h2 class='text-2xl pb-2 dark:text-darkText font-medium'>Chapters</h2>
           <side-bar-item
           :item='{
@@ -20,7 +23,7 @@
             :item='subject'
           />
         </div>
-        <div class='col-span-3'>
+        <div  class='col-span-3 problem-child h-full py-6'>
           <nuxt-child />
         </div>
 
@@ -62,6 +65,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
