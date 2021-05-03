@@ -13,3 +13,10 @@ fields:
 - type: text
   name: description
   label: description
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: name of the human who writeth this course
+  default: Saumya Singhal
