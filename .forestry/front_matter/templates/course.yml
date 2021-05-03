@@ -20,6 +20,13 @@ fields:
   label: Author
   description: name of the human who writeth this course
   default: Saumya Singhal
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail
+  description: The course thumbnail featured on the course catalog and course pages.
+  default: "/img/math-photo.jpeg"
 pages:
 - content/courses/calculus/index.md
 - content/courses/exponents/index.md
