@@ -72,3 +72,6 @@ This is a question we know how to answer, because $dx$ is the width of one of ou
 Wait a minute - isn't that the function that we were trying to integrate? Yes! This is no coincidence - it's the Fundamental Theorem of Calculus.
 
 We'll look deeper at the actual theorem and the meaning of " $+C$ " in the next lesson. See you there!
+
+<iframe src="https://www.desmos.com/calculator/amkurcx8el?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
+
