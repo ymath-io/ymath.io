@@ -5,7 +5,7 @@ description: Got questions? We've got answers!
 ---
 ## How do I use this website?
 
-That's a question you could answer - _how do_ you _use this website?_
+That's a question you could answer - how do _you_ use this website?
 
 ## How do you think I should use this website?
 

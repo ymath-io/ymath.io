@@ -30,12 +30,15 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind.css',
-    'vuetify/dist/vuetify.min.css',
-    '@mdi/font/css/materialdesignicons.css'
+    '@mdi/font/css/materialdesignicons.css',
+    'mathlive/dist/mathlive-static.css',
+    'mathlive/dist/mathlive-fonts.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    {src:'~/plugins/mathquill.js', mode:'client'},
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -83,7 +86,7 @@ export default {
     'content:file:beforeParse': (file) => {
       if (file.extension !== '.md') return
       file.data = file.data.replace(/\$\$/g, '\n$$$\n');
-      console.log(file.data);
+      //console.log(file.data);
     }
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -91,6 +94,9 @@ export default {
     babel: {
       plugins: [['@babel/plugin-proposal-private-methods', { 'loose': true }]
       ]
+    },
+    extend(config) {
+      config.resolve.alias['vue'] = 'vue/dist/vue.common'
     }
   }
 }

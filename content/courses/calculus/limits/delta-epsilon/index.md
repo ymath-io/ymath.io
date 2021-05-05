@@ -3,6 +3,7 @@ title: Definition of a Limit
 description: Understand the formal definition of a limit, known as Delta-Epsilon.
 index: 1
 type: lesson
+
 ---
 ### Exploration
 
