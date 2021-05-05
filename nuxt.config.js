@@ -15,24 +15,27 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Self-paced high school math material, explained to be understood.\n' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Self-paced high school math material, explained to be understood.\n'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
-      { rel:'stylesheet', href:'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'}
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind.css',
-  'vuetify/dist/vuetify.min.css',
+    'vuetify/dist/vuetify.min.css',
     '@mdi/font/css/materialdesignicons.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -41,7 +44,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,7 +54,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    '@nuxt/content'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -76,10 +79,17 @@ export default {
     }
   },
 
+  hooks: {
+    'content:file:beforeParse': (file) => {
+      if (file.extension !== '.md') return
+      file.data = file.data.replace(/\$\$/g, '\n$$$\n');
+      console.log(file.data);
+    }
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     babel: {
-      plugins: [["@babel/plugin-proposal-private-methods", { "loose": true }]
+      plugins: [['@babel/plugin-proposal-private-methods', { 'loose': true }]
       ]
     }
   }
