@@ -94,9 +94,23 @@ In short,
 ### Front Matter values
 
 #### `title`
-This value sets the title of the page. With a chapter or lesson page, this is shown in green at the top of the page
+This value sets the title of the page. With a chapter or lesson page, this is shown in green at the top of the page. Course titles are shown as a large heading throughout the entire course.
+For example,  
+```markdown
+---
+title: Definition of a Limit
+description: Understand the formal definition of a limit, known as Delta-Epsilon.
+index: 2
+type: lesson
+
+---
+### Exploration
+
+Aside from the intuitive definition we just saw, there is also a 
+```
+this will show as
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU4MjEzNjYsLTExODkwNTEwMiwyMD
+eyJoaXN0b3J5IjpbLTEzOTA4Njc5NjIsLTExODkwNTEwMiwyMD
 M2MzM1MTQwLDE2NDgyNjg4OCw2NjUzOTY2OTBdfQ==
 -->
