@@ -14,8 +14,8 @@ We can say that again -  **differentiation and integration are inverse functions
 
 This is an incredibly useful piece of information - it allows us to compute the integral of so many functions! For example:
 
-
+$$\frac{d sin x}{dx}​=cosx,$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDU0Njk1NywxODU2MzU0ODc4LC0yMT
+eyJoaXN0b3J5IjpbMjAyNDU5MTcyMCwxODU2MzU0ODc4LC0yMT
 IzMzQ5ODcsODcxNjQyODg1LDIwNDAyOTc2MjJdfQ==
 -->
