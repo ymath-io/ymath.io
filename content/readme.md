@@ -12,7 +12,10 @@ you're reading this document right now, you're either on  StackEdit or Github. I
 1. Make sure you have an account at https://github.com. 
 2. Make sure Saumya has added you to the Content Management team at YMath.io. 
 3. Visit https://stackedit.io/ and click "start writing" at the top of the page.
-4. Open the sidebar in the right by clic
+4. Open the sidebar in the right by clicking the Stackedit logo
+5. "Add a Github Workspace"
+ **Note**: You do *not* need to grant Stackedit access to private repositories.
+6. There will be three fields in a dialogue box. Enter these values:
 
 ## Next steps
 
@@ -20,5 +23,5 @@ Continue reading for more information!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE2NDYzMV19
+eyJoaXN0b3J5IjpbMjIyOTAyNDk1XX0=
 -->
