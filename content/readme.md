@@ -16,12 +16,13 @@ you're reading this document right now, you're either on  StackEdit or Github. I
 5. "Add a Github Workspace"
  **Note**: You do *not* need to grant Stackedit access to private repositories.
 6. There will be three fields in a dialogue box. Enter these values:
-
+	* **Repository URL**: `https://github.com/ymath-io/ymath.io`
+	* **Folder Path**: `/content/courses`
 ## Next steps
 
 Continue reading for more information!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyOTAyNDk1XX0=
+eyJoaXN0b3J5IjpbMTU5MTg2NjQ2NF19
 -->
