@@ -1,7 +1,7 @@
 ---
 title: Definition of a Limit
 description: Understand the formal definition of a limit, known as Delta-Epsilon.
-index: 1
+index: 2
 type: lesson
 
 ---
@@ -98,5 +98,5 @@ $$
 \lim_{x \to c } f(x) = L. 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM1NDk1ODJdfQ==
+eyJoaXN0b3J5IjpbLTcxNTA2Nzg4NywtMjEzMzU0OTU4Ml19
 -->
