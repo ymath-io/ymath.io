@@ -24,9 +24,9 @@ you're reading this document right now, you're either on  StackEdit or Github. I
 
 ## Next steps
 
-Continue on to ()
+Continue on to [Writing Content](./index.md)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTI2MDksMTU5MTg2NjQ2NF19
+eyJoaXN0b3J5IjpbMjA4NDQ4NjkzOCwxOTcxMjYwOSwxNTkxODY2NDY0XX0= 
 -->
