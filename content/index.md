@@ -66,8 +66,20 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 	* These are the actual course material where stuff is taught.
 
 ## What are these three dashes? (`---`)
+When you're looking at existing pages, you'll see something like this at the top of the page:
+```md
+---
+title: Integrals
+type: chapter
+description: Integrals are so cool!
+index: 13
+---
 
+Welcome to Integrals
+
+#3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NTY4Mjc0LDIwMzYzMzUxNDAsMTY0OD
-I2ODg4LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTEyOTgyMDQ4OCwyMDM2MzM1MTQwLDE2ND
+gyNjg4OCw2NjUzOTY2OTBdfQ==
 -->
