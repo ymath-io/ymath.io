@@ -65,7 +65,9 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 * Lesson pages
 	* These are the actual course material where stuff is taught.
 
-## What are these three dashes? (`---`)
+## YAML Front Matter
+> What are these three dashes? (`---`)
+
 When you're looking at existing pages, you'll see something like this at the top of the page:
 ```markdown
 ---
@@ -87,7 +89,10 @@ The stuff between the `---` is called **YAML Front Matter (YFM)**. You can read 
 In short,
 * Everything between the `---` does not get rendered in the actual body of the course.
 * The front matter contains important details about the page, which are used by the site to determine how to order and present the page, usually in navigation.
+* The front matter is necessary in order for your page to show up on the site
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1Mjk4ODY2LC0xMTg5MDUxMDIsMjAzNj
-MzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2NjkwXX0=
+eyJoaXN0b3J5IjpbMTM1ODU3ODUwNCwtMTE4OTA1MTAyLDIwMz
+YzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
 -->
