@@ -119,10 +119,10 @@ this will show as:
 This should be pretty self explanatory. Optional for lessons.
 
 #### `index`
-This affects the ordering of the pages in the course.
+This affects the ordering of the pages in the course. These numbers  are used to determine the previous/next buttons at the bottom of the page. Every single page in the course (except for problems) needs to have an `index` property. If you suddenly find that you need to insert a page between  to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjE2NDE3LDE1MzgyNTc1OTIsMTIyNj
-UxMDIyMywtMTE4OTA1MTAyLDIwMzYzMzUxNDAsMTY0ODI2ODg4
-LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTE4MTEyNDY4MTYsMTUzODI1NzU5MiwxMj
+I2NTEwMjIzLC0xMTg5MDUxMDIsMjAzNjMzNTE0MCwxNjQ4MjY4
+ODgsNjY1Mzk2NjkwXX0=
 -->
