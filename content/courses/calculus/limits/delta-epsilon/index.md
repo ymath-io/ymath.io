@@ -56,9 +56,9 @@ $$ \lim_{\delta\to 0} \frac{\delta^{3}+2\delta^{2}+\delta}{\delta}=\lim_{\delta\
 
 Now, we can plug in $\delta=0$ to find the value of the limit:
 
-$$ \delta^2+2\delta +1 \\
-= \delta(\delta+2)+1  \\
-\rightarrow 0(0+2) +1=1. $$
+$$ \delta^2+2\delta +1 $$ 
+$$ = \delta(\delta+2)+1  $$
+$$ \rightarrow 0(0+2) +1=1. $$
 
 ### Delta-Epsilon Definition
 

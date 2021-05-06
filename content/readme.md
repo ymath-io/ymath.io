@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 description: Setup your environment and tools to get started with writing content for YMath!
+
 ---
 
 Welcome to the content writing guide for YMath! 
@@ -20,7 +21,8 @@ cd ymath-content
 ```
 3. Write your content in the `courses` directory.
 4. When you are ready to publish your changes:
-```shell
+
+```bash
 git add .
 git commit -m 'content: completed chapter 2 of conics'
 # always prefix your commits with one of these:
@@ -30,6 +32,8 @@ git commit -m 'content: completed chapter 2 of conics'
   # 'order' : you rearranged course content
 git push
 ```
+
+
 
 ## Next steps
 
