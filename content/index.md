@@ -10,13 +10,12 @@ Welcome to the content writing guide for YMath!
 
 If this is your first time here, then you need to [set up your environment](./readme.md).
 
-# Headings:
+## Writing Content
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-... and so on
+### The Structure of a Course
+
+The site is structured into broad topics of stu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODI2ODg4LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTk3NzEwMTE3OSwxNjQ4MjY4ODgsNjY1Mz
+k2NjkwXX0=
 -->
