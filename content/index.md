@@ -66,7 +66,8 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 	* These are the actual course material where stuff is taught.
 
 ## What are these three dashes? (`---`)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjMzNTE0MCwxNjQ4MjY4ODgsNjY1Mz
-k2NjkwXX0=
+eyJoaXN0b3J5IjpbNDQ2NTY4Mjc0LDIwMzYzMzUxNDAsMTY0OD
+I2ODg4LDY2NTM5NjY5MF19
 -->
