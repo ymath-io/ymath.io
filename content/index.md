@@ -94,7 +94,9 @@ In short,
 ### Front Matter values
 
 #### `title`
-This value sets the title of the page. With a chapter or lesson page, this is shown in green at the top of the page. Course titles are shown as a large heading throughout the entire course.
+This value sets the title of the page.
+It is used in the sidebar and the page title.
+With a chapter or lesson page, this is shown in green at the top of the page. Course titles are shown as a large heading throughout the entire course.
 For example,  
 ```markdown
 ---
@@ -108,9 +110,11 @@ type: lesson
 
 Aside from the intuitive definition we just saw, there is also a 
 ```
-this will show as
+this will show as:
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA4Njc5NjIsLTExODkwNTEwMiwyMD
-M2MzM1MTQwLDE2NDgyNjg4OCw2NjUzOTY2OTBdfQ==
+eyJoaXN0b3J5IjpbMTIyNjUxMDIyMywtMTE4OTA1MTAyLDIwMz
+YzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
 -->
