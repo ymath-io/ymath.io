@@ -115,11 +115,14 @@ this will show as:
 `https://dev.ymath.io/learn/calculus/limits/delta-epsilon/`
 ![image](https://user-images.githubusercontent.com/65318685/117349050-d0044900-ae5f-11eb-991b-a402d0bad62a.png)
 
+#### `description`
+This should be pretty self explanatory. Optional for lessons.
 
-
+#### `index`
+This affects the ordering of the pages in the course.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODI1NzU5MiwxMjI2NTEwMjIzLC0xMT
-g5MDUxMDIsMjAzNjMzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2Njkw
-XX0=
+eyJoaXN0b3J5IjpbMTMxNjE2NDE3LDE1MzgyNTc1OTIsMTIyNj
+UxMDIyMywtMTE4OTA1MTAyLDIwMzYzMzUxNDAsMTY0ODI2ODg4
+LDY2NTM5NjY5MF19
 -->
