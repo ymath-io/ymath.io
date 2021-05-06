@@ -20,12 +20,13 @@ you're reading this document right now, you're either on  StackEdit or Github. I
 	* **Repository URL**: `https://github.com/ymath-io/ymath.io`
 	* **Folder Path**: `/content/courses`
 	* **Branch**: your first name, in lowercase. (The name of that branch created in step 3)
-* 
+8. You may or may not need to reload to see all the files - you should see a `calculus` and `exponents` folder.
+
 ## Next steps
 
-Continue reading for more information!
+Continue on to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODY2MjI0NSwxNTkxODY2NDY0XX0=
+eyJoaXN0b3J5IjpbLTkyMjEzNTc0MiwxNTkxODY2NDY0XX0=
 -->
