@@ -1,9 +1,9 @@
 ---
 type: lesson
 title: Introduction
-index: 0
+index: 2
 description: Learn how to accurately approximate asymptotes of functions.
-category: algebra
+
 ---
 
 Limits are the basis for almost everything in calculus. By the time you get to derivatives, you'll be doing limits and
@@ -82,5 +82,5 @@ $$
 \lim_{x\to 2} \frac{x^2-5x+6}{x-2} = -1. 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU4MzczNTVdfQ==
+eyJoaXN0b3J5IjpbLTg4MDc4MTI2NV19
 -->
