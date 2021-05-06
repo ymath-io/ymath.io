@@ -49,9 +49,12 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
     └── properties/
         └── index.md
 ```
+#### Remember that . . .
 
+* Course homepages should be no more than
+	* a welcome to the cours
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjc3ODY5NiwxNjQ4MjY4ODgsNjY1Mz
+eyJoaXN0b3J5IjpbLTgyNjAzNzE0NiwxNjQ4MjY4ODgsNjY1Mz
 k2NjkwXX0=
 -->
