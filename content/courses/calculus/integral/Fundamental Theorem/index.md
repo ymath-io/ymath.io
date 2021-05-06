@@ -2,9 +2,10 @@
 ---
 title: Fundamental Theorem of Calculus
 ---
-In the previous lesson, we learned how to find the integral of the function $$y=2x$$. We were also introduced to a new concept - the Fundamental Theorem of Calculus. The Fundamental Theorem of Calculus considers the following situation,$$\frac{d f(x)+C}{dx} = F(x)$$where C_C_ represents any constant (remember - the value of C_C_ can be anything, because the derivative of a constant is 0.)
+In the previous lesson, we learned how to find the integral of the function $$y=2x$$. We were also introduced to a new concept - the Fundamental Theorem of Calculus. The Fundamental Theorem of Calculus considers the following situation,$$\frac{d f(x)+C}{dx} = F(x)$$where $$C$$ represents any constant (remember - the value of $$C$$ can be anything, because the derivative of a constant is 0.)
 
-It states that we can perform the following algebra on the above:d f(x)+C =F(x) dx_df_(_x_)+_C_=_F_(_x_)_dx_\int ( d f(x)+C) = \int F(x) dx∫(_df_(_x_)+_C_)=∫_F_(_x_)_dx_f(x)+C = \int F(x) dx_f_(_x_)+_C_=∫_F_(_x_)_dx_
+It states that we can perform the following algebra on the above:$$d f(x)+C =F(x) dx$$
+$$dx∫(_df_(_x_)+_C_)=∫_F_(_x_)_dx_f(x)+C = \int F(x) dx_f_(_x_)+_C_=∫_F_(_x_)_dx_
 
 This is because _differentiation (dd)_ and _integration (\int dx∫dx)_ are inverse functions.
 
@@ -22,6 +23,6 @@ Take a trip back to derivatives and look for all of the functions we differentia
 
 Can you make use of the methods of differentiation to solve _even more_ integrals?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQwNzU0MTIsLTIxMjMzNDk4Nyw4Nz
-E2NDI4ODUsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTg4MjE5ODMwMSwtMjEyMzM0OTg3LDg3MT
+Y0Mjg4NSwyMDQwMjk3NjIyXX0=
 -->
