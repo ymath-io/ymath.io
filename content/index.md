@@ -93,11 +93,12 @@ In short,
 
 ### Front Matter values
 
-#### `title`
+#### `title: text`
 This value sets the title of the page.
 It is used in the sidebar and the page title.
 With a chapter or lesson page, this is shown in green at the top of the page. Course titles are shown as a large heading throughout the entire course.
 For example,  
+`/content/courses/calculus/limits/delta-epsilon/index.md`
 ```markdown
 ---
 title: Definition of a Limit
@@ -111,13 +112,33 @@ type: lesson
 Aside from the intuitive definition we just saw, there is also a 
 ```
 this will show as:
+`https://dev.ymath.io/learn/calculus/limits/delta-epsilon/`
+![image](https://user-images.githubusercontent.com/65318685/117349050-d0044900-ae5f-11eb-991b-a402d0bad62a.png)
+
+#### `description: text`
+This should be pretty self explanatory. Optional for lessons.
+
+#### `index: number`
+This affects the ordering of the pages in the course. These numbers  are used to determine the previous/next buttons at the bottom of the page. **Every single page in the course (except for problems) needs to have an `index` property.**
+
+If you suddenly find that you need to insert a page between two others, do not shift all of the other pages manually. Instead, use decimals for your new page. 
+For example, to insert a page between pages with index `2` and `3`, put the index of the new page as `2.5`.
 
 
+#### `type: course | chapter | lesson`
+This is another mandatory property for pages. It has three possible values: `course`, `chapter`, or `lesson`.
+
+This property distinguishes what type of page this is, and what to do with it. 
+Pages with `type: course` will be linked to in the course catalog. 
+Pages with `type: chapter` will be linked to from the course navigation bar.
+
+#### `author: text`
+This property is only needed with `type: course`. It is the full legal/pen name of the author of the course.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc5ODU1NTcsMTIyNjUxMDIyMywtMT
-E4OTA1MTAyLDIwMzYzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5
-MF19
+eyJoaXN0b3J5IjpbLTE4MDI0MjU5NiwxNTM4MjU3NTkyLDEyMj
+Y1MTAyMjMsLTExODkwNTEwMiwyMDM2MzM1MTQwLDE2NDgyNjg4
+OCw2NjUzOTY2OTBdfQ==
 -->
