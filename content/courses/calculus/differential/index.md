@@ -1,7 +1,7 @@
 ---
 type: chapter
 title: Differential Calculus
-index: 1
+index: 5
 
 ---
 
@@ -20,5 +20,5 @@ then we say the **derivative** of the function is the slope, which is $7$ in thi
 Another way to write this is 
 $$ \frac{d f(x)}{dx} = 7. $$hi from differential calculus
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0NzA5MTA5XX0=
+eyJoaXN0b3J5IjpbLTU0NTUzMzQ0N119
 -->
