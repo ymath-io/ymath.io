@@ -65,6 +65,10 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 * Lesson pages
 	* These are the actual course material where stuff is taught.
 
+## Formatting
+
+All of our content is written in *Markdown*. You can familiarize yourself with basic syntax [here](https://www.markdownguide.org/basic-syntax/).
+
 ## YAML Front Matter
 > What are these three dashes? `---`
 
@@ -138,7 +142,7 @@ This property is only needed with `type: course`. It is the full legal/pen name 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI0MjU5NiwxNTM4MjU3NTkyLDEyMj
-Y1MTAyMjMsLTExODkwNTEwMiwyMDM2MzM1MTQwLDE2NDgyNjg4
-OCw2NjUzOTY2OTBdfQ==
+eyJoaXN0b3J5IjpbMTUxNjIyNTUzNSwtMTgwMjQyNTk2LDE1Mz
+gyNTc1OTIsMTIyNjUxMDIyMywtMTE4OTA1MTAyLDIwMzYzMzUx
+NDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
 -->
