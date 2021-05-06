@@ -23,10 +23,11 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 ├── powers/
 │   ├── index.md # /learn/powers-and-logs/powers/ (chapter home page)
 │   ├── introduction/  
-│   │   ├── index.md 
-# /learn/powers-and-logs/powers/introduction
+│   │   ├── index.md # Lesson page, served at 
+│   │   │            # /learn/powers-and-logs/powers/introduction
+│   │   │
 │   │   └── problems/ # don't worry about these
-│   │       ├── 1.md
+│   │       ├── 1.md  # we will do these later.
 │   │       └── 2.md
 │   ├── properties/
 │   │   ├── index.md
@@ -64,6 +65,6 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 * Lesson pages
 	* These are the actual course material where stuff is taught.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjI4MTg2MSwxNjQ4MjY4ODgsNjY1Mz
+eyJoaXN0b3J5IjpbLTUwOTQ0NjQ2NiwxNjQ4MjY4ODgsNjY1Mz
 k2NjkwXX0=
 -->
