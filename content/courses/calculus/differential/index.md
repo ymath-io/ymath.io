@@ -18,4 +18,7 @@ then we say the **derivative** of the function is the slope, which is $7$ in thi
 <!-- this is an html comment that won't show up-->
 
 Another way to write this is 
-$$ \frac{d f(x)}{dx} = 7. $$
+$$ \frac{d f(x)}{dx} = 7. $$hi from differential calculus
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzA0NzA5MTA5XX0=
+-->
