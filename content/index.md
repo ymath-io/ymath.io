@@ -67,19 +67,24 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 
 ## What are these three dashes? (`---`)
 When you're looking at existing pages, you'll see something like this at the top of the page:
-```md
+```markdown
 ---
 title: Integrals
 type: chapter
 description: Integrals are so cool!
 index: 13
+
 ---
 
 Welcome to Integrals
 
-#3
+## Prerequisites
+* You should have finished the previous two chapters!
+
+		...
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgyMDQ4OCwyMDM2MzM1MTQwLDE2ND
+eyJoaXN0b3J5IjpbLTQwNzIxNzUwOCwyMDM2MzM1MTQwLDE2ND
 gyNjg4OCw2NjUzOTY2OTBdfQ==
 -->
