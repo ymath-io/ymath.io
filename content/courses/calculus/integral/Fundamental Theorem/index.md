@@ -17,8 +17,10 @@ This is an incredibly useful piece of information - it allows us to compute the 
 $$\frac{d \sin x}{dx}​=\cos x,$$
 
 which tells us that
-$$∫ \cos x  dx=\ sinx.$$
+$$∫ \cos x  \ dx=\sin x.$$
+
+Similarly, since
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1OTY2MDI5LDE4NTYzNTQ4NzgsLTIxMj
+eyJoaXN0b3J5IjpbODk1NTc4MTM1LDE4NTYzNTQ4NzgsLTIxMj
 MzNDk4Nyw4NzE2NDI4ODUsMjA0MDI5NzYyMl19
 -->
