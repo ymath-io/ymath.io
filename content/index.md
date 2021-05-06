@@ -52,9 +52,14 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 #### Remember that . . .
 
 * Course homepages should be no more than
-	* a welcome to the cours
-
+	* a welcome to the course
+	* a brief overview of what one should expect to learn
+	* a list of prerequisites
+* Chapter homepages should
+	* pose intriguing questions that will be answered in the chapter
+		* Ex. "How could we find the slope of a curve?"
+	* *no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjAzNzE0NiwxNjQ4MjY4ODgsNjY1Mz
-k2NjkwXX0=
+eyJoaXN0b3J5IjpbLTE3NDY3NTIwMTMsMTY0ODI2ODg4LDY2NT
+M5NjY5MF19
 -->
