@@ -5,7 +5,7 @@ description: Got questions? We've got answers!
 ---
 ## How do I use this website?
 
-That's a question you could answer - how do _you_ use this website?
+That's a question you could answer - _how do _ you_ _use this website?_
 
 ## How do you think I should use this website?
 
@@ -56,3 +56,6 @@ Wow, thanks! Fork and submit a pull request on the [Github repository](https://g
 Open a new issue on the [Github repository](https://github.com/ymath-io/ymath.io/issues), and explain exactly what the bug is. Screenshots will always make it 2x clearer. Thank you!
 
 #### If you have a question that is not answered here, email me at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and I'll do my best to get back to you.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjMwNzMzMTY2XX0=
+-->
