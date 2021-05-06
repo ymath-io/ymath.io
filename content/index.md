@@ -83,9 +83,11 @@ Welcome to Integrals
 
 		...
 ```
-The stuff between the `---` is called **YAML frontmatter**. 
-**Everything between the `---` does not get rendered in the actual body of the course.** 
+The stuff between the `---` is called **YAML Front Matter (YFM)**. You can read more about that [here.](https://middlemanapp.com/basics/frontmatter/)
+In short,
+* Everything between the `---` does not get rendered in the actual body of the course.
+* The front matter contains important details about the page, which are used by the site to determine how to order and present the page, usually in navigation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDI2NjQ4NCwtMTE4OTA1MTAyLDIwMz
-YzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbNjI1Mjk4ODY2LC0xMTg5MDUxMDIsMjAzNj
+MzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2NjkwXX0=
 -->
