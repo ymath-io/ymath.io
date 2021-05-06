@@ -6,8 +6,16 @@ In the previous lesson, we learned how to find the integral of the function $$y=
 
 It states that we can perform the following algebra on the above:$$d f(x)+C =F(x) dx$$
 $$∫(df(x)+C)=∫F(x)dx$$
+$$f(x)+C=∫F(x)dx$$
+
+This is because  _differentiation ($d$)_  and  _integration ($\int dx$)_  are inverse functions.
+
+We can say that again -  **differentiation and integration are inverse functions.**
+
+This is an incredibly useful piece of information - it allows us to compute the integral of so many functions! For example:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzNTcyMjU2LDE4NTYzNTQ4NzgsLTIxMj
-MzNDk4Nyw4NzE2NDI4ODUsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTMyNDU0Njk1NywxODU2MzU0ODc4LC0yMT
+IzMzQ5ODcsODcxNjQyODg1LDIwNDAyOTc2MjJdfQ==
 -->
