@@ -12,12 +12,18 @@ For example, let's try to take the integral of $y=2x.$ We'll find the area under
 First, we visualize our function - we have a triangle, where the $y$ value is always twice the $x$ value. So, if we take the first vertical bar with a width of $dx,$ then the height of that bar would be $2dx.$ And, if we took the next vertical bar with width $dx,$ then our distance from the origin is now $2dx,$ so we can raise the bar as high as $4dx.$ And, if we take the third bar with width $dx,$ then we are now $3dx$ out from the origin, so we can raise the bar as high as $6dx.$
 
 Now that we have the dimensions of the first few bars, let's see what happens when we find their area:  
+$$ 
+\left(dx\right)\left(2dx\right)+\left(dx\right)\left(4dx\right)+\left(dx\right)\left(6dx\right)
 $$
-\left(dx\right)\left(2dx\right)+\left(dx\right)\left(4dx\right)+\left(dx\right)\left(6dx\right)=2\left(dx\right)^2\left(1+2+3\right).
+$$
+=2\left(dx\right)^2\left(1+2+3\right). 
 $$ 
 And if we take the next few bars, we would have  
 $$
-\left(dx\right)\left(2dx\right)+\left(dx\right)\left(4dx\right)+\left(dx\right)\left(6dx\right)+\left(dx\right)\left(8dx\right)+\left(dx\right)\left(10dx\right)+\left(dx\right)\left(12dx\right)=2\left(dx\right)^2\left(1+2+3+4+5\right).
+\left(dx\right)\left(2dx\right)+\left(dx\right)\left(4dx\right)+\left(dx\right)\left(6dx\right)+
+$$
+$$
+\left(dx\right)\left(8dx\right)+\left(dx\right)\left(10dx\right)+\left(dx\right)\left(12dx\right)=2\left(dx\right)^2\left(1+2+3+4+5\right).
 $$
 How long does this series continue for? That would depend on how many bars there are.
 

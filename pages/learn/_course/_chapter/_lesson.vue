@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1 class='font-semibold dark:text-darkText text-3xl mb-4'>{{document.title}}</h1>
+  <h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1>
   <nuxt-content :document='document'/>
 </div>
 </template>

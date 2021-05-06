@@ -8040,6 +8040,11 @@ jiti@^1.3.0, jiti@^1.6.4, jiti@^1.9.1:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.9.1.tgz"
   integrity sha512-AhYrAxJ/IW2257nHkJasUjtxHhmYIUEHEjsofJtGYsPWk8pTjqjbPFlJfOwfY+WX8YBiKHM1l0ViDC/mye2SWg==
 
+jquery@^1.12.3:
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.4.tgz#01e1dfba290fe73deba77ceeacb0f9ba2fec9e0c"
+  integrity sha1-AeHfuikP5z3rp3zurLD5ui/sngw=
+
 js-string-escape@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
@@ -8612,6 +8617,13 @@ mathlive@^0.63.0:
   version "0.63.0"
   resolved "https://registry.yarnpkg.com/mathlive/-/mathlive-0.63.0.tgz#80e66e9b78c6ae39f6ecba51aaa91751091ba4c1"
   integrity sha512-LmFPaPoYJjz/AgyhGqm7SenNF8u/H68wmy3MBHa7b8huNMGIHEyZ7I/T/HA5IWQRF775PHcGcN23+EY5MYPHbA==
+
+mathquill@^0.10.1-a:
+  version "0.10.1-a"
+  resolved "https://registry.yarnpkg.com/mathquill/-/mathquill-0.10.1-a.tgz#bf2ca569010063ac34bcd5d529adc0837cd53c3f"
+  integrity sha1-vyylaQEAY6w0vNXVKa3Ag3zVPD8=
+  dependencies:
+    jquery "^1.12.3"
 
 md5.js@^1.3.4:
   version "1.3.5"
