@@ -1,42 +1,32 @@
 ---
 title: Getting Started
 description: Setup your environment and tools to get started with writing content for YMath!
-
 ---
 
 Welcome to the content writing guide for YMath! 
 
 ## Setting up a development environment
 
-If this is your first time writing content for YMath, then we need to get your environment set up.
-If this isn't your first time, then you'll want to skip this step.
+you're reading this document right now, you're either on  StackEdit or Github. If you're on StackEdit, then skip this section, you're all good! If you're on Github, then sign in/ sign up before following these instructions.
 
-1. Clone the repository
-```shell
-git clone https://github.com/ymath-io/content.git ymath-content
-```
-2. Move into the directory
-```shell
-cd ymath-content
-```
-3. Write your content in the `courses` directory.
-4. When you are ready to publish your changes:
-
-```bash
-git add .
-git commit -m 'content: completed chapter 2 of conics'
-# always prefix your commits with one of these:
-  # 'content' : you added new material to a course
-  # 'style' : you changed the formatting somewhere
-  # 'fix' : you fixed a LaTeX error
-  # 'order' : you rearranged course content
-git push
-```
-
-
+1. Make sure you have an account at https://github.com. 
+2. Make sure Saumya has added you to the Content Management team at YMath.io. 
+3. Make sure there's a branch with your name in the website's Github Repository, and if not, make one. (Ask Saumya if you're not sure.)
+4. Visit https://stackedit.io/ and click "start writing" at the top of the page.
+5. Open the sidebar in the right by clicking the Stackedit logo
+6. "Add a Github Workspace"
+ **Note**: You do *not* need to grant Stackedit access to private repositories.
+7. There will be three fields in a dialogue box. Enter these values:
+	* **Repository URL**: `https://github.com/ymath-io/ymath.io`
+	* **Folder Path**: `/content/courses`
+	* **Branch**: your first name, in lowercase. (The name of that branch created in step 3)
+8. You may or may not need to reload to see all the files - you should see a `calculus` and `exponents` folder.
 
 ## Next steps
 
-Continue reading for more information!
+Continue on to ()
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk3MTI2MDksMTU5MTg2NjQ2NF19
+-->
