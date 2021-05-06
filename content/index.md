@@ -83,9 +83,9 @@ Welcome to Integrals
 
 		...
 ```
-
+The stuff between the `---` is called **YAML frontmatter**.
 **Everything between the `---` does not get rendered in the actual body of the course.** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDQ2MjY3NSwyMDM2MzM1MTQwLDE2ND
+eyJoaXN0b3J5IjpbLTExODkwNTEwMiwyMDM2MzM1MTQwLDE2ND
 gyNjg4OCw2NjUzOTY2OTBdfQ==
 -->
