@@ -20,7 +20,10 @@ which tells us that
 $$∫ \cos x  \ dx=\sin x.$$
 
 Similarly, since
+
+$$\frac{d \cos x}{dx}​=-\sin x,$$
+$∫ \sin x  \ dx=-\cos x.$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1NTc4MTM1LDE4NTYzNTQ4NzgsLTIxMj
-MzNDk4Nyw4NzE2NDI4ODUsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTk1NDMxMzMwMywxODU2MzU0ODc4LC0yMT
+IzMzQ5ODcsODcxNjQyODg1LDIwNDAyOTc2MjJdfQ==
 -->
