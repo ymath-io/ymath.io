@@ -112,11 +112,12 @@ Aside from the intuitive definition we just saw, there is also a
 ```
 this will show as:
 
-![image](https://user-images.githubusercontent.com/65318685/117346104-2e2f2d00-ae5c-11eb-90c3-690916647974.png)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjUxMDIyMywtMTE4OTA1MTAyLDIwMz
-YzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTE2Nzc5ODU1NTcsMTIyNjUxMDIyMywtMT
+E4OTA1MTAyLDIwMzYzMzUxNDAsMTY0ODI2ODg4LDY2NTM5NjY5
+MF19
 -->
