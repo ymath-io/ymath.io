@@ -2,7 +2,7 @@
 type: lesson
 title: Introduction
 description: ''
-index: 
+index: 14
 
 ---
 Let's try to take the integral of $y=2x.$ We'll find the area under the line from $0$ to some arbritary point $x,$ just as we found the slope at some point $x$ during differentiation.
@@ -82,5 +82,5 @@ We'll look deeper at the actual theorem and the meaning of " $+C$ " in the next 
 <iframe src="https://www.desmos.com/calculator/amkurcx8el?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjExNDI1OF19
+eyJoaXN0b3J5IjpbLTY3MjY4MDc1MywxNDgyMTE0MjU4XX0=
 -->
