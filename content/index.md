@@ -98,6 +98,7 @@ This value sets the title of the page.
 It is used in the sidebar and the page title.
 With a chapter or lesson page, this is shown in green at the top of the page. Course titles are shown as a large heading throughout the entire course.
 For example,  
+`/content/courses/calculus/limits/delta-epsilon/index.md`
 ```markdown
 ---
 title: Definition of a Limit
@@ -111,14 +112,14 @@ type: lesson
 Aside from the intuitive definition we just saw, there is also a 
 ```
 this will show as:
-
+`https://dev.ymath.io/learn/calculus/limits/delta-epsilon/`
 ![image](https://user-images.githubusercontent.com/65318685/117349050-d0044900-ae5f-11eb-991b-a402d0bad62a.png)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjcyNzQ4NCwxMjI2NTEwMjIzLC0xMT
+eyJoaXN0b3J5IjpbMTUzODI1NzU5MiwxMjI2NTEwMjIzLC0xMT
 g5MDUxMDIsMjAzNjMzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2Njkw
 XX0=
 -->
