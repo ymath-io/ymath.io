@@ -11,18 +11,21 @@ you're reading this document right now, you're either on  StackEdit or Github. I
 
 1. Make sure you have an account at https://github.com. 
 2. Make sure Saumya has added you to the Content Management team at YMath.io. 
-3. Visit https://stackedit.io/ and click "start writing" at the top of the page.
-4. Open the sidebar in the right by clicking the Stackedit logo
-5. "Add a Github Workspace"
+3. Make sure there's a branch with your name in the website's Github Repository, and if not, make one. (Ask Saumya if you're not sure.)
+4. Visit https://stackedit.io/ and click "start writing" at the top of the page.
+5. Open the sidebar in the right by clicking the Stackedit logo
+6. "Add a Github Workspace"
  **Note**: You do *not* need to grant Stackedit access to private repositories.
-6. There will be three fields in a dialogue box. Enter these values:
+7. There will be three fields in a dialogue box. Enter these values:
 	* **Repository URL**: `https://github.com/ymath-io/ymath.io`
 	* **Folder Path**: `/content/courses`
+	* **Branch**: your first name, in lowercase. (The name of that branch created in step 3)
+* 
 ## Next steps
 
 Continue reading for more information!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTg2NjQ2NF19
+eyJoaXN0b3J5IjpbMTU0ODY2MjI0NSwxNTkxODY2NDY0XX0=
 -->
