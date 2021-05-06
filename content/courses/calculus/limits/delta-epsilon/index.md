@@ -3,6 +3,7 @@ title: Definition of a Limit
 description: Understand the formal definition of a limit, known as Delta-Epsilon.
 index: 1
 type: lesson
+
 ---
 ### Exploration
 
@@ -23,21 +24,15 @@ Hence, we can substitute $\delta$ for some infinitesimally small value, and easi
 
 For example, suppose a function $f(x)$ is undefined at
 
-$$
-x=0
-$$
+$$ x=0 $$
 
 but it is continuously defined everywhere else. One such function is
 
-$$
-f(x)=\frac{x^{3}+2x^{2}+x}{x}.
-$$
+$$ f(x)=\frac{x^{3}+2x^{2}+x}{x}. $$
 
 However, we know that $f(x)$ is defined at
 
-$$
-x=\delta,
-$$
+$$ x=\delta, $$
 
 where $\delta$ is a  non-zero value.
 
@@ -46,49 +41,34 @@ How can we divide by an infinitesimally small number?
 
 Let's try it out with an example.
 
-$$
-f(x)=\frac{x^{3}+2x^{2}+x}{x},
-$$
+$$ f(x)=\frac{x^{3}+2x^{2}+x}{x}, $$
 
 In this equation, the numerator is divided by $x$. Now, if we plug in $x=\delta,$ where $\delta$ represents
 an infinitesimally small number, we can simplify it like so:
 
-$$
-f(x)=\frac{x^{3}+2x^{2}+x}{x}
-$$
-$$
-\rightarrow \frac{\delta^{3}+2\delta^{2}+\delta}{\delta} =\delta^{2}+2\delta+1.
-$$
+$$ f(x)=\frac{x^{3}+2x^{2}+x}{x} $$
+
+$$ \rightarrow \frac{\delta^{3}+2\delta^{2}+\delta}{\delta} =\delta^{2}+2\delta+1. $$
 
 To evaluate this when $\delta$ is _almost_ $0$, we rewrite it as
 
-$$
-\lim_{\delta\to 0} \frac{\delta^{3}+2\delta^{2}+\delta}{\delta}=\lim_{\delta\to 0}\delta^{2}+2\delta+1.
-$$
+$$ \lim_{\delta\to 0} \frac{\delta^{3}+2\delta^{2}+\delta}{\delta}=\lim_{\delta\to 0}\delta^{2}+2\delta+1. $$
 
 Now, we can plug in $\delta=0$ to find the value of the limit:
 
-$$
-\delta^2+2\delta +1 \\
-= \delta(\delta+2)+1  \\
-
-\rightarrow 0(0+2) +1=1.
-$$
+$$ \delta^2+2\delta +1 $$ 
+$$ = \delta(\delta+2)+1  $$
+$$ \rightarrow 0(0+2) +1=1. $$
 
 ### Delta-Epsilon Definition
 
 The Delta-Epsilon definition of a limit is quite technical, and nobody fully understands it on the first read. Here it is:
 
 > Given a function $f(x)$, if we can find values $c$ and $L$ such that for every value of $\epsilon > 0$, there exists a  $\delta >0$ so that if
-$$
-0 < |x -c| < \delta,
-$$
+$$ 0 < |x -c| < \delta, $$
 then
-$$
-0 < | f(x) - L | < \epsilon
-$$
+$$ 0 < | f(x) - L | < \epsilon $$
 
 then we can say that
-$$
-\lim_{x \to c } f(x) = L.
-$$
+
+$$ \lim_{x \to c } f(x) = L. $$
