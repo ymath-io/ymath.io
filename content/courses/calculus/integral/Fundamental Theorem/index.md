@@ -22,8 +22,16 @@ $$∫ \cos x  \ dx=\sin x.$$
 Similarly, since
 
 $$\frac{d \cos x}{dx}​=-\sin x,$$
-$∫ \sin x  \ dx=-\cos x.$
+$$∫ \sin x  \ dx=-\cos x.$$
+
+Notice how we moved the negative sign from the RHS to the LHS - this is because  -1−1  is a constant, and constants can freely travel in or out of an integral.  
+
+What we just did is also called taking the  **antiderivative.**
+
+Take a trip back to derivatives and look for all of the functions we differentiated. How can you use this information to integrate our answers?
+
+Can you make use of the methods of differentiation to solve  _even more_  integrals?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDMxMzMwMywxODU2MzU0ODc4LC0yMT
+eyJoaXN0b3J5IjpbMTEzNTQ5MzYyOCwxODU2MzU0ODc4LC0yMT
 IzMzQ5ODcsODcxNjQyODg1LDIwNDAyOTc2MjJdfQ==
 -->
