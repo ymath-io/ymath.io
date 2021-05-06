@@ -14,8 +14,8 @@ If this is your first time here, then you need to [set up your environment](./re
 
 ### The Structure of a Course
 
-The site is structured into broad topics of stu
+The site is structured into broad topics of study called **courses**. Each course has many **chapters**, and each chapter has many **lessons**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzEwMTE3OSwxNjQ4MjY4ODgsNjY1Mz
+eyJoaXN0b3J5IjpbLTY3NDE5ODMwMSwxNjQ4MjY4ODgsNjY1Mz
 k2NjkwXX0=
 -->
