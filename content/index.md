@@ -15,7 +15,41 @@ If this is your first time here, then you need to [set up your environment](./re
 ### The Structure of a Course
 
 The site is structured into broad topics of study called **courses**. Each course has many **chapters**, and each chapter has many **lessons**.
+
+The directory structure of a course named "Powers and Logs" looks like this:
+```py
+powers-and-logs/ # for examp
+├── index.md
+├── powers/
+│   ├── index.md
+│   ├── introduction/  
+│   │   ├── index.md
+│   │   └── problems/
+│   │       ├── 1.md
+│   │       └── 2.md
+│   ├── properties/
+│   │   ├── index.md
+│   │   └── problems/
+│   │       ├── 1.md
+│   │       ├── 2.md
+│   │       └── 3.md
+│   ├── graphs/
+│   │   ├── index.md
+│   │   └── problems/
+│   │       ├── 1.md
+│   │       ├── 2.md
+│   │       ├── 3.md
+│   │       └── 4.md
+│   └── applications/
+│       └── index.md
+└── logarithms/
+    ├── index.md
+    ├── introduction/
+    │   └── index.md
+    └── properties/
+        └── index.md
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDE5ODMwMSwxNjQ4MjY4ODgsNjY1Mz
-k2NjkwXX0=
+eyJoaXN0b3J5IjpbLTE5OTU0Mzc0MjYsMTY0ODI2ODg4LDY2NT
+M5NjY5MF19
 -->
