@@ -128,10 +128,12 @@ For example, to insert a page between pages with index `2` and `3`, put the inde
 #### `type: course | chapter | lesson`
 This is another mandatory property for pages. It has three possible values: `course`, `chapter`, or `lesson`.
 
+This property distinguishes what type of page this is, and what to do with it. Pages with `type: course` will be linked to in the course catalog. Pages with `type: chapter`
 
-
+#### `author`
+This property is only needed with `type: course`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MDAxMDY5LDE1MzgyNTc1OTIsMTIyNj
-UxMDIyMywtMTE4OTA1MTAyLDIwMzYzMzUxNDAsMTY0ODI2ODg4
-LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTI4MzU4NTA4OCwxNTM4MjU3NTkyLDEyMj
+Y1MTAyMjMsLTExODkwNTEwMiwyMDM2MzM1MTQwLDE2NDgyNjg4
+OCw2NjUzOTY2OTBdfQ==
 -->
