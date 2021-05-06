@@ -18,13 +18,13 @@ The site is structured into broad topics of study called **courses**. Each cours
 
 The directory structure of a course named "Powers and Logs" looks like this:
 ```py
-powers-and-logs/ # for examp
-├── index.md
+powers-and-logs/ # for example, 'calculus' or 'exponents'
+├── index.md # /learn/powers-and-logs/
 ├── powers/
-│   ├── index.md
+│   ├── index.md # /learn/powers-and-logs/powers/
 │   ├── introduction/  
-│   │   ├── index.md
-│   │   └── problems/
+│   │   ├── index.md # /learn/powers-and-logs/powers/introduction
+│   │   └── problems/ # don't worry about these
 │   │       ├── 1.md
 │   │       └── 2.md
 │   ├── properties/
@@ -49,7 +49,9 @@ powers-and-logs/ # for examp
     └── properties/
         └── index.md
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU0Mzc0MjYsMTY0ODI2ODg4LDY2NT
-M5NjY5MF19
+eyJoaXN0b3J5IjpbLTUzMjc3ODY5NiwxNjQ4MjY4ODgsNjY1Mz
+k2NjkwXX0=
 -->
