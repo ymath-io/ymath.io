@@ -19,11 +19,12 @@ The site is structured into broad topics of study called **courses**. Each cours
 The directory structure of a course named "Powers and Logs" looks like this:
 ```py
 powers-and-logs/ # for example, 'calculus' or 'exponents'
-├── index.md # /learn/powers-and-logs/
+├── index.md # /learn/powers-and-logs/ (course home page)
 ├── powers/
-│   ├── index.md # /learn/powers-and-logs/powers/
+│   ├── index.md # /learn/powers-and-logs/powers/ (chapter home page)
 │   ├── introduction/  
-│   │   ├── index.md # /learn/powers-and-logs/powers/introduction
+│   │   ├── index.md 
+# /learn/powers-and-logs/powers/introduction
 │   │   └── problems/ # don't worry about these
 │   │       ├── 1.md
 │   │       └── 2.md
@@ -58,8 +59,11 @@ powers-and-logs/ # for example, 'calculus' or 'exponents'
 * Chapter homepages should
 	* pose intriguing questions that will be answered in the chapter
 		* Ex. "How could we find the slope of a curve?"
-	* *no
+		* Ex. A cool graph with some interesting trend
+	* *not* begin teaching anything
+* Lesson pages
+	* These are the actual course material where stuff is taught.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY3NTIwMTMsMTY0ODI2ODg4LDY2NT
-M5NjY5MF19
+eyJoaXN0b3J5IjpbMTI4MjI4MTg2MSwxNjQ4MjY4ODgsNjY1Mz
+k2NjkwXX0=
 -->
