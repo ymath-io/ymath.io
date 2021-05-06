@@ -112,6 +112,8 @@ Aside from the intuitive definition we just saw, there is also a
 ```
 this will show as:
 
+![image](https://user-images.githubusercontent.com/65318685/117346104-2e2f2d00-ae5c-11eb-90c3-690916647974.png)
+
 
 
 <!--stackedit_data:
