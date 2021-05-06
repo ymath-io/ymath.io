@@ -7,11 +7,12 @@ Welcome to the content writing guide for YMath!
 
 ## Setting up a development environment
 
-If this is your first time writing content for YMath, then we need to get your environment set up.
-If this isn't your first time, then you'll want to skip this step.
+you're reading this document right now, you're either on  StackEdit or Github. If you're on StackEdit, then skip this section, you're all good! If you're on Github, then sign in/ sign up before following these instructions.
 
-1. Make sure you have an account at https://github.com. If you're reading this document right now, you're either on  StackEdit or Github.
-2. Visit https://stackedit.io/ and click "start writing" at the top of the page.
+1. Make sure you have an account at https://github.com. 
+2. Make sure Saumya has added you to the Content Management team at YMath.io. 
+3. Visit https://stackedit.io/ and click "start writing" at the top of the page.
+4. Open the sidebar in the right by clic
 
 ## Next steps
 
@@ -19,5 +20,5 @@ Continue reading for more information!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyMTYyMzA3XX0=
+eyJoaXN0b3J5IjpbLTEzMDE2NDYzMV19
 -->
