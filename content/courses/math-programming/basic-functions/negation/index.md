@@ -21,10 +21,14 @@ A more generalized approach to this would be:
 function negate(boolValue){
 	return !boolValue
 }
+function isUnacceptable(boolValue){
+	return negate(isAcceptable(boolValue));
+}
 ```
-
-What we would like to do here is switch the outputs of the above function, such that we map $0$ to $1$ and $1$ to $0$. That is, we want to design a function 
+Let's try to define $\text{negate}(x)$ mathematically.
+What we would like to do here is switch the outputs of the above function, such that we map $0$ to $1$ and $1$ to $0$. That is, we want to design a function $\text{negate}(x)$ such that
+$$\text{negate}(1)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MzU3MjQ5LC0yMDk2NDc1MTU0LC05MT
+eyJoaXN0b3J5IjpbOTY2NTQ5MTc4LC0yMDk2NDc1MTU0LC05MT
 E1NTkyMzJdfQ==
 -->
