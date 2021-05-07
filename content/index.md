@@ -140,9 +140,11 @@ Pages with `type: chapter` will be linked to from the course navigation bar.
 This property is only needed with `type: course`. It is the full legal/pen name of the author of the course.
 
 
-
+#### `thumbnail: url`
+This property is only needed with `type: course`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjIyNTUzNSwtMTgwMjQyNTk2LDE1Mz
-gyNTc1OTIsMTIyNjUxMDIyMywtMTE4OTA1MTAyLDIwMzYzMzUx
-NDAsMTY0ODI2ODg4LDY2NTM5NjY5MF19
+eyJoaXN0b3J5IjpbLTM1Nzk3OTM0MSwxNTE2MjI1NTM1LC0xOD
+AyNDI1OTYsMTUzODI1NzU5MiwxMjI2NTEwMjIzLC0xMTg5MDUx
+MDIsMjAzNjMzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2NjkwXX0=
 -->
+
