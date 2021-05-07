@@ -13,3 +13,14 @@ to need the following materials:
 * Quick algebra skills, such as common polynomial expansions and factorizations
 * A basic understanding of logarithms - you may be able to follow along by looking up formulas on the fly, but I would
   recommend studying them beforehand - it doesn't take long.
+
+```js
+const http = require('http')
+const bodyParser = require('body-parser')
+
+http.createServer((req, res) => {
+  bodyParser.parse(req, (error, body) => {
+    res.end(body)
+  })
+}).listen(3000)
+```

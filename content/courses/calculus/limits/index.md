@@ -9,4 +9,4 @@ Limits are the most basic building block of Calculus. Although most Calculus cou
 
 ## How to think about limits
 
-Limits are meant to be intuitive, and often it is easier to think about them intuitively than rigorously. 
+Limits are meant to be intuitive, and often it is easier to think about them intuitively than rigorously. W

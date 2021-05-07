@@ -37,7 +37,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src:'~/plugins/mathquill.js', mode:'client'},
+   // {src:'~/plugins/mathquill.js', mode:'client'},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -78,7 +78,10 @@ export default {
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
-      ]
+      ],
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
     }
   },
 

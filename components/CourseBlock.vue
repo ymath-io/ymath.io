@@ -16,11 +16,11 @@
           {{ course.title }}
         </a>
       </h1>
-      <p class='text-gray-400 row-span-2 my-2'>
+      <p class='dark:text-gray-400 text-gray-600  row-span-2 my-2'>
         {{ course.description }}
       </p>
       <div class='row-span-1 text-center'>
-        <a class='dark:text-gray-500  text-gray-100'>By {{ course.author }}</a>
+        <a class='dark:text-gray-500  text-gray-500'>By {{ course.author }}</a>
       </div>
     </div>
 

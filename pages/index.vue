@@ -1,12 +1,24 @@
 <template>
 <div >
-  <header-banner>
-    YMath.io
-  </header-banner>
-  <main
-    class='max-w-7xl dark:prose-dark prose grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto py-6 xs:px-3 xs:mx-5 sm:px-6 md:px-7 lg:px-8'>
-    This part of YMath is still under development!
-  </main>
+
+  <div class='pt-8 mx-auto text-center'>
+    <Logo class='mx-auto' size='200'/>
+    <h1 class='text-7xl text-green-400  my-10 font-bold'>
+      Welcome to YMath!</h1>
+  </div>
+
+  <div class='max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8' >
+
+    <div v-show='false' class='col-span-3 align-baseline items-baseline ' >
+      <h1 class='text-3xl   dark:text-gray-100 font-bold text-gray-900'>
+        Learn what you want, when you want.
+      </h1>
+
+    </div>
+
+
+  </div>
+
 </div>
 </template>
 
@@ -20,15 +32,16 @@ export default Vue.extend({
   },
   data:()=>({
 
-  }),
-  head() {
-    return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-    };
-  },
+  })
 })
 </script>
 
 <style>
-
+.horizontal-scroll {
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  text-align: left;
+  white-space: nowrap;
+}
 </style>
