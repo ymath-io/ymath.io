@@ -9,12 +9,15 @@ In this chapter, we'll cover some of the basic building blocks for more complex 
 
 Some terminology and concepts used in this chapter are listed below.
 
-## Types of Funtions
+## Types of Functions
 
 ### Valued Functions
-
+A *valued function* is one that can return anything, and is highly dependent on the input.
+ An example of a valued function is
+ $$ f(x) = 4x+7.$$
 
 ### Boolean Functions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTEzNTYzM119
+eyJoaXN0b3J5IjpbLTExODkyOTk0NTRdfQ==
 -->
