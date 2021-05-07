@@ -29,8 +29,9 @@ Let's try to define $\text{negate}(x)$ mathematically.
 What we would like to do here is switch the outputs of the above function, such that we map $0$ to $1$ and $1$ to $0$. That is, we want to design a function $\text{negate}(x)$ such that
 $$\text{negate}(0) = 1 $$ $$\text{negate}(1) = 0.$$
 
-Mathematically, this can be represented as a reflection over $x=0.5$.
+One thing to notice is that
+$$\text{negate}(x) + x = 1.$$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0Mjc0MTI0LC0yMDk2NDc1MTU0LC05MT
-E1NTkyMzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzU5MjMyNTQsLTIwOTY0NzUxNTQsLT
+kxMTU1OTIzMl19
 -->
