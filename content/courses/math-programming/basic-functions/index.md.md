@@ -17,7 +17,9 @@ A *valued function* is one that can return anything, and is highly dependent on 
  $$ f(x) = 4x+7.$$
 
 ### Boolean Functions
+A *boolean function* is one that returns either `0` or `1`.  In computer science, *boolean* means a value that is `true` or `false`.
 
+In our boolean functions, a value of `0` will mean that a cer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkyOTk0NTRdfQ==
+eyJoaXN0b3J5IjpbMTAxNzE5NDI0NSwtMTE4OTI5OTQ1NF19
 -->
