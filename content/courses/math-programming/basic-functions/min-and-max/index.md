@@ -5,8 +5,7 @@ type: lesson
 
 ---
 
-hiii
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mzk3NDI4NV19
+eyJoaXN0b3J5IjpbNTI1NTU5NjU3LDExNzM5NzQyODVdfQ==
 -->
