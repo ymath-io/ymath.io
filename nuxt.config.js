@@ -80,7 +80,7 @@ export default {
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
       ],
       prism: {
-        theme: 'prism-themes/themes/prism-material-oceanic.css'
+        theme: '~/assets/css/night-owl.css' //duotone-sea.css'
       }
     }
   },

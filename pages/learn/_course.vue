@@ -37,7 +37,7 @@ import Prism from 'prismjs'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
 export default {
   mounted () {
-    Prism.highlightAll()
+    //Prism.highlightAll()
   },
   async asyncData({ $content, params }) {
 

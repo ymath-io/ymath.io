@@ -11,17 +11,17 @@ $$ \text{isAcceptable}(x) \to \{0,1\}.$$
 Suppose we are now presented with the task of designing a boolean function that determines whether a function is *unacceptable*.
 
 In computer science, we would normally do something like this:
-```js
-function isUnacceptable(boolValue){
+```java
+static boolean isUnacceptable(bool boolValue){
 	return !isAcceptable(boolValue);
 }
 ```
 A more generalized approach to this would be:
-```js
-function negate(boolValue){
+```java
+static boolean negate(boolean boolValue){
 	return !boolValue
 }
-function isUnacceptable(boolValue){
+static boolean isUnacceptable(boolean boolValue){
 	return negate(isAcceptable(boolValue));
 }
 ```
