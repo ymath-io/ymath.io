@@ -12,11 +12,13 @@ Suppose we are now presented with the task of designing a boolean function that 
 
 In computer science, we would normally do something like this:
 ```js
-func
+function isUnacceptable(boolValue){
+	return !
+}
 ```
 
 What we would like to do is switch the outputs of the above function, such that we map $0$ to $1$ and $1$ to $0$. That is, we want to design a function 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg1MDkzMDUsLTIwOTY0NzUxNTQsLT
-kxMTU1OTIzMl19
+eyJoaXN0b3J5IjpbMTMzMDIyNjM1NywtMjA5NjQ3NTE1NCwtOT
+ExNTU5MjMyXX0=
 -->
