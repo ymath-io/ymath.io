@@ -3,6 +3,7 @@ title: Mathematical Programming
 index: 0
 author: Saumya Singhal
 thumbnail: "/img/math-photo.jpg"
+type: course
 
 ---
 
