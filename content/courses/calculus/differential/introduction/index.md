@@ -2,7 +2,10 @@
 type: lesson
 title: Introduction
 description: An intuitive introduction to derivatives
-index: 3
+index: 6
 
 ---
 Okay, so now you're a whiz at limits, but you still don't feel like you're doing Calculus!
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE0NzU3NjQyXX0=
+-->
