@@ -107,7 +107,7 @@ For example,
 ---
 title: Definition of a Limit
 description: Understand the formal definition of a limit, known as Delta-Epsilon.
-index: 2
+index: 3
 type: lesson
 
 ---
@@ -147,3 +147,4 @@ eyJoaXN0b3J5IjpbLTM1Nzk3OTM0MSwxNTE2MjI1NTM1LC0xOD
 AyNDI1OTYsMTUzODI1NzU5MiwxMjI2NTEwMjIzLC0xMTg5MDUx
 MDIsMjAzNjMzNTE0MCwxNjQ4MjY4ODgsNjY1Mzk2NjkwXX0=
 -->
+
