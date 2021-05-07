@@ -27,8 +27,10 @@ function isUnacceptable(boolValue){
 ```
 Let's try to define $\text{negate}(x)$ mathematically.
 What we would like to do here is switch the outputs of the above function, such that we map $0$ to $1$ and $1$ to $0$. That is, we want to design a function $\text{negate}(x)$ such that
-$$\text{negate}(1)$$
+$$\text{negate}(0) = 1 $$ $$\text{negate}(1) = 0.$$
+
+Mathematically, this can be represented as a reflection over $x=0.5$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NTQ5MTc4LC0yMDk2NDc1MTU0LC05MT
+eyJoaXN0b3J5IjpbNjM0Mjc0MTI0LC0yMDk2NDc1MTU0LC05MT
 E1NTkyMzJdfQ==
 -->
