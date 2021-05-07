@@ -5,7 +5,7 @@ description: Got questions? We've got answers!
 ---
 ## How do I use this website?
 
-That's a question you could answer - _how do _ you_ _use this website?_
+That's a question you could answer - how do _you_ use this website?_
 
 ## How do you think I should use this website?
 
@@ -57,5 +57,5 @@ Open a new issue on the [Github repository](https://github.com/ymath-io/ymath.io
 
 #### If you have a question that is not answered here, email me at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and I'll do my best to get back to you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNzMzMTY2XX0=
+eyJoaXN0b3J5IjpbLTE5NDYyMzY0MDZdfQ==
 -->
