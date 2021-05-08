@@ -1,5 +1,5 @@
 ---
-index:  2
+index:  4
 title: Minimum and Maximum
 type: lesson
 
@@ -7,5 +7,6 @@ type: lesson
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NTU5NjU3LDExNzM5NzQyODVdfQ==
+eyJoaXN0b3J5IjpbLTIwMzUzMDMxODksNTI1NTU5NjU3LDExNz
+M5NzQyODVdfQ==
 -->
