@@ -14,9 +14,9 @@ For example, how do we compute  $\min(x,y)$  without knowing beforehand what  $x
 
 This question, along with many others, will be answered in this short course.
 
-[^1]: $\max$ stands for *maximum*. $\max(x,y)$ will always return the larger value out of $x$ and $y$. Similarly, $\min(x,y)$ (*minimum*) returns the smaller of x and y.
+[^1]: $\max$ stands for *maximum*. $\max(x,y)$ will always return the larger value out of $x$ and $y$. Similarly, $\min(x,y)$ (*minimum*) returns the smaller of $x$ and $y$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTE1MDU4NSwtMTYyNjkyNDA5NCw4Mz
-Y3MTE5MTAsLTIwMzkxMzg4OTgsMTc2MTYxNTU3OSwtMTM5OTQ2
-NzkyXX0=
+eyJoaXN0b3J5IjpbNzU2ODQxMDMsLTE2MjY5MjQwOTQsODM2Nz
+ExOTEwLC0yMDM5MTM4ODk4LDE3NjE2MTU1NzksLTEzOTk0Njc5
+Ml19
 -->
