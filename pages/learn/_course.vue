@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class='select dark:select-dark '   v-if='fetched'>
+    <div class='select dark:select-dark pb-16'   v-if='fetched'>
       <header-banner shift>
         {{course.title}}
 
