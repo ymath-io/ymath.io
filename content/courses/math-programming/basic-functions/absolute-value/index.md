@@ -13,7 +13,7 @@ static float distanceBetween(float x, float y){
 	return Math.abs(x-y);
 }
 ```
-However, 
+However, a four function calculator does not have absolute value on it! We are restricted to m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTUzNzg4MSwxODg3MDg4NjgzXX0=
+eyJoaXN0b3J5IjpbLTM1MTgxMTQ4LDE4ODcwODg2ODNdfQ==
 -->
