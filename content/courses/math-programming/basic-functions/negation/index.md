@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 2
 title: Negations
 type: lesson
 
@@ -35,6 +35,6 @@ $$\text{negate}(x) = 1 -x. $$
 
 And we're done!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODc4MjkxNSwtMjA5NjQ3NTE1NCwtOT
-ExNTU5MjMyXX0=
+eyJoaXN0b3J5IjpbLTEwOTA2Mzg5NTYsMTcyODc4MjkxNSwtMj
+A5NjQ3NTE1NCwtOTExNTU5MjMyXX0=
 -->
