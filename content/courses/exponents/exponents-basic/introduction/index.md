@@ -12,9 +12,11 @@ $$3^5=3\cdot3\cdot3\cdot3\cdot3$$
 
 In the example above, $3^5$ means "multiply 3 by itself 5 times." The "5" is called the *exponent,* and the "3" is called the *base.* A base together with its exponent are called a *power*.
 
-To type a power on a computer, type {base}^{exponent}. For example, for 3^5 we would type 3^5 or {3}^{5.
+To type a power on a computer, type {base}^{exponent}. For example, for 3^5 we would type 3^5 or {3}^{5}. 
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MjkxMzExXX0=
+eyJoaXN0b3J5IjpbMTg0NjgxNzA2XX0=
 -->
