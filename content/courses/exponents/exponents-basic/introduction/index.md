@@ -14,9 +14,10 @@ In the example above, $3^5$ means "multiply 3 by itself 5 times." The "5" is cal
 
 To type a power on a computer, type {base}^{exponent}. For example, for 3^5 we would type 3^5 or {3}^{5}. 
 
-# Warnings
-
+### Warnings
+$x^y$ is usually not the same things as $y^x$. For example,
+$$2^3=8\neq9=3^2$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY4MzMxMzBdfQ==
+eyJoaXN0b3J5IjpbLTEwODc1NjM1MTJdfQ==
 -->
