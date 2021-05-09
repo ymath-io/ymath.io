@@ -33,12 +33,9 @@
 </template>
 
 <script>
-import Prism from 'prismjs'
-import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
+
 export default {
-  mounted () {
-    //Prism.highlightAll()
-  },
+
   async asyncData({ $content, params }) {
 
     const [course] = await $content('courses', params.course).fetch()

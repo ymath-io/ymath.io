@@ -1,3 +1,6 @@
+const markdownIt = require('markdown-it');
+const path = require('path');
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -98,8 +101,9 @@ export default {
       plugins: [['@babel/plugin-proposal-private-methods', { 'loose': true }]
       ]
     },
-    extend(config) {
-      config.resolve.alias['vue'] = 'vue/dist/vue.common'
+    extend(config, ctx) {
+      config.resolve.alias['vue'] = 'vue/dist/vue.common';
+
     }
   }
 }
