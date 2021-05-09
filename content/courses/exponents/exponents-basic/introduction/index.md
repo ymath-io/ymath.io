@@ -42,7 +42,7 @@ $$3^0=1$$
 Notice that $3^0$ actually equals $1$! In the following lessons, you will learn several other reasons why any number to the power of $0$ should equal $1$.
 
 ### Order of Operations
-The *Order of Operations* is a standard way of evaluating an expression. Usually, students use the mnemonic PEMDAS to remember the order of parentheses, exponents, multiplication, division, addition, and subtraction.  However, be very careful if you use this mnemonic. Multiplication and division are actually considered to be on the same level, meaning that both $3\cdot4/5$ and $3/4\cdot5$
+The *Order of Operations* is a standard way of evaluating an expression. Usually, students use the mnemonic PEMDAS to remember that . However, be very careful if you use this mnemonic. Multiplication and division are considered to be on the same level, meaning that both $3\cdot4\div5$ and $3\div4\cdot$ are evaluated from left to right. Similarly, addition and subtraction are on the same level, so $3+4-5$ and $5-
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -51,6 +51,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU1NTYzOTYsLTEyNDI5MTkxMDksNT
-IzNDY1Nzk0LDE2ODc2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbODc1MTg2NTA0LC0xMjQyOTE5MTA5LDUyMz
+Q2NTc5NCwxNjg3NjI2MDgzXX0=
 -->
