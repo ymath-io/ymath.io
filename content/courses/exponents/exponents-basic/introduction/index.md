@@ -51,11 +51,12 @@ $$w^{x^{y^z}}=w^{(x^{(y^z)})}$$
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
-- Be careful with the rder of operations. Exponents come before all operations except parentheses!
+- Be careful with the Order of Operations. Exponents come before all operations except parentheses!
 $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
+The second example shows a very common error. A negative sign is the same as multiplying by $-1$, so make sure you evaluate the exponent before multiply by $-1$. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEwMjcxMTYsLTEyNDI5MTkxMDksNT
-IzNDY1Nzk0LDE2ODc2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbMTU0MzY3NDYzMCwtMTI0MjkxOTEwOSw1Mj
+M0NjU3OTQsMTY4NzYyNjA4M119
 -->
