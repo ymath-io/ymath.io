@@ -39,7 +39,7 @@ $$3^2=1\cdot3\cdot3$$
 $$3^1=1\cdot3$$
 $$3^0=1$$
 
-Notice that $3^0$ equals $1$, not $0$! In the following lessons, you will learn several other reasons why 
+Notice that $3^0$ equals $1$(! In the following lessons, you will learn several other reasons why any number to the power of $0$ should equal $1$.
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -48,6 +48,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjQ0NjMyNiw1MjM0NjU3OTQsMTY4Nz
+eyJoaXN0b3J5IjpbLTMwMzE5MDMzMiw1MjM0NjU3OTQsMTY4Nz
 YyNjA4M119
 -->
