@@ -1,6 +1,6 @@
 ---
 type: lesson
-index: 2
+index: 3
 title: Properties
 
 ---
@@ -9,5 +9,5 @@ $$ x
 x
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDg1MzI1NV19
+eyJoaXN0b3J5IjpbLTM1MzgyNjg0Ml19
 -->
