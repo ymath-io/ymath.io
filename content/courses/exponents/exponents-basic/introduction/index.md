@@ -54,9 +54,8 @@ $$w^{x^{y^z}}=w^{(x^{(y^z)})}$$
 - Be careful with the Order of Operations. Exponents come before all operations except parentheses!
 $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
-The second example shows a very common error. A negative sign is the same as multiplying by $-1$, so make sure you evaluate the exponent before multiply by $-1$. 
-
+The second example shows a very common error. A negative sign is the same as multiplying by $-1$, so make sure you evaluate the exponent before the negative sign.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzY3NDYzMCwtMTI0MjkxOTEwOSw1Mj
-M0NjU3OTQsMTY4NzYyNjA4M119
+eyJoaXN0b3J5IjpbNTY1NTEwNDMwLC0xMjQyOTE5MTA5LDUyMz
+Q2NTc5NCwxNjg3NjI2MDgzXX0=
 -->
