@@ -42,7 +42,9 @@ $$3^0=1$$
 Notice that $3^0$ actually equals $1$! In the following lessons, you will learn several other reasons why any number to the power of $0$ should equal $1$.
 
 ### Order of Operations
-The *Order of Operations* is a standard way of evaluating an expression. Many students use the mnemonic PEMDAS to remember that expressions in **p**arentheses are evaluated first, followed by **e**xponents, **m**ultiplication and **d**ivision, and **a**dition and **s**ubtraction. However, be very careful if you use PEMDAS. Multiplication and division are considered to be on the same level, meaning that both $3\cdot4\div5$ and $3\div4\cdot$ are evaluated from left to right. Similarly, addition and subtraction are on the same level, so $3+4-5$ and $3-4+5$ are evaluated from left to right.
+The *Order of Operations* is a standard order of evaluating an expression. Many students use the mnemonic PEMDAS to remember that expressions in **p**arentheses are evaluated first, followed by **e**xponents, **m**ultiplication and **d**ivision, and **a**dition and **s**ubtraction. However, be very careful if you use PEMDAS. Multiplication and division are considered to be on the same level, meaning that both $3\cdot4\div5$ and $3\div4\cdot5$ are evaluated from left to right. Similarly, addition and subtraction are on the same level, so $3+4-5$ and $3-4+5$ are evaluated from left to right.
+
+For exponents
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -51,6 +53,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjAwMDM5LC0xMjQyOTE5MTA5LDUyMz
-Q2NTc5NCwxNjg3NjI2MDgzXX0=
+eyJoaXN0b3J5IjpbLTE2MTAxNTE5MjAsLTEyNDI5MTkxMDksNT
+IzNDY1Nzk0LDE2ODc2MjYwODNdfQ==
 -->
