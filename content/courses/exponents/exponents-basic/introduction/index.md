@@ -41,6 +41,9 @@ $$3^0=1$$
 
 Notice that $3^0$ actually equals $1$! In the following lessons, you will learn several other reasons why any number to the power of $0$ should equal $1$.
 
+### Order of Operations
+Now that we've introduced a new operation, we need to make sure we're 
+
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
 - Remember your order of operations when working with exponents. Exponents come before all operations except parentheses!
@@ -48,6 +51,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI5MTkxMDksNTIzNDY1Nzk0LDE2OD
-c2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbLTE2MjE3NzQ4MSwtMTI0MjkxOTEwOSw1Mj
+M0NjU3OTQsMTY4NzYyNjA4M119
 -->
