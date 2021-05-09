@@ -1,13 +1,13 @@
 ---
-type: chapter
-title: Properties
-description: just messing around
-index: 1
+index: 2
+title: Negations
+type: lesson
+
 ---
 
 $$ x 
 x
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI5MzU3MTJdfQ==
+eyJoaXN0b3J5IjpbLTMwMDU4NTUxNl19
 -->
