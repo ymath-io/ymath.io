@@ -5,7 +5,7 @@ title: Powers
 
 ---
 
-You may have learned that multiplication is repeated additi
+You may have learned that multiplication is repeated addition. Imagine having to write out $3\cdot3\cdot3\cdot3\cdot3\cdot3\cdot3$ every time you want to write 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjA2ODcxN119
+eyJoaXN0b3J5IjpbMjA3NzQzNTQ5M119
 -->
