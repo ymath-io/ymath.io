@@ -27,8 +27,12 @@ Similarly, the *multiplicative identity* is 1 because multiplying any number by 
 $$5\cdot1=5$$
 
 When we rewrite multiplication as repeated addition, we can write the additive identity at the beginning. For example, 
-$$3\cdot5=0+3+3+3+3+3$$
+$$3\cdot2=0+3+3$$
+Using this notation, it should be obvious that 
+$$3\cdot1=0+3$$
+$$3\cdot0=0$$
 
+Likewise, we can rewrite exponentiation as repeated multiplication with the multiplicative identit
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -37,6 +41,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkzNDM3ODYsNTIzNDY1Nzk0LDE2OD
-c2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbNzI4MzMxNjgzLDUyMzQ2NTc5NCwxNjg3Nj
+I2MDgzXX0=
 -->
