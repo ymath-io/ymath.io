@@ -5,7 +5,7 @@ title: Powers
 
 ---
 
-You may have learned that multiplication is repeated addition. Imagine having to write out $3\cdot3\cdot3\cdot3\cdot3\cdot3\cdot3$ every time you want to write 
+You may have learned that multiplication is repeated addition. Could you imagine having to write $3+3+3+3+3+3+3$ instead of $3\cdot5$ ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzQzNTQ5M119
+eyJoaXN0b3J5IjpbMjQ0NzYwMzc4XX0=
 -->
