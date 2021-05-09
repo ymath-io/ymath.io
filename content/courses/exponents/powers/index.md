@@ -1,7 +1,13 @@
+---
+type: chapter
+index: 1
+title: Basic Functions
 
+---
 
-
-> Written with [StackEdit](https://stackedit.io/).
+$$ x 
+x
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc4MjE0MzIwMV19
 -->
