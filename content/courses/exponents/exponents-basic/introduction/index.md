@@ -10,15 +10,15 @@ Sometimes, we want to multiply a number by itself many times. Instead of having 
 $$3^5=3\cdot3\cdot3\cdot3\cdot3$$
 (read as 3 to the power of 5, 3 to the 5th power, or 3 to the 5th)
 
-In the example above, $3^5$ means "multiply 3 by itself 5 times." The "5" is called the *exponent,* and the "3" is called the *base.* A base together with its exponent are called a *power*.
+In the example above, $3^5$ means "multiply 3 by itself 5 times." The "$5$" is called the *exponent,* and the "$3$" is called the *base.* A base together with its exponent is called a *power*.
 
-To type a power on a computer, type {base}^{exponent}. For example, for 3^5 we would type 3^5 or {3}^{5}. 
+To type a power on a computer, type {base}^{exponent}. For example, for $3$^$5$ we would type $3$^$5$ or {$3$}^{$5$}. 
 
 Let's look at another example. 
 $$(x-1)^{2y}$$
 The base is $x-1$, and the exponent is $2y$. So, this expression means to multiply $x-1$ by itself $2y$ times.
 
-Now for an interesting question: what is $3^0$? Well, we are multiplying 3 by itself 0 times, 
+Now for an interesting question: what is $3^0$? Well, we are multiplying $3$ by itself $0$ times, so the answer is $0$, right? Not quite--we'll demon
 
 ### Identity Element
 An *identity element* is special because it doesn't change the value of another element when an operation is applied to both elements. For now, we can just think of elements as numbers. 
@@ -45,6 +45,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjYzNzk4LDUyMzQ2NTc5NCwxNjg3Nj
-I2MDgzXX0=
+eyJoaXN0b3J5IjpbLTEzNTI0MzMzNzcsNTIzNDY1Nzk0LDE2OD
+c2MjYwODNdfQ==
 -->
