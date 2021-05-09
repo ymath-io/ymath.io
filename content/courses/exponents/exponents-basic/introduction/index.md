@@ -19,7 +19,7 @@ $$(x-1)^{2y}$$
 The base is $x-1$, and the exponent is $2y$. So, this expression means to multiply $x-1$ by itself $2y$ times.
 
 ### Identity Element
-An *identity element* is a special number such t 
+An *identity element* is a special number such that it doesn't change the value of another number when an operation is applied to both numbers. For example, the *additive identity* is 0 because adding 0 to any number doesn't change its value. 
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -28,6 +28,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTA2NDk0OCw1MjM0NjU3OTQsMTY4Nz
+eyJoaXN0b3J5IjpbLTcxODk5NzE3OCw1MjM0NjU3OTQsMTY4Nz
 YyNjA4M119
 -->
