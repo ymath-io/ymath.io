@@ -21,8 +21,9 @@ The base is $x-1$, and the exponent is $2y$. So, this expression means to multip
 ### Warnings
 - $x^y$ is not the same thing as $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
 - Remember your order of operations when working with exponents. Exponents come before all other operations except parentheses!
-$$x\cdoty^z=x⋅(y^z)​=(x⋅y)z$$
+$$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
+$$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjczNTAwMSwxNjg3NjI2MDgzXX0=
+eyJoaXN0b3J5IjpbMjQzMjIwMTkzLDE2ODc2MjYwODNdfQ==
 -->
