@@ -47,6 +47,7 @@ The *Order of Operations* is a standard order of evaluating an expression. Many 
 For "towers" or "stacks" of exponents, evaluate the expression from top to bottom. For instance, 
 $$2^{3^0}=2^{(3^0)}=2^1=2$$
 $$2^{3^0}\neq(2^3)^0=8^0=1$$
+$$w^{x^{y^z}}=w^{(x^{(y^z)})}$$
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -55,6 +56,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0NTY0NzMsLTEyNDI5MTkxMDksNT
-IzNDY1Nzk0LDE2ODc2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbMTA2MDIwNDgwMCwtMTI0MjkxOTEwOSw1Mj
+M0NjU3OTQsMTY4NzYyNjA4M119
 -->
