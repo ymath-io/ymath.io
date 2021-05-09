@@ -1,13 +1,11 @@
 ---
 type: chapter
 index: 1
-title: Basic Functions
+title: Powers
 
 ---
 
-$$ x 
-x
-$$
+You may have learned that multiplication is repeated additi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjE0MzIwMV19
+eyJoaXN0b3J5IjpbMTkyNjA2ODcxN119
 -->
