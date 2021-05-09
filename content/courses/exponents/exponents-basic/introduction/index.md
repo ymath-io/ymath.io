@@ -18,7 +18,7 @@ Let's look at another example.
 $$(x-1)^{2y}$$
 The base is $x-1$, and the exponent is $2y$. So, this expression means to multiply $x-1$ by itself $2y$ times.
 
-Now for an interesting question: what is $3^0$? Well, we are multiplying $3$ by itself $0$ times, so the answer is $0$, right? Not quite--we'll demon
+Now for an interesting question: what is $3^0$? Well, we are multiplying $3$ by itself $0$ times, so the answer is $0$, right? Not quite--we'll use something called an identity element to show why that isn't the case. 
 
 ### Identity Element
 An *identity element* is special because it doesn't change the value of another element when an operation is applied to both elements. For now, we can just think of elements as numbers. 
@@ -30,13 +30,16 @@ $$5\cdot1=5$$
 
 When we rewrite multiplication as repeated addition, we can write the additive identity at the beginning. For example, 
 $$3\cdot2=0+3+3$$
-Using this notation, it should be obvious that 
+Using this notation, it should follow that 
 $$3\cdot1=0+3$$
 $$3\cdot0=0$$
 
 Likewise, we can rewrite exponentiation as repeated multiplication with the multiplicative identity in the beginning.
 $$3^2=1\cdot3\cdot3$$
 $$3^1=1\cdot3$$
+$$3^0=1$$
+
+Wait, so $3^0$ is 1
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
@@ -45,6 +48,6 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI0MzMzNzcsNTIzNDY1Nzk0LDE2OD
-c2MjYwODNdfQ==
+eyJoaXN0b3J5IjpbLTExMzc4MzI3Nyw1MjM0NjU3OTQsMTY4Nz
+YyNjA4M119
 -->
