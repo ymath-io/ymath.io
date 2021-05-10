@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "ymath-beta",
+    "site": "ymath-beta",
     "public": "static",
     "ignore": [
       "firebase.json",
