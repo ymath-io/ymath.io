@@ -16,9 +16,13 @@ This question, along with many others, will be answered in this short course.
 
 [^1]: $\max$ stands for *maximum*. $\max(x,y)$ will always return the larger value out of $x$ and $y$. Similarly, $\min(x,y)$ (*minimum*) returns the smaller of $x$ and $y$.
 
-[^2]: For the purpose of this course, we will assume our calculator to have the follow
+[^2]: For the purpose of this course, we will assume our calculator to have the following capabilities:
+	* Addition, Subtraction, Multiplication, and Division
+	* Exponentiation
+		* including square roots
+These capa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU5MDk3NTIsNzU2ODQxMDMsLTE2Mj
-Y5MjQwOTQsODM2NzExOTEwLC0yMDM5MTM4ODk4LDE3NjE2MTU1
-NzksLTEzOTk0Njc5Ml19
+eyJoaXN0b3J5IjpbNjQzODI4NzgwLDc1Njg0MTAzLC0xNjI2OT
+I0MDk0LDgzNjcxMTkxMCwtMjAzOTEzODg5OCwxNzYxNjE1NTc5
+LC0xMzk5NDY3OTJdfQ==
 -->
