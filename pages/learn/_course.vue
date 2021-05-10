@@ -26,12 +26,12 @@
         <div  class='col-span-3 problem-child h-full py-6'>
           <nuxt-child />
           <div class='mt-15 h-10 border-b-2 dark:border-gray-800 border-gray-200'/>
-          <div v-if='prev || next' class='mt-15 w-full flex flex-row border-b-2 dark:border-gray-800 border-gray-200'>
-            <a :href='prev.href' v-if='prev' class='text-md btn-primary mr-auto flex-col'>
+          <div v-if='prev || next' class='mt-15 w-full flex flex-col sm:flex-row border-b-2 dark:border-gray-800 border-gray-200'>
+            <a :href='prev.href' v-if='prev' class='text-md btn-primary mx-auto sm:mr-auto flex-col'>
               <m-icon class='' icon='chevron-left'/> <span>{{prev.title}}</span>
             </a>
 
-            <a :href='next.href' v-if='next' class='text-md btn-primary m-1 ml-auto flex-col'>
+            <a :href='next.href' v-if='next' class='text-md btn-primary   mx-auto sm:ml-auto flex-col'>
               <span>{{next.title}}</span> <m-icon class='' icon='chevron-right'/>
             </a>
           </div>
