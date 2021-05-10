@@ -25,6 +25,18 @@
         </div>
         <div  class='col-span-3 problem-child h-full py-6'>
           <nuxt-child />
+          <div class='mt-15 h-10 border-b-2 dark:border-gray-800 border-gray-200'/>
+          <div v-if='prev || next' class='mt-15 w-full flex flex-row border-b-2 dark:border-gray-800 border-gray-200'>
+            <a :href='prev.href' v-if='prev' class='text-md btn-primary mr-auto flex-col'>
+              <m-icon class='' icon='chevron-left'/> <span>{{prev.title}}</span>
+            </a>
+
+            <a :href='next.href' v-if='next' class='text-md btn-primary m-1 ml-auto flex-col'>
+              <span>{{next.title}}</span> <m-icon class='' icon='chevron-right'/>
+            </a>
+          </div>
+
+
         </div>
 
       </main>
@@ -40,6 +52,32 @@ export default {
 
     const [course] = await $content('courses', params.course).fetch()
     // fetch chapters
+    let prev,next;
+    if (params.lesson){
+      [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/${params.chapter}/${params.lesson}/index`).only(['path', 'title']).fetch()
+    }
+    else if (params.chapter){
+      [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/${params.chapter}/index`).only(['path', 'title']).fetch()
+    }
+    else {
+      [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/index`).only(['path', 'title']).fetch();
+    }
+
+
+
+    if (prev){
+      const segments = prev.path.split('/');
+      delete segments[0];segments[1] = 'learn';
+      delete segments[segments.length-1]
+      prev.href = segments.join('/')
+    }
+    if (next){
+      const segments = next.path.split('/');
+      delete segments[0];segments[1] = 'learn';
+      delete segments[segments.length-1]
+      next.href = segments.join('/')//.substring(1);
+    }
+
     const subjects = await $content('courses', params.course, { deep: true })
       .where({ type: 'chapter' })
       .sortBy('index')
@@ -63,7 +101,7 @@ export default {
 
       }
     }
-    return { course, subjects, fetched: true, params }
+    return { course, subjects, fetched: true, params, prev, next }
   }
 }
 </script>
