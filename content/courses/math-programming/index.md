@@ -20,9 +20,11 @@ This question, along with many others, will be answered in this short course.
 	* Addition, Subtraction, Multiplication, and Division
 	* Exponentiation
 		* including square roots
-These capa
+	* Floor and Ceiling
+
+	These basic capabiities will enable us to construct other, more complex capabilities.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzODI4NzgwLDc1Njg0MTAzLC0xNjI2OT
-I0MDk0LDgzNjcxMTkxMCwtMjAzOTEzODg5OCwxNzYxNjE1NTc5
-LC0xMzk5NDY3OTJdfQ==
+eyJoaXN0b3J5IjpbMTY3NTIxOTczNyw3NTY4NDEwMywtMTYyNj
+kyNDA5NCw4MzY3MTE5MTAsLTIwMzkxMzg4OTgsMTc2MTYxNTU3
+OSwtMTM5OTQ2NzkyXX0=
 -->
