@@ -10,18 +10,17 @@ $$ \text{isAcceptable}(x) \to \{0,1\}.$$
 
 Suppose we are now presented with the task of designing a boolean function that determines whether a function is *unacceptable*.
 
-In computer science, we would normally do something like this:
-```java
-static boolean isUnacceptable(bool boolValue){
-	return !isAcceptable(boolValue);
-}
+In [Python](https://docs.python.org/3/tutorial/), we would normally do something like this:
+```python
+def is_unacceptable(bool_value: bool) -> bool:
+    return not is_acceptable(bool_value)
 ```
 A more generalized approach to this would be:
-```java
-static boolean negate(boolean boolValue){
-	return !boolValue
+```python
+def negate(boolValue: bool) -> bool{
+	return not boolValue
 }
-static boolean isUnacceptable(boolean boolValue){
+def isUnacceptable(boolValue: bool) -> bool {
 	return negate(isAcceptable(boolValue));
 }
 ```
