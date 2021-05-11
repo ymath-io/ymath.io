@@ -34,7 +34,7 @@ We define a couple more functions on positions that will prove helpful: $\operat
 
 Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 0, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots)=(r_1-r_2, r_2-r_3, \dots)$.
 
-## Observations
+## Initial observations
 
 Drawing small cases helped us understand certain generalizations—the "L", the square. But beyond those, the strategy is unclear. 
 
@@ -42,11 +42,12 @@ How many positions are possible in Chomp? In other words, what is the size of $\
 
 The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is that lest we find some powerful generalizations, we need to keep things small. And while we *could* draw out larger and larger cases, a computer program is generally better. We will explore this program—and other Chomp-related programs—in another article.
 
-What constitutes a winning position? A (nonempty) winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
+So let's be explicit: What constitutes a winning position? A (nonempty) winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
 
 Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164$ distinct nonempty positions, comprising $144$ winning positions and $20$ losing positions. Of the $24$ potential starting moves, the single winning move is cutting at $(2,5)$. Assuming optimal play where Player 2 defends as long as possible, the game length is $16$.
 
-I was surprised that there is a single winning move at the beginning. That means every other cut gives the opponent a winning position, on which he can capitalize.
+I was surprised that there is a single winning move at the beginning. That means every other cut gives the opponent a winning position, on which he can capitalize. Not all moves are 
+
 
 as the size increases it becomes apparent that there is no simple strategy
 
@@ -54,5 +55,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Njg2OTI1Nl19
+eyJoaXN0b3J5IjpbLTE3NDExODE4MDQsMTE1Njg2OTI1Nl19
 -->
