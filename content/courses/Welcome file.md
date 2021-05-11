@@ -26,7 +26,7 @@ Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n
 
 We probably should find a simple, unique representation of any board $p$. We can represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. For example, $(2, 1, 1)$ would be a little L-shaped Tetris piece. We note that the number of squares in each row monotonically decreases from bottom to top. This condition is both necessary and sufficient, so the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all positions.
 
-This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, 0, \dots)$. Now all boards are represented as a simple sequence, rather than tuples of varying lengths.
+This representation works, but to simplify things, we tack on an infinite list of zeroes to the tuples. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, 0, \dots)$. Now all boards are represented as a simple sequence, rather than tuples of varying lengths. You can think of this as "tuples on an infinite board".
 
 Finally, let's define a function $\operatorname{column}(p)$ which maps a given position to the number of columns in 
 
@@ -36,6 +36,6 @@ Finally, let's define a function $\operatorname{column}(p)$ which maps a given p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODYyODQ4OCwyMTI0NDcwNjU0LC04MD
-Y2MTU0OTYsMTY4MDU0MTg4MCwtOTA3MzI4ODIzXX0=
+eyJoaXN0b3J5IjpbNzc1MDM1NzcsMjEyNDQ3MDY1NCwtODA2Nj
+E1NDk2LDE2ODA1NDE4ODAsLTkwNzMyODgyM119
 -->
