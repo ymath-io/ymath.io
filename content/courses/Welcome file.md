@@ -24,8 +24,6 @@ Let $p$ be a valid board position and define $\operatorname{width}(p)$ and $\ope
 
 Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}(p)\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle.
 
-  
-
 We probably should find a simple, unique representation of any board $p$. We could represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. All positions may be uniquely expressed this way. We note that the number of squares in each row monotonically decreases from bottom to top. This condition is both necessary and sufficient, so the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all positions.
 
 This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, \dots)$. Now all boards are represented consistently.
@@ -34,6 +32,6 @@ This representation works, but to simplify things, we can represent all $p$ as a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQ3MDY1NCwtODA2NjE1NDk2LDE2OD
-A1NDE4ODAsLTkwNzMyODgyM119
+eyJoaXN0b3J5IjpbLTg4MjE5NjU4MiwyMTI0NDcwNjU0LC04MD
+Y2MTU0OTYsMTY4MDU0MTg4MCwtOTA3MzI4ODIzXX0=
 -->
