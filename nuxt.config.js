@@ -88,7 +88,7 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        'remark-math','remark-mermaid' , 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
+        'remark-math','remark-mermaid' ,'remark-caption', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
