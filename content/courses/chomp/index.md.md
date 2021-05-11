@@ -42,7 +42,7 @@ The scale of the problem is now clear; the number of reachable positions in a $1
 
 Drawing small cases helped us understand certain generalizations—the "L", the square. While we *could* draw out larger and larger cases, a computer program is generally better. We will explore this program—and other Chomp-related programs—in another article.
 
-What constitutes a winning position? A winning position 
+What constitutes a winning position? A winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
 
 as the size increases it becomes apparent that there is no simple strategy
 
@@ -50,5 +50,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTM0NzA3N119
+eyJoaXN0b3J5IjpbLTk4MDY0NDk4Nl19
 -->
