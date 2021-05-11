@@ -14,9 +14,9 @@ Chomp is probably best appreciated by playing a game. You can play against the c
 
 We can make some immediate observations. First, there are some general positions that are clearly winning or losing for the player who must move. An "L" with side length $2$ is losing; any move allows the other player to reduce to the poisoned square. A $2\times 2$ square is winning, because cutting at $(2, 2)$ gives the other player the "L". In fact, any L with equal-length arms is losing, because the player's chomp can be responded to with the analogous chomp on the other arm and eventually forcing the player to cut the last square. (For the rest of this article, we will use this "winning position" and "losing position" terminology.)
 
-Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut to give the opponent an equal-armed $L$. Indeed, *any* position that can be cut down an equal-armed $L$ is winning! An opponent So perfect players must try to keep the width and height of the position unequal.
+Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut to give the opponent an equal-armed $L$. Indeed, *any* position that can be cut down an equal-armed $L$ is winning! So perfect players must try to keep the width and height of the position unequal.
 
-The "square $L$" strategy 
+The "square $L$" strategy recalls a strategy-stealing argument.
 
 ## Making things formal
 
@@ -34,6 +34,6 @@ This representation works, but to simplify things, we can represent all $p$ as a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDY4MzM1MywtODA2NjE1NDk2LDE2OD
-A1NDE4ODAsLTkwNzMyODgyM119
+eyJoaXN0b3J5IjpbMTk1MDU0MDk4LC04MDY2MTU0OTYsMTY4MD
+U0MTg4MCwtOTA3MzI4ODIzXX0=
 -->
