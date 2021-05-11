@@ -40,11 +40,11 @@ Drawing small cases helped us understand certain generalizations—the "L", the 
 
 How many positions are possible in Chomp? In other words, what is the size of $\mathcal{P}_{m,n}$, the positions that fit in a given $m\times n$ rectangle? This problem is a bit trickier, but a graphical approach suffices. We draw an outline of the position and consider how many distinct outlines there are. Starting from the top left, the outline requires moving $m$ units to the right and $n$ units downward, in some order. Since the units are indistinguishable, we see that the answer is $\frac{(m+n)!}{m!n!}$.
 
-The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is we need to keep things small, lest we find some powerful generalizations.
+The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is we need to keep things small, lest we find some powerful generalizations. And while we *could* draw out larger and larger cases, a computer program is generally better. We will explore this program—and other Chomp-related programs—in another article.
 
- While we *could* draw out larger and larger cases, a computer program is generally better. We will explore this program—and other Chomp-related programs—in another article.
+What constitutes a winning position? A (nonempty) winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
 
-What constitutes a winning position? A winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
+Consider the program's analysis of the $3\times 8$ game of Chomp. There are 165 distinct
 
 as the size increases it becomes apparent that there is no simple strategy
 
@@ -52,5 +52,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ1MDc4MjldfQ==
+eyJoaXN0b3J5IjpbLTExMjc2NTU5OTJdfQ==
 -->
