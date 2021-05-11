@@ -44,7 +44,9 @@ The scale of the problem is now clear; the number of reachable positions in a $1
 
 What constitutes a winning position? A (nonempty) winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
 
-Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164$ distinct nonempty positions, comprising $144$ winning positions and $20$ losing positions. Of the $24$ potential starting moves, the single winning move is cutting at $(2,5)$. Assuming optimal play where Player 2 defends as long as possible, the game length
+Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164$ distinct nonempty positions, comprising $144$ winning positions and $20$ losing positions. Of the $24$ potential starting moves, the single winning move is cutting at $(2,5)$. Assuming optimal play where Player 2 defends as long as possible, the game length is $16$.
+
+That there is a single winning move at the beginning was a surprise to me. Every other cut gives the opponent a winning position on which she can capitalize.
 
 as the size increases it becomes apparent that there is no simple strategy
 
@@ -52,5 +54,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDk2ODYzMV19
+eyJoaXN0b3J5IjpbLTExMDAwMDYzXX0=
 -->
