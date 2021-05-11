@@ -6,16 +6,13 @@ An example game is shown below. Having forced Player 1 to chomp the last square,
 
 Chomp seems simple, perhaps a back-of-the-napkin problem, but turns out to be deeply complex even on relatively small boards. In fact, no non-brute-force solution is known! Computers already struggle with the $11\times 12$ game and a $20\times 21$ game is out of the question for even supercomputers. The game has surprising connections to combinatorics, number theory, and chaos theory, and certain subsets of the game give rise to intriguing visualizations.
 
+## The game
 
+Chomp is probably best appreciated by playing a game. You can play against the computer below, against different AIs; "random" plays a random move, "optimal" plays perfectly, and "human" plays semi-randomly.
 
-Chomp is probably best appreciated by playing a game. You can play against the computer below, against different AIs; "random" plays a random move, "optimal" plays perfectly, and "human" plays… semi-randomly.
+% make widget
 
-  
-  
-
-We can make some immediate observations about the game. First, there are some general positions that are clearly winning or losing for the player who must move. An "L" with side length $2$ is losing; any move allows the other player to reduce to the poisoned square. A $2\times 2$ square is winning, because cutting at $(2, 2)$ gives the other player the "L". In fact, any L with equal-length arms is losing, because the player's chomp can be responded to with the same chomp on the other arm and eventually forcing them to cut the last square. (For the rest of this article, we will use this "winning position" and "losing position" terminology.)
-
-  
+We can make some immediate observations. First, there are some general positions that are clearly winning or losing for the player who must move. An "L" with side length $2$ is losing; any move allows the other player to reduce to the poisoned square. A $2\times 2$ square is winning, because cutting at $(2, 2)$ gives the other player the "L". In fact, any L with equal-length arms is losing, because the player's chomp can be responded to with the analogous chomp on the other arm and eventually forcing the player to cut the last square. (For the rest of this article, we will use this "winning position" and "losing position" terminology.)
 
 % Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut down to a square $L$.
 
@@ -35,5 +32,5 @@ We probably should find a simple, unique representation of any board $p$. We can
 
 This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, …)$, and a $2\times 3$ rectangle is $(3, 3, 0, …)$. Now all boards are represented in the same way.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4ODI4NDY2XX0=
+eyJoaXN0b3J5IjpbMTI1OTMzNTI3M119
 -->
