@@ -1,10 +1,12 @@
-Chomp is a two-player perfect-information strategy game. Starting from an $3\times 8$ rectangle of chocosquares, players take turns making "chomps"—choosing a square and removing all squares above and/or to the right of it. Whoever is forced to remove the last, "poisoned" square loses the game. The canonical version is played on a $3\times 8$ board (of chocolate!), but the game generalizes to any size board.
+Chomp is a two-player perfect-information strategy game. Starting from an $3\times 8$ rectangle of chocolate squares, players take turns making "chomps"—choosing a square and removing all squares above and/or to the right of it. Whoever is forced to chomp the last, "poisoned" square loses the game. The game generalizes to any size board.
 
-An example game is shown below. Having forced Player 1 to chomp the last square, Player 2 wins the game
+An example game is shown below. Having forced Player 1 to chomp the last square, Player 2 wins the game.
+
+% make figure
 
 Chomp seems simple, perhaps a back-of-the-napkin problem, but turns out to be deeply complex even on relatively small boards. In fact, no non-brute-force solution is known! Computers already struggle with the $11\times 12$ game and a $20\times 21$ game is out of the question for even supercomputers. The game has surprising connections to combinatorics, number theory, and chaos theory, and certain subsets of the game give rise to intriguing visualizations.
 
-  
+
 
 Chomp is probably best appreciated by playing a game. You can play against the computer below, against different AIs; "random" plays a random move, "optimal" plays perfectly, and "human" plays… semi-randomly.
 
@@ -33,5 +35,5 @@ We probably should find a simple, unique representation of any board $p$. We can
 
 This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, …)$, and a $2\times 3$ rectangle is $(3, 3, 0, …)$. Now all boards are represented in the same way.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2MDM4MTQzXX0=
+eyJoaXN0b3J5IjpbNDI4ODI4NDY2XX0=
 -->
