@@ -24,7 +24,7 @@ Let $p$ be a valid board position and define $\operatorname{width}(p)$ and $\ope
 
 Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}(p)\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle.
 
-We probably should find a simple, unique representation of any board $p$. We could represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. But a more useful metric is the number of columns of a given height
+We probably should find a simple, unique representation of any board $p$. We could represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. For example, $(2, 1, 1)$ is a little L-shaped Tetris piece. But a more useful metric is a list of the number of columns of a certain height. L
 
 All positions may be uniquely expressed this way. We note that the number of squares in each row monotonically decreases from bottom to top. This condition is both necessary and sufficient, so the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all positions.
 
@@ -36,6 +36,6 @@ This representation works, but to simplify things, we can represent all $p$ as a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzI3ODg3NiwyMTI0NDcwNjU0LC04MD
-Y2MTU0OTYsMTY4MDU0MTg4MCwtOTA3MzI4ODIzXX0=
+eyJoaXN0b3J5IjpbLTEyNjgzNTc2NzEsMjEyNDQ3MDY1NCwtOD
+A2NjE1NDk2LDE2ODA1NDE4ODAsLTkwNzMyODgyM119
 -->
