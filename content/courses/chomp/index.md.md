@@ -34,16 +34,16 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 ## Observations
 
-One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows quite rapidly as $O(\exp(\sqrt{n}))$. Case in point, $P(1)=1$, $P(10)=42$, and $P(50)=204226$.
+One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows quite rapidly as $O(\exp(\sqrt{n}))$. And the total number of pos.
 
 What about the number of boards in $\mathcal{P}_{m,n}$; the boards that fit in a given $m\times n$ rectangle? This problem is a bit trickier; the number of positions $p$ such that $\operatorname{height}(p)=m$ and $\operatorname{width}(p)=n$ is just the number of ways to make a list of $m$ non-strictly decreasing positive integers, each less than $n$. This gives $\frac{(m+n)!}{m!n!}$.
 
-The scale of the problem is now clear; the number of boards in a $12\times 12$ game is $2704156$ and the number of boards in a $25\times 25$ game is $1.26\cdot 10^{14}$. Each $\mathcal{P}_{m,n}$, of course, is a subset of the much la
+The scale of the problem is now clear; the number of boards in a $12\times 12$ game is $2704156$ and the number of boards in a $25\times 25$ game is $1.26\cdot 10^{14}$. Each $\mathcal{P}_{m,n}$, of course, is a subset of the much larger $P(m\cdot n)$, the number of positions of *any* width and height with at least 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Njc2NzkyNV19
+eyJoaXN0b3J5IjpbMjE4OTMyNzE1XX0=
 -->
