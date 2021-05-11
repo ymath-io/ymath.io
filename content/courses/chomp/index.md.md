@@ -30,13 +30,13 @@ We probably should find a simple, unique representation of any board $p$. We can
 
 This representation works, but to simplify things, we tack on an infinite list of zeroes to the tuples. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, 0, \dots)$. Now all boards are represented as a simple sequence, rather than tuples of varying lengths. You can think of this as "tuples on an infinite board".
 
-We define a couple more functions on positions that will prove helpful: $\operatorname{winning}(p)$, which is $1$ when $p$ is winning and $0$ when $p$ is losing; and $\operatorname{squares}(p)$, the number of squares in $p$, which is ju.
+We define a couple more functions on positions that will prove helpful: $\operatorname{winning}(p)$, which is $1$ when $p$ is winning and $0$ when $p$ is losing; and $\operatorname{squares}(p)$, the number of squares in $p$, which is just $\sum p$.
 
-Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots)=(r_2-r_1, r_3-r_2, \dots)$.
+Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 0, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots)=(r_1-r_2, r_2-r_3, \dots)$.
 
 ## Observations
 
-How many positions are possible in Chomp? What is the size of $\mathcal{P}_{m,n}$, the boards that fit in a given $m\times n$ rectangle? This problem is a bit trickier, but a graphical approach suffices. We draw an outline of the position and consider how many distinct outlines there are. Starting from the top left, the outline requires moving $m$ units to the right and $n$ units downward, in some order. Since the units are indistinguishable, we see that the answer is $\frac{(m+n)!}{m!n!}$.
+How many positions are possible in Chomp? In other words, what is the size of $\mathcal{P}_{m,n}$, the positions that fit in a given $m\times n$ rectangle? This problem is a bit trickier, but a graphical approach suffices. We draw an outline of the position and consider how many distinct outlines there are. Starting from the top left, the outline requires moving $m$ units to the right and $n$ units downward, in some order. Since the units are indistinguishable, we see that the answer is $\frac{(m+n)!}{m!n!}$.
 
 The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is we need to keep things small, lest we find some powerful generalizations.
 
@@ -48,5 +48,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzMyNTUzMl19
+eyJoaXN0b3J5IjpbNjkyNDk1MzQ1XX0=
 -->
