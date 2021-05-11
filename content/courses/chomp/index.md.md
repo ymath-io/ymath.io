@@ -34,12 +34,12 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 ## Observations
 
-One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows rapidly, with 
+One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows rapidly as $O(\exp(\sqrt{n}))$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQyOTY3MTZdfQ==
+eyJoaXN0b3J5IjpbMTc2NjIxMDMxMF19
 -->
