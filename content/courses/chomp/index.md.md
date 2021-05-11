@@ -52,7 +52,9 @@ I was surprised that there is a single winning move at the beginning. That means
 
 Having reached the limit of "L"s and squares whose strategy is orderly and proven, we enter less elegant techniques. A simple one is to try estimate the proportion of winning and losing positions; if $W(S)$ is all the winning positions in $S$, we'd like to estimate
 
-$$\lim_{m,n\to\infty}\frac{|W(S)|}{|S|}.$$
+$$\lim_{m,n\to\infty}\frac{|W(\mathcal{P}_{m,n})|}{|\mathcal{P}_{m,n}|}.$$
+
+We can do some small-scale empirical testing. 
 
 
 
@@ -62,5 +64,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI5NTQ3NDAsMTE1Njg2OTI1Nl19
+eyJoaXN0b3J5IjpbLTEwNTg1OTIwNDMsMTE1Njg2OTI1Nl19
 -->
