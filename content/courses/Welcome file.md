@@ -16,7 +16,9 @@ We can make some immediate observations. First, there are some general positions
 
 Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut to give the opponent an equal-armed $L$. Indeed, *any* position that can be cut down an equal-armed $L$ is winning! So perfect players must try to keep the width and height of the position unequal.
 
-The "square $L$" strategy recalls a strategy-stealing argument, which can be used to show any $m\times n$ rectangle is winning (besides $m=n=1$). We proceed by proof by contradiction. Suppose the $m\times n$ rectangle is losing. Then no matter what the first player plays, the opponent gets a winning position, with a winning chomp at $(x,y)$, let's say. So if the first player cuts off a single square, the opponent has  a winning chomp at $(x,y)$. But the first player could have simply played $(x,y)$ at the beginning, which would lead to the same positi
+The "square $L$" strategy recalls a strategy-stealing argument, which can be used to show any $m\times n$ rectangle is winning (besides $m=n=1$). We proceed by proof by contradiction. Suppose the $m\times n$ rectangle is losing. Then no matter what the first player plays, the opponent gets a winning position, with a winning chomp at $(x,y)$, let's say. So if Player 1 cuts off a single square, Player 2 has a winning chomp at $(x,y)$ that gives Player 1 a losing position. But Player 1 could have simply played $(x,y)$ at the beginning, which would lead give Player 2 the same losing position! Thus, the $m\times n$ rectangle is winning.
+
+
 
 ## Making things formal
 
@@ -38,7 +40,7 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDY4MjA5MCwxNDY3OTIxNzQzLDIxMj
+eyJoaXN0b3J5IjpbMTU5OTQ1ODgwMiwxNDY3OTIxNzQzLDIxMj
 Q0NzA2NTQsLTgwNjYxNTQ5NiwxNjgwNTQxODgwLC05MDczMjg4
 MjNdfQ==
 -->
