@@ -32,13 +32,14 @@ This representation works, but to simplify things, we tack on an infinite list o
 
 Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots)=(r_2-r_1, r_3-r_2, \dots)$.
 
-== Observations 
+## Observations
 
+One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The num
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0Mjc0Mjg5XX0=
+eyJoaXN0b3J5IjpbLTEzMzI1Mjc5MzNdfQ==
 -->
