@@ -16,7 +16,7 @@ We can make some immediate observations. First, there are some general positions
 
 Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut to give the opponent an equal-armed $L$. Indeed, *any* position that can be cut down an equal-armed $L$ is winning! So perfect players must try to keep the width and height of the position unequal.
 
-The "square $L$" strategy recalls a strategy-stealing argument, which can be used to show any $m\times n$ rectangle is winning (besides $m=n=1$). We proceed by proof by contradiction. Suppose the $m\times n$ rectangle is losing.
+The "square $L$" strategy recalls a strategy-stealing argument, which can be used to show any $m\times n$ rectangle is winning (besides $m=n=1$). We proceed by proof by contradiction. Suppose the $m\times n$ rectangle is losing. Then the first player has a move, say $p
 
 ## Making things formal
 
@@ -28,7 +28,9 @@ We probably should find a simple, unique representation of any board $p$. We can
 
 This representation works, but to simplify things, we tack on an infinite list of zeroes to the tuples. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, 0, \dots)$. Now all boards are represented as a simple sequence, rather than tuples of varying lengths. You can think of this as "tuples on an infinite board".
 
-Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots))=(r_2-r_1, r_3-r_2, \dots))$
+Finally, let's define a function $\operatorname{columns}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. For example, $\operatorname{columns}(3, 3, 2, 2, 0, 0, \dots)$ is $(0, 1, 2, 0, 0, \dots)$. Note that $\operatorname{columns}(r_1, r_2, \dots)=(r_2-r_1, r_3-r_2, \dots)$.
+
+== Observations 
 
 
 
@@ -36,6 +38,6 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDUwNjExMywyMTI0NDcwNjU0LC04MD
+eyJoaXN0b3J5IjpbMTEzODY3NDI5NiwyMTI0NDcwNjU0LC04MD
 Y2MTU0OTYsMTY4MDU0MTg4MCwtOTA3MzI4ODIzXX0=
 -->
