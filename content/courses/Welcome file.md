@@ -18,19 +18,17 @@ We can make some immediate observations. First, there are some general positions
 
   
 
-Let $p$ be a valid board position and define $\operatorname{width}(p)$ and $\operatorname{height}(p)$ to be the width and height of the position's bounding box. Considering the empty board $E$, with $\text{width}(E) = \text{height}(E) = 0$, to be a valid position makes analysis easier.
+Let $p$ be a valid board position and define $\operatorname{width}(p)$ and $\operatorname{height}(p)$ to be the width and height of the position's bounding box. We consider the empty board $E$, with $\text{width}(E) = \text{height}(E) = 0$, to be a valid position because it makes analysis easier.
+
+Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}(p)\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle.
 
   
 
-Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle.
-
-  
-
-We probably should find a simple, unique representation of any board $p$. We can represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. All positions may be expressed uniquely this way, and noting that the number of squares in each row monotonically decreases from bottom to top, the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all members of $\mathcal{P}$.
+We probably should find a simple, unique representation of any board $p$. We can represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. All positions may be uniquely expressed this way. nd noting that the number of squares in each row monotonically decreases from bottom to top, the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all members of $\mathcal{P}$.
 
   
 
 This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, …)$, and a $2\times 3$ rectangle is $(3, 3, 0, …)$. Now all boards are represented in the same way.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTMzNTI3M119
+eyJoaXN0b3J5IjpbLTQ3NjczODAwXX0=
 -->
