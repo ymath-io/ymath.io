@@ -24,7 +24,7 @@ The "square $L$" strategy recalls a strategy-stealing argument, which can be use
 
 Let $p$ be a valid board position and define $\operatorname{width}(p)$ and $\operatorname{height}(p)$ to be the width and height of the position's bounding box. We consider the empty board $E$, with $\text{width}(E) = \text{height}(E) = 0$, to be a valid position because it makes analysis easier.
 
-Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}(p)\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle.
+Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n}$ be the subset of $\mathcal{P}$ for which $\text{width}(p)\leq m$ and $\text{height}(p)\leq n$. In other words, $\mathcal{P}_{m,n}$ is the set of all positions reachable during a game beginning with an $m\times n$ rectangle. For the indexing of a board, we use a pair $
 
 We probably should find a simple, unique representation of any board $p$. We can represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. For example, $(2, 1, 1)$ would be a little L-shaped Tetris piece. We note that the number of squares in each row monotonically decreases from bottom to top. This condition is both necessary and sufficient, so the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all positions.
 
@@ -44,7 +44,7 @@ The scale of the problem is now clear; the number of reachable positions in a $1
 
 What constitutes a winning position? A (nonempty) winning position is a position for which there exists a valid cut which gives a losing position. A losing position is a position for which all cuts give a winning position. All positions are either winning, or losing. (Hence the simplification of $\operatorname{winning}(E)=0$.)
 
-Consider the program's analysis of the $3\times 8$ game of Chomp. There are $165$ distinct positions, comprising $144$ winning positions and $20$ losing pos
+Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164$ distinct nonempty positions, comprising $144$ winning positions and $20$ losing positions.
 
 as the size increases it becomes apparent that there is no simple strategy
 
@@ -52,5 +52,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTIzMDY0MV19
+eyJoaXN0b3J5IjpbNTQwNDg3MjRdfQ==
 -->
