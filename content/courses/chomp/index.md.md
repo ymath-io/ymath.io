@@ -34,16 +34,16 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 ## Observations
 
-How many positions are possible in Chomp? What is the size of $\mathcal{P}_{m,n}$, the boards that fit in a given $m\times n$ rectangle? This problem is a bit trickier, but a graphical approach suffices. We draw an outline of the position and consider how many distinct outlines there are. Starting from the top left, the outline requires moving $m$ units to the right and $n$ units downward, in some order. Since the units are indistinguishable, we see that the answer s $\frac{(m+n)!}{m!n!}$.
+How many positions are possible in Chomp? What is the size of $\mathcal{P}_{m,n}$, the boards that fit in a given $m\times n$ rectangle? This problem is a bit trickier, but a graphical approach suffices. We draw an outline of the position and consider how many distinct outlines there are. Starting from the top left, the outline requires moving $m$ units to the right and $n$ units downward, in some order. Since the units are indistinguishable, we see that the answer is $\frac{(m+n)!}{m!n!}$.
 
 The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is we need to keep things small, lest we find some powerful generalizations.
 
-
+Drawing small cases helped us understand certain generalizations—the "L", the square. While we could draw out larger and larger cases, writing a computer program proved helpful. We will explore the
 
 
 One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows quite rapidly as $O(\exp(\sqrt{n}))$. And the total number of positions is.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NzIyMDA1XX0=
+eyJoaXN0b3J5IjpbNTg0NjYwMzQ2XX0=
 -->
