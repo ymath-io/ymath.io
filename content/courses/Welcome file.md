@@ -28,11 +28,12 @@ Define $\mathcal{P}$ as the set of all board positions and let $\mathcal{P}_{m,n
 
 We probably should find a simple, unique representation of any board $p$. We can represent a position $p$ with $\operatorname{height}(p)=n$ as an $n$-tuple $\left(r_1, r_2, …, r_n\right)$, where $r_i$ is the number of squares on row $i$. All positions may be uniquely expressed this way. We note that the number of squares in each row monotonically decreases from bottom to top. This is both a necessary and sufficient condition, so the set of tuples of positive integers which also monotonically decrease (including the empty tuple) constructs all members of $\mathcal{P}$.
 
-  
+Def
 
 This representation works, but to simplify things, we can represent all $p$ as an infinite sequence of decreasing nonnegative integers. Think of this as tacking on an infinite list of zeroes to the tuples from before. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, \dots)$. Now all boards are represented the same way.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDU0MTg4MCwtOTA3MzI4ODIzXX0=
+eyJoaXN0b3J5IjpbLTI1OTg0NjU3NSwxNjgwNTQxODgwLC05MD
+czMjg4MjNdfQ==
 -->
