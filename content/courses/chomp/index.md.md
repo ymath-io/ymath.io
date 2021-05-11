@@ -38,10 +38,12 @@ One important metric of a board is its total number of squares, which is $\opera
 
 What about the number of boards in $\mathcal{P}_{m,n}$; the boards that fit in a given $m\times n$ rectangle? This problem is a bit trickier; the number of positions $p$ such that $\operatorname{height}(p)=m$ and $\operatorname{width}(p)=n$ is just the number of ways to make a list of $m$ non-strictly decreasing positive integers, each less than $n$. This gives $\frac{(m+n)!}{m!n!}$.
 
+The scale of the problem is now clear; the number of boards in a $12\times 12$ game is $2704156$, and the number of boards in a $16\times 16$ game is 
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNDcxODAyXX0=
+eyJoaXN0b3J5IjpbODQ0ODc2MzQ0XX0=
 -->
