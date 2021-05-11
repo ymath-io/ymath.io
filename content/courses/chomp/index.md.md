@@ -48,6 +48,9 @@ Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164
 
 I was surprised that there is a single winning move at the beginning. That means every other cut gives the opponent a winning position, on which he can capitalize. Also surprising is the sheer length of the game: $16$ moves means that after the first cut, all subsequent cuts remove a single square.
 
+
+
+
 Another key element is the proportion of winning to losing moves.
 
 
@@ -57,5 +60,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3OTQwODIsMTE1Njg2OTI1Nl19
+eyJoaXN0b3J5IjpbNjYwMzY0Mzc2LDExNTY4NjkyNTZdfQ==
 -->
