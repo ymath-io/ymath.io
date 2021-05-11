@@ -54,7 +54,7 @@ Having reached the limit of "L"s and squares whose strategy is orderly and prove
 
 $$\lim_{m,n\to\infty}\frac{|W(\mathcal{P}_{m,n})|}{|\mathcal{P}_{m,n}|}.$$
 
-We can do some small-scale empirical testing. 
+We can do some small-scale empirical testing.
 
 
 
@@ -64,5 +64,6 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg1OTIwNDMsMTE1Njg2OTI1Nl19
+eyJoaXN0b3J5IjpbMTYyNTYyMDAzNywtMTA1ODU5MjA0MywxMT
+U2ODY5MjU2XX0=
 -->
