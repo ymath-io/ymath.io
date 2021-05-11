@@ -4,7 +4,7 @@ An example game is shown below. Having forced Player 1 to chomp the last square,
 
 % make figure
 
-Chomp seems simple, perhaps a back-of-the-napkin problem, but turns out to be deeply complex even on relatively small boards. In fact, no non-brute-force solution is known! Computers already struggle with the $11\times 12$ game and a $20\times 21$ game is out of the question for even supercomputers. The game has surprising connections to combinatorics, number theory, and chaos theory, and certain subsets of the game give rise to intriguing visualizations.
+Chomp seems simple, perhaps a back-of-the-napkin problem, but turns out to be deeply complex even on relatively small boards. In fact, no non-brute-force strategy is known! Computers already struggle with the $11\times 12$ game and a $24\times 25$ game is out of the question for even supercomputers. The game has surprising connections to combinatorics, number theory, and chaos theory, and certain subsets of the game give rise to intriguing visualizations.
 
 ## The game
 
@@ -45,5 +45,5 @@ The scale of the problem is now clear; the number of boards in a $12\times 12$ g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0ODc2MzQ0XX0=
+eyJoaXN0b3J5IjpbMTIyMTQ3NDQyMl19
 -->
