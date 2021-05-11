@@ -36,12 +36,12 @@ Finally, let's define a function $\operatorname{columns}(p)$ which maps a given 
 
 One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows quite rapidly as $O(\exp(\sqrt{n}))$. Case in point, $P(1)=1$, $P(10)=42$, and $P(50)=204226$.
 
-What about the number of boards that fit in a given $m\times n$ rectangle? This problem is even easier; the number of positions $p$ such that $\operatorname{height}(p)=m$ and $\operatorname{width}(p)=n$ is just the number of ways to make a list of $m$ non-strictly decreasing positive integers, each less than $n$. 
+What about the number of boards that fit in a given $m\times n$ rectangle? This problem is even easier; the number of positions $p$ such that $\operatorname{height}(p)=m$ and $\operatorname{width}(p)=n$ is just the number of ways to make a list of $m$ non-strictly decreasing positive integers, each less than $n$. This gives $\frac{(m+n)!}{m!n!}$.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDE2MzMwM119
+eyJoaXN0b3J5IjpbLTExOTg0MDU1NTRdfQ==
 -->
