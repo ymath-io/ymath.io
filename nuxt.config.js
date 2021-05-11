@@ -70,6 +70,17 @@ export default {
   pwa: {
     manifest: {
       lang: 'en'
+    },
+    meta: {
+      name:'YMath.io',
+      description:'Self-paced high school math material, explained to be understood.',
+      author: 'Saumya Singhal',
+      theme_color:'#00ab33',
+      ogHost:'https://dev.ymath.io',
+      favicon:true,
+      mobileAppIOS: true,
+      appleStatusBarStyle: 'black-translucent',
+      ogImage:true,
     }
   },
 
