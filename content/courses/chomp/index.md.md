@@ -50,7 +50,7 @@ I was surprised that there is a single winning move at the beginning. That means
 
 ## How random?
 
-Having reached the limit of "L"s and squares whose strategy is orderly and proven, .
+Having reached the limit of "L"s and squares whose strategy is orderly and proven, we enter less elegant techniques. A simple one is to try estimate the proportion of winning to losing positions; if $W(S)$ is the number of losing positions in $
 
 
 
@@ -60,5 +60,5 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTA4MDY0NSwxMTU2ODY5MjU2XX0=
+eyJoaXN0b3J5IjpbLTE0ODIzNDgxNDAsMTE1Njg2OTI1Nl19
 -->
