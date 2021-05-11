@@ -38,12 +38,13 @@ How many positions are possible in Chomp? What is the size of $\mathcal{P}_{m,n}
 
 The scale of the problem is now clear; the number of reachable positions in a $12\times 12$ game is $2704156$ and the number of positions in a $25\times 25$ game is $1.26\cdot 10^{14}$. What this means is we need to keep things small, lest we find some powerful generalizations.
 
-Drawing small cases helped us understand certain generalizations—the "L", the square. While we could draw out larger and larger cases, writing a computer program proved helpful. We will explore the
+Drawing small cases helped us understand certain generalizations—the "L", the square. While we *could* draw out larger and larger cases, a computer program is generally better. We will explore this program, and other Chomp-related programs, in another article.
 
+as the size increases it becomes apparent that there is no simple strategy
 
 One important metric of a board is its total number of squares, which is $\operatorname{squares}(p)=\sum p$. The number of boards for which $\operatorname{squares}(p)=n$ is therefore the partition function $P(n)$, the number of ways to split an integer $n$ into a sum of positive integers. This function grows quite rapidly as $O(\exp(\sqrt{n}))$. And the total number of positions is.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NjYwMzQ2XX0=
+eyJoaXN0b3J5IjpbMTMzODkwMDcxMV19
 -->
