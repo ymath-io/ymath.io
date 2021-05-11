@@ -16,7 +16,7 @@ We can make some immediate observations. First, there are some general positions
 
 Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut to give the opponent an equal-armed $L$. Indeed, *any* position that can be cut down an equal-armed $L$ is winning! So perfect players must try to keep the width and height of the position unequal.
 
-The "square $L$" strategy recalls a strategy-stealing argument.
+The "square $L$" strategy recalls a strategy-stealing argument, which can be used to show any $m\times n$ rectangle is winning (besides $m=n=1$). We proceed by proof by contrad
 
 ## Making things formal
 
@@ -34,6 +34,6 @@ This representation works, but to simplify things, we can represent all $p$ as a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDU0MDk4LC04MDY2MTU0OTYsMTY4MD
-U0MTg4MCwtOTA3MzI4ODIzXX0=
+eyJoaXN0b3J5IjpbLTEzNDUwNTAzMzgsLTgwNjYxNTQ5NiwxNj
+gwNTQxODgwLC05MDczMjg4MjNdfQ==
 -->
