@@ -28,7 +28,7 @@ We probably should find a simple, unique representation of any board $p$. We can
 
 This representation works, but to simplify things, we tack on an infinite list of zeroes to the tuples. The empty board is then $(0, 0, \dots)$, and a $2\times 3$ rectangle is $(3, 3, 0, 0, \dots)$. Now all boards are represented as a simple sequence, rather than tuples of varying lengths. You can think of this as "tuples on an infinite board".
 
-Finally, let's define a function $\operatorname{column}(p)$ which maps a given position to the number of columns in 
+Finally, let's define a function $\operatorname{column}(p)$ which maps a given position to the number of columns of height $1$, height $2$, height $3$, et cetera. 
 
 
 
@@ -36,6 +36,6 @@ Finally, let's define a function $\operatorname{column}(p)$ which maps a given p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MDM1NzcsMjEyNDQ3MDY1NCwtODA2Nj
-E1NDk2LDE2ODA1NDE4ODAsLTkwNzMyODgyM119
+eyJoaXN0b3J5IjpbLTEwNzI3NTY0NDksMjEyNDQ3MDY1NCwtOD
+A2NjE1NDk2LDE2ODA1NDE4ODAsLTkwNzMyODgyM119
 -->
