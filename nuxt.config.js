@@ -77,7 +77,10 @@ export default {
       author: 'Saumya Singhal',
       theme_color:'#00ab33',
       ogHost:'ymath.io',
-
+      favicon:true,
+      mobileAppIOS: true,
+      appleStatusBarStyle: 'black-translucent',
+      ogImage:true,
     }
   },
 
