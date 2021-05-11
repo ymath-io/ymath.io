@@ -76,7 +76,7 @@ export default {
       description:'Self-paced high school math material, explained to be understood.',
       author: 'Saumya Singhal',
       theme_color:'#00ab33',
-      ogHost:'ymath.io',
+      ogHost:'https://dev.ymath.io',
       favicon:true,
       mobileAppIOS: true,
       appleStatusBarStyle: 'black-translucent',
