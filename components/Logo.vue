@@ -11,7 +11,7 @@
         y="65%"
         fill="white"
         font-size="300px"
-        font-family="lato">
+        font-family="Lato">
         y
       </text>
 
@@ -24,7 +24,7 @@
         transform="rotate(-67)
    skewX(22.5)
     scale(1.06 1)"
-        font-family="lato">
+        font-family="Lato">
         MATH
       </text>
     </g>
@@ -37,5 +37,5 @@ export default {
 }
 </script>
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 </style>
