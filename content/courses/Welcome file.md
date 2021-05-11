@@ -16,7 +16,7 @@ We can make some immediate observations. First, there are some general positions
 
 Extending this analysis, an $L$ with unequal arm lengths is winning because it can always be cut down to a square $L$. And  
 
-The "square $L$" strategy-stealing argument can be used  to  
+The "square $L$" argument in which one player copies another suggests a strategy-stealing argument, though it isn't strictly one.
 
 ## Making things formal
 
@@ -34,5 +34,5 @@ This representation works, but to simplify things, we can represent all $p$ as a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM1NDQ2NywtOTA3MzI4ODIzXX0=
+eyJoaXN0b3J5IjpbLTQzOTU3NjUyNSwtOTA3MzI4ODIzXX0=
 -->
