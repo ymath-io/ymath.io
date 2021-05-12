@@ -31,9 +31,15 @@ So, now we say for sure that
 $$1 <\lim_{x\to 0} \frac{\sin{x}}{x} < 1.$$
 This is pretty redundant, and implies that
 $$\lim_{x\to 0}\frac{\sin{x}}{x}=1.$$
+Yes, really - it's just 1. Now, try a two-step limit. Don't forget to use what you just learned! 2.
+$$\lim_{x\to 0}\frac{\tan{x}}{x}$$
 
+<b>Saumya help me I don't know how to insert a user input box, I tried to copy paste the code but it didn't work :( </b>
 
+This is one example of how the limit we just learned can sneak up on you! Here's how we transform it into two problems we can solve:
+$$\lim_{x\to 0}\frac{\tan{x}}{x} =\lim_{x\to 0}\frac{\sin{x}}{x} \cdot \frac{1}{\cos{x}} = \lim_{x\to 0}\frac{\sin{x}}{x} \cdot  \lim_{x\to 0}\frac{1}{\cos{x}} =1\cdot 1=1.$$
+One times one is... one? Yep.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTgyNTU4NiwxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbLTI3MDI5MTQ0NSwxMTc1NTEzNTg0XX0=
 -->
