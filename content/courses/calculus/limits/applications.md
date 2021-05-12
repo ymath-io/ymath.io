@@ -24,8 +24,16 @@ Now, we can use this property to evaluate our limit! Dividing by $\sin{\theta}$ 
 $$1 < \frac{\theta}{\sin{\theta}} < \frac{1}{\cos{\theta}}.$$
 
 Oops! We have our value, but it's upside down! Let's plug in x to this anyways, and see what we can do. Well, we can just take the reciprocal of all of them and we'll be good to go, right?? No [Why not?]. However, we _can_ take the reciprocal, and then reverse the signs. So now, we have
+$$\cos{x} < \frac{\sin{x}}{x} < 1.$$
+We know for a fact that
+$$\lim_{x\to 0}\cos{x}=1.$$
+So, now we say for sure that
+$$1 <\lim_{x\to 0} \frac{\sin{x}}{x} < 1.$$
+This is pretty redundant, and implies that
+$$\lim_{x\to 0}\frac{\sin{x}}{x}=1.$$
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjkyMzYxNywxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbMTgzMTgyNTU4NiwxMTc1NTEzNTg0XX0=
 -->
