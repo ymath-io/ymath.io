@@ -36,10 +36,11 @@ $$\lim_{x\to 0}\frac{\tan{x}}{x}$$
 
 
 This is one example of how the limit we just learned can sneak up on you! Here's how we transform it into two problems we can solve:
-$$\lim_{x\to 0}\frac{\tan{x}}{x} =\lim_{x\to 0}\frac{\sin{x}}{x} \cdot \frac{1}{\cos{x}} = \lim_{x\to 0}\frac{\sin{x}}{x} \cdot  \lim_{x\to 0}\frac{1}{\cos{x}} =1\cdot 1=1.$$
+$$\lim_{x\to 0}\frac{\tan{x}}{x} =\lim_{x\to 0}\frac{\sin{x}}{x} \cdot \frac{1}{\cos{x}}$$
+$$ = \lim_{x\to 0}\frac{\sin{x}}{x} \cdot  \lim_{x\to 0}\frac{1}{\cos{x}} =1\cdot 1=1.$$
 One times one is... one? Yep.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDU5NTk1MiwxMTcwMzI4MDQ3LC0xMz
-EzNDIzMzQwXX0=
+eyJoaXN0b3J5IjpbMjM0NjM4Nzg2LDEzNDQ1OTU5NTIsMTE3MD
+MyODA0NywtMTMxMzQyMzM0MF19
 -->
