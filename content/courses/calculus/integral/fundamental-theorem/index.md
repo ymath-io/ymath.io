@@ -1,3 +1,4 @@
+
 ---
 title: Fundamental Theorem of Calculus
 type: lesson
@@ -35,6 +36,7 @@ Take a trip back to derivatives and look for all of the functions we differentia
 
 Can you make use of the methods of differentiation to solve  _even more_  integrals?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTQ5MzYyOCwxODU2MzU0ODc4LC0yMT
-IzMzQ5ODcsODcxNjQyODg1LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTg3NzUxOSwxMTM1NDkzNjI4LDE4NT
+YzNTQ4NzgsLTIxMjMzNDk4Nyw4NzE2NDI4ODUsMjA0MDI5NzYy
+Ml19
 -->
