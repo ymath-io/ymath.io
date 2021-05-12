@@ -8,7 +8,6 @@ type: course
 ---
 
 Often, we come across functions that we do not know how to evaluate without having qualitative knowledge of the input value. For example, $\sin(x)$, $\max(x, y)$[^1] , and $|x|$.
-achieve a certain value, but there's no clear formula we can use to evaluate the function.
 
 For example, how do we compute  $\min(x,y)$  without knowing beforehand what  $x$  and  $y$  are, using only a basic calculator[^2]?
 
