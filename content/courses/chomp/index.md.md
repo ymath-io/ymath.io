@@ -52,6 +52,8 @@ I was surprised that there is a single winning move at the beginning. That means
 
 Having reached the limit of "L"s and squares whose strategy is orderly and proven, we can try to understand the problem through large-scale calculation. The degree of game complexity remains unclear.
 
+Let's try 
+
 A simple one is to try estimate the proportion of winning and losing positions; if $W(S)$ is all the winning positions in $S$, we'd like to estimate
 
 $$\lim_{m,n\to\infty}\frac{|W(\mathcal{P}_{m,n})|}{|\mathcal{P}_{m,n}|}.$$
@@ -66,6 +68,6 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Nzg5NzI0MiwxNjI1NjIwMDM3LC0xMD
+eyJoaXN0b3J5IjpbMjAxNDQ2MDc2NCwxNjI1NjIwMDM3LC0xMD
 U4NTkyMDQzLDExNTY4NjkyNTZdfQ==
 -->
