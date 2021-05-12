@@ -46,11 +46,11 @@ So let's be explicit: What constitutes a winning position? A (nonempty) winning 
 
 Consider the program's analysis of the $3\times 8$ game of Chomp. There are $164$ distinct nonempty positions, comprising $144$ winning positions and $20$ losing positions. Of the $24$ potential starting moves, the single winning move is cutting at $(2,5)$. Assuming optimal play where Player 2 defends as long as possible, the game length is $16$.
 
-I was surprised that there is a single winning move at the beginning. That means every other cut gives the opponent a winning position, on which he can capitalize. Indeed, the proportion of winning to losing moves is roughly $7:1$. Also surprising is the sheer length of the game: $16$ moves means that after the first cut, all subsequent cuts remove a single square. And the strategy just seems... random.
+I was surprised that there is a single winning move at the beginning. That means every other cut gives the opponent a winning position, on which he can capitalize. Indeed, the proportion of winning to losing moves is roughly $7:1$. Also surprising is the sheer length of the game: $16$ moves means that after the first cut, all subsequent cuts remove a single square. And the strategy just seems... random. 
 
 ## How random?
 
-Having reached the limit of "L"s and squares whose strategy is orderly and proven, we can try to understand the problem through large-scale calculation. The degree of chaos remains unclear,
+Having reached the limit of "L"s and squares whose strategy is orderly and proven, we can try to understand the problem through large-scale calculation. The degree of game complexity remains unclear.
 
 A simple one is to try estimate the proportion of winning and losing positions; if $W(S)$ is all the winning positions in $S$, we'd like to estimate
 
@@ -66,6 +66,6 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2MjIzMDM4LDE2MjU2MjAwMzcsLTEwNT
-g1OTIwNDMsMTE1Njg2OTI1Nl19
+eyJoaXN0b3J5IjpbMTY2Nzg5NzI0MiwxNjI1NjIwMDM3LC0xMD
+U4NTkyMDQzLDExNTY4NjkyNTZdfQ==
 -->
