@@ -13,7 +13,10 @@ In the graph above, we have 3 values :
 $$\sin{\theta}, \theta, \tan{\theta}.$$
 If you don't immediately have an answer, think for a few minutes about how we could order these three values in an inequality. One possible (wrong) answer is
 $$\tan{\theta} < \theta < \sin{\theta}.$$
+Record your answer here before continuing:
+</p><input type="text" id="txt_1" onkeyup="saveValue(this);" placeholder="Type your answer here" class="form-control form-control-sm">
 
+##Saumya hel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzMxODg0MywxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbMTI1MDg3NzI1MSwxMTc1NTEzNTg0XX0=
 -->
