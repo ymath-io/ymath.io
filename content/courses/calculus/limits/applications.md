@@ -16,7 +16,13 @@ $$\tan{\theta} < \theta < \sin{\theta}.$$
 Record your answer here before continuing:
 </p><input type="text" id="txt_1" onkeyup="saveValue(this);" placeholder="Type your answer here" class="form-control form-control-sm">
 
-##Saumya hel
+<b>Saumya help me I don't know how to insert a user input box, I tried to copy paste the code but it didn't work :( </b>
+
+Looking at the graph tells us that
+$$\sin{\theta} < \theta < \tan{\theta}.$$
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDg3NzI1MSwxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbMTkyMzExMzgxNywxMTc1NTEzNTg0XX0=
 -->
