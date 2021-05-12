@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 2
 title: Negations
 type: lesson
 
@@ -10,18 +10,17 @@ $$ \text{isAcceptable}(x) \to \{0,1\}.$$
 
 Suppose we are now presented with the task of designing a boolean function that determines whether a function is *unacceptable*.
 
-In computer science, we would normally do something like this:
-```js
-function isUnacceptable(boolValue){
-	return !isAcceptable(boolValue);
-}
+In [Python](https://docs.python.org/3/tutorial/), we would normally do something like this:
+```python
+def is_unacceptable(bool_value: bool) -> bool:
+    return not is_acceptable(bool_value)
 ```
 A more generalized approach to this would be:
-```js
-function negate(boolValue){
-	return !boolValue
+```python
+def negate(boolValue: bool) -> bool{
+	return not boolValue
 }
-function isUnacceptable(boolValue){
+def isUnacceptable(boolValue: bool) -> bool {
 	return negate(isAcceptable(boolValue));
 }
 ```
@@ -35,6 +34,6 @@ $$\text{negate}(x) = 1 -x. $$
 
 And we're done!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODc4MjkxNSwtMjA5NjQ3NTE1NCwtOT
-ExNTU5MjMyXX0=
+eyJoaXN0b3J5IjpbLTEwOTA2Mzg5NTYsMTcyODc4MjkxNSwtMj
+A5NjQ3NTE1NCwtOTExNTU5MjMyXX0=
 -->

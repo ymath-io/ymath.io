@@ -1,3 +1,6 @@
+const markdownIt = require('markdown-it');
+const path = require('path');
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -67,6 +70,17 @@ export default {
   pwa: {
     manifest: {
       lang: 'en'
+    },
+    meta: {
+      name:'YMath.io',
+      description:'Self-paced high school math material, explained to be understood.',
+      author: 'Saumya Singhal',
+      theme_color:'#00ab33',
+      ogHost:'https://dev.ymath.io',
+      favicon:true,
+      mobileAppIOS: true,
+      appleStatusBarStyle: 'black-translucent',
+      ogImage:true,
     }
   },
 
@@ -74,13 +88,13 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        'remark-math', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
+        'remark-math','remark-mermaid' ,'remark-caption', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
       ],
       prism: {
-        theme: 'prism-themes/themes/prism-material-oceanic.css'
+        theme: '~/assets/css/night-owl.css' //duotone-sea.css'
       }
     }
   },
@@ -98,8 +112,9 @@ export default {
       plugins: [['@babel/plugin-proposal-private-methods', { 'loose': true }]
       ]
     },
-    extend(config) {
-      config.resolve.alias['vue'] = 'vue/dist/vue.common'
+    extend(config, ctx) {
+      config.resolve.alias['vue'] = 'vue/dist/vue.common';
+
     }
   }
 }

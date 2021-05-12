@@ -43,6 +43,10 @@
   @apply bg-green-400 dark:bg-green-500 shadow-xl text-white px-3 py-2 rounded-xl text-sm font-medium  shadow-primary-xl
 }
 
+.btn-primary {
+  @apply hover:bg-green-300 cursor-pointer text-green-400 py-2 px-3 my-1 rounded-md dark:hover:bg-opacity-10 hover:bg-opacity-20
+}
+
 .titlebar:not(.titlebar-active) {
   @apply text-gray-700 cursor-pointer hover:bg-white dark:text-white dark:hover:bg-gray-700 hover:shadow-lg transition-shadow duration-200 dark:hover:text-white hover:text-current px-3 py-2 rounded-xl text-sm font-medium
 }
@@ -146,4 +150,10 @@ pre[class*="language-"].line-numbers > code {
   display: block;
   padding-right: 0.8em;
   text-align: right;
+}
+
+
+.nuxt-content .footnote-backref {
+
+  font-family: Segoe UI Symbol, monospace;
 }
