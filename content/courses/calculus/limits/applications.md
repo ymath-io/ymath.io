@@ -23,7 +23,7 @@ $$\sin{\theta} < \theta < \tan{\theta}.$$
 Now, we can use this property to evaluate our limit! Dividing by $\sin{\theta}$ gives
 $$1 < \frac{\theta}{\sin{\theta}} < \frac{1}{\cos{\theta}}.$$
 
-Oops! We have our value, but it's upside down! Let's plug in x to this anyways, and see what we can do. Well, we can just take the reciprocal of all of them and we'll be good to go, right?? No [Why not?]. However, we _can_ take the reciprocal, and then reverse the signs. So now, we have
+Oops! We have our value, but it's upside down! Let's plug in $x$ to this anyways, and see what we can do. Well, we can just take the reciprocal of all of them and we'll be good to go, right?? No [Why not?]. However, we _can_ take the reciprocal, and then reverse the signs. So now, we have
 $$\cos{x} < \frac{\sin{x}}{x} < 1.$$
 We know for a fact that
 $$\lim_{x\to 0}\cos{x}=1.$$
@@ -41,5 +41,6 @@ $$\lim_{x\to 0}\frac{\tan{x}}{x} =\lim_{x\to 0}\frac{\sin{x}}{x} \cdot \frac{1}{
 One times one is... one? Yep.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDI5MTQ0NSwxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbLTE3ODc0NDcxODEsLTI3MDI5MTQ0NSwxMT
+c1NTEzNTg0XX0=
 -->
