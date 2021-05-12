@@ -20,9 +20,12 @@ Record your answer here before continuing:
 
 Looking at the graph tells us that
 $$\sin{\theta} < \theta < \tan{\theta}.$$
+Now, we can use this property to evaluate our limit! Dividing by $\sin{\theta}$ gives
+$$1 < \frac{\theta}{\sin{\theta}} < \frac{1}{\cos{\theta}}.$$
 
+Oops! We have our value, but it's upside down! Let's plug in x to this anyways, and see what we can do. Well, we can just take the reciprocal of all of them and we'll be good to go, right?? No [Why not?]. However, we _can_ take the reciprocal, and then reverse the signs. So now, we have
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzExMzgxNywxMTc1NTEzNTg0XX0=
+eyJoaXN0b3J5IjpbMTQ3NjkyMzYxNywxMTc1NTEzNTg0XX0=
 -->
