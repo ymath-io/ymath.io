@@ -1,7 +1,10 @@
-
 ---
 title: Integration by Substitution
+index: 18
+type: lesson
+
 ---
+
 Remember the  [Chain Rule](https://ymath.io/calculus/derivatives/chain-rule)? The Chain Rule said that we can perform the following algebra:
 $$\frac{ d f(g(x))}{d g(x)} \cdot \frac{d g(x)}{dx} = \frac{ d f(g(x))}{dx}.$$
 
