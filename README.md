@@ -1,4 +1,11 @@
-# YMath.io
+
+
+# <img src="https://ymath.io/favicon.png" height="40px" />   YMath.io
+
+This is the repository for the redesign of https://ymath.io/. The redesign is hosted at https://dev.ymath.io/.
+
+
+
 
 ## Build Setup
 
