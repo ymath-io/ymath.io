@@ -1,4 +1,3 @@
-
 ---
 title: Integration by Substitution
 index: 18
