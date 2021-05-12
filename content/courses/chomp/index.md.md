@@ -50,7 +50,9 @@ I was surprised that there is a single winning move at the beginning. That means
 
 ## How random?
 
-Having reached the limit of "L"s and squares whose strategy is orderly and proven, we enter less elegant techniques. A simple one is to try estimate the proportion of winning and losing positions; if $W(S)$ is all the winning positions in $S$, we'd like to estimate
+Having reached the limit of "L"s and squares whose strategy is orderly and proven, we can try to understand the problem through large-scale calculation. The degree of chaos remains unclear,
+
+A simple one is to try estimate the proportion of winning and losing positions; if $W(S)$ is all the winning positions in $S$, we'd like to estimate
 
 $$\lim_{m,n\to\infty}\frac{|W(\mathcal{P}_{m,n})|}{|\mathcal{P}_{m,n}|}.$$
 
@@ -64,6 +66,6 @@ One important metric of a board is its total number of squares, which is $\opera
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTYyMDAzNywtMTA1ODU5MjA0MywxMT
-U2ODY5MjU2XX0=
+eyJoaXN0b3J5IjpbNDA2MjIzMDM4LDE2MjU2MjAwMzcsLTEwNT
+g1OTIwNDMsMTE1Njg2OTI1Nl19
 -->
