@@ -1,6 +1,6 @@
 ---
 title: Applications 
-index: 3 
+index: 4
 type: lesson 
 
 ---
@@ -43,5 +43,5 @@ $$\lim_{x\to 0}\frac{\tan{x}}{x} =\lim_{x\to 0}\frac{\sin{x}}{x} \cdot \frac{1}{
 One times one is... one? Yep.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM0MjMzNDBdfQ==
+eyJoaXN0b3J5IjpbMTE3MDMyODA0NywtMTMxMzQyMzM0MF19
 -->
