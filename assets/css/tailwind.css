@@ -152,8 +152,12 @@ pre[class*="language-"].line-numbers > code {
   text-align: right;
 }
 
-
+/* don't use emojis */
 .nuxt-content .footnote-backref {
 
   font-family: Segoe UI Symbol, monospace;
+}
+/* prevent overscrolling */
+body {
+  overscroll-behavior-y: none;
 }
