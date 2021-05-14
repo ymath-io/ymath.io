@@ -12,10 +12,10 @@ $0, \frac{1}{16277216}, \frac{2}{16277216}, \frac{3}{16277216}, \dots, \frac{429
 
 So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. This system is called a *fixed-point* number system.
 
-But what if we wanted to represent smaller or larger numbers? We'd need a different denominator or a larger integer type. 
+But what if we wanted to represent smaller or larger numbers? We'd need a different denominator or a larger integer type. It becomes impractical fast; a number system able to store both a googol ($10^{100}$) and its reciprocal ($10^{-100}$) would need a 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzcyMTczMiw2ODY2OTUxOTRdfQ==
+eyJoaXN0b3J5IjpbLTMwODE4NzE2NSw2ODY2OTUxOTRdfQ==
 -->
