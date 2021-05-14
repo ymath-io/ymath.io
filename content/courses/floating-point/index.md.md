@@ -10,10 +10,12 @@ Representing real numbers proves trickier. Because there are infinite real numbe
 
 $0, \frac{1}{16277216}, \frac{2}{16277216}, \frac{3}{16277216}, \dots, \frac{4294967295}{16277216}(\approx 256)$
 
-So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. But what if we wanted to repr
+So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. This system is called a *fixed-point* number system.
+
+But what if we wanted to represent smaller or larger numbers? We'd need a different denominator or a larger integer type. 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODE5NzAxMiw2ODY2OTUxOTRdfQ==
+eyJoaXN0b3J5IjpbMTI3NzcyMTczMiw2ODY2OTUxOTRdfQ==
 -->
