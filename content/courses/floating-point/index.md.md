@@ -12,11 +12,11 @@ $0, \frac{1}{16277216}, \frac{2}{16277216}, \frac{3}{16277216}, \dots, \frac{429
 
 So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. This system is called a *fixed-point* number system.
 
-But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. The problem is that increasing accuracy
+But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. The problem is that increasing accuracy to allow for smaller positive numbers means having that same accuracy *everywhere*. It means that we have to also be able to store $10^{10}-10^{-10}$, which is not as 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2NzQ3NjkxLC0zMDgxODcxNjUsNjg2Nj
-k1MTk0XX0=
+eyJoaXN0b3J5IjpbLTE2ODc5NDg0MjksLTMwODE4NzE2NSw2OD
+Y2OTUxOTRdfQ==
 -->
