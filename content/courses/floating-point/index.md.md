@@ -1,4 +1,4 @@
-Floating-point numbers are the most common way of representing real numbers in computing. As such, they are an essential part of most modern programs and underpin much of the world's most critical infrastructure. They address a fundamental problem of computer science: Computers are discrete, numbers are not. Understanding floating-point arithmetic---and its limitations---is essential for numerical analysis and helpful for any serious programmer.
+Floating-point numbers are the most common way of representing real numbers in computing. As such, they are an essential part of most modern programs and underpin much of the world's most critical infrastructure. They address a fundamental problem of computer science: Computers are discrete, numbers are not. Understanding floating-point arithmetic---and its limitations---is essential for numerical analysts and helpful for any serious programmer.
 
 Computers represent positive integers in a relatively straightforward manner. The integer $14$, for example, is stored as the binary number $1110_2$, and thus needs $4$ bits. Different types of integers vary by the number of bits they are allocated. A $32$-bit unsigned[^1] integer, one of the most common types, may be used to store any number from $0$ to
 
@@ -21,6 +21,6 @@ In this course, we delve into the world of floating-point arithmetic, including 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzcwNTg5OCwtMzA4MTg3MTY1LDY4Nj
-Y5NTE5NF19
+eyJoaXN0b3J5IjpbMTE3MjkzODQzMSwxMDM3NzA1ODk4LC0zMD
+gxODcxNjUsNjg2Njk1MTk0XX0=
 -->
