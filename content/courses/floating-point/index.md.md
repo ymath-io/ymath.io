@@ -12,14 +12,14 @@ $0, \frac{1}{16277216}, \frac{2}{16277216}, \frac{3}{16277216}, \dots, \frac{429
 
 So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. This system is called a *fixed-point* number system.
 
-But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. Increasing accuracy to allow for smaller positive numbers *near 0* means having that same accuracy *everywhere*.
+But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. Increasing accuracy to allow for smaller positive numbers *near zero* means having that same accuracy *everywhere*.
 
-If a uniform accuracy is desired, then fixed-point is your friend. But most mathematical operations are more sensitive to small changes in small numbers than small changes in large numbers. Take $\frac{1}{x}$, for example, which has an asymptote at $x=0$. An accuracy of $0.01
+If a uniform accuracy is desired, then fixed-point is your friend. But most mathematical operations are more sensitive to small changes in small numbers than small changes in large numbers. Take $\frac{1}{x}$, for example, which has an asymptote at $x=0$. Having the accuracy
 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg4NDQ5MDEsLTMwODE4NzE2NSw2OD
-Y2OTUxOTRdfQ==
+eyJoaXN0b3J5IjpbLTQ2ODU1MjI3MiwtMzA4MTg3MTY1LDY4Nj
+Y5NTE5NF19
 -->
