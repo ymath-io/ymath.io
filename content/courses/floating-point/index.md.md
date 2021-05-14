@@ -1,4 +1,4 @@
-Floating-point numbers are the most common way of representing real numbers in computing. As such, they underpin much of the world's most critical infrastructure. 
+Floating-point numbers are the most common way of representing real numbers in computing.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDA0NzI1NV19
+eyJoaXN0b3J5IjpbNjQzODM4MDEzXX0=
 -->
