@@ -6,10 +6,10 @@ $\underbrace{11111111111111111111111111111111_2}_{32\,\text{bits}}=4294967295.$
 
 Progressively larger sizes of integers give us more and more range, and we choose the size appropriate to our use case.
 
-Representing real numbers proves trickier. Unlike the integers, the real numbers have no element directly "after" $0$, so we can't index all of them. One option is to 
+Representing real numbers proves trickier. Unlike the integers, the real numbers have no element directly "after" $0$, so we can't index all of them. In fact, because there are infinite real numbers in any range on the real line, One option is to 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTcyODU1XX0=
+eyJoaXN0b3J5IjpbNjg2Njk1MTk0XX0=
 -->
