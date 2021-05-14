@@ -14,12 +14,12 @@ So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16
 
 But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. Increasing accuracy to allow for smaller positive numbers *near 0* means having that same accuracy *everywhere*.
 
-If a uniform accuracy is desired, then fixed-point is your friend. But most 
+If a uniform accuracy is desired, then fixed-point is your friend. But most mathematical operations are relatively insensitive to small changes in large numbers. Take $\frac{1}{x}$
 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzA4MjIyMSwtMzA4MTg3MTY1LDY4Nj
-Y5NTE5NF19
+eyJoaXN0b3J5IjpbNTQ2NjEwMDgwLC0zMDgxODcxNjUsNjg2Nj
+k1MTk0XX0=
 -->
