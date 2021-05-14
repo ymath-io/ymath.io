@@ -12,14 +12,14 @@ $0, \frac{1}{16277216}, \frac{2}{16277216}, \frac{3}{16277216}, \dots, \frac{429
 
 So we can represent numbers between $0$ and $256$ to an accuracy of $\frac{1}{16277216}$. This system is called a *fixed-point* number system.
 
-But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast; an analogous $64$-bit system would not be able to store such a range. And the larger the size, the more inefficient to compute. Increasing accuracy to allow for smaller positive numbers *near zero* means having that same accuracy *everywhere*.
+But what if we wanted to represent even smaller and larger positive numbers? On the order of $10^{-10}$ and $10^{10}$? We'd need a different denominator or a larger integer type. It becomes impractical fast and inefficient to compute. Increasing accuracy to allow for smaller positive numbers *near zero* means having that same accuracy *everywhere*.
 
-If a uniform accuracy is desired, then fixed-point is your friend. But most mathematical operations are more sensitive to small changes in small numbers than small changes in large numbers. Dividing $1$ by $0.001$ vs. by $0.002$ is a big difference, while dividing by $256$ vs. by $256.001$ is often negligible. The solution is floating-point numbers, whose selling point is their ability to have accuracy that varies throughout their range. The double-precision floating-point type takes up a mere $64$ bits, but can represent both the number $2^{-1074}\approx 4.94\cdot 10^{-324}$ and $2^{1022}\approx 4.49\cdot10^{307}$.
+If uniform accuracy is desirable, fixed-point is your friend. But most mathematical operations are more sensitive to small changes in small numbers than small changes in large numbers. Dividing $1$ by $0.001$ vs. by $0.002$ is a big difference, while dividing by $256$ vs. by $256.001$ is often negligible. The solution is floating-point numbers, whose selling point is their ability to have accuracy that varies throughout their range. The double-precision floating-point type takes up only $64$ bits, but can represent both the number $2^{-1074}\approx 4.94\cdot 10^{-324}$ and $2^{1022}\approx 4.49\cdot10^{307}$.
 
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU2ODc0ODYsLTMwODE4NzE2NSw2OD
-Y2OTUxOTRdfQ==
+eyJoaXN0b3J5IjpbLTYyMTA0MTc2MSwtMzA4MTg3MTY1LDY4Nj
+Y5NTE5NF19
 -->
