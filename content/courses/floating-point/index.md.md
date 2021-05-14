@@ -6,10 +6,12 @@ $\underbrace{11111111111111111111111111111111_2}_{32\,\text{bits}}=4294967295.$
 
 Progressively larger sizes of integers give us more and more range, and we choose the size appropriate to our use case.
 
-Representing real numbers proves trickier. Because there are infinite real numbers in any range, we can never represent every number in a given range. One option is to choose an arbitrary denominator and store a standard integer, then treat that 
+Representing real numbers proves trickier. Because there are infinite real numbers in any range, we can never represent every number in a given range. One option is to choose an arbitrary denominator and store the numerator of a fraction; if we use a $32$-bit integer and a denominator of $2^{16}$, we can represent numbers in the range
+
+$0$
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMzUyODY0LDY4NjY5NTE5NF19
+eyJoaXN0b3J5IjpbMTkxNzUwMzc1NCw2ODY2OTUxOTRdfQ==
 -->
