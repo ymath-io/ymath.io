@@ -16,12 +16,11 @@ But what if we wanted to represent even smaller and larger positive numbers? On 
 
 If uniform accuracy is desirable, fixed-point is your friend. But most mathematical operations are more sensitive to small changes in small numbers than small changes in large numbers. Dividing $1$ by $0.001$ vs. by $0.002$ is a big difference, while dividing by $256$ vs. by $256.001$ is often negligible. The solution is floating-point numbers, whose selling point is their ability to have accuracy that varies throughout their range. The double-precision floating-point type takes up only $64$ bits, but can represent both the number $2^{-1074}\approx 4.94\cdot 10^{-324}$ and $2^{1022}\approx 4.49\cdot10^{307}$.
 
-In this course, we delve into the mechanics of floating-point arithmetic, including algorithms, mathematical formalizations, re
-
+In this course, we delve into the world of floating-point arithmetic, including algorithms, mathematical formalizations, computer architecture, and real-world applications and limitations.
 
 [^1]: Unsigned integers store positive values only
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA3NTg5MTcsLTMwODE4NzE2NSw2OD
-Y2OTUxOTRdfQ==
+eyJoaXN0b3J5IjpbMTAzNzcwNTg5OCwtMzA4MTg3MTY1LDY4Nj
+Y5NTE5NF19
 -->
