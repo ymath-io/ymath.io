@@ -31,8 +31,10 @@ Oh... you mean it keeps changing? Right. When x increases at a constant speed, t
 
 Go back, and read that to yourself a few more times, until it makes sense.
 
+<details><summary class="btn btn-outline-success btn-sm">Show/Hide graph</summary><br><br><iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0></iframe><br><br>
 
+</details>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkwMjU4NDgsMTE0NzU3NjQyXX0=
+eyJoaXN0b3J5IjpbLTEzMjA5ODQ1NTUsMTE0NzU3NjQyXX0=
 -->
