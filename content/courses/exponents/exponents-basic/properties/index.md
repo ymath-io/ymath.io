@@ -66,7 +66,7 @@ $$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. It lets us easily simplify expressions like $\frac{x^3}{x^2}$.
 
 Speaking of which, what is $\frac{x^3}{x^2}$? Let's write it out. 
-$$\frac{x^3}{x^2}=\frac{x\cdot x\cdot x}{x\cdot $$
+$$\frac{x^3}{x^2}=\frac{x\cdot x\cdot x}{x\cdot x}$$
 
 ## Power to a Power
 
@@ -80,6 +80,6 @@ $$\frac{x^3}{x^2}=\frac{x\cdot x\cdot x}{x\cdot $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI4MzU0MzAsOTQyNDA2OTI1LC0yOD
-A5MjgzNjUsLTE4ODU2NTQ2OF19
+eyJoaXN0b3J5IjpbMjEyMjUyMDM3Myw5NDI0MDY5MjUsLTI4MD
+kyODM2NSwtMTg4NTY1NDY4XX0=
 -->
