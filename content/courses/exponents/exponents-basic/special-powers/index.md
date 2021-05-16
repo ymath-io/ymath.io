@@ -42,7 +42,7 @@ $$x^1=0+x$$
 $$x^0=0$$
 Sure, exponentiation is repeated multiplication, so using the additive identity doesn't make much sense here, but just because there's a pattern doesn't mean something is true. So, let's use our exponent properties to show that $x^0=1$ makes a lot more sense than $x^0=0$. 
 
-
+What is $
 
 
 ## $1$ as a Base
@@ -68,7 +68,7 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
-Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- try to avoid it.
+Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- avoid it whenever possible.
 
 ## $10$ as a Base
 
@@ -82,7 +82,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3NzM1NDMxLC01NTg4NjkyNDUsLTI3OD
-I4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgy
-NV19
+eyJoaXN0b3J5IjpbMzM0NzY2MDEyLDg2NzczNTQzMSwtNTU4OD
+Y5MjQ1LC0yNzgyODYyMDcsODk2NDkwMjkxLC0xMDg0MDIyMDM2
+LDEzMDUzNDE4MjVdfQ==
 -->
