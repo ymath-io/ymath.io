@@ -7,13 +7,12 @@ author: Sophia Zhu
 thumbnail: "/img/exponents-and-more.jpg"
 
 ---
-Exponents and logarithms are *power*-ful tools in mathematics. You should have a *base*-ic understanding of them if you want to learn topics like calculus.
+Exponents and logarithms are *power*-ful tools in mathematics. You must have a *base*-ic understanding of them if you want to learn topics like calculus.
 
 Alright, enough puns. Before you begin this course, brush up on the following topics if you're not very familiar with them:
 
-- Basic pre-algebra. You should be familiar with variables!
-- Frac
+- Basic pre-algebra. You should already be familiar with variables and fractions! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1ODIyMDUsLTQyNTc5MTc4NiwtMj
-AwMTY2MzgzOCwxMDg1MDI5NTc1XX0=
+eyJoaXN0b3J5IjpbMjA1ODczNjQyMCwtNDI1NzkxNzg2LC0yMD
+AxNjYzODM4LDEwODUwMjk1NzVdfQ==
 -->
