@@ -9,7 +9,7 @@ You may have remembered from the introduction to this chapter that any number to
 
 ## $1$ as a Base
 Let's start with a few examples so that we can look for patterns. 
-$$1^1=1=1$$
+$$1^1=1$$
 $$1^2=1\cdot1=1$$
 $$1^3=1\cdot1\cdot1=1$$
 $$1^4=1\cdot1\cdot1\cdot1=1$$
@@ -23,6 +23,9 @@ $1^x=1$, where $x$ is any number.
 
 As before, let's look at some examples.
 $$0^1=0$$
+$$0^2=0\cdot 0=0$$
+$$0^3=0\cdot 0\cdot 0=0$$
+$$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $1$ as an Exponent
 
@@ -33,5 +36,5 @@ $$0^1=0$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTMyMTU2NCwxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbLTgzNjM1NjM0NywxMzA1MzQxODI1XX0=
 -->
