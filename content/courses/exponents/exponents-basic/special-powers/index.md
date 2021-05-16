@@ -1,6 +1,6 @@
 ---
 type: lesson
-index: 3
+index: 4
 title: Properties
 
 ---
@@ -30,12 +30,13 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 ## $1$ as an Exponent
 
 ## $0$ as an Exponent
+Earlier in this course, we saw a way to show that $x^0=1$ using the multiplicative identity. 
 
 ## What is $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
-Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, just treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
+Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NDkwMjkxLC0xMDg0MDIyMDM2LDEzMD
-UzNDE4MjVdfQ==
+eyJoaXN0b3J5IjpbMTk4NTgyMzczOCw4OTY0OTAyOTEsLTEwOD
+QwMjIwMzYsMTMwNTM0MTgyNV19
 -->
