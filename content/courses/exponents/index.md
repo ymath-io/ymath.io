@@ -14,10 +14,11 @@ Alright, enough puns. Before you begin this course, brush up on the following to
 - Basic pre-algebra. You should already be familiar with variables and fractions! 
 
 This course covers the following topics:
-- properties, 
+- properties, graphs, and real-world applications of exponents and logarithms
+- scientific notation
 
-As you can see, this course encompasses a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try learning some different math topics before coming back to this course. 
+These topics encompass a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try practicing some other math topics before coming back to this course. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjU4NTI4NCwyMDU4NzM2NDIwLC00Mj
+eyJoaXN0b3J5IjpbLTI5OTA5NzE1OSwyMDU4NzM2NDIwLC00Mj
 U3OTE3ODYsLTIwMDE2NjM4MzgsMTA4NTAyOTU3NV19
 -->
