@@ -61,8 +61,20 @@ Before continuing, think about this:
 
 What's the general formula for slope?
 
-The slope of the line going through the green and blue points can be expressed as
+What can the slope of the line going through the green and blue points can be expressed as?
+
+Once you have an idea, read on.
+
+The second one was a bit tricky. The answer is
+
+$$\frac{f(a+\delta x)-f(a)}{\delta x}.$$
+
+The above expression describes the change in the $y$-value, or $f(x)$, and divides it by $δx$, or the change in  $x$.
+
+If we can make  $δx$  infinitesimally small, then this can help us find the slope at any value of  $(x,f(x))$.
+
+**I'm going to go ahead and swap out  x  for  a  in the above expression, just to emphasize that this works for any value of  $x$.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE3NzkwMSwtMTMyMDk4NDU1NSwxMT
+eyJoaXN0b3J5IjpbMTE1NTg5MDE1MCwtMTMyMDk4NDU1NSwxMT
 Q3NTc2NDJdfQ==
 -->
