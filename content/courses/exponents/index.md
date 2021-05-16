@@ -12,6 +12,7 @@ Exponents and logarithms are *power*-ful tools in mathematics. You must have a *
 Alright, enough puns. Before you begin this course, brush up on the following topics if you're not very familiar with them:
 
 - Arithmetic (addition, subtraction, multiplication, division) with multi-digit numbers, negative numbers, fractions, and decimals. 
+- properties of addition, subtraction, multiplication
 - Variables
 - Simplifying expressions such as fractions
 
@@ -21,7 +22,7 @@ This course covers the following topics:
 
 These topics encompass a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try practicing some other math topics before coming back to this course. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU3Nzc5NzYsLTI5OTA5NzE1OSwyMD
+eyJoaXN0b3J5IjpbLTIwMjI0MDY1MTUsLTI5OTA5NzE1OSwyMD
 U4NzM2NDIwLC00MjU3OTE3ODYsLTIwMDE2NjM4MzgsMTA4NTAy
 OTU3NV19
 -->
