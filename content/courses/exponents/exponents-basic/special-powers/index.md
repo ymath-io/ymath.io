@@ -77,9 +77,9 @@ Since $0$ multiplied by itself any number of times is still $0$, $0^x=0$.
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
 Let's try using the same method we used to prove that $x^0=1$, or the method using the Quotient of Powers Property. We will assume $n$ is a positive integer.
-$$0^0=0^{n-n}=\frac{0^n}{0^n}=\frac{0}{0}$$
+$$0^0=0^{n-n}=\frac{0^n}{0^n}=\frac{0}{0}=\text{undefined}$$
 
-Hmm, that doesn't help us very much since we don't know what $\frac{0}{0}$ equals! 
+So, is the a
 
 
 Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- avoid it whenever possible.
@@ -96,7 +96,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAwNDMyNzYsODY3NzM1NDMxLC01NT
-g4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIw
-MzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbLTU3ODA1NTUwNiw4Njc3MzU0MzEsLTU1OD
+g2OTI0NSwtMjc4Mjg2MjA3LDg5NjQ5MDI5MSwtMTA4NDAyMjAz
+NiwxMzA1MzQxODI1XX0=
 -->
