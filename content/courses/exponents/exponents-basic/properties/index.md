@@ -75,7 +75,9 @@ Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a
 $$\frac{x^a}{x^b}
 =\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x"$s}}$$
 
-Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^j$
+Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
+
+Therefore, $\frac{x^a}{x^b}=x^{a-b}$
 
 ## Power to a Power
 
@@ -89,6 +91,7 @@ Since $a\geq b$, there are at least as many $``x"$s in the numerator as the deno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MDM4OTIyLC0xNDg0NDkwMzAzLDk0Mj
-QwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbMTE1MjA5MjQ2MCwzMjgwMzg5MjIsLTE0OD
+Q0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2
+OF19
 -->
