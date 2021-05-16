@@ -20,6 +20,14 @@ So, it equals 32. How about another question: what is $2^2\cdot2^3$?
 We can solve this using the Order of Operations. We evaluate
 $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
 
+Notice anything? It's the same answer as before! Is it a coincidence?
+
+It turns out that a very important clue is in the first step of evaluating both expressions. Take a look:
+$$2^5=2\cdot2\cdot2\cdot2\cdot2$$
+$$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)$$
+
+I
+
 ### Quotient of Powers
 
 ### Power to a Power
@@ -37,6 +45,6 @@ $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MzcxMTMyLC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbMTE4OTk5MDU3MSwtMjgwOTI4MzY1LC0xOD
+g1NjU0NjhdfQ==
 -->
