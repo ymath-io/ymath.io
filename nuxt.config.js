@@ -1,6 +1,3 @@
-const markdownIt = require('markdown-it');
-const path = require('path');
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -26,16 +23,16 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' }
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' },
+      {rel:'stylesheet', href: 'https://unpkg.com/mathlive@0.27.4/dist/mathlive.css'},
+      {rel:'stylesheet', href:'https://unpkg.com/mathlive@0.27.4/dist/mathlive.core.css'}
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind.css',
-    '@mdi/font/css/materialdesignicons.css',
-    'mathlive/dist/mathlive-static.css',
-    'mathlive/dist/mathlive-fonts.css'
+    '@mdi/font/css/materialdesignicons.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -88,7 +85,7 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        'remark-math','remark-mermaid' ,'remark-caption', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
+        'remark-math','remark-mermaid' ,'remark-captions', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'

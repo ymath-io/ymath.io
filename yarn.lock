@@ -8741,10 +8741,10 @@ markdown-to-jsx@^7.1.0:
   resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.1.2.tgz#19d3da4cd8864045cdd13a0d179147fbd6a088d4"
   integrity sha512-O8DMCl32V34RrD+ZHxcAPc2+kYytuDIoQYjY36RVdsLK7uHjgNVvFec4yv0X6LgB4YEZgSvK5QtFi5YVqEpoMA==
 
-mathlive@^0.63.0:
-  version "0.63.0"
-  resolved "https://registry.yarnpkg.com/mathlive/-/mathlive-0.63.0.tgz#80e66e9b78c6ae39f6ecba51aaa91751091ba4c1"
-  integrity sha512-LmFPaPoYJjz/AgyhGqm7SenNF8u/H68wmy3MBHa7b8huNMGIHEyZ7I/T/HA5IWQRF775PHcGcN23+EY5MYPHbA==
+mathlive@0.27.4:
+  version "0.27.4"
+  resolved "https://registry.yarnpkg.com/mathlive/-/mathlive-0.27.4.tgz#35ce31c4bc3f59fe2a65044836a88b590ad2af8f"
+  integrity sha512-JdeXPob1VNuj2WP+RVmoGYrIIaB/A1FYzly/uKHqlXrg/uQr5/fUToYaCVHnhN9HCi19nVkXEZysudDYb8gtXA==
 
 mathquill@^0.10.1-a:
   version "0.10.1-a"
@@ -11829,6 +11829,14 @@ remark-autolink-headings@^6.0.1:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
 
+remark-captions@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/remark-captions/-/remark-captions-2.2.1.tgz#a16580d10cb4bd029d05eabc34a357acde897b19"
+  integrity sha512-jqGWM4aMoedW67izHxMgWD/aEf5jeBY/+i9+7sNZDicMCRi55Ilr3p399xLD/K30hmUIHd+QwUOap9/EVoHbig==
+  dependencies:
+    clone "^2.1.2"
+    unist-util-visit "^2.0.3"
+
 remark-external-links@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/remark-external-links/-/remark-external-links-8.0.0.tgz"
@@ -13592,7 +13600,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@2.0.3, unist-util-visit@^2.0.0:
+unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==

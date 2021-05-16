@@ -38,6 +38,10 @@
   }
 }
 
+/* style the mathlive inputs */
+.ML__fieldcontainer{
+  @apply dark:bg-gray-700 bg-opacity-60 px-2 rounded-sm my-2 cursor-text
+}
 
 .titlebar.titlebar-active {
   @apply bg-green-400 dark:bg-green-500 shadow-xl text-white px-3 py-2 rounded-xl text-sm font-medium  shadow-primary-xl

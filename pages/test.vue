@@ -1,7 +1,14 @@
 <template>
-  <client-only>
-<mathfield model-value='f(x)=x^2'></mathfield>
-  </client-only>
+  <div>
+    <header-banner>Practice Problems</header-banner>
+    <container>
+      <client-only>
+        <practice-problem/>
+      </client-only>
+    </container>
+  </div>
+
+
 </template>
 
 <script>
