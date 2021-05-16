@@ -66,7 +66,11 @@ $$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. It lets us easily simplify expressions like $\frac{x^3}{x^2}$.
 
 Speaking of which, what is $\frac{x^5}{x^2}$? Let's write it out. 
-$$\frac{x^5}{x^2}=\frac{\cancel x\cdot \cancel x\cdot x}{\cancel x\cdot \cancel x}=x$$
+$$\frac{x^5}{x^2}
+=\frac{\cancel x\cdot \cancel x\cdot x\cdot x\cdot x}{\cancel x\cdot \cancel x}
+=x^3$$
+
+
 
 ## Power to a Power
 
@@ -80,6 +84,6 @@ $$\frac{x^5}{x^2}=\frac{\cancel x\cdot \cancel x\cdot x}{\cancel x\cdot \cancel 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODMyMTIyLDk0MjQwNjkyNSwtMjgwOT
-I4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTgzNDg3Nzg1MSw5NDI0MDY5MjUsLTI4MD
+kyODM2NSwtMTg4NTY1NDY4XX0=
 -->
