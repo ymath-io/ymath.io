@@ -35,6 +35,8 @@ Go back, and read that to yourself a few more times, until it makes sense.
 
 </details>
 
+<iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA5ODQ1NTUsMTE0NzU3NjQyXX0=
+eyJoaXN0b3J5IjpbLTMwMTg1MzE1MCwtMTMyMDk4NDU1NSwxMT
+Q3NTc2NDJdfQ==
 -->
