@@ -71,19 +71,12 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 ## Power of a Quotient
 
-## $1$ as a Base
-
-## $0$ as a Base
-
-## $1$ as an Exponent
-
-## $0$ as an Exponent
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE3ODUxMjksLTI4MDkyODM2NSwtMT
-g4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbMTQxNDMxNzQ5NSwtMjgwOTI4MzY1LC0xOD
+g1NjU0NjhdfQ==
 -->
