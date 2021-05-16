@@ -5,7 +5,7 @@ title: Properties
 
 ---
 
-You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. 
+You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Now, we'll be looking at some properties of exponents.
 
 ## Product of Powers
 Let's start with a simple question. What is 
@@ -47,7 +47,7 @@ That should give us a total of $(a+b)$ $x$'s multiplied together, which is the s
 
 $$x^a \cdot x^b = x^{a+b}$$
 
-Awesome, we've just proved the Product of Powers Property! (Actually, we've only shown it works for integers, which is good enough for now.) Can you see why this property is called the Product of Powers Property?
+Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why this property is called the Product of Powers Property?
 
 ### Warnings
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
@@ -77,6 +77,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbLTM0MzMwNTc1OCw5NDI0MDY5MjUsLTI4MD
+kyODM2NSwtMTg4NTY1NDY4XX0=
 -->
