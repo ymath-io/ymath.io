@@ -7,7 +7,7 @@ title: Properties
 
 You should have remembered from the previous lesson that any number to the power of 0 is 1. In this lesson, we'll explore some other interesting properties of exponents!
 
-### Product of Powers
+## Product of Powers
 Let's start with a simple question. What is 
 $2^5$?
 
@@ -47,7 +47,10 @@ That should give us a total of $(a+b)$ $x$'s multiplied together, which is the s
 
 $$x^a \cdot x^b = x^{a+b}$$
 
-Can you see why this property is called the Product of Powers
+Can you see why this property is called the Product of Powers Property?
+
+### Warnings
+The bases of the powers have to be the same for this property to work. If you try to simplify $2^1\cdot3^2$, 
 
 ### Quotient of Powers
 
@@ -66,6 +69,6 @@ Can you see why this property is called the Product of Powers
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzY3ODk5OCwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTk4MzIxMjQsLTI4MDkyODM2NSwtMT
+g4NTY1NDY4XX0=
 -->
