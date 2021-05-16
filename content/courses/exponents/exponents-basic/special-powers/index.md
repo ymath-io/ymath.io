@@ -17,12 +17,13 @@ $$\text{$10^x$ has $x$ zeroes}$$
 
 
 ## $1$ as an Exponent
-Let's start with a few examples so that we can look for patterns.
+Let's start with a few examples so that we can look for patterns. We will write them in the same format as $3^2=1\cdot3\cdot3$. The $1$ makes it clearer that we are multiplying numbers together
 $$1^1=1\cdot1=1$$
 $$2^1=1\cdot2=2$$
 $$3^1=1\cdot3=3$$
 $$4^1=1\cdot4=4$$
-Recall that $1$ is the multiplicative identity, so we can multiply by it before writing out the power. The $1$ in the exponent has a different meaning -- it tells you how many times to multiply the base by itself. 
+Recall that $1$ is the multiplicative identity, so we can multiply by it before writing out the power. The $1$ in the exponent has a different meaning -- it tells you how many times to multiply the base by itself. For instance, we could write 
+$$3^2=1\cdot3\cdot3$$
 
 ## $0$ as an Exponent
 Earlier in this course, we saw a way to show that $x^0=1$ using the multiplicative identity. 
@@ -54,6 +55,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTY0MTE2MiwtMjc4Mjg2MjA3LDg5Nj
+eyJoaXN0b3J5IjpbLTg3NzgxNTI2MSwtMjc4Mjg2MjA3LDg5Nj
 Q5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQxODI1XX0=
 -->
