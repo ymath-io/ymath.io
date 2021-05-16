@@ -42,10 +42,8 @@ $$x^1=0+x$$
 $$x^0=0$$
 Sure, exponentiation is repeated multiplication, so using the additive identity doesn't make much sense here, but just because there's a pattern doesn't mean something is true. So, let's use our exponent properties to show that $x^0=1$ makes a lot more sense than $x^0=0$. 
 
-### What about $0^0$?
-This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
-Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
+
 
 ## $1$ as a Base
 Let's start with a few examples so that we can look for patterns. 
@@ -67,8 +65,19 @@ $$0^2=0\cdot 0=0$$
 $$0^3=0\cdot 0\cdot 0=0$$
 $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
+### What about $0^0$?
+This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
+
+Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
+
 ## $10$ as a Base
+
+$$0^1=0$$
+$$0^2=0\cdot 0=0$$
+$$0^3=0\cdot 0\cdot 0=0$$
+$$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODg2OTI0NSwtMjc4Mjg2MjA3LDg5Nj
-Q5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbMjUyODY0NTk0LC01NTg4NjkyNDUsLTI3OD
+I4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgy
+NV19
 -->
