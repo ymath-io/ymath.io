@@ -71,10 +71,28 @@ $$\frac{f(a+\delta x)-f(a)}{\delta x}.$$
 
 The above expression describes the change in the $y$-value, or $f(x)$, and divides it by $δx$, or the change in  $x$.
 
-If we can make  $δx$  infinitesimally small, then this can help us find the slope at any value of  $(x,f(x))$.
+If we can make $δx$ infinitesimally small, then this can help us find the slope at any value of $(x,f(x))$.
 
-**I'm going to go ahead and swap out  x  for  a  in the above expression, just to emphasize that this works for any value of  $x$.**
+**I'm going to go ahead and swap out  x  for  a  in the above expression, just to emphasize that this works for any value of $x$.**
+
+$$\frac{f(x+\delta x)-f(x)}{\delta x} = \frac{\delta y}{\delta x}.$$
+
+Ah, yes. Where were we? We were going to compute the above when $δx$ is infinitesimally small. How do we do that?
+
+Remember that  _infinitesimally small_  means that the number is approaching $0$, but it's not exactly $0$. So we have to evaluate the above when $δx$ is approaching $0$.
+
+We just learned exactly how to do that using limits!
+
+We can set up the limit like this:
+
+$$\lim_{\delta x \to 0}\frac{f(x+\delta x)-f(x)}{\delta x}.$$
+
+Believe it or not, that's it!
+
+When we plug in a definition of $f(x)$, such as $f(x)=x2$  to the limit, we can evaluate the limit to get another function, which we call $f′(x)$.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTg5MDE1MCwtMTMyMDk4NDU1NSwxMT
-Q3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbNDc3Mzg1ODgzLC0xMzIwOTg0NTU1LDExND
+c1NzY0Ml19
 -->
