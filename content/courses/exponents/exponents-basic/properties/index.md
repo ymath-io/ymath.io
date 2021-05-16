@@ -50,7 +50,8 @@ $$x^a \cdot x^b = x^{a+b}$$
 Can you see why this property is called the Product of Powers Property?
 
 ### Warnings
-The bases of the powers have to be the same for this property to work. If you try to simplify $2^1\cdot3^2$, 
+The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
+$$x^2 \cdot y^3=(x\cdot x)(y\cdot y\cdot y)$$
 
 ### Quotient of Powers
 
@@ -69,6 +70,6 @@ The bases of the powers have to be the same for this property to work. If you tr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4MzIxMjQsLTI4MDkyODM2NSwtMT
-g4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbMTk1ODgyMTYzNCwtMjgwOTI4MzY1LC0xOD
+g1NjU0NjhdfQ==
 -->
