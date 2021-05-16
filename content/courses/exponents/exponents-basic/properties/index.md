@@ -26,16 +26,16 @@ It turns out that a very important clue is in the first step of evaluating both 
 $$2\cdot2\cdot2\cdot2\cdot2$$
 $$(2\cdot2)(2\cdot2\cdot2)$$
 
-These expressions look very similar! In fact, they're equal by the Associative Property of Multiplication. This property states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. The product will always be the same. Now we know why $2^2\cdot2^3=2^5$.
+These expressions look very similar! In fact, they're equal by the Associative Property of Multiplication. This property states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. The product will always be the same. 
 
-Let's go a bit more general. Is there a way we can rewrite $x^2\cdot x^3$? Let's try:
+Now we know why $2^2\cdot2^3=2^5$. Let's generalize this a bit more. Is there a way we can rewrite $x^2\cdot x^3$? Let's try:
 
 $$x^2\cdot x^3
 =(x\cdot x)(x\cdot x\cdot x)
 =x\cdot x\cdot x\cdot x\cdot x
 =x^5$$
 
-Nice! We just showed that $x^2\cdot x^3 = x^5$. In other words, $x^2$ is the product of $2$ $x$'s, and $x^3$ is the product of $3$ $x$'s, so the product of $x^2$ and $x^3$ is the product of $5$ $x$'s in total. 
+Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $x$'s, and $x^3$ is the product of $3$ $x$'s, so the product of $x^2$ and $x^3$ is the product of $5$ $x$'s in total. 
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
@@ -74,6 +74,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDMzMDEwMywtMjgwOTI4MzY1LC0xOD
+eyJoaXN0b3J5IjpbMTM1MDc4MjY2MSwtMjgwOTI4MzY1LC0xOD
 g1NjU0NjhdfQ==
 -->
