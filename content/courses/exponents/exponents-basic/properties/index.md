@@ -57,6 +57,8 @@ In case you missed it, all the expressions on the second line are **not equal** 
 
 ### Quotient of Powers
 
+The Quotient of Powers Property is very similar to the Product of Powers Property, except it uses quotients instead of products, as you might have guessed. 
+
 ### Power to a Power
 
 ### Power of a Product
@@ -72,6 +74,6 @@ In case you missed it, all the expressions on the second line are **not equal** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTk2NTA4LC0yODA5MjgzNjUsLTE4OD
+eyJoaXN0b3J5IjpbMTY3NDM1NzgzLC0yODA5MjgzNjUsLTE4OD
 U2NTQ2OF19
 -->
