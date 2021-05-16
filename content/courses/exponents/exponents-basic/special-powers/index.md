@@ -18,6 +18,10 @@ $$\text{$10^x$ has $x$ zeroes}$$
 
 ## $1$ as an Exponent
 Let's start with a few examples so that we can look for patterns.
+$$1^1=1\cdot1=1$$
+$$2^1=1\cdot2=2$$
+$$3^1=1\cdot3=3$$
+$$4^1=1\cdot4=4$$
 
 
 ## $0$ as an Exponent
@@ -50,6 +54,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwOD
-QwMjIwMzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbNjU3Njg5ODc5LC0yNzgyODYyMDcsODk2ND
+kwMjkxLC0xMDg0MDIyMDM2LDEzMDUzNDE4MjVdfQ==
 -->
