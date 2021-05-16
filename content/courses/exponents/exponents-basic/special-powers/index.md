@@ -32,11 +32,13 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 ## $0$ as an Exponent
 
 ## What is $0^0$?
+This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbLTE3ODQxMDMwMjUsLTEwODQwMjIwMzYsMT
+MwNTM0MTgyNV19
 -->
