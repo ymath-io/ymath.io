@@ -5,7 +5,7 @@ title: Properties
 
 ---
 
-You should have remembered from the previous lesson that any number to the power of 0 is 1. In this lesson, we'll explore some other interesting properties of exponents!
+You might remember that when you learn
 
 ## Product of Powers
 Let's start with a simple question. What is 
@@ -77,6 +77,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDMxNzQ5NSwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbNzYwODAyNjExLC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
