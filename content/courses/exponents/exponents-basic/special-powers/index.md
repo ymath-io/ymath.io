@@ -68,7 +68,7 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
-Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
+Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- try to avoid it.
 
 ## $10$ as a Base
 
@@ -78,8 +78,10 @@ $$10^0=1$$
 $$10^1=10$$
 $$10^2=10\cdot 10=100$$
 $$10^3=10\cdot 10\cdot 10=1000$$
+
+Notice a pattern? Since multiplying a nu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzNDA5MjIsLTU1ODg2OTI0NSwtMj
-c4Mjg2MjA3LDg5NjQ5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQx
-ODI1XX0=
+eyJoaXN0b3J5IjpbMTM5MDkyNzExNSwtNTU4ODY5MjQ1LC0yNz
+gyODYyMDcsODk2NDkwMjkxLC0xMDg0MDIyMDM2LDEzMDUzNDE4
+MjVdfQ==
 -->
