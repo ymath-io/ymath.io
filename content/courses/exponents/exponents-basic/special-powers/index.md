@@ -79,7 +79,7 @@ This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but b
 Let's try using the same method we used to prove that $x^0=1$, or the method using the Quotient of Powers Property. We will assume $n$ is a positive integer.
 $$0^0=0^{n-n}=\frac{0^n}{0^n}=\frac{0}{0}=\text{undefined}$$
 
-Is the answer really $\text{undefined}$? Try plugging it into your calculator. Chances are, it will give you an error message, which is what you'd expect from an undefined expression. However, some calculators, including the [Google calculator](https://www.google.com/search?q=0%5E0&oq=0%5E0), will tell you the answer is $1$! What's going on?
+Is the answer really $\text{undefined}$? Try plugging it into your calculator. Some calculators will display an error message, which is what you'd expect from an undefined expression. However, other calculators, including the [Google calculator](https://www.google.com/search?q=0%5E0&oq=0%5E0), will tell you the answer is $1$! What's going on?
 
 Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- avoid it whenever possible.
 
@@ -95,7 +95,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzYxMzIyMiw4Njc3MzU0MzEsLTU1OD
-g2OTI0NSwtMjc4Mjg2MjA3LDg5NjQ5MDI5MSwtMTA4NDAyMjAz
-NiwxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbNTA1Mzk5NTUsODY3NzM1NDMxLC01NTg4Nj
+kyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYs
+MTMwNTM0MTgyNV19
 -->
