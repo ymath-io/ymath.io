@@ -13,7 +13,7 @@ $$x^1=x$$
 $$x^0=1$$
 $$1^x=1$$
 $$0^x=0$$
-$$\text{$10^x$ has $x$ zeroes}$$
+$$\text{$10^x$ is a $1$ followed by $x$ zeroes}$$
 
 
 ## $1$ as an Exponent
@@ -79,9 +79,10 @@ $$10^1=10$$
 $$10^2=10\cdot 10=100$$
 $$10^3=10\cdot 10\cdot 10=1000$$
 
-Notice a pattern? Since multiplying a nu
+Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
+$10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDkyNzExNSwtNTU4ODY5MjQ1LC0yNz
-gyODYyMDcsODk2NDkwMjkxLC0xMDg0MDIyMDM2LDEzMDUzNDE4
-MjVdfQ==
+eyJoaXN0b3J5IjpbODY3NzM1NDMxLC01NTg4NjkyNDUsLTI3OD
+I4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgy
+NV19
 -->
