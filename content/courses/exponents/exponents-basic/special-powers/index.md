@@ -5,7 +5,7 @@ title: Properties
 
 ---
 
-You may have remembered from the introduction to this chapter that any number to the power of $0$ is $1$. In this lesson, we'll use our new exponent properties to find some other interesting patterns. 
+You may have remembered from the introduction to this chapter that any number to the power of $0$ is $1$. In this lesson, we'll find some other interesting patterns, and use . 
 
 ## $1$ as a Base
 Let's start with a few examples so that we can look for patterns. 
@@ -36,5 +36,5 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjM1NjM0NywxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbLTE3NjY3NTMyMTcsMTMwNTM0MTgyNV19
 -->
