@@ -35,7 +35,7 @@ $$x^2\cdot x^3
 =x\cdot x\cdot x\cdot x\cdot x
 =x^5$$
 
-Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $x$'s, and $x^3$ is the product of $3$ $x$'s, so the product of $x^2$ and $x^3$ is the product of $5$ $x$'s in total. 
+Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ `$x$'s, and $x^3$ is the product of $3$ `$x$'s, so the product of $x^2$ and $x^3$ is the product of $5$ $`x$'s in total. 
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
@@ -72,7 +72,7 @@ $$\frac{x^5}{x^2}
 
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$?
 
-$$\frac{x^a}{x^b}=\frac{\text{product of }}{}$$
+$$\frac{x^a}{x^b}=\frac{\text{product of $a$ `$x$'s}}{}$$
 
 ## Power to a Power
 
@@ -86,6 +86,6 @@ $$\frac{x^a}{x^b}=\frac{\text{product of }}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTI3NzkzNiw5NDI0MDY5MjUsLTI4MD
+eyJoaXN0b3J5IjpbMTE3MzY4NTIwMSw5NDI0MDY5MjUsLTI4MD
 kyODM2NSwtMTg4NTY1NDY4XX0=
 -->
