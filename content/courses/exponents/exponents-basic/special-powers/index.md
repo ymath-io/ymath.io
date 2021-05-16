@@ -7,6 +7,10 @@ title: Properties
 
 You may have remembered from the introduction to this chapter that any number to the power of $0$ is $1$. In this lesson, we'll find some other interesting patterns and use our exponent properties to prove some of them. 
 
+### List of Special Powers
+$1^x=1$
+$0^x=$
+
 ## $1$ as a Base
 Let's start with a few examples so that we can look for patterns. 
 $$1^1=1$$
@@ -37,6 +41,6 @@ This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but b
 
 Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- just avoid it!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTgyMzczOCw4OTY0OTAyOTEsLTEwOD
-QwMjIwMzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbNDEzNDEzOTA3LDg5NjQ5MDI5MSwtMTA4ND
+AyMjAzNiwxMzA1MzQxODI1XX0=
 -->
