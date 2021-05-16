@@ -71,8 +71,13 @@ $$0^2=0\cdot 0=0$$
 $$0^3=0\cdot 0\cdot 0=0$$
 $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
+Since $0$ multiplied by itself any number of times is stil
+
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
+
+Let's try using our exponent properties. 
+$$x$$
 
 Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ makes more sense in some branches of mathematics, while the answer of $\text{undefined}$ makes more sense in other branches. For this course, you can treat this expression the same way as you would treat the expression $\frac{0}{0}$ -- avoid it whenever possible.
 
@@ -88,7 +93,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUzNzk3MzYsODY3NzM1NDMxLC01NT
+eyJoaXN0b3J5IjpbLTEwOTc0MzE1NzUsODY3NzM1NDMxLC01NT
 g4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIw
 MzYsMTMwNTM0MTgyNV19
 -->
