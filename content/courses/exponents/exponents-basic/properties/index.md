@@ -35,7 +35,7 @@ $$x^2\cdot x^3
 =x\cdot x\cdot x\cdot x\cdot x
 =x^5$$
 
-Nice! We just showed that $$
+Nice! We just showed that $x^2\cdot x^3 = x^5$. $x^2$ is the product of $2$ $x$'s, and $x^3$ is the product of $3$ $x$'s, so the product of $x^2$ and $x^
 
 ### Quotient of Powers
 
@@ -54,6 +54,6 @@ Nice! We just showed that $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzU2NDUwLC0yODA5MjgzNjUsLTE4OD
+eyJoaXN0b3J5IjpbMzk3ODc5Mzc0LC0yODA5MjgzNjUsLTE4OD
 U2NTQ2OF19
 -->
