@@ -14,7 +14,11 @@ $2^2\cdot2^3$?
 We can solve this using the Order of Operations. We evaluate
 $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
 
-Ok, we did it! How about another question: what is $2^1\cdot2^4
+Yay, we did it! How about another question: what is $2^4\cdot2^1$? We can solve this using the same method:
+
+$$2^4\cdot2^1=(2\cdot2\cdot2\cdot2)(2)=(16)(2)=32$$
+
+Ok
 
 ### Quotient of Powers
 
@@ -33,6 +37,6 @@ Ok, we did it! How about another question: what is $2^1\cdot2^4
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTY1MzY1OCwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbNTg0MjUwMDMxLC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
