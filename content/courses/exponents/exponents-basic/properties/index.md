@@ -35,13 +35,13 @@ $$x^2\cdot x^3
 =x\cdot x\cdot x\cdot x\cdot x
 =x^5$$
 
-Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $x$'s, and $x^3$ is the product of $3$ $x$'s, so the product of $x^2$ and $x^3$ is the product of $5$ $x$'s in total. 
+Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $``x"$s, and $x^3$ is the product of $3$ $``x"$s, so the product of $x^2$ and $x^3$ is the product of $5$ $``x"$s in total. 
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
-We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many "$x$"s to write! But, we can use the power (pun unintended) of words:
+We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $``x"$s to write! But, we can use the power (pun unintended) of words:
 
-$$x^a \cdot x^b = (\text{product of $a$ $x$'s})(\text{product of $b$ $x$'s})$$
+$$x^a \cdot x^b = (\text{product of $a$ ``$x"$s})(\text{product of $b$ $``x"$s})$$
 
 That should give us a total of $(a+b)$ $x$'s multiplied together, which is the same as $x^{a+b}$. So, 
 
@@ -86,6 +86,6 @@ $$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwNTEyNjc5LC0xNDg0NDkwMzAzLDk0Mj
-QwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTg4MDg4NDc1MiwtMTQ4NDQ5MDMwMyw5ND
+I0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
