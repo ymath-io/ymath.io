@@ -70,9 +70,12 @@ $$\frac{x^5}{x^2}
 =\frac{\cancel x\cdot \cancel x\cdot x\cdot x\cdot x}{\cancel x\cdot \cancel x}
 =x^3$$
 
-Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$?
+Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a\geq b$?
 
-$$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x"$s}}$$
+$$\frac{x^a}{x^b}
+=\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x"$s}}$$
+
+Since $a\geq b$, there are at least as many 
 
 ## Power to a Power
 
@@ -86,6 +89,6 @@ $$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMTY1NDk1LC0xNDg0NDkwMzAzLDk0Mj
-QwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM2ODM5MzMsLTE0ODQ0OTAzMDMsOT
+QyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
