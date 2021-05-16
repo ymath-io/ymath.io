@@ -5,7 +5,7 @@ title: Properties
 
 ---
 
-You might remember that when you learn
+You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. 
 
 ## Product of Powers
 Let's start with a simple question. What is 
@@ -77,6 +77,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwODAyNjExLC0yODA5MjgzNjUsLTE4OD
+eyJoaXN0b3J5IjpbOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
 U2NTQ2OF19
 -->
