@@ -30,7 +30,12 @@ They look very similar! In fact, they're equal by the Associative Property of Mu
 
 Let's go a bit more general. Is there a way we can rewrite $x^2\cdot x^3$? Let's try:
 
-$$x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot$$
+$$x^2\cdot x^3
+=(x\cdot x)(x\cdot x\cdot x)
+=x\cdot x\cdot x\cdot x\cdot x
+=x^5$$
+
+Nice! We just showed that $$
 
 ### Quotient of Powers
 
@@ -49,6 +54,6 @@ $$x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ1OTExMzEsLTI4MDkyODM2NSwtMT
-g4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbMTA5MzU2NDUwLC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
