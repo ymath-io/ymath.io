@@ -60,7 +60,7 @@ $$1^4=1\cdot1\cdot1\cdot1=1$$
 
 Notice anything? There is a clear pattern: $1$ to the power of any number is still $1$. This makes sense because no matter how many times you multiply $1$ by itself, the product should always be $1$. 
 
-If we call the exponent $x$, we get
+If we call the exponent $x$, we get the property
 $1^x=1$, where $x$ is any number. 
 
 ## $0$ as a Base
@@ -74,7 +74,7 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 Since $0$ multiplied by itself any number of times is still $0$, $0^x=0$.
 
 ### What about $0^0$?
-This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
+This is a tricky question! By our $0$ as a Base Property, it should equal $0$, but by our $0$ as an Exponent Property, it should equal $1$. So, which is it? 
 
 Let's try using the same method we used to prove that $x^0=1$, or the method using the Quotient of Powers Property. We will assume $n$ is a positive integer.
 $$0^0=0^{n-n}=\frac{0^n}{0^n}=\frac{0}{0}=\text{undefined}$$
@@ -95,7 +95,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1Mzk5NTUsODY3NzM1NDMxLC01NTg4Nj
-kyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYs
-MTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbLTE2ODczNzQ3MzUsNTA1Mzk5NTUsODY3Nz
+M1NDMxLC01NTg4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEs
+LTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
 -->
