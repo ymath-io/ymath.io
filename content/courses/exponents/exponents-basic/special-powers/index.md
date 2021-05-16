@@ -17,8 +17,7 @@ $$1^4=1\cdot1\cdot1\cdot1=1$$
 Notice anything? There is a clear pattern: $1$ to the power of any number is still $1$. This makes sense because no matter how many times you multiply $1$ by itself, the product should always be $1$. 
 
 If we call the exponent $x$, we get
-$$1^x=1$$
-,
+$1^x=1$, where $x$ is any number. We can use this generalized statement to evaluate expression like $1^{}$
 
 ## $0$ as a Base
 
@@ -31,5 +30,5 @@ $$1^x=1$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzYwNDUyMjNdfQ==
+eyJoaXN0b3J5IjpbMTMwNTM0MTgyNV19
 -->
