@@ -23,6 +23,15 @@ What's the slope?
 Good. Just checking.
 
 Okay, next question. What's the slope of the line
+$$y=x^2?$$
+
+What do you mean, you don't know?
+
+Oh... you mean it keeps changing? Right. When x increases at a constant speed, the speed at which y increases increases.
+
+Go back, and read that to yourself a few more times, until it makes sense.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjA3MDU3MSwxMTQ3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbMjAxMTYzMTI1OCwxMTQ3NTc2NDJdfQ==
 -->
