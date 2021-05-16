@@ -56,9 +56,9 @@ $$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
 $$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
 The second example shows a very common error. A negative sign is the same as multiplying by $-1$, so make sure you evaluate the exponent before the negative sign.
 
-Now that you've read the warnings and know which common errors to avoid, 
+Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODY2MzA5MCwxNDE2MTU4MjM3LDU2NT
-UxMDQzMCwtMTI0MjkxOTEwOSw1MjM0NjU3OTQsMTY4NzYyNjA4
-M119
+eyJoaXN0b3J5IjpbNjgyMDUwNDkwLDE0MTYxNTgyMzcsNTY1NT
+EwNDMwLC0xMjQyOTE5MTA5LDUyMzQ2NTc5NCwxNjg3NjI2MDgz
+XX0=
 -->
