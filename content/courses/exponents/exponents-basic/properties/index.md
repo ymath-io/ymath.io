@@ -43,7 +43,11 @@ We can't write this out in multiplication because we don't know what $a$ and $b$
 
 $$x^a \cdot x^b = (\text{product of $a$ $x$'s})(\text{product of $b$ $x$'s})$$
 
-That should give us a total of $(a+b)$ $x$'s multiplied together, which is the same as $x^{a+b}$.
+That should give us a total of $(a+b)$ $x$'s multiplied together, which is the same as $x^{a+b}$. So, 
+
+$$x^a \cdot x^b = x^{a+b}$$
+
+Can you see why this property is called the Product of Powers
 
 ### Quotient of Powers
 
@@ -62,6 +66,6 @@ That should give us a total of $(a+b)$ $x$'s multiplied together, which is the s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODMyNzg5MywtMjgwOTI4MzY1LC0xOD
+eyJoaXN0b3J5IjpbMTA3NzY3ODk5OCwtMjgwOTI4MzY1LC0xOD
 g1NjU0NjhdfQ==
 -->
