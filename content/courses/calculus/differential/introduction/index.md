@@ -49,10 +49,12 @@ Now, the only task we have is to develop a general equation for the slope of the
 
 **Note:** As you may have seen elsewhere, $Δ$ usually stands for "change in". In Calculus, $δ$ (lowercase $Δ$) usually means "a very small change in". That's $δ$ a definition you already know.
 
-In the graph below, we have a zoomed-in version of $y=f(x)$ an arbitrary function. We've chosen two values of $x:$
+In the graph below, we have a zoomed-in version of $y=f(x)$ an arbitrary function. We've chosen two values of $x$:
+$a$ and $a+δx.$
+Their respective $y$ values on the graph will be $f(a)$ and $f(a+δx)$.
 
-$a$  and  a+δx.
+<iframe src="[https://www.desmos.com/calculator/crcyhxkkmm?embed](https://www.desmos.com/calculator/crcyhxkkmm?embed)" width="500px" height="500px" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTM0MTM4LC0xMzIwOTg0NTU1LDExND
-c1NzY0Ml19
+eyJoaXN0b3J5IjpbLTE4MTg4OTkzMDksLTEzMjA5ODQ1NTUsMT
+E0NzU3NjQyXX0=
 -->
