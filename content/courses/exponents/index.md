@@ -13,11 +13,11 @@ Alright, enough puns. Before you begin this course, brush up on the following to
 
 - Basic pre-algebra. You should already be familiar with variables and fractions! 
 
-This course encompasses a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try learning some different math topics before coming back to this course. 
+This course covers the following topics:
+- properties, 
 
-Content covered:
-
+As you can see, this course encompasses a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try learning some different math topics before coming back to this course. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODc5MTY5MCwyMDU4NzM2NDIwLC00Mj
+eyJoaXN0b3J5IjpbLTMyNjU4NTI4NCwyMDU4NzM2NDIwLC00Mj
 U3OTE3ODYsLTIwMDE2NjM4MzgsMTA4NTAyOTU3NV19
 -->
