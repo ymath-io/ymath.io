@@ -42,7 +42,7 @@ $$x^1=0+x$$
 $$x^0=0$$
 Sure, exponentiation is repeated multiplication, so using the additive identity doesn't make much sense here, but just because there's a pattern doesn't mean something is true. So, let's use our exponent properties to show that $x^0=1$ makes a lot more sense than $x^0=0$. 
 
-What is $
+What is $\frac{x^n}{x^n}$? Well, as long as $x^n$ isn't $0$, it should equal
 
 
 ## $1$ as a Base
@@ -82,7 +82,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NzY2MDEyLDg2NzczNTQzMSwtNTU4OD
-Y5MjQ1LC0yNzgyODYyMDcsODk2NDkwMjkxLC0xMDg0MDIyMDM2
-LDEzMDUzNDE4MjVdfQ==
+eyJoaXN0b3J5IjpbLTIwNTQ4MDg5NjYsODY3NzM1NDMxLC01NT
+g4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIw
+MzYsMTMwNTM0MTgyNV19
 -->
