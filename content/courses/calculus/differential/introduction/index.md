@@ -32,6 +32,7 @@ Oh... you mean it keeps changing? Right. When x increases at a constant speed, t
 Go back, and read that to yourself a few more times, until it makes sense.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTYzMTI1OCwxMTQ3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTkwMjU4NDgsMTE0NzU3NjQyXX0=
 -->
