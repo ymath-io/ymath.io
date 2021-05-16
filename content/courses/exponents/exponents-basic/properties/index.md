@@ -23,10 +23,10 @@ $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
 Notice anything? It's the same answer as before! Is it a coincidence?
 
 It turns out that a very important clue is in the first step of evaluating both expressions. Take a look:
-$$2^5=2\cdot2\cdot2\cdot2\cdot2$$
-$$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)$$
+$$2\cdot2\cdot2\cdot2\cdot2$$
+$$(2\cdot2)(2\cdot2\cdot2)$$
 
-I
+They look very similar! In fact, they're equal by the Associative Property of Multiplication, which states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. 
 
 ### Quotient of Powers
 
@@ -45,6 +45,6 @@ I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTk5MDU3MSwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTgyMDk3ODYxLC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
