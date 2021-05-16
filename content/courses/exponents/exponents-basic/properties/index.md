@@ -39,7 +39,7 @@ Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the pro
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
-We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $x$'s to write! But, we can use the power (pun unintended) of words:
+We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many "$x$"s to write! But, we can use the power (pun unintended) of words:
 
 $$x^a \cdot x^b = (\text{product of $a$ $x$'s})(\text{product of $b$ $x$'s})$$
 
@@ -72,7 +72,7 @@ $$\frac{x^5}{x^2}
 
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$?
 
-$$\frac{x^a}{x^b}=\frac{\text{product of $a$ $x$'s}}{}$$
+$$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{}$$
 
 ## Power to a Power
 
@@ -86,6 +86,6 @@ $$\frac{x^a}{x^b}=\frac{\text{product of $a$ $x$'s}}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yOD
-A5MjgzNjUsLTE4ODU2NTQ2OF19
+eyJoaXN0b3J5IjpbOTEwNTEyNjc5LC0xNDg0NDkwMzAzLDk0Mj
+QwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
