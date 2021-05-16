@@ -26,7 +26,9 @@ It turns out that a very important clue is in the first step of evaluating both 
 $$2\cdot2\cdot2\cdot2\cdot2$$
 $$(2\cdot2)(2\cdot2\cdot2)$$
 
-They look very similar! In fact, they're equal by the Associative Property of Multiplication, which states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. 
+They look very similar! In fact, they're equal by the Associative Property of Multiplication. This property states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. The product will always be the same. 
+
+Let's go a bit more general. If we ha
 
 ### Quotient of Powers
 
@@ -45,6 +47,6 @@ They look very similar! In fact, they're equal by the Associative Property of Mu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDk3ODYxLC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbLTEzMzQ5MDMyNjgsLTI4MDkyODM2NSwtMT
+g4NTY1NDY4XX0=
 -->
