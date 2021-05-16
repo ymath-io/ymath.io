@@ -52,6 +52,7 @@ Can you see why this property is called the Product of Powers Property?
 ### Warnings
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
 $$x^2 \cdot y^3=(x\cdot x)(y\cdot y\cdot y)$$
+Clearly, this is a dead end, so the expression is simplified. Don't make up properties of exponents unless you know they're true because chances are, the property will be false! 
 
 ### Quotient of Powers
 
@@ -70,6 +71,6 @@ $$x^2 \cdot y^3=(x\cdot x)(y\cdot y\cdot y)$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODgyMTYzNCwtMjgwOTI4MzY1LC0xOD
+eyJoaXN0b3J5IjpbLTQ5OTk1NTE3NiwtMjgwOTI4MzY1LC0xOD
 g1NjU0NjhdfQ==
 -->
