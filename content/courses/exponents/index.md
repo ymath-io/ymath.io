@@ -12,7 +12,8 @@ Exponents and logarithms are *power*-ful tools in mathematics. You should have a
 Alright, enough puns. Before you begin this course, brush up on the following topics if you're not very familiar with them:
 
 - Basic pre-algebra. You should be familiar with variables!
+- Frac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTc5MTc4NiwtMjAwMTY2MzgzOCwxMD
-g1MDI5NTc1XX0=
+eyJoaXN0b3J5IjpbLTE1MDE1ODIyMDUsLTQyNTc5MTc4NiwtMj
+AwMTY2MzgzOCwxMDg1MDI5NTc1XX0=
 -->
