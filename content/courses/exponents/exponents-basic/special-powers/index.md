@@ -5,7 +5,7 @@ title: Properties
 
 ---
 
-You may have remembered from the introduction to this chapter that $0$
+You may have remembered from the introduction to this chapter that any number to the power of $0$ is $1$. In this lesson, we'll use our new exponent properties to find some other interesting patterns. 
 
 ## $1$ as a Base
 
@@ -20,5 +20,5 @@ You may have remembered from the introduction to this chapter that $0$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzcyNjIxMTBdfQ==
+eyJoaXN0b3J5IjpbMTcwODIzOTAxNF19
 -->
