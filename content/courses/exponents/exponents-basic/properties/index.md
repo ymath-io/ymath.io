@@ -55,6 +55,9 @@ $$x^2 \cdot y^3=(x\cdot x)(y\cdot y\cdot y)$$
 $$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
 In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the property will be false! 
 
+Speaking of false properties, make sure the powers are being multiplied, not added together. 
+$$x^2+x^3$$
+
 ### Quotient of Powers
 
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. 
@@ -74,6 +77,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzY0ODExMSwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTEwNTA0NTU4ODMsLTI4MDkyODM2NSwtMT
+g4NTY1NDY4XX0=
 -->
