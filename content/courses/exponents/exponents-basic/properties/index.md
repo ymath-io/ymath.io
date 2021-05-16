@@ -11,9 +11,11 @@ You should have remembered from the previous lesson that any number to the power
 Let's start with a simple question. What is 
 $2^5$?
 
-We know how to 
+We know a way to evaluate exponents -- write them as multiplication! 
 
-Yay, we did it! How about another question: what is $2^2\cdot2^3$?
+$$2^5=2\cdot2\cdot2\cdot2\cdot2=32$$
+
+So, it equals 32. How about another question: what is $2^2\cdot2^3$?
 
 We can solve this using the Order of Operations. We evaluate
 $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
@@ -35,6 +37,6 @@ $$2^2\cdot2^3=(2\cdot2)(2\cdot2\cdot2)=(4)(8)=32$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDU3OTk2MCwtMjgwOTI4MzY1LC0xOD
-g1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbMjg5MzcxMTMyLC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
