@@ -18,7 +18,9 @@ Yay, we did it! How about another question: what is $2^4\cdot2^1$? We can solve 
 
 $$2^4\cdot2^1=(2\cdot2\cdot2\cdot2)(2)=(16)(2)=32$$
 
-Ok
+Okay, now you might be thinking, why is $2^2\cdot2^3$ equal to $2^4\cdot2^1$? Is it just a coincidence? 
+
+A very important clue is in 
 
 ### Quotient of Powers
 
@@ -37,6 +39,6 @@ Ok
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MjUwMDMxLC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbLTE5NjU1NTA0MzQsLTI4MDkyODM2NSwtMT
+g4NTY1NDY4XX0=
 -->
