@@ -28,7 +28,9 @@ $$(2\cdot2)(2\cdot2\cdot2)$$
 
 They look very similar! In fact, they're equal by the Associative Property of Multiplication. This property states that if your expression only has multiplication in it, it doesn't matter where you put the parentheses. The product will always be the same. 
 
-Let's go a bit more general. If we ha
+Let's go a bit more general. Is there a way we can rewrite $x^2\cdot x^3$? Let's try:
+
+$$x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot$$
 
 ### Quotient of Powers
 
@@ -47,6 +49,6 @@ Let's go a bit more general. If we ha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ5MDMyNjgsLTI4MDkyODM2NSwtMT
+eyJoaXN0b3J5IjpbLTEyMDQ1OTExMzEsLTI4MDkyODM2NSwtMT
 g4NTY1NDY4XX0=
 -->
