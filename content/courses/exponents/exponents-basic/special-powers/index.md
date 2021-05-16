@@ -85,7 +85,7 @@ Most mathematicians think the answer is either $1$ or $\text{undefined}$. The an
 
 ## $10$ as a Base
 
-As always, let's see some examples.
+As before, let's see some examples.
 
 $$10^0=1$$
 $$10^1=10$$
@@ -95,7 +95,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODczNzQ3MzUsNTA1Mzk5NTUsODY3Nz
+eyJoaXN0b3J5IjpbLTEzMDE2NzI0NzksNTA1Mzk5NTUsODY3Nz
 M1NDMxLC01NTg4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEs
 LTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
 -->
