@@ -7,22 +7,24 @@ title: Properties
 
 You should have remembered from the previous lesson that any number to the power of 0 is 1. In this lesson, we'll explore some other interesting properties of exponents!
 
-1 as a Base
+### Product of Powers
 
-0 as an Exponent
+### Quotient of Powers
 
-Product of Powers
-Quotient of Powers
+### Power to a Power
 
-Power to a Power
+### Power of a Product
 
-Power of a Product
-Power of a Quotient
+### Power of a Quotient
+
+### $1$ as a Base
+
+### $0$ as an Exponent
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTgxNTAxNiwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
