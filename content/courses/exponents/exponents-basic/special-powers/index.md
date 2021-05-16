@@ -17,7 +17,7 @@ $$\text{$10^x$ has $x$ zeroes}$$
 
 
 ## $1$ as an Exponent
-Let's start with a few examples so that we can look for patterns. We will write the examples in the same format as $3^2=1\cdot3\cdot3=9$. This format will make it clearer that when we write out powers, we are multiplying numbers together, not adding them. 
+Let's start with a few examples so that we can look for patterns. We will write the examples in the same format as $3^2=1\cdot3\cdot3=9$. This format will make it clearer that when we write out powers, we are multiplying numbers by $1$, not adding them to $0$. 
 $$1^1=1\cdot1=1$$
 $$2^1=1\cdot2=2$$
 $$3^1=1\cdot3=3$$
@@ -54,6 +54,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM2NzY3NzgsLTI3ODI4NjIwNyw4OT
+eyJoaXN0b3J5IjpbLTEzMzk0MDM5NzksLTI3ODI4NjIwNyw4OT
 Y0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
 -->
