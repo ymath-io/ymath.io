@@ -59,27 +59,31 @@ Speaking of false properties, make sure the powers are being multiplied, not add
 $$x^2+x^3\neq x^5$$
 
 If you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
-$$x^2+x^3=x^2\cdot1+x^2\cdot x=x^2(1+x)$$
+$$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 
-### Quotient of Powers
+## Quotient of Powers
 
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. 
 
-### Power to a Power
+## Power to a Power
 
-### Power of a Product
+## Power of a Product
 
-### Power of a Quotient
+## Power of a Quotient
 
-### $1$ as a Base
+## $1$ as a Base
 
-### $0$ as an Exponent
+## $0$ as an Exponent
+
+## $1$ as an Exponent
+
+## $0$ as an Exponent
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0Mjg4NDg5LC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbMTAwODgzMjg1NywtMjgwOTI4MzY1LC0xOD
+g1NjU0NjhdfQ==
 -->
