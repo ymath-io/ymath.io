@@ -25,11 +25,12 @@ $$3^1=1\cdot3=3$$
 $$4^1=1\cdot4=4$$
 
 Do you see the pattern? Any number multiplied by itself $1$ time is just itself! We can write this as
-$x^1=1\cdot x$
-
+$$x^1=1\cdot x = x$$
+where $x$ is any positive integer.
 
 ## $0$ as an Exponent
-Earlier in this course, we saw a way to show that $x^0=1$ using the multiplicative identity. 
+Earlier in this course, we saw a way to show that $x^0=1$ using the multiplicative identity. Just to review, 
+$$x^2=$$
 
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
@@ -58,6 +59,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYwMTc2MTksLTI3ODI4NjIwNyw4OT
-Y0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbMTQyNDAxMTA4OCwtMjc4Mjg2MjA3LDg5Nj
+Q5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQxODI1XX0=
 -->
