@@ -77,7 +77,7 @@ $$\frac{x^a}{x^b}
 
 Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
 
-Therefore, $\frac{x^a}{x^b}=x^{a-b}$
+Therefore, $\frac{x^a}{x^b}=x^{a-b}$.
 
 ## Power to a Power
 
@@ -91,7 +91,7 @@ Therefore, $\frac{x^a}{x^b}=x^{a-b}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjA5MjQ2MCwzMjgwMzg5MjIsLTE0OD
+eyJoaXN0b3J5IjpbMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0OD
 Q0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2
 OF19
 -->
