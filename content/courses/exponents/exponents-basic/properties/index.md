@@ -39,7 +39,7 @@ Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the pro
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
-We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $x$'s to write! But, we can use the power (pun unintended) of imagination:
+We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $x$'s to write! But, we can use the power (pun unintended) of words:
 
 $$x^a \cdot x^b = (\text{product of $a$ $x$'s})(\text{product of $b$ $x$'s})$$
 
@@ -47,7 +47,7 @@ That should give us a total of $(a+b)$ $x$'s multiplied together, which is the s
 
 $$x^a \cdot x^b = x^{a+b}$$
 
-Can you see why this property is called the Product of Powers Property?
+Awesome, we've just proved the Product of Powers Property! (Actually, we've just shown it for integers, so we'll Can you see why this property is called the Product of Powers Property?
 
 ### Warnings
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
@@ -74,6 +74,6 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDc4MjY2MSwtMjgwOTI4MzY1LC0xOD
+eyJoaXN0b3J5IjpbMTcwMDc0NjUxNCwtMjgwOTI4MzY1LC0xOD
 g1NjU0NjhdfQ==
 -->
