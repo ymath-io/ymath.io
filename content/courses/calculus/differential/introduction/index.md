@@ -47,8 +47,12 @@ Because the line and the  _portion_  of the parabola are almost the same, we say
 
 Now, the only task we have is to develop a general equation for the slope of the parabola at any point.
 
-**Note:** As you may have seen elsewhere,  $Δ$  usually stands for "change in". In Calculus,  δ  (lowercase  Δ) usually means "a very small change in". That's  δ  a definition you already know.
+**Note:** As you may have seen elsewhere, $Δ$ usually stands for "change in". In Calculus, $δ$ (lowercase $Δ$) usually means "a very small change in". That's $δ$ a definition you already know.
+
+In the graph below, we have a zoomed-in version of $y=f(x)$ an arbitrary function. We've chosen two values of $x:$
+
+$a$  and  a+δx.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTIyMDg2MiwtMTMyMDk4NDU1NSwxMT
-Q3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbNjM0NTM0MTM4LC0xMzIwOTg0NTU1LDExND
+c1NzY0Ml19
 -->
