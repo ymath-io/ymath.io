@@ -30,7 +30,16 @@ where $x$ is any positive integer.
 
 ## $0$ as an Exponent
 Earlier in this course, we saw a way to show that $x^0=1$ using the multiplicative identity. Just to review, 
-$$x^2=$$
+$$x^3=1\cdot x\cdot x\cdot x$$
+$$x^2=1\cdot x\cdot x$$
+$$x^1=1\cdot x$$
+$$x^0=1$$
+
+Now, you might be thinking, why didn't we write it this way instead? 
+$$x^3=1\cdot x\cdot x\cdot x$$
+$$x^2=1\cdot x\cdot x$$
+$$x^1=1\cdot x$$
+$$x^0=1$$
 
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
@@ -59,6 +68,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDAxMTA4OCwtMjc4Mjg2MjA3LDg5Nj
-Q5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbLTIwMzE2NzkzMDAsLTI3ODI4NjIwNyw4OT
+Y0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
 -->
