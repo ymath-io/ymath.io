@@ -72,12 +72,14 @@ Most mathematicians think the answer is either $1$ or $\text{undefined}$. The an
 
 ## $10$ as a Base
 
-$$0^1=0$$
-$$0^2=0\cdot 0=0$$
-$$0^3=0\cdot 0\cdot 0=0$$
-$$0^4=0\cdot 0\cdot 0\cdot 0=0$$
+As always, let's see some examples.
+
+$$10^0=1$$
+$$10^1=10$$
+$$10^2=10\cdot 10=100$$
+$$10^3=10\cdot 10\cdot 10=1000$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyODY0NTk0LC01NTg4NjkyNDUsLTI3OD
-I4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgy
-NV19
+eyJoaXN0b3J5IjpbLTE5NDEzNDA5MjIsLTU1ODg2OTI0NSwtMj
+c4Mjg2MjA3LDg5NjQ5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQx
+ODI1XX0=
 -->
