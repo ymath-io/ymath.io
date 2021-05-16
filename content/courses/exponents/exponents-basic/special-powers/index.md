@@ -40,7 +40,7 @@ $$x^3=0+x\cdot x\cdot x$$
 $$x^2=0+x\cdot x$$
 $$x^1=0+x$$
 $$x^0=0$$
-Sure, exponentiation is repeated multiplication, but just because there's a pattern doesn't mean something is t
+Sure, exponentiation is repeated multiplication, so using the additive identity doesn't make much sense, but just because there's a pattern doesn't mean something is true. So, let's use our exponentiation properties to show that $x^0=1$ makes a lot more sense than $x^0=0$.
 
 ### What about $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
@@ -69,6 +69,6 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 
 ## $10$ as a Base
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUxNzI3MTgsLTI3ODI4NjIwNyw4OT
-Y0OTAyOTEsLTEwODQwMjIwMzYsMTMwNTM0MTgyNV19
+eyJoaXN0b3J5IjpbLTg5NTE2NDU0NSwtMjc4Mjg2MjA3LDg5Nj
+Q5MDI5MSwtMTA4NDAyMjAzNiwxMzA1MzQxODI1XX0=
 -->
