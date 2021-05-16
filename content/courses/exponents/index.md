@@ -11,7 +11,8 @@ Exponents and logarithms are *power*-ful tools in mathematics. You must have a *
 
 Alright, enough puns. Before you begin this course, brush up on the following topics if you're not very familiar with them:
 
-- Basic pre-algebra. You should already be familiar with variables and fractions! 
+- Arithmetic, including addition, subtraction, multiplication, division.
+- Some pre-algebra. You should be familiar with variables and fractions! 
 
 This course covers the following topics:
 - properties, graphs, and real-world applications of exponents and logarithms
@@ -19,6 +20,7 @@ This course covers the following topics:
 
 These topics encompass a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try practicing some other math topics before coming back to this course. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTA5NzE1OSwyMDU4NzM2NDIwLC00Mj
-U3OTE3ODYsLTIwMDE2NjM4MzgsMTA4NTAyOTU3NV19
+eyJoaXN0b3J5IjpbODY2MDU0Mjc0LC0yOTkwOTcxNTksMjA1OD
+czNjQyMCwtNDI1NzkxNzg2LC0yMDAxNjYzODM4LDEwODUwMjk1
+NzVdfQ==
 -->
