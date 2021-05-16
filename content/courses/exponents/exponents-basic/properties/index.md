@@ -39,7 +39,7 @@ Nice! We just showed that $x^2\cdot x^3 = x^5$. In other words, $x^2$ is the pro
 
 Let's make an even more general statement! What is $x^a \cdot x^b$?
 
-We 
+We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $x$'s to write! But, we can use the power of imagination! 
 
 ### Quotient of Powers
 
@@ -58,6 +58,6 @@ We
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODcwMzQzNjUsLTI4MDkyODM2NSwtMT
-g4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbMjAxNjgxODg2OCwtMjgwOTI4MzY1LC0xOD
+g1NjU0NjhdfQ==
 -->
