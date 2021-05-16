@@ -54,7 +54,15 @@ $a$ and $a+δx.$
 Their respective $y$ values on the graph will be $f(a)$ and $f(a+δx)$.
 
 <iframe src="[https://www.desmos.com/calculator/crcyhxkkmm?embed](https://www.desmos.com/calculator/crcyhxkkmm?embed)" width="500px" height="500px" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+***SAumYa uR gRAPH nO wOrk aGaIN pLs hELLP***
+
+Before continuing, think about this:
+
+What's the general formula for slope?
+
+The slope of the line going through the green and blue points can be expressed as
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg4OTkzMDksLTEzMjA5ODQ1NTUsMT
-E0NzU3NjQyXX0=
+eyJoaXN0b3J5IjpbLTE0NjE3NzkwMSwtMTMyMDk4NDU1NSwxMT
+Q3NTc2NDJdfQ==
 -->
