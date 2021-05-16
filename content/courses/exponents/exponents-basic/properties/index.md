@@ -41,9 +41,9 @@ Let's make an even more general statement! What is $x^a \cdot x^b$?
 
 We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $``x"$s to write! But, we can use the power (pun unintended) of words:
 
-$$x^a \cdot x^b = (\text{product of $a$ ``$x"$s})(\text{product of $b$ $``x"$s})$$
+$$x^a \cdot x^b = (\text{product of $a$ $``x"$s})(\text{product of $b$ $``x"$s})$$
 
-That should give us a total of $(a+b)$ $x$'s multiplied together, which is the same as $x^{a+b}$. So, 
+That should give us a total of $(a+b)$ $``x"$s multiplied together, which is the same as $x^{a+b}$. So, 
 
 $$x^a \cdot x^b = x^{a+b}$$
 
@@ -72,7 +72,7 @@ $$\frac{x^5}{x^2}
 
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$?
 
-$$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{}$$
+$$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x"$s}}$$
 
 ## Power to a Power
 
@@ -86,6 +86,6 @@ $$\frac{x^a}{x^b}=\frac{\text{product of $a$ ``$x$"s}}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDg4NDc1MiwtMTQ4NDQ5MDMwMyw5ND
-I0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbOTMxMTY1NDk1LC0xNDg0NDkwMzAzLDk0Mj
+QwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
