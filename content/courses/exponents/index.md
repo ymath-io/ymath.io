@@ -13,7 +13,7 @@ Alright, enough puns. Before you begin this course, brush up on the following to
 
 - Arithmetic (addition, subtraction, multiplication, division) with multi-digit numbers, negative numbers, fractions, and decimals. 
 - Variables
-- Simplifying expressions
+- Simplifying expressions such as fractions
 
 This course covers the following topics:
 - properties, graphs, and real-world applications of exponents and logarithms
@@ -21,7 +21,7 @@ This course covers the following topics:
 
 These topics encompass a wide range of difficulties. If the course is too easy, feel free to skip lessons. And if it's too difficult, try practicing some other math topics before coming back to this course. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjU5OTQ2OCwtMjk5MDk3MTU5LDIwNT
-g3MzY0MjAsLTQyNTc5MTc4NiwtMjAwMTY2MzgzOCwxMDg1MDI5
-NTc1XX0=
+eyJoaXN0b3J5IjpbLTExODU3Nzc5NzYsLTI5OTA5NzE1OSwyMD
+U4NzM2NDIwLC00MjU3OTE3ODYsLTIwMDE2NjM4MzgsMTA4NTAy
+OTU3NV19
 -->
