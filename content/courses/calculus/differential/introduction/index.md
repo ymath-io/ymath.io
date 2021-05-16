@@ -31,12 +31,24 @@ Oh... you mean it keeps changing? Right. When x increases at a constant speed, t
 
 Go back, and read that to yourself a few more times, until it makes sense.
 
-<details><summary class="btn btn-outline-success btn-sm">Show/Hide graph</summary><br><br><iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0></iframe><br><br>
+<iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0></iframe>
 
-</details>
+***SAumYa uR gRAPH nO wOrk pLs hELLP***
 
-<iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0>
+In the graph above, the blue line is  _tangent_  to the parabola at the green point, which is called the  _point of tangency._
+
+Try to move the green "tangent" point around and see the change in the slope of the line. Once you get a feel for what's going on, unhide the black line.
+
+If we were to zoom in an infinite amount to the point of tangency, we'd have difficulty telling the line and parabola apart, because they get so close together.
+
+In fact, you can try it yourself by clicking in the lower right of the graph and zooming in!
+
+Because the line and the  _portion_  of the parabola are almost the same, we say that the slope of the parabola at the point of tangency is equal to the slope of the tangent.
+
+Now, the only task we have is to develop a general equation for the slope of the parabola at any point.
+
+**Note:** As you may have seen elsewhere,  $Δ$  usually stands for "change in". In Calculus,  δ  (lowercase  Δ) usually means "a very small change in". That's  δ  a definition you already know.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTg1MzE1MCwtMTMyMDk4NDU1NSwxMT
+eyJoaXN0b3J5IjpbMjEyOTIyMDg2MiwtMTMyMDk4NDU1NSwxMT
 Q3NTc2NDJdfQ==
 -->
