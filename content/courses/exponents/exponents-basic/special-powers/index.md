@@ -9,11 +9,12 @@ You may have remembered from the introduction to this chapter that any number to
 
 ## $1$ as a Base
 As usual, let's start with a few examples so that we can look for patterns. 
-$$1^1=1$$
-$$1^2=1\cdot1$$
-$$1^3=1\cdot1\cdot1$$
-$$1^4=1\cdot1\cdot1\cdot1$$
-$$1^5=1\cdot1\cdot1\cdot1\cdot1$$
+$$1^1=1=1$$
+$$1^2=1\cdot1=1$$
+$$1^3=1\cdot1\cdot1=1$$
+$$1^4=1\cdot1\cdot1\cdot1=1$$
+
+Notice anything? There is a clear pattern -- $1$ to the power of any number is still $1$. This makes sense because 
 
 ## $0$ as a Base
 
@@ -26,5 +27,5 @@ $$1^5=1\cdot1\cdot1\cdot1\cdot1$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MDgyMTgxXX0=
+eyJoaXN0b3J5IjpbLTc2Mzc1MDYwMl19
 -->
