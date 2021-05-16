@@ -46,7 +46,9 @@ What is $\frac{x^n}{x^n}$? Well, as long as $x^n$ isn't $0$, it should equal $1$
 
 By the Quotient of Powers Property, we can also write $\frac{x^n}{x^n}$ as $x^{n-n}$. So, 
 
-$x^0=x^{n-n}=$
+$x^0=x^{n-n}=\frac{x^n}{x^n}=1$
+
+Can you see why $x^0$ is defined as $1$ rather than $0$?
 
 
 ## $1$ as a Base
@@ -86,7 +88,7 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjI4NTI5NCw4Njc3MzU0MzEsLTU1OD
-g2OTI0NSwtMjc4Mjg2MjA3LDg5NjQ5MDI5MSwtMTA4NDAyMjAz
-NiwxMzA1MzQxODI1XX0=
+eyJoaXN0b3J5IjpbLTEzOTUzNzk3MzYsODY3NzM1NDMxLC01NT
+g4NjkyNDUsLTI3ODI4NjIwNyw4OTY0OTAyOTEsLTEwODQwMjIw
+MzYsMTMwNTM0MTgyNV19
 -->
