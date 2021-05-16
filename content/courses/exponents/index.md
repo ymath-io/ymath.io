@@ -13,8 +13,8 @@ Alright, enough puns. Before you begin this course, brush up on the following to
 
 - Basic pre-algebra. You should already be familiar with variables and fractions! 
 
-In this 
+This course encompasses a wide range of difficulties. Feel free to skip past lessons you already know, or wait u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0NzM4NDg5LDIwNTg3MzY0MjAsLTQyNT
+eyJoaXN0b3J5IjpbNTg2MDUwNDE1LDIwNTg3MzY0MjAsLTQyNT
 c5MTc4NiwtMjAwMTY2MzgzOCwxMDg1MDI5NTc1XX0=
 -->
