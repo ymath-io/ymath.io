@@ -34,13 +34,13 @@ $$0^4=0\cdot 0\cdot 0\cdot 0=0$$
 ## What is $0^0$?
 This is a tricky question! By our $0$ as a Base Rule, it should equal $0$, but by our $0$ as an Exponent Rule, it should equal $1$. So, which is it? 
 
-Most mathematicians think the answer is either $1$ or $\text{undefined}$. The answer of $1$ fits well into some formulas 
+Most mathematicians think the answer is either $1$ or $\text{undefined}$. The reason for choosing $1$ is that it makes sense in some formulas that involve exponents. 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MjkzMjc3LC0xMDg0MDIyMDM2LDEzMD
-UzNDE4MjVdfQ==
+eyJoaXN0b3J5IjpbMTAyMjEzMDAxNywtMTA4NDAyMjAzNiwxMz
+A1MzQxODI1XX0=
 -->
