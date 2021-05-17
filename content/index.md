@@ -189,7 +189,7 @@ In order to check answers, we need a list of possible correct answers.
 Keep in mind that people might have different ways of typing the same thing.
 
 In your frontmatter, add the following:
-```markdown
+```yaml
 answers:
     - x^2
     - y=x^2
