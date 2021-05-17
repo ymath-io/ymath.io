@@ -11,7 +11,7 @@ You might remember that when you learned about multiplication, you learned about
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
 - Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
 - Power to a Power: $(x^a)^b=x^{ab}$
-- Power of a Product: $$
+- Power of a Product: $(xy)^a=x^$
 - Power of a Quotient: $$
 
 
@@ -115,9 +115,7 @@ $$= \underbrace{
 $$=\underbrace{xxx \ldots x}_\text{$ab$ times}
 =x^{ab}$$
 
-In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
-
-$$(x^y)^z=x^{yz}$$
+In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
 
 ## Power of a Product
 
@@ -130,7 +128,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTYxMTkwNSwyMDE0OTczMjExLC00Mz
+eyJoaXN0b3J5IjpbMTQzMTM2NTAwNCwyMDE0OTczMjExLC00Mz
 MxNjUwLDIwNDkyMjgzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIs
 LTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
 U2NTQ2OF19
