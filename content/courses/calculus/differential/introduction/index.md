@@ -105,9 +105,13 @@ $$\lim_{\delta x \to 0}\frac{(x+\delta x)^2-x^2}{\delta x}.$$
 
 Step 2: Solve the limit!
 
-$$\lim_{\delta x \to 0}\frac{x^2 + 2x\delta x + (\delta x)^2-x^2}{\delta x}$$
+$$\lim_{\delta x \to 0}\frac{x^2 + 2x\delta x + (\delta x)^2-x^2}{\delta x}$$ $$=\lim_{\delta x \to 0}\frac{2x\delta x + (\delta x)^2}{\delta x}$$ $$=\lim_{\delta x \to 0}2x + \delta x$$
+
+And, now that $δx$ is out of the denominator, we can substitute $δx=0$:
+
+$$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjEwNjkxMywtMTMyMDk4NDU1NSwxMT
-Q3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbMTIwOTU5MjY1LC0xMzIwOTg0NTU1LDExND
+c1NzY0Ml19
 -->
