@@ -8,9 +8,11 @@ title: Properties
 You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Now, we'll be looking at some properties of exponents.
 
 ### List of Exponent Properties
-- Product of Powers: $$
-- Quotient of Powers: $$
-- Power of Powe
+- Product of Powers: $x^a\cdot x^b=x^{a+b}$
+- Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
+- Power to a Power: $$
+- Power of a Product: $$
+- Power of a Quotient: $$
 
 
 ## Product of Powers
@@ -128,8 +130,8 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODkyNDI0NSwyMDE0OTczMjExLC00Mz
-MxNjUwLDIwNDkyMjgzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIs
-LTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
-U2NTQ2OF19
+eyJoaXN0b3J5IjpbMjAxNzY4NDcwLDIwMTQ5NzMyMTEsLTQzMz
+E2NTAsMjA0OTIyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwt
+MTQ4NDQ5MDMwMyw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NT
+Y1NDY4XX0=
 -->
