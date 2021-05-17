@@ -47,7 +47,7 @@ That should give us a total of $(a+b)$ $``x"$s multiplied together, which is the
 
 $$x^a \cdot x^b = x^{a+b}$$
 
-Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why this property is called the Product of Powers Property?
+Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why it's called the Product of Powers Property?
 
 ### Warnings
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
@@ -91,7 +91,7 @@ We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTIyODM1NCwxMDkzNzY1NzkwLDMyOD
-AzODkyMiwtMTQ4NDQ5MDMwMyw5NDI0MDY5MjUsLTI4MDkyODM2
-NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbLTQzMzE2NTAsMjA0OTIyODM1NCwxMDkzNz
+Y1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMwMyw5NDI0MDY5MjUs
+LTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
