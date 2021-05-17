@@ -69,7 +69,7 @@ $$\frac{x^5}{x^2}
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a\geq b$?
 
 $$\frac{x^a}{x^b}
-=\frac{\text{product of $a$ ``$x$"s}}{\text{product of $b$ $``x"$s}}$$
+=\frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}}{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}$$
 
 Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
 
@@ -102,7 +102,7 @@ _\text{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc0MTk5MTMsLTQzMzE2NTAsMjA0OT
-IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
-Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbLTg0NTQ0NTk4OCwtNDMzMTY1MCwyMDQ5Mj
+I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
+LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
