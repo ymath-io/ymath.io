@@ -41,7 +41,7 @@ Let's make an even more general statement! What is $x^a \cdot x^b$?
 
 We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $``x"$s to write! But, we can use the power (pun unintended) of words:
 
-$$x^a \cdot x^b = (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a$ times})(\text{product of $b$ $``x"$s})$$
+$$x^a \cdot x^b = (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a$ times})(\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
 
 That should give us a total of $(a+b)$ $``x"$s multiplied together, which is the same as $x^{a+b}$. So, 
 
@@ -93,7 +93,7 @@ Let's generalize this. In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)
 $$(x^y)^z=x^{yz}$$
 
 $$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}
-_\textrm{$z$ times}$$
+_\text{$z$ times}$$
 
 ## Power of a Product
 
@@ -105,7 +105,7 @@ _\textrm{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjQwMTk0MSwtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbOTU3ODU0NzcxLC00MzMxNjUwLDIwNDkyMj
+gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
+OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
