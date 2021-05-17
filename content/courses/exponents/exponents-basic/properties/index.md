@@ -10,7 +10,7 @@ You might remember that when you learned about multiplication, you learned about
 ### List of Exponent Properties
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
 - Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
-- Power to a Power: $$
+- Power to a Power: $(x^a)^b=x^{ab}$
 - Power of a Product: $$
 - Power of a Quotient: $$
 
@@ -94,7 +94,7 @@ Since $a\geq b$, there are at least as many $``x"$s in the numerator as the deno
 We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
 ## Power to a Power
-Is there a way to simplify $(x^y)^z$? Let's first substitute some values so that we can write the powers as repeated multiplication.
+Is there a way to simplify $(x^a)^b$? Let's first substitute some values so that we can write the powers as repeated multiplication.
 
 $$(x^2)^3
 =(x^2)\cdot(x^2)\cdot(x^2)
@@ -103,17 +103,17 @@ $$(x^2)^3
 
 There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $2\cdot3=6$ $``x"$s in total. 
 
-Let's generalize this. 
+Now we can simplify the general expression.
 
-$$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}
-_\text{$z$ times}$$
+$$(x^a)^b=\underbrace{(x^a)(x^a)\dots(x^a)}
+_\text{$b$ times}$$
 $$= \underbrace{
-	\underbrace{(xxx \ldots x)}_\text{$y$ times}
-	\underbrace{(xxx \ldots x)}_\text{$y$ times} \ldots 
-	\underbrace{(xxx \ldots x)}_\text{$y$ times}
-}_\text{$z$ times}$$
-$$=\underbrace{xxx \ldots x}_\text{$yz$ times}
-=x^{yz}$$
+	\underbrace{(xxx \ldots x)}_\text{$a$ times}
+	\underbrace{(xxx \ldots x)}_\text{$a$ times} \ldots 
+	\underbrace{(xxx \ldots x)}_\text{$a$ times}
+}_\text{$b$ times}$$
+$$=\underbrace{xxx \ldots x}_\text{$ab$ times}
+=x^{ab}$$
 
 In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
 
@@ -130,8 +130,8 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzY4NDcwLDIwMTQ5NzMyMTEsLTQzMz
-E2NTAsMjA0OTIyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwt
-MTQ4NDQ5MDMwMyw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NT
-Y1NDY4XX0=
+eyJoaXN0b3J5IjpbMjA4NTYxMTkwNSwyMDE0OTczMjExLC00Mz
+MxNjUwLDIwNDkyMjgzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIs
+LTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
