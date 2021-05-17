@@ -79,7 +79,7 @@ Since $a\geq b$, there are at least as many $``x"$s in the numerator as the deno
 We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
 ## Power to a Power
-
+Is there a way to simplify $(xy)^2$? 
 
 ## Power of a Product
 
@@ -91,7 +91,7 @@ We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzE2NTAsMjA0OTIyODM1NCwxMDkzNz
-Y1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMwMyw5NDI0MDY5MjUs
-LTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbMTY4NjAxNzk2MywtNDMzMTY1MCwyMDQ5Mj
+I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
+LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
