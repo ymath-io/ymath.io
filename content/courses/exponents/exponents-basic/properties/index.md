@@ -86,7 +86,7 @@ $$(x^2)^3
 =(x\cdot x)\cdot(x\cdot x)\cdot(x\cdot x)
 =x^6$$
 
-
+There are $3$ $``x^2"$s being multiplied together, or 
 
 ## Power of a Product
 
@@ -98,7 +98,7 @@ $$(x^2)^3
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzMwNjcwMCwtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjk3NDkwNzMsLTQzMzE2NTAsMjA0OT
+IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
+Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
