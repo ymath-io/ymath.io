@@ -65,17 +65,19 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 Speaking of which, what is $\frac{x^5}{x^2}$? Let's write it out. 
 $$\frac{x^5}{x^2}
-=\frac{\cancel x\cdot \cancel x\cdot x\cdot x\cdot x}{\cancel x\cdot \cancel x}
+=\frac{\cancel xxx \ldots x}{\cancel xxx \ldots x}
 =x^3$$
 
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a\geq b$?
 
 $$\frac{x^a}{x^b}
-= \frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}}
-{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}$$
+= \frac{\overbrace{xxx \ldots x}^\text{$a$ times}}
+{\underbrace{xxx \ldots x}_\text{$b$ times}}$$
 
-$$= \frac{\overbrace{\cancel{x\cdot x\cdot \ldots \cdot x}}^\text{$b$ times}\cdot \overbrace{ x\cdot x \cdot \ldots \cdot x}^\text{$a-b$ times}}
-{\underbrace{\cancel{x\cdot x\cdot \ldots \cdot x}}_\text{$b$ times}}$$
+$$= \frac
+	{\overbrace{\cancel{xxx \ldots x}}^\text{$b$ times}\cdot 
+	\overbrace{xxx \ldots x}^\text{$a-b$ times}}
+	{\underbrace{\cancel{xxx \ldots x}}_\text{$b$ times}}$$
 
 $$=x^{a-b}$$
 
@@ -119,7 +121,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTU1NzQxLC00MzMxNjUwLDIwNDkyMj
+eyJoaXN0b3J5IjpbNzQwMzA3NjAzLC00MzMxNjUwLDIwNDkyMj
 gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
 OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
