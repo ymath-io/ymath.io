@@ -98,10 +98,12 @@ Let's generalize this.
 $$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}
 _\text{$z$ times}$$
 $$= \underbrace{
-	\underbrace{(x\cdot \ldots \cdot x)}_\text{$y$ times}
-	\underbrace{(x\cdot \ldots \cdot x)}_\text{$y$ times} \ldots 
-	\underbrace{(x\cdot \ldots \cdot x)}_\text{$y$ times}
+	\underbrace{(x\cdot x\cdot \ldots \cdot x)}_\text{$y$ times}
+	\underbrace{(x\cdot x\cdot \ldots \cdot x)}_\text{$y$ times} \ldots 
+	\underbrace{(x\cdot x\cdot \ldots \cdot x)}_\text{$y$ times}
 }_\text{$z$ times}$$
+$$=\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$yz$ times}
+=x^{yz}$$
 
 In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
 
@@ -117,7 +119,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDI5MzkxNCwtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTIxMTMwMDA4OTksLTQzMzE2NTAsMjA0OT
+IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
+Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
