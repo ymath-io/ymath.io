@@ -14,7 +14,9 @@ Instead of wasting time like this, we can find efficient methods to differentiat
 
 For example, if we have a function $h(x) ={f(x)}{g(x)}$ and we want to find
 
-$$\frac{dx}dh(x)​,$$
+$$\frac{dh(x)}{dx}​,$$
+
+then we can find a formula for this in terms of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc2OTg3NTBdfQ==
+eyJoaXN0b3J5IjpbLTE5OTY4NjEzMTNdfQ==
 -->
