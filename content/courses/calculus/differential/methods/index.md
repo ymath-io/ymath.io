@@ -1,10 +1,20 @@
 ---
 type: lesson
 title: Methods
-description: Does ayone see this? If so I'm sorry
+description: Does anyone see this? If so I'm sorry.
 index: 7
 
 ---
+
+The first-principles approach to finding a derivative is time consuming, and often messy or difficult.
+
+As you continue to solve derivatives, you'll find yourself doing the same manipulations over and over again for different problems.
+
+Instead of wasting time like this, we can find efficient methods to differentiate (find the derivative of) new functions using differentiations that we already know.
+
+For example, if we have a function $h(x) ={f(x)}{g(x)}$ and we want to find
+
+$$dx/dh(x)​,$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODk0NjY1XX0=
+eyJoaXN0b3J5IjpbMTA3MDAwNDY2OV19
 -->
