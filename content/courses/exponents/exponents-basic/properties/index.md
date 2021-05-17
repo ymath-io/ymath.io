@@ -93,12 +93,15 @@ $$(x^2)^3
 
 There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $2\cdot3=6$ $``x"$s in total. 
 
-Let's generalize this. In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
-
-$$(x^y)^z=x^{yz}$$
+Let's generalize this. 
 
 $$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}
 _\text{$z$ times}$$
+$$= x\cdot \ldots \cdot x$$
+
+In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
+
+$$(x^y)^z=x^{yz}$$
 
 ## Power of a Product
 
@@ -110,7 +113,7 @@ _\text{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4NzQ1ODM1LC00MzMxNjUwLDIwNDkyMj
-gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
-OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
+eyJoaXN0b3J5IjpbLTE5MzU5OTkwNTAsLTQzMzE2NTAsMjA0OT
+IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
+Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
