@@ -7,6 +7,12 @@ title: Properties
 
 You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Now, we'll be looking at some properties of exponents.
 
+### List of Exponent Properties
+- Product of Powers: $$
+- Quotient of Powers: $$
+- Power of Powe
+
+
 ## Product of Powers
 Let's start with a simple question. What is 
 $2^5$?
@@ -113,6 +119,7 @@ $$(x^y)^z=x^{yz}$$
 
 ## Power of a Product
 
+
 ## Power of a Quotient
 
 
@@ -121,7 +128,8 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDk3MzIxMSwtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTk1ODkyNDI0NSwyMDE0OTczMjExLC00Mz
+MxNjUwLDIwNDkyMjgzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIs
+LTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
+U2NTQ2OF19
 -->
