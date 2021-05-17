@@ -88,6 +88,9 @@ $$(x^2)^3
 
 There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $6$ $``x"$s in total. 
 
+Let's generalize this. In $(x^y)^z$, there are $z$ groups of $y$ $``x"$s being multiplied together
+
+
 ## Power of a Product
 
 ## Power of a Quotient
@@ -98,7 +101,7 @@ There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $6$ $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQwMjU5NzksLTQzMzE2NTAsMjA0OT
-IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
-Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbOTkwMTE0ODc0LC00MzMxNjUwLDIwNDkyMj
+gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
+OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
