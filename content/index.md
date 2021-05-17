@@ -214,9 +214,16 @@ Here's a list of available decorators:
 * *`@solution`* This a solution to the problem.
   The solution is hidden by default, and the student can show it when they need it.
   You can have as many solutions as you want.
+  
+### Inserting the Problems
 
+To insert the problems into a lesson, reference then by their problem number. Basically the name of the file for the problem.
 
+```markdown
+@43 Try this one on your own.
+```
 
+This would display problem 43 (`problems/43.md`), introducing it using the provided text "Try this one on your own."
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTM1Nzk3OTM0MSwxNTE2MjI1NTM1LC0xOD
