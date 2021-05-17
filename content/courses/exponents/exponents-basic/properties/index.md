@@ -69,8 +69,10 @@ $$\frac{x^5}{x^2}
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a\geq b$?
 
 $$\frac{x^a}{x^b}
-= \frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}}{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}
-= \frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}\cdot x\cdot x}{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}$$
+= \frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}}
+{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}
+= \frac{\overbrace{\cancel x\cdot \cancel x\cdot \cancel \ldots \cdot \cancel x}^\text{$b$ times}\overbrace{\cdot x\cdot x}^\text{$a-b$ times}}
+{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}$$
 
 Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
 
@@ -103,7 +105,7 @@ _\text{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjA3NDUyMywtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbOTg0OTc4NzI4LC00MzMxNjUwLDIwNDkyMj
+gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
+OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
