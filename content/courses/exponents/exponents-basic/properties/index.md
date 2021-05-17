@@ -86,9 +86,9 @@ $$(x^2)^3
 =(x\cdot x)\cdot(x\cdot x)\cdot(x\cdot x)
 =x^6$$
 
-There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $6$ $``x"$s in total. 
+There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $2\cdot3=6$ $``x"$s in total. 
 
-Let's generalize this. In $(x^y)^z$, there are $z$ groups of $y$ $``x"$s being multiplied together
+Let's generalize this. In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. This makes a total of $(z\cdot y)$ $``x"$s multiplied together.
 
 
 ## Power of a Product
@@ -101,7 +101,7 @@ Let's generalize this. In $(x^y)^z$, there are $z$ groups of $y$ $``x"$s being m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMTE0ODc0LC00MzMxNjUwLDIwNDkyMj
+eyJoaXN0b3J5IjpbMTA1NDI4MTY3LC00MzMxNjUwLDIwNDkyMj
 gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
 OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
