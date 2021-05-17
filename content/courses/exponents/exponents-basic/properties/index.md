@@ -81,9 +81,12 @@ We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 ## Power to a Power
 Is there a way to simplify $(x^y)^z$? Let's first substitute some values so that we can write the powers as repeated multiplication.
 
-$(x^2)^3
+$$(x^2)^3
 =(x^2)\cdot(x^2)\cdot(x^2)
-=(x^)\cdot(x^2)\cdot(x^2)$
+=(x\cdot x)\cdot(x\cdot x)\cdot(x\cdot x)
+=x^6$$
+
+
 
 ## Power of a Product
 
@@ -95,7 +98,7 @@ $(x^2)^3
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQ5OTI4NywtNDMzMTY1MCwyMDQ5Mj
+eyJoaXN0b3J5IjpbMTYyNzMwNjcwMCwtNDMzMTY1MCwyMDQ5Mj
 I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
 LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
