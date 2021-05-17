@@ -89,10 +89,25 @@ $$\lim_{\delta x \to 0}\frac{f(x+\delta x)-f(x)}{\delta x}.$$
 
 Believe it or not, that's it!
 
-When we plug in a definition of $f(x)$, such as $f(x)=x2$  to the limit, we can evaluate the limit to get another function, which we call $f′(x)$.
+When we plug in a definition of $f(x)$, such as $f(x)=x^2$  to the limit, we can evaluate the limit to get another function, which we call $f′(x)$.
 
+The definition of $f′(x)$ goes like this:
+
+The value of $f′(a)$, for any  a  within the domain of $f(x)$, evaluates to the instantaneous slope of the function $f(x)$  when $x=a$.
+
+Basically, if $f(x)$ is your velocity, then $f′(x)$ is your acceleration.
+
+Now, let's try an example. Let's try to find the slope of  $f(x)=x^2$.
+
+Step 1: Set up the limit.
+
+$$\lim_{\delta x \to 0}\frac{(x+\delta x)^2-x^2}{\delta x}.$$
+
+Step 2: Solve the limit!
+
+$$\lim_{\delta x \to 0}\frac{x^2 + 2x\delta x + (\delta x)^2-x^2}{\delta x}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3Mzg1ODgzLC0xMzIwOTg0NTU1LDExND
-c1NzY0Ml19
+eyJoaXN0b3J5IjpbMTQ3NjEwNjkxMywtMTMyMDk4NDU1NSwxMT
+Q3NTc2NDJdfQ==
 -->
