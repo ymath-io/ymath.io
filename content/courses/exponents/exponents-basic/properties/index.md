@@ -11,8 +11,8 @@ You might remember that when you learned about multiplication, you learned about
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
 - Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
 - Power to a Power: $(x^a)^b=x^{ab}$
-- Power of a Product: $(xy)^a=x^$
-- Power of a Quotient: $$
+- Power of a Product: $(xy)^a=x^a\cdot y^a$
+- Power of a Quotient: $\left(\frac{x}{y}\right)^a=$
 
 
 ## Product of Powers
@@ -128,7 +128,7 @@ In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTM2NTAwNCwyMDE0OTczMjExLC00Mz
+eyJoaXN0b3J5IjpbLTk4NzU5NzAxMCwyMDE0OTczMjExLC00Mz
 MxNjUwLDIwNDkyMjgzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIs
 LTE0ODQ0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4OD
 U2NTQ2OF19
