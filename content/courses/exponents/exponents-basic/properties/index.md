@@ -31,18 +31,18 @@ These expressions look very similar! In fact, they're equal by the Associative P
 Now we know why $2^2\cdot2^3=2^5$. Let's generalize this a bit more. Is there a way we can rewrite $x^2\cdot x^3$? Let's try:
 
 $$x^2\cdot x^3
-=(x\cdot x)(x\cdot x\cdot x)
-=x\cdot x\cdot x\cdot x\cdot x
+=(xx)(xxx)
+=xxxxx
 =x^5$$
 
 Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $``x"$s, and $x^3$ is the product of $3$ $``x"$s, so the product of $x^2$ and $x^3$ is the product of $5$ $``x"$s in total. 
 
 Let's make an even more general statement! What is $x^a \cdot x^b$? Even though we don't know the values of $a$ and $b$, we can still write out the powers.
 
-$$x^a \cdot x^b 
-= (\underbrace{xx\ldots \cdot x}_\text{$a$ times})
-(\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
-$$= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a+b$ times})= x^{a+b}$$
+$$x^a \cdot x^b = 
+	(\underbrace{xxx\ldots x}_\text{$a$ times})
+	(\underbrace{xxx\ldots x}_\text{$b$ times})$$
+$$= (\underbrace{xxx\ldots x}_\text{$a+b$ times})= x^{a+b}$$
 
 Since $x^a$ is the product of $a$ $``x"$s, and $x^b$ is the product of $b$ $``x"$s, the product of $x^a$ and $x^b$ is the product of $(a+b)$ $``x"$s.
 
@@ -121,7 +121,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDgxOTYxNywtNDMzMTY1MCwyMDQ5Mj
+eyJoaXN0b3J5IjpbMjAxNDk3MzIxMSwtNDMzMTY1MCwyMDQ5Mj
 I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
 LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
