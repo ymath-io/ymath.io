@@ -53,7 +53,7 @@ export default {
   data:()=>({
     formula: '',
     config:{
-      //smartMode: true,
+      smartMode: true,
       virtualKeyboardMode: "manual",
       smartFence: true,
     }
