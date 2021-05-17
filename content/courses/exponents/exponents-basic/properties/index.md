@@ -40,7 +40,7 @@ Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the pro
 Let's make an even more general statement! What is $x^a \cdot x^b$? Even though we don't know the values of $a$ and $b$, we can still write out the powers.
 
 $$x^a \cdot x^b 
-= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a$ times})
+= (\underbrace{xx\ldots \cdot x}_\text{$a$ times})
 (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
 $$= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a+b$ times})= x^{a+b}$$
 
@@ -50,7 +50,7 @@ Awesome, we've just proved the Product of Powers Property! (Actually, we've show
 
 ### Warnings
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
-$$x^2 \cdot y^3=(x\cdot x)(y\cdot y\cdot y)$$
+$$x^2 \cdot y^3=(xx)(yyy)$$
 $$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
 In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the property will be false! 
 
@@ -65,7 +65,7 @@ The Quotient of Powers Property is very similar to the Product of Powers Propert
 
 Speaking of which, what is $\frac{x^5}{x^2}$? Let's write it out. 
 $$\frac{x^5}{x^2}
-=\frac{\cancel xxx \ldots x}{\cancel xxx \ldots x}
+=\frac{\cancel {xx}\cdot xxx}{\cancel {xx}}
 =x^3$$
 
 Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a\geq b$?
@@ -121,7 +121,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMzA3NjAzLC00MzMxNjUwLDIwNDkyMj
-gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
-OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
+eyJoaXN0b3J5IjpbLTUyMDgxOTYxNywtNDMzMTY1MCwyMDQ5Mj
+I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
+LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
