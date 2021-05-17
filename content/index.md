@@ -207,11 +207,11 @@ Problems have different fields where you might want to write stuff, like the **s
 Decorators separate your file body into sections and declares what kind of content is below them. 
 Here's a list of available decorators:
 
-* *`@statement`* This is the problem statement, or the question that's being asked.
-* *`@hint`* This is an optional hint for the student. 
+* **`@statement`** This is the problem statement, or the question that's being asked.
+* **`@hint`** This is an optional hint for the student. 
   The hint is hidden by default, and the student can show it when they need it. 
   You can have as many hints as you want.
-* *`@solution`* This a solution to the problem.
+* **`@solution`** This a solution to the problem.
   The solution is hidden by default, and the student can show it when they need it.
   You can have as many solutions as you want.
   
