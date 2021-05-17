@@ -97,7 +97,7 @@ Let's generalize this.
 
 $$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}
 _\text{$z$ times}$$
-$$= x\cdot \ldots \cdot x$$
+$$= \underbrace{\underbrace{(x\cdot \ldots \cdot x)}\underbrace{(x\cdot \ldots \cdot x)} \ldots \underbrace{(x\cdot \ldots \cdot x)}}_\text{}$$
 
 In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)"$s being multiplied together. $z$ groups of $y$ is the same thing as $yz$, so there are $yz$ $``x"$s multiplied together. Therefore, 
 
@@ -113,7 +113,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU5OTkwNTAsLTQzMzE2NTAsMjA0OT
-IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
-Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
+eyJoaXN0b3J5IjpbNTE1Njg0Mzk1LC00MzMxNjUwLDIwNDkyMj
+gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
+OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
