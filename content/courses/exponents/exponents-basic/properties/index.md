@@ -86,7 +86,7 @@ $$(x^2)^3
 =(x\cdot x)\cdot(x\cdot x)\cdot(x\cdot x)
 =x^6$$
 
-There are $3$ $``x^2"$s being multiplied together, or 
+There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $6$ $``x"$s in total. 
 
 ## Power of a Product
 
@@ -98,7 +98,7 @@ There are $3$ $``x^2"$s being multiplied together, or
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk3NDkwNzMsLTQzMzE2NTAsMjA0OT
+eyJoaXN0b3J5IjpbLTE1MTQwMjU5NzksLTQzMzE2NTAsMjA0OT
 IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
 Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
