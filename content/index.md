@@ -150,6 +150,7 @@ This property is only needed with `type: course`.
 For many courses, it is necessary to include checks for understanding.
 To do this, we can use optional extended syntax in the lessons.
 
+### Guide
 This guide will walk you through adding a practice problem to a lesson.
 
 1. In your lesson's directory, create a folder called `problems`.
@@ -180,6 +181,41 @@ Ask your dad and he will tell you that **the egg came first**.
 @1 Try this classic riddle.
 ...
 ```
+
+### Customizing
+
+#### Answer validation
+In order to check answers, we need a list of possible correct answers. 
+Keep in mind that people might have different ways of typing the same thing.
+
+In your frontmatter, add the following:
+```markdown
+answers:
+    - x^2
+    - y=x^2
+```
+*Replace these values with your own.*
+
+Answers use LaTeX, so you can type that directly without $$.
+
+#### Decorators
+
+Problems have different fields where you might want to write stuff, like the **statement**, **hints**, or the **solutions**.
+
+(Yes, you can have multiple solutions!)
+
+Decorators separate your file body into sections and declares what kind of content is below them. 
+Here's a list of available decorators:
+
+* *`@statement`* This is the problem statement, or the question that's being asked.
+* *`@hint`* This is an optional hint for the student. 
+  The hint is hidden by default, and the student can show it when they need it. 
+  You can have as many hints as you want.
+* *`@solution`* This a solution to the problem.
+  The solution is hidden by default, and the student can show it when they need it.
+  You can have as many solutions as you want.
+
+
 
 
 <!--stackedit_data:
