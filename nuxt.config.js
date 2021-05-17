@@ -102,7 +102,15 @@ export default {
       if (file.extension !== '.md') return
       file.data = file.data.replace(/\$\$/g, '\n$$$\n');
 
-      //console.log(file.data);
+      try {
+        const [course, chapter, lesson] = file.path.split('/content/courses/')[1].split('/');
+
+        file.data = file.data.replace(/^@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`);
+        //console.log(file.data);
+      }
+      catch (e) {
+
+      }
     },
     'content:file:beforeInsert': async (doc, db) => {
       if (doc.type === 'problem'){
@@ -118,13 +126,10 @@ export default {
         // 1. separate by @
         const splitted = text.split('@');
         splitted.shift();
-        console.log(splitted);
         for ( const rawFragment of splitted){
           let text = rawFragment.split('\n');
           const type = text.shift();
-          console.log(type, text)
           text = text.join('\n').trim();
-          console.log(type, text)
           switch (type) {
             case 'statement':
               docInfo.problemStatement = await parse(text);

@@ -1,5 +1,5 @@
 <template>
-  <div class='dark:bg-gray-800 bg-gray-50 py-4 dark:text-darkText rounded-md shadow-sm hover:shadow-lg mx-20'>
+  <div class='dark:bg-gray-800 bg-gray-50 py-4 dark:text-darkText rounded-md shadow-md hover:shadow-lg'>
     <div class='px-4'>
       <div class='dark:text-darkText'>
         <nuxt-content :document='question'></nuxt-content>
