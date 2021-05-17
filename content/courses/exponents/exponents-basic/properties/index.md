@@ -41,7 +41,7 @@ Let's make an even more general statement! What is $x^a \cdot x^b$?
 
 We can't write this out in multiplication because we don't know what $a$ and $b$ are, so we don't know how many $``x"$s to write! But, we can use the power (pun unintended) of words:
 
-$$x^a \cdot x^b = (x)(\text{product of $b$ $``x"$s})$$
+$$x^a \cdot x^b = (\underbrace{x\cdot x\cdot \ldots \cdot x}\textrm)(\text{product of $b$ $``x"$s})$$
 
 That should give us a total of $(a+b)$ $``x"$s multiplied together, which is the same as $x^{a+b}$. So, 
 
@@ -105,7 +105,7 @@ _\textrm{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjY2ODg4MSwtNDMzMTY1MCwyMDQ5Mj
+eyJoaXN0b3J5IjpbLTcwOTY1NTEyNCwtNDMzMTY1MCwyMDQ5Mj
 I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
 LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
 -->
