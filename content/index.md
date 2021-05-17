@@ -177,9 +177,9 @@ Ask your dad and he will tell you that **the egg came first**.
 ```
 4. Now, anywhere in your lesson, insert the following line:
 ```markdown
-...
+
 @1 Try this classic riddle.
-...
+
 ```
 
 ### Customizing
