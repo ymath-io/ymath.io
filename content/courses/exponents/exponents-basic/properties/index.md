@@ -44,6 +44,8 @@ $$x^a \cdot x^b
 (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
 $$= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a+b$ times})= x^{a+b}$$
 
+Since $x^a$ is the product of $a$ $``x"$s, and $x^a$ is the product of $a$ $``x"$s,
+
 Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why it's called the Product of Powers Property?
 
 ### Warnings
@@ -70,9 +72,12 @@ Let's generalize this a bit more. How can we rewrite $\frac{x^a}{x^b}$, where $a
 
 $$\frac{x^a}{x^b}
 = \frac{\overbrace{x\cdot x\cdot \ldots \cdot x}^\text{$a$ times}}
-{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}
-= \frac{\overbrace{\cancel{x\cdot x\cdot \ldots \cdot x}}^\text{$b$ times}\cdot \overbrace{ x\cdot x \cdot \ldots \cdot x}^\text{$a-b$ times}}
+{\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times}}$$
+
+$$= \frac{\overbrace{\cancel{x\cdot x\cdot \ldots \cdot x}}^\text{$b$ times}\cdot \overbrace{ x\cdot x \cdot \ldots \cdot x}^\text{$a-b$ times}}
 {\underbrace{\cancel{x\cdot x\cdot \ldots \cdot x}}_\text{$b$ times}}$$
+
+$$=x^{a-b}$$
 
 Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
 
@@ -105,7 +110,7 @@ _\text{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDEyNjQ2OCwtNDMzMTY1MCwyMDQ5Mj
-I4MzU0LDEwOTM3NjU3OTAsMzI4MDM4OTIyLC0xNDg0NDkwMzAz
-LDk0MjQwNjkyNSwtMjgwOTI4MzY1LC0xODg1NjU0NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMzY4MDA5MjYsLTQzMzE2NTAsMjA0OT
+IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
+Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
