@@ -92,6 +92,10 @@ Let's generalize this. In $(x^y)^z$, there are $z$ groups of $``\left(x^y\right)
 
 $$(x^y)^z=x^{yz}$$
 
+$$(x^y)^z=\underbrace{(x^y)(x^y)\dots(x^y)}```
+_\textrm{text 1}
+$$
+
 ## Power of a Product
 
 ## Power of a Quotient
@@ -102,7 +106,7 @@ $$(x^y)^z=x^{yz}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMjM5MjAxLC00MzMxNjUwLDIwNDkyMj
+eyJoaXN0b3J5IjpbODcyMzkzNDYwLC00MzMxNjUwLDIwNDkyMj
 gzNTQsMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0ODQ0OTAzMDMs
 OTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2OF19
 -->
