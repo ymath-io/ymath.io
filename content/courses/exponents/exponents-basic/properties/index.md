@@ -37,13 +37,12 @@ $$x^2\cdot x^3
 
 Nice! We just showed that $x^2\cdot x^3 = x^5$. This is because $x^2$ is the product of $2$ $``x"$s, and $x^3$ is the product of $3$ $``x"$s, so the product of $x^2$ and $x^3$ is the product of $5$ $``x"$s in total. 
 
-Let's make an even more general statement! What is $x^a \cdot x^b$? Even though we don't know the values of $a$ and $b$, we can still write out the powers:
+Let's make an even more general statement! What is $x^a \cdot x^b$? Even though we don't know the values of $a$ and $b$, we can still write out the powers.
 
-$$x^a \cdot x^b = (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a$ times})(\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
-
-That should give us a total of $(a+b)$ $``x"$s multiplied together, which is the same as $x^{a+b}$. So, 
-
-$$x^a \cdot x^b = x^{a+b}$$
+$$x^a \cdot x^b 
+= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a$ times})
+(\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$b$ times})$$
+$$= (\underbrace{x\cdot x\cdot \ldots \cdot x}_\text{$a+b$ times})= x^{a+b}$$
 
 Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why it's called the Product of Powers Property?
 
@@ -103,7 +102,7 @@ _\text{$z$ times}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ3NTE5NDksLTQzMzE2NTAsMjA0OT
+eyJoaXN0b3J5IjpbLTE1Mzc0MTk5MTMsLTQzMzE2NTAsMjA0OT
 IyODM1NCwxMDkzNzY1NzkwLDMyODAzODkyMiwtMTQ4NDQ5MDMw
 Myw5NDI0MDY5MjUsLTI4MDkyODM2NSwtMTg4NTY1NDY4XX0=
 -->
