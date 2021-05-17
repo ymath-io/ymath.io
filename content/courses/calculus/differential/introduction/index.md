@@ -34,7 +34,7 @@ Go back, and read that to yourself a few more times, until it makes sense.
 <iframe src="[https://www.desmos.com/calculator/kh3mig4qor?embed](https://www.desmos.com/calculator/kh3mig4qor?embed)" style="border: 1px solid #ccc" class="graph" frameborder=0></iframe>
 
 ***SAumYa uR gRAPH nO wOrk pLs hELLP***
-
+-
 In the graph above, the blue line is  _tangent_  to the parabola at the green point, which is called the  _point of tangency._
 
 Try to move the green "tangent" point around and see the change in the slope of the line. Once you get a feel for what's going on, unhide the black line.
@@ -56,6 +56,7 @@ Their respective $y$ values on the graph will be $f(a)$ and $f(a+δx)$.
 <iframe src="[https://www.desmos.com/calculator/crcyhxkkmm?embed](https://www.desmos.com/calculator/crcyhxkkmm?embed)" width="500px" height="500px" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 ***SAumYa uR gRAPH nO wOrk aGaIN pLs hELLP***
+-
 
 Before continuing, think about this:
 
@@ -112,6 +113,6 @@ And, now that $δx$ is out of the denominator, we can substitute $δx=0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTU5MjY1LC0xMzIwOTg0NTU1LDExND
-c1NzY0Ml19
+eyJoaXN0b3J5IjpbLTY5NTYxODAzNSwtMTMyMDk4NDU1NSwxMT
+Q3NTc2NDJdfQ==
 -->
