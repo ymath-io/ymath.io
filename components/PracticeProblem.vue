@@ -1,15 +1,29 @@
 <template>
-  <div class='dark:bg-gray-800 bg-gray-50 py-4 dark:text-darkText rounded-md shadow-lg mx-20'>
+  <div class='dark:bg-gray-800 bg-gray-50 py-4 dark:text-darkText rounded-md shadow-sm hover:shadow-lg mx-20'>
     <div class='px-4'>
-      <span class='dark:text-darkText'>hello what is 1+1</span>
-      <math-live-input :config='config' class='dark:text-gray-200' v-model="formula" >a^3-b</math-live-input>
+      <div class='dark:text-darkText'>
+        <nuxt-content :document='question'></nuxt-content>
+      </div>
+      <math-live-input :config='config' class='dark:text-gray-200' :class='{correct:answers.includes(formula)}' v-model="formula" >{{formula}}</math-live-input>
     </div>
-<hr class='border-b mt-2 dark:border-gray-700 border-gray-100'/>
 
-    <details  class=''>
-      <summary class='block hover:bg-gray-700 hover:bg-gray-100 py-2 px-4'>hint one <m-icon icon='chevron-down' /></summary>
-      amazing hint you know
-    </details>
+
+    <prac-prob-section :key='`hint-`+hintIdx' v-for='(hint, hintIdx) of hints'>
+      <template v-slot:header>
+        Hint {{hintIdx+1}}
+      </template>
+      <template v-slot:body>
+        <nuxt-content :document='hint'/>
+      </template>
+    </prac-prob-section>
+    <prac-prob-section :key='`sol-`+solIdx' v-for='(sol, solIdx) of solutions'>
+      <template #header>
+        Solution {{solIdx+1}}
+      </template>
+      <template #body>
+        <nuxt-content :document='sol'/>
+      </template>
+    </prac-prob-section>
   </div>
 </template>
 
@@ -17,11 +31,31 @@
 import MathLive from "mathlive";
 export default {
   name: 'PracticeProblem',
+  props:{
+      question:{
+        type:Object,
+        default:()=>({})
+      },
+    answers:{
+      type: Array,
+      default:()=>[],
+    },
+    hints:{
+      type:Array,
+      default:()=>[],
+    },
+    solutions:{
+      type: Array,
+      default:()=>[]
+
+    }
+  },
   data:()=>({
-    formula: 'h(x)',
+    formula: '',
     config:{
-      smartMode: true,
+      //smartMode: true,
       virtualKeyboardMode: "manual",
+      smartFence: true,
     }
   }),
   mounted(){

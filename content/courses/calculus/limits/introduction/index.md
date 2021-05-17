@@ -15,6 +15,8 @@ $$
 
 What is the value of this function at $x=1$?
 
+@1 Try this.
+
 $\frac{0}{0}$ is indeterminate, so the function $f(x)$ would be indeterminate at $x=1$. However, the function is defined
 at $x=0.9$ and $x=1.1$:
 

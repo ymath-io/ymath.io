@@ -38,6 +38,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
    // {src:'~/plugins/mathquill.js', mode:'client'},
+    '~/plugins/jsonviewer.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -100,7 +101,44 @@ export default {
     'content:file:beforeParse': (file) => {
       if (file.extension !== '.md') return
       file.data = file.data.replace(/\$\$/g, '\n$$$\n');
+
       //console.log(file.data);
+    },
+    'content:file:beforeInsert': async (doc, db) => {
+      if (doc.type === 'problem'){
+        let parse = db.markdown.toJSON;
+        parse = parse.bind(db.markdown);
+        // text is the body content, w/o frontmatter
+        const {text} = doc;
+        let docInfo = {
+          problemStatement:'',
+          hints:[],
+          solutions:[]
+        }
+        // 1. separate by @
+        const splitted = text.split('@');
+        splitted.shift();
+        console.log(splitted);
+        for ( const rawFragment of splitted){
+          let text = rawFragment.split('\n');
+          const type = text.shift();
+          console.log(type, text)
+          text = text.join('\n').trim();
+          console.log(type, text)
+          switch (type) {
+            case 'statement':
+              docInfo.problemStatement = await parse(text);
+              break;
+            case 'hint':
+              docInfo.hints.push(await parse(text));
+              break;
+            case 'solution':
+              docInfo.solutions.push(await parse(text));
+
+          }
+        }
+        Object.assign(doc, docInfo);
+      }
     }
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build

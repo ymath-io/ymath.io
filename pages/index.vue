@@ -37,11 +37,5 @@ export default Vue.extend({
 </script>
 
 <style>
-.horizontal-scroll {
-  box-sizing: border-box;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  text-align: left;
-  white-space: nowrap;
-}
+
 </style>

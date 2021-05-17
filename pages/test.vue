@@ -1,19 +1,35 @@
 <template>
   <div>
-    <header-banner>Practice Problems</header-banner>
+    <header-banner>Practice Problem</header-banner>
     <container>
       <client-only>
-        <practice-problem/>
+        <practice-problem :hints='doc.hints' :answers='doc.answers'  :solutions='doc.solutions' :question='doc.problemStatement' />
+
+      </client-only>
+
+    </container>
+    <header-banner>Practice Problem Correct
+    </header-banner>
+    <container>
+      <client-only>
+        <practice-problem :hints='doc.hints' :solutions='doc.solutions' :question='doc.problemStatement' />
+
       </client-only>
     </container>
   </div>
 
 
 </template>
-
 <script>
+
+
 export default {
   name: 'test',
+  async asyncData({$content}){
+    const doc = await $content('courses/calculus/limits/introduction/problems/1').fetch()
+    return {doc}
+  },
+
   data:()=>({
     formula:'f(x)=2x'
   })

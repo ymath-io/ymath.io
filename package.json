@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.js",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -34,6 +34,7 @@
     "remark-mermaid": "^0.2.0",
     "tailwindcss-shadow-outline-colors": "^0.0.8",
     "vue": "^2.6.12",
+    "vue-json-viewer": "^2.2.19",
     "vuetify": "^2.4.11"
   },
   "devDependencies": {
