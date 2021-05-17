@@ -62,7 +62,6 @@ If you're curious, a valid way to rewrite the above expression is to use the Pro
 $$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 
 ## Quotient of Powers
-
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. It lets us easily simplify expressions like $\frac{x^5}{x^2}$.
 
 Speaking of which, what is $\frac{x^5}{x^2}$? Let's write it out. 
@@ -77,9 +76,10 @@ $$\frac{x^a}{x^b}
 
 Since $a\geq b$, there are at least as many $``x"$s in the numerator as the denominator, so all the $``x"$s in the denominator will cancel out. So, there will be $(a-b)$ $``x"$s left in the numerator, which equals $x^{a-b}$.
 
-Therefore, $\frac{x^a}{x^b}=x^{a-b}$.
+We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
 ## Power to a Power
+
 
 ## Power of a Product
 
@@ -91,7 +91,7 @@ Therefore, $\frac{x^a}{x^b}=x^{a-b}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mzc2NTc5MCwzMjgwMzg5MjIsLTE0OD
-Q0OTAzMDMsOTQyNDA2OTI1LC0yODA5MjgzNjUsLTE4ODU2NTQ2
-OF19
+eyJoaXN0b3J5IjpbMjA0OTIyODM1NCwxMDkzNzY1NzkwLDMyOD
+AzODkyMiwtMTQ4NDQ5MDMwMyw5NDI0MDY5MjUsLTI4MDkyODM2
+NSwtMTg4NTY1NDY4XX0=
 -->
