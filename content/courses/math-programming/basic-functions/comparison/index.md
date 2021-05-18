@@ -8,8 +8,10 @@ Often, as we saw in the last lesson, we need to make choices depending on whethe
 
 In Python, this would look something like
 ```py
-def applyExtraCredit(x: float, y: float) 
+def applyExtraCredit(x: float, y: float) -> tuple[float, float]:
+	return isLarger
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NTQxMzE3XX0=
+eyJoaXN0b3J5IjpbLTEyMjQ5Mjc3NTddfQ==
 -->
