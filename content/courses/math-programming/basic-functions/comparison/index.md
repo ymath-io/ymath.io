@@ -9,9 +9,9 @@ Often, as we saw in the last lesson, we need to make choices depending on whethe
 In Python, this would look something like
 ```py
 def applyExtraCredit(x: float, y: float) -> tuple[float, float]:
-	return isLarger
+	return (isLarger(x,y)?(x+5):0 + not
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ5Mjc3NTddfQ==
+eyJoaXN0b3J5IjpbLTM1NTg3MzA2M119
 -->
