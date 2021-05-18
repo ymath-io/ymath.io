@@ -4,7 +4,7 @@ title: Comparison
 
 ---
 
-## W
+## A sketchy use-case
 
 Often, as we saw in the last lesson, we need to make choices depending on whether a number is larger than another. For example, let's say we have two test grades, $x$ and $y$. Whoever got the higher test grade get five extra credit points for superb performance.
 
@@ -21,7 +21,7 @@ def applyExtraCredit(x: float, y: float) -> tuple[float, float]:
 
 In order for this to work, we'll need a boolean function $\text{isLarger}(x,y)$ that returns whether or not $x>y$. 
 
-T
+The absolute value function we defined in the last lesson will be useful here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDAxNTcwMl19
+eyJoaXN0b3J5IjpbLTEzODU2ODkxMjRdfQ==
 -->
