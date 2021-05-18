@@ -1,5 +1,5 @@
 <template>
-  <div class='bg-gray-100 dark:bg-gray-900 ' >
+  <div class='bg-gray-100 dark:bg-gray-900 '>
     <nav class='bg-gray-100 dark:bg-gray-900 sticky top-0 z-20 bg-opacity-80 backdrop-filter backdrop-blur-sm'>
       <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div class='flex items-center justify-between h-16'>
@@ -13,13 +13,27 @@
                 <span v-for='(item, itemIdx) in navigation' :key='itemIdx'>
 
                     <!-- Current: "bg-gray-300 text-current", Default: "text-gray-700 hover:bg-gray-200 hover:text-current" -->
-                    <nuxt-link v-if='!item.dev || dev' :exact='item.exact' active-class='titlebar-active transform translate-y-6' :to='item.to'
+                    <nuxt-link v-if='!item.dev || dev' :exact='item.exact'
+                               active-class='titlebar-active transform translate-y-6' :to='item.to'
                                class='titlebar'>{{ item.name }}
                     </nuxt-link>
 
                 </span>
               </div>
             </div>
+          </div>
+          <div v-if='dev' class='justify-end'>
+            <form role='search'
+                  action='/search'
+                  method='get'
+            >
+              <input
+                required
+                aria-label='Search through site content'
+                type='search'
+                name='q'
+                @submit='search' class='bg-gray-200 ml-auto justify-end p-1 rounded-md' placeholder='Search'>
+            </form>
           </div>
           <div class='-mr-2 ml-auto justify-end flex md:hidden'>
             <!-- Mobile menu button -->
@@ -37,7 +51,7 @@
         <div class='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
          <span v-for='(item, itemIdx) in navigation' :key='itemIdx'>
                     <!-- Current: "bg-gray-300 text-current", Default: "text-gray-700 hover:bg-gray-200 hover:text-current" -->
-                    <nuxt-link v-if='!item.dev || dev'  :exact='item.exact' active-class='titlebar-active' :to='item.to'
+                    <nuxt-link v-if='!item.dev || dev' :exact='item.exact' active-class='titlebar-active' :to='item.to'
                                class='titlebar block my-2'>{{ item.name
                       }}</nuxt-link>
                 </span>
@@ -60,7 +74,11 @@ export default Vue.extend({
   data: () => ({
     navigation, profile, open: false, expandMenu: false
   }),
+  methods: {
+    search(searchEvent) {
 
+    }
+  },
   computed: {
     dev() {
       return process.env.NODE_ENV !== 'production'
