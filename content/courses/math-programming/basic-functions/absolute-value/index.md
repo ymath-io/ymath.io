@@ -17,8 +17,10 @@ However, a four function calculator does not have absolute value on it! We are r
 
 We can start by computing $$x-y.$$
 
+However, if
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4ODgyNDM1LDE4ODcwODg2ODNdfQ==
+eyJoaXN0b3J5IjpbLTIwNzE1MjM5MTYsNjE4ODgyNDM1LDE4OD
+cwODg2ODNdfQ==
 -->
-
