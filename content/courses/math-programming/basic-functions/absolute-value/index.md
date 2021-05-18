@@ -24,10 +24,12 @@ However, if $y>x$, then this will produce a negative value. This is where an abs
 ## Finding magnitude
 To find the magnitude of a value $x$, we need a function that ignores its sign. Then, we can undo the function. The most simple such function is the square function:
 
-$$\tex
+$$\text{absoluteValue(x)}=\sqrt{x^2}.$$
+
+Happy absolute-valueing!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MjYxOTAzLC01NTM3NTM5MDcsNjE4OD
-gyNDM1LDE4ODcwODg2ODNdfQ==
+eyJoaXN0b3J5IjpbLTEwNDY5MjkyMDcsLTU1Mzc1MzkwNyw2MT
+g4ODI0MzUsMTg4NzA4ODY4M119
 -->
