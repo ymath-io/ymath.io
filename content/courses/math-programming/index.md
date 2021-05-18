@@ -9,7 +9,6 @@ type: course
 
 Often, we come across functions that we do not know how to evaluate without having qualitative knowledge of the input value. For example, $\sin(x)$, $\max(x, y)$[^1] , and $|x|$.
 
-
 For example, how do we compute  $\min(x,y)$  without knowing beforehand what  $x$  and  $y$  are, using only a basic calculator[^2]?
 
 This question, along with many others, will be answered in this short course.
@@ -24,7 +23,7 @@ This question, along with many others, will be answered in this short course.
 
 	These basic capabiities will enable us to construct other, more complex capabilities.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTIxOTczNyw3NTY4NDEwMywtMTYyNj
-kyNDA5NCw4MzY3MTE5MTAsLTIwMzkxMzg4OTgsMTc2MTYxNTU3
-OSwtMTM5OTQ2NzkyXX0=
+eyJoaXN0b3J5IjpbMTMxODE1NTMxLDE2NzUyMTk3MzcsNzU2OD
+QxMDMsLTE2MjY5MjQwOTQsODM2NzExOTEwLC0yMDM5MTM4ODk4
+LDE3NjE2MTU1NzksLTEzOTk0Njc5Ml19
 -->

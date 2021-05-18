@@ -1,6 +1,3 @@
-const markdownIt = require('markdown-it');
-const path = require('path');
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -26,21 +23,22 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' }
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' },
+      {rel:'stylesheet', href: 'https://unpkg.com/mathlive@0.27.4/dist/mathlive.css'},
+      {rel:'stylesheet', href:'https://unpkg.com/mathlive@0.27.4/dist/mathlive.core.css'}
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind.css',
-    '@mdi/font/css/materialdesignicons.css',
-    'mathlive/dist/mathlive-static.css',
-    'mathlive/dist/mathlive-fonts.css'
+    '@mdi/font/css/materialdesignicons.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
    // {src:'~/plugins/mathquill.js', mode:'client'},
+    '~/plugins/jsonviewer.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -88,7 +86,7 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        'remark-math','remark-mermaid' ,'remark-caption', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
+        'remark-math','remark-mermaid' ,'remark-captions', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
@@ -103,7 +101,49 @@ export default {
     'content:file:beforeParse': (file) => {
       if (file.extension !== '.md') return
       file.data = file.data.replace(/\$\$/g, '\n$$$\n');
-      //console.log(file.data);
+
+      try {
+        const [course, chapter, lesson] = file.path.split('/content/courses/')[1].split('/');
+
+        file.data = file.data.replace(/^@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`);
+        //console.log(file.data);
+      }
+      catch (e) {
+
+      }
+    },
+    'content:file:beforeInsert': async (doc, db) => {
+      if (doc.type === 'problem'){
+        let parse = db.markdown.toJSON;
+        parse = parse.bind(db.markdown);
+        // text is the body content, w/o frontmatter
+        const {text} = doc;
+        let docInfo = {
+          problemStatement:'',
+          hints:[],
+          solutions:[]
+        }
+        // 1. separate by @
+        const splitted = text.split('@');
+        splitted.shift();
+        for ( const rawFragment of splitted){
+          let text = rawFragment.split('\n');
+          const type = text.shift();
+          text = text.join('\n').trim();
+          switch (type) {
+            case 'statement':
+              docInfo.problemStatement = await parse(text);
+              break;
+            case 'hint':
+              docInfo.hints.push(await parse(text));
+              break;
+            case 'solution':
+              docInfo.solutions.push(await parse(text));
+
+          }
+        }
+        Object.assign(doc, docInfo);
+      }
     }
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build

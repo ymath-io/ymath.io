@@ -39,6 +39,29 @@
 }
 
 
+
+/* style the mathlive inputs */
+body {
+  @apply bg-gray-100 dark:bg-gray-900
+}
+
+hr {
+  @apply border-b dark:border-gray-700 border-gray-100
+}
+
+.mathfield {
+  --hue:138 !important;
+  --caret:#00ab33 !important;
+}
+
+.ML__fieldcontainer{
+  @apply dark:bg-gray-700 bg-gray-200 bg-opacity-60 px-2 rounded-sm my-2 cursor-text
+}
+
+span.correct .ML__fieldcontainer{
+  @apply dark:bg-green-300 bg-green-200 dark:bg-opacity-10 bg-opacity-40 px-2 rounded-sm my-2 cursor-text
+}
+
 .titlebar.titlebar-active {
   @apply bg-green-400 dark:bg-green-500 shadow-xl text-white px-3 py-2 rounded-xl text-sm font-medium  shadow-primary-xl
 }
@@ -52,7 +75,8 @@
 }
 
 .nuxt-content-container, .nuxt-content {
-  @apply prose dark:prose-dark
+  @apply prose dark:prose-dark max-w-none
+
 }
 
 .katex-html .frac-line {
@@ -152,8 +176,12 @@ pre[class*="language-"].line-numbers > code {
   text-align: right;
 }
 
-
+/* don't use emojis */
 .nuxt-content .footnote-backref {
 
   font-family: Segoe UI Symbol, monospace;
+}
+/* prevent overscrolling */
+body {
+  overscroll-behavior-y: none;
 }
