@@ -1,6 +1,7 @@
 ---
 index: 4
 title: Comparison
+type: lesson
 
 ---
 
@@ -23,5 +24,5 @@ In order for this to work, we'll need a boolean function $\text{isLarger}(x,y)$ 
 
 The absolute value function we defined in the last lesson will be useful here.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU2ODkxMjRdfQ==
+eyJoaXN0b3J5IjpbNDQ1OTI3ODE0LC0xMzg1Njg5MTI0XX0=
 -->
