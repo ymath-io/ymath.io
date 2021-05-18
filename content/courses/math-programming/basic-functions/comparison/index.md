@@ -11,8 +11,9 @@ In Python, this would look something like
 def applyExtraCredit(x: float, y: float) -> tuple[float, float]:
 	return ( (x+5 if isLarger(x,y) else 0) + (x if not isLarger(x,y) else 0),
 	 (y+5 if isLarger(y, x) else 0) + (y if not isLarger(y, x) else 0))
- # There is definitely a better way to d
+ # There is definitely a better way to do this using python, but
+ # the above code models what we'll be doing using math.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NjcwMjUyXX0=
+eyJoaXN0b3J5IjpbODI2NTc0NjQ3XX0=
 -->
