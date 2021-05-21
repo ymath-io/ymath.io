@@ -29,6 +29,10 @@ $|x| = r,$
 $|v| = r\omega,$
 and
 $|a| = r\omega^2.$
+
+We can even remove the need to be aware of $\omega,$
+
+$\frac[
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjg2MDU2MV19
+eyJoaXN0b3J5IjpbMTg3MTY0OTk3N119
 -->
