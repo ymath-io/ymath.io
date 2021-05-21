@@ -33,6 +33,9 @@ $|a| = r\omega^2.$
 We can even remove the need to be aware of $\omega,$
 
 $$\frac{|v|^2}{r}  = \frac{r^2w^2}{r} = rw^2=|a|.$$
+
+<iframe src="https://www.desmos.com/calculator/92hxshx81c?embed" width="500" height="500" class="graph" frameborder=0></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg4Mjg0NjBdfQ==
+eyJoaXN0b3J5IjpbLTE3ODc4MTg4MzgsLTE1Njg4Mjg0NjBdfQ
+==
 -->
