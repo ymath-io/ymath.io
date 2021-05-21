@@ -21,7 +21,14 @@ We'll differentiate this one more time, because
 $$\frac{d\vec{v}}{dt} = \vec{a}.$$
 
 This gives us 
-$$\vec{a} = \left<  -r\omega^2\cos\omega t , r\omega^2\sin\omega t \right>.$$
+$$\vec{a} = \left<  -r\omega^2\cos\omega t , -r\omega^2\sin\omega t \right>.$$
+
+From each of these, we gather that
+
+$|x| = r,$
+$|v| = r\omega,$
+and
+$|a| = r\omega^2.$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4OTA5MzQwXX0=
+eyJoaXN0b3J5IjpbMTczMjg2MDU2MV19
 -->
