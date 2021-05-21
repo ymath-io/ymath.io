@@ -17,7 +17,11 @@ From the definition of velocity, we know that
 $$\frac{d\vec{x}}{dt} = \vec{v}.$$
 Differentiating, we see:
 $$\vec{v} = \left<  -r\omega\sin\omega t , r\omega\cos\omega t \right>.$$
+We'll differentiate this one more time, because
+$$\frac{d\vec{v}}{dt} = \vec{a}.$$
 
+This gives us 
+$$\vec{a} = \left<  -r\omega^2\cos\omega t , r\omega^2\sin\omega t \right>.$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY2MzQ0NzBdfQ==
+eyJoaXN0b3J5IjpbNzk4OTA5MzQwXX0=
 -->
