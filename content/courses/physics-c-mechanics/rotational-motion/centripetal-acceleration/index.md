@@ -32,7 +32,7 @@ $|a| = r\omega^2.$
 
 We can even remove the need to be aware of $\omega,$
 
-$\frac[
+$$\frac{|v|^2}{r}  = \frac{r^2w^2}{r} = rw^2=|a|.$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTY0OTk3N119
+eyJoaXN0b3J5IjpbLTE1Njg4Mjg0NjBdfQ==
 -->
