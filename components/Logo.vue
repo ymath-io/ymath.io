@@ -1,6 +1,6 @@
 <template>
   <svg preserveAspectRatio :height='size||100' viewBox='0 0 400 400'>
-    <rect x="0" y="0" rx="60" ry="60" width="400" height="400"
+    <rect x="0" y="0" rx="2rem" ry="2rem" width="400" height="400"
           style="fill:#00ab33;stroke-width:5;opacity:1" />
 
     <g transform="translate(-22,0)">
