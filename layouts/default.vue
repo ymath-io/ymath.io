@@ -5,7 +5,7 @@
         <div class='flex items-center justify-between h-16'>
           <div class='flex items-center grid gap-12 grid-cols-4'>
             <div class='flex-shrink-0 col-span-1'>
-              <img class='h-8 w-8 ml-auto  rounded-lg shadow-lg' src='https://ymath.io/favicon.png' alt='YMath Logo' />
+              <a href='/'><img class='h-8 w-8 ml-auto  rounded-lg shadow-lg' src='https://ymath.io/favicon.png' alt='YMath Logo' /></a>
             </div>
 
             <div class='hidden md:block col-span-3'>
@@ -22,8 +22,9 @@
               </div>
             </div>
           </div>
-          <div v-if='dev' class='justify-end'>
-            <form role='search'
+
+          <div class='ml-auto justify-end flex'>
+            <form v-if='dev' role='search'
                   action='/search'
                   method='get'
             >
@@ -32,8 +33,9 @@
                 aria-label='Search through site content'
                 type='search'
                 name='q'
-                @submit='search' class='bg-gray-200 ml-auto justify-end p-1 rounded-md' placeholder='Search'>
+                @submit='search' class='bg-gray-200 dark:bg-gray-900 border-b-2 dark:border-gray-800 px-2 ml-auto justify-end p-1 focus-within:ring-0 rounded-md' placeholder='Search'>
             </form>
+<theme-button/>
           </div>
           <div class='-mr-2 ml-auto justify-end flex md:hidden'>
             <!-- Mobile menu button -->
