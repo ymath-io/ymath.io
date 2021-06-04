@@ -15,9 +15,9 @@ In order to see this a bit better, we'll perform the following substitution: $$\
 
 Let's substitute! Replacing all occurrences of $\textcolor{teal}{f(x)},$ we get: 
 
-$$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot g\left(x\right)}{dx}=h\left(x\right)\textcolor{green}{g\left(x\right)}+\int \textcolor{orchid}{h(x)}\ dx\cdot \textcolor{green}{g'\left(x\right)}$$
+$$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot \textcolor{green}{g\left(x\right)}}{dx}=\textcolor{orchid}{h\left(x\right)}\textcolor{green}{g\left(x\right)}+\int \textcolor{orchid}{h(x)}\ dx\cdot \textcolor{green}{g'\left(x\right)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDQzODc0OSw5OTM1NjA3NDMsLTI3MD
+eyJoaXN0b3J5IjpbLTgzMTIxNjgyNSw5OTM1NjA3NDMsLTI3MD
 QyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5MTIsLTcwOTQyMTE2
 Ml19
 -->
