@@ -1,5 +1,6 @@
 ---
-type: unpublished-course
+type: course
+index:1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjA3Njk3MF19
+eyJoaXN0b3J5IjpbLTE5Njc1NTA4MzMsLTg1NjA3Njk3MF19
 -->
