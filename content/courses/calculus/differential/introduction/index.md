@@ -39,57 +39,13 @@ speed, the speed at which $y$ increases increases.
  Go back, and read that to yourself a few more times, until it makes
 sense.
 
-  
-
-Show/Hide graph
-
-  
-
-\
-
-\
-
-  
-
-::: iframe
-
-::: dcg-loading-div-container
-
-::: dcg-loading-background-div
-
-:::
-
-  
-
-::: dcg-loading-div
-
-Loading\...
-
-:::
-
-:::
-
-  
-
-::: {#calculator}
-
-:::
-
-:::
-
-  
-
-\
-
-\
-
-  
+<iframe src="https://www.desmos.com/calculator/kh3mig4qor?embed" class="graph" />
 
 In the graph above, the blue line is *tangent* to the parabola at the
 
 green point, which is called the *point of tangency.*
 
-  
+ 
 
 Try to move the green \"tangent\" point around and see the change in the
 
@@ -127,12 +83,9 @@ slope of the parabola at any point.
 
   
 
-**Note:** As you may have seen elsewhere, $\Delta$ usually stands for
-
-\"change in\". In Calculus, $\delta$ (lowercase $\Delta$) usually means
-
+> **Note:** As you may have seen elsewhere, $\Delta$ usually stands for
+ \"change in\". In Calculus, $\delta$ (lowercase $\Delta$) usually means
 \"a very small change in\". That\'s $\delta$ a definition you already
-
 know.
 
   
@@ -151,35 +104,7 @@ Their respective $y$ values on the graph will be $f(a)$ and
 
 $f(a+\delta x)$.
 
-  
-
-::: iframe
-
-::: dcg-loading-div-container
-
-::: dcg-loading-background-div
-
-:::
-
-  
-
-::: dcg-loading-div
-
-Loading\...
-
-:::
-
-:::
-
-  
-
-::: {#calculator}
-
-:::
-
-:::
-
-  
+<iframee 
 
 Okay, we\'re trying a new input style here. To type $\delta$ (\"change
 
@@ -331,5 +256,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUxOTMxNTcsMTE0NzU3NjQyXX0=
+eyJoaXN0b3J5IjpbLTY4Mzk3Nzc2MCwxMTQ3NTc2NDJdfQ==
 -->
