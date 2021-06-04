@@ -5,7 +5,7 @@ index: 19
 
 ---
 
-Integration and differentu
+Integration and differentiation can be thought of as 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzI1MTM1Nl19
+eyJoaXN0b3J5IjpbLTcwOTQyMTE2Ml19
 -->
