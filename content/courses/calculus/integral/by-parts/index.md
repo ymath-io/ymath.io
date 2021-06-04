@@ -7,25 +7,8 @@ index: 19
 
 In differential calculus, we derived [formulas to differentiate products of functions](/learn/calculus/differential/methods).
 
-
-
-
-
-
-d
-
-
-
-
-
-d
-
-
-
-
-
-d
+Recall that $$\frac{d\ f(x)g(x)}{dx} = f'(x)g(x)+f(x)g'(x).$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0OTQ4MTg0LDE0NzU0NzA5MTIsLTcwOT
-QyMTE2Ml19
+eyJoaXN0b3J5IjpbMTgyMjkxOTc0MSwxNDc1NDcwOTEyLC03MD
+k0MjExNjJdfQ==
 -->
