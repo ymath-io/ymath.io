@@ -105,7 +105,7 @@ export default {
       try {
         const [course, chapter, lesson] = file.path.split('/content/courses/')[1].split('/');
 
-        file.data = file.data.replace(/^@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`);
+        file.data = file.data.replace(/^\s*@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`);
         //console.log(file.data);
       }
       catch (e) {
