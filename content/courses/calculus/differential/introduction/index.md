@@ -106,36 +106,16 @@ $f(a+\delta x)$.
 
 <iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph"/>
 
-To type $\delta$ (\"change
-
-in\"), type \"delta\", and the symbol should pop up on its own.
-
-  
-
-Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.
+Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$. 
+To type $\delta$ (\"change in\"), type \"delta\", and the symbol should pop up on its own.
 
  
 
 The general formula for slope is 
 
 
-The slope of the line going through the green and blue points can be
-
-expressed as []{#answer2 .form-control-sm .answerb
-
-style="border-color:var(--grey6) !important"}.![](data:image/svg+xml;base64,PHN2ZyBpZD0idHUyIiBjbGFzcz0iYmkgYmktaGFuZC10aHVtYnMtdXAiIHdpZHRoPSIyZW0iIGhlaWdodD0iMmVtIiBzdHlsZT0iZGlzcGxheTpub25lIiB2aWV3Ym94PSIwIDAgMTYgMTYiIGZpbGw9InZhcigtLXN1Y2Nlc3MpIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjg1NCAzLjY0NmEuNS41IDAgMCAxIDAgLjcwOGwtNyA3YS41LjUgMCAwIDEtLjcwOCAwbC0zLjUtMy41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDYuNSAxMC4yOTNsNi42NDYtNi42NDdhLjUuNSAwIDAgMSAuNzA4IDB6Ij48L3BhdGg+Cjwvc3ZnPg==){#tu2
-
-.bi .bi-hand-thumbs-up}
-
-  
-
-[Continue](#sec2){#button2 .btn .btn-success .text-light}
-
-:::
-
-  
-
-::: {#sec2 .collapse}
+The slope of the line going through the green and blue points can be expressed as 
+ 
 
 The second one was a bit tricky. The answer is
 
@@ -156,7 +136,6 @@ find the slope at any value of $(x,f(x))$.
   
 
 **I\'m going to go ahead and swap out $x$ for $a$ in the above
-
 expression, just to emphasize that this works for any value of $x$.**
 
   
@@ -198,11 +177,7 @@ $f'(x)$.
 
 **Quick check:** What is the relationship between $f'(x)$ and $f(x)$?
 
-  
-
 The definition of $f'(x)$ goes like this:
-
-  
 
 The value of $f'(a)$, for any $a$ within the domain of $f(x)$, evaluates
 
@@ -252,18 +227,31 @@ $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJaRXJSbnhOYmNYTGdlRWJqIjp7In
-N0YXJ0IjoyNTUwLCJlbmQiOjI1ODIsInRleHQiOiJUaGUgZ2Vu
+N0YXJ0IjoyNTQ1LCJlbmQiOjI1NzcsInRleHQiOiJUaGUgZ2Vu
 ZXJhbCBmb3JtdWxhIGZvciBzbG9wZSBpcyJ9LCIxS0hDTklpT1
 liU1FmVEZiIjp7InN0YXJ0Ijo2MDAsImVuZCI6NjYxLCJ0ZXh0
 IjoiT2theSwgbmV4dCBxdWVzdGlvbi4gV2hhdFxcJ3MgdGhlIH
-Nsb3BlIG9mIHRoZSBsaW5lICQkeT14XjI/JCQifX0sImNvbW1l
-bnRzIjp7ImdYc3E3NEhTeWt6RzFwdGIiOnsiZGlzY3Vzc2lvbk
-lkIjoiWkVyUm54TmJjWExnZUViaiIsInN1YiI6ImdoOjY1MzE4
-Njg1IiwidGV4dCI6IkltcG9ydCBhcyBwcmFjdGljZSBwcm9ibG
-VtIiwiY3JlYXRlZCI6MTYyMjg0MDgzNDk5OH0sIjFyN0FhU2R2
-TnV2aWt5WGIiOnsiZGlzY3Vzc2lvbklkIjoiMUtIQ05JaU9ZYl
-NRZlRGYiIsInN1YiI6ImdoOjY1MzE4Njg1IiwidGV4dCI6Imlt
-cG9ydCBhcyBwcmFjdGljZSBwcm9ibGVtIiwiY3JlYXRlZCI6MT
-YyMjg0MDg1NjE3MH19LCJoaXN0b3J5IjpbMTc4MTgzNDg3Miwx
-MTQ3NTc2NDJdfQ==
+Nsb3BlIG9mIHRoZSBsaW5lICQkeT14XjI/JCQifSwiN1R0ejZM
+VjY2T0djMGhmbSI6eyJzdGFydCI6MjYyMSwiZW5kIjoyNjYyLC
+J0ZXh0IjoiZ3JlZW4gYW5kIGJsdWUgcG9pbnRzIGNhbiBiZSBl
+eHByZXNzZWQgYXMifSwiQlh4UlM1WjRXdFkyVURJTiI6eyJzdG
+FydCI6Mzg2OCwiZW5kIjozOTM3LCJ0ZXh0IjoiKipRdWljayBj
+aGVjazoqKiBXaGF0IGlzIHRoZSByZWxhdGlvbnNoaXAgYmV0d2
+VlbiAkZicoeCkkIGFuZCAkZih4KSQ/In19LCJjb21tZW50cyI6
+eyJnWHNxNzRIU3lrekcxcHRiIjp7ImRpc2N1c3Npb25JZCI6Il
+pFclJueE5iY1hMZ2VFYmoiLCJzdWIiOiJnaDo2NTMxODY4NSIs
+InRleHQiOiJJbXBvcnQgYXMgcHJhY3RpY2UgcHJvYmxlbSIsIm
+NyZWF0ZWQiOjE2MjI4NDA4MzQ5OTh9LCIxcjdBYVNkdk51dmlr
+eVhiIjp7ImRpc2N1c3Npb25JZCI6IjFLSENOSWlPWWJTUWZURm
+IiLCJzdWIiOiJnaDo2NTMxODY4NSIsInRleHQiOiJpbXBvcnQg
+YXMgcHJhY3RpY2UgcHJvYmxlbSIsImNyZWF0ZWQiOjE2MjI4ND
+A4NTYxNzB9LCJSdVIwVmpmUU9DYmNrRlQyIjp7ImRpc2N1c3Np
+b25JZCI6IjdUdHo2TFY2Nk9HYzBoZm0iLCJzdWIiOiJnaDo2NT
+MxODY4NSIsInRleHQiOiJpbXBvcnQgYXMgcHJhY3RpY2UgcHJv
+YmxlbSIsImNyZWF0ZWQiOjE2MjI4NDA5MjgzOTh9LCJBOGxVQk
+VDMW4zdlR0UkYxIjp7ImRpc2N1c3Npb25JZCI6IkJYeFJTNVo0
+V3RZMlVESU4iLCJzdWIiOiJnaDo2NTMxODY4NSIsInRleHQiOi
+JpbXBvcnQgYXMgcHJhY3RpY2UgcHJvYmxlbSIsImNyZWF0ZWQi
+OjE2MjI4NDA5NjI3NDB9fSwiaGlzdG9yeSI6Wy0yMDU0MjMzNz
+QwLDExNDc1NzY0Ml19
 -->
