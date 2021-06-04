@@ -179,15 +179,11 @@ $f'(x)$.
 
 The definition of $f'(x)$ goes like this:
 
-The value of $f'(a)$, for any $a$ within the domain of $f(x)$, evaluates
+The value of $f'(a)$, for any $a$ within the domain of $f(x)$, evaluates to the instantaneous slope of the function $f(x)$ when $x=a$.
 
-to the instantaneous slope of the function $f(x)$ when $x=a$.
+Basically, if $f(x)$ is your position, then $f'(x)$ is your
 
-  
-
-Basically, if $f(x)$ is your velocity, then $f'(x)$ is your
-
-acceleration.
+velocity.
 
   
 
@@ -220,9 +216,6 @@ $$=\lim_{\delta x \to 0}2x + \delta x$$
 And, now that $\delta x$ is out of the denominator, we can substitute
 
 $\delta x =0$:
-
-  
-
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
@@ -252,6 +245,6 @@ YmxlbSIsImNyZWF0ZWQiOjE2MjI4NDA5MjgzOTh9LCJBOGxVQk
 VDMW4zdlR0UkYxIjp7ImRpc2N1c3Npb25JZCI6IkJYeFJTNVo0
 V3RZMlVESU4iLCJzdWIiOiJnaDo2NTMxODY4NSIsInRleHQiOi
 JpbXBvcnQgYXMgcHJhY3RpY2UgcHJvYmxlbSIsImNyZWF0ZWQi
-OjE2MjI4NDA5NjI3NDB9fSwiaGlzdG9yeSI6Wy0yMDU0MjMzNz
-QwLDExNDc1NzY0Ml19
+OjE2MjI4NDA5NjI3NDB9fSwiaGlzdG9yeSI6WzE1OTA2Nzg4Nz
+ksMTE0NzU3NjQyXX0=
 -->
