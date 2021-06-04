@@ -211,7 +211,7 @@ $$=\lim_{\delta x \to 0}\frac{2x\delta x + (\delta x)^2}{\delta x}$$
 
 $$=\lim_{\delta x \to 0}2x + \delta x$$
 
-  
+ 
 
 And, now that $\delta x$ is out of the denominator, we can substitute
 
@@ -245,6 +245,6 @@ YmxlbSIsImNyZWF0ZWQiOjE2MjI4NDA5MjgzOTh9LCJBOGxVQk
 VDMW4zdlR0UkYxIjp7ImRpc2N1c3Npb25JZCI6IkJYeFJTNVo0
 V3RZMlVESU4iLCJzdWIiOiJnaDo2NTMxODY4NSIsInRleHQiOi
 JpbXBvcnQgYXMgcHJhY3RpY2UgcHJvYmxlbSIsImNyZWF0ZWQi
-OjE2MjI4NDA5NjI3NDB9fSwiaGlzdG9yeSI6WzE1OTA2Nzg4Nz
-ksMTE0NzU3NjQyXX0=
+OjE2MjI4NDA5NjI3NDB9fSwiaGlzdG9yeSI6WzE0MTQ4ODMzNT
+UsMTU5MDY3ODg3OSwxMTQ3NTc2NDJdfQ==
 -->
