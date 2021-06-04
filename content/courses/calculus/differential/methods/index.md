@@ -57,11 +57,7 @@ Hint 1
 
   
 
-\
-
-Can\'t distribute? $$ab-cd$$ $$=ab-ad+ad-cd$$ $$=a(b-d)+d(a-c).$$ Yes
-
-you can.
+Can\'t distribute? $$ab-cd$$ $$=ab-ad+ad-cd$$ $$=a(b-d)+d(a-c).$$ Yes you can.
 
   
 
@@ -197,5 +193,5 @@ $$= \boxed{\frac{f'(x)g(x)-g'(x)f(x)}{(g(x))^2}}$$
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjQzOTU1NV19
+eyJoaXN0b3J5IjpbMTA4MjM0MDk2NV19
 -->
