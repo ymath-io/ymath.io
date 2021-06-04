@@ -41,79 +41,9 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
   
 
-Try it on your own first, and plug it in when you think you\'ve got it.
+ @1Try it on your own first, and plug it in when you think you\'ve got it.
 
-  
 
-\$\\displaystyle{\\frac{df(x)g(x)}{dx}}= \$ []{#answer1 .form-control-sm
-
-.answerb}![](data:image/svg+xml;base64,PHN2ZyBpZD0idHUxIiBjbGFzcz0iYmkgYmktaGFuZC10aHVtYnMtdXAiIHdpZHRoPSIyZW0iIGhlaWdodD0iMmVtIiBzdHlsZT0iZGlzcGxheTpub25lIiB2aWV3Ym94PSIwIDAgMTYgMTYiIGZpbGw9InZhcigtLXN1Y2Nlc3MpIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjg1NCAzLjY0NmEuNS41IDAgMCAxIDAgLjcwOGwtNyA3YS41LjUgMCAwIDEtLjcwOCAwbC0zLjUtMy41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDYuNSAxMC4yOTNsNi42NDYtNi42NDdhLjUuNSAwIDAgMSAuNzA4IDB6Ij48L3BhdGg+Cjwvc3ZnPg==){#tu1
-
-.bi .bi-hand-thumbs-up}
-
-  
-
-Hint 1
-
-  
-
-Can\'t distribute? $$ab-cd$$ $$=ab-ad+ad-cd$$ $$=a(b-d)+d(a-c).$$ Yes you can.
-
-  
-
-Hint 2
-
-  
-
-\
-
-What is $$\lim_{\delta x \to 0} \frac{f(x+\delta x)-f(x)}{\delta x}=??$$
-
-  
-
-Show/Hide Solution
-
-  
-
-1.  Set up the limit:
-
-$$\lim_{\delta x \to 0} \frac{f(x+\delta x)g(x+\delta x) -f(x)g(x)}{\delta x}$$
-
-  
-
-2.  Apply the factorization rule (see Hint 1):
-
-$$\lim_{\delta x \to 0} \frac{f(x+\delta x)g(x+\delta x)-f(x+\delta x)g(x)+f(x+\delta x)g(x) -f(x)g(x)}{\delta x}$$
-
-  
-
-3.  Separate:
-
-$$\lim_{\delta x \to 0} \frac{f(x+\delta x)g(x+\delta x)-f(x+\delta x)g(x)}{\delta x}+ \lim_{\delta x \to 0}\frac{f(x+\delta x)g(x) -f(x)g(x)}{\delta x}$$
-
-  
-
-4.  Factor:
-
-$$\lim_{\delta x \to 0}f(x+\delta x)\cdot\lim_{\delta x \to 0} \frac{g(x+\delta x)-g(x)}{\delta x}+ g(x)\lim_{\delta x \to 0}\frac{f(x+\delta x) -f(x)}{\delta x}$$
-
-  
-
-5.  These are just differentiations of $f(x)$ and $g(x)$! So, we can
-
-substitute their differentiations:
-
-  
-
-$$\lim_{\delta x \to 0}f(x+\delta x)\cdot g'(x)+ g(x)f'(x)$$
-
-  
-
-6.  Finally, we approximate: $$\delta x \rightarrow 0$$
-
-$$\frac{df(x)g(x)}{dx}=\boxed{ f(x)g'(x)+ g(x)f'(x)}$$
-
-  
 
 \$\\displaystyle{\\frac{d\\frac{f(x)}{g(x)}}{dx}}= \$ []{#answer2
 
@@ -193,5 +123,5 @@ $$= \boxed{\frac{f'(x)g(x)-g'(x)f(x)}{(g(x))^2}}$$
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjM0MDk2NV19
+eyJoaXN0b3J5IjpbLTIxNDI5NTMyXX0=
 -->
