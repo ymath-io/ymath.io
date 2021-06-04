@@ -1,13 +1,9 @@
 ---
 type: lesson
-index: 500
-title: 
+index: 8
+title: Methods
 
 ---
-
-## Methods
-
-  
 
 The first-principles approach to finding a derivative is time consuming,
 and often messy or difficult.  
@@ -35,5 +31,5 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjU0NDI1MV19
+eyJoaXN0b3J5IjpbLTE5NzQ2MDQwNTJdfQ==
 -->
