@@ -1,19 +1,19 @@
 ---
 type: lesson
-index: 500
-title: 
+index: 9
+title: Power Rule
 
 ---
 
 Now that you\'ve learned some methods of differentiating complex
-functions, let\'s take a look at the following function:
+functions, let\'s take a look at functions of the following form:
 $$f\left(x\right)=x^n.$$ How could we find  $f'\left(x\right)$ ?
 
 It turns out that there\'s two ways to do this. We could use either
 induction or the binomial theorem (or some third method that you can
 email me about :)). I\'m going to go through the induction strategy
 first, because it\'s a bit simpler. If you don\'t like induction or
-haven\'t learned it yet (who is teaching you Precalculus?) you can skip
+haven\'t learned it yet (it's super cool!) you can skip
 ahead to the other method. Otherwise, let\'s go!
 
 #### Induction
@@ -52,5 +52,5 @@ $$=\lim_{h\to0}\binom{n}{1}x^{n-1}+h\left(\cdots\right)$$
 Substituting  $h=0,$ $$\frac{dx^n}{dx}=nx^{n-1}.$$ And we are done!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTczNDMxMjBdfQ==
+eyJoaXN0b3J5IjpbLTg3MjYxNTU0M119
 -->
