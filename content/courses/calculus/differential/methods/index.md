@@ -21,11 +21,11 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
 @1 Try it on your own first, and plug it in when you think you&apos;ve got it.
 
-That is what we call the 
+That is what we call the **Product Rule**.
 
 @2 Now division!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNDgwNDc5LDEzNjYzNDgxNTEsNTY4MD
-g4ODg0XX0=
+eyJoaXN0b3J5IjpbLTk4NDkxMDAwMCwxMzY2MzQ4MTUxLDU2OD
+A4ODg4NF19
 -->
