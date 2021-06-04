@@ -25,91 +25,15 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
   
 
-<div>
 
   
 
  @1 Try it on your own first, and plug it in when you think you\'ve got it.
 
 
+@2 Now division!
 
 
-
-.form-control-sm
-
-.answerb}![](data:image/svg+xml;base64,PHN2ZyBpZD0idHUyIiBjbGFzcz0iYmkgYmktaGFuZC10aHVtYnMtdXAiIHdpZHRoPSIyZW0iIGhlaWdodD0iMmVtIiBzdHlsZT0iZGlzcGxheTpub25lIiB2aWV3Ym94PSIwIDAgMTYgMTYiIGZpbGw9InZhcigtLXN1Y2Nlc3MpIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjg1NCAzLjY0NmEuNS41IDAgMCAxIDAgLjcwOGwtNyA3YS41LjUgMCAwIDEtLjcwOCAwbC0zLjUtMy41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDYuNSAxMC4yOTNsNi42NDYtNi42NDdhLjUuNSAwIDAgMSAuNzA4IDB6Ij48L3BhdGg+Cjwvc3ZnPg==){#tu2
-
-.bi .bi-hand-thumbs-up}
-
-  
-
-Hint 1
-
-  
-
-\
-
-Remember the distribution rule from the previous problem?
-
-  
-
-Hint 2
-
-  
-
-\
-
-Make two huge fractions, simplify, and add them
-
-  
-
-Show/Hide Solution
-
-  
-
-1.  Set up the limit:
-
-$$\lim_{\delta x \to 0} \frac{\frac{f(x+\delta x)}{g(x+\delta x)} -\frac{f(x)}{g(x)}}{\delta x}$$
-
-  
-
-2.  Apply the factorization rule (see Hint 1 from previous problem):
-
-$$\lim_{\delta x \to 0} \frac{\frac{f(x+\delta x)}{g(x+\delta x)} -\frac{f(x+\delta x)}{g(x)}+\frac{f(x+\delta x)}{g(x)} -\frac{f(x)}{g(x)}}{\delta x}$$
-
-  
-
-3.  Separate:
-
-$$\lim_{\delta x \to 0} \frac{\frac{f(x+\delta x)}{g(x+\delta x)} -\frac{f(x+\delta x)}{g(x)}}{\delta x}+\frac{\frac{f(x+\delta x)}{g(x)} -\frac{f(x)}{g(x)}}{\delta x}$$
-
-  
-
-4.  Combine:
-
-$$\lim_{\delta x \to 0}\frac{f(x+\delta x)}{g(x)g(x+\delta x)}\cdot\frac{g(x) -g(x+\delta x)}{\delta x}+\frac{1}{g(x)}\cdot\frac{f(x+\delta x)-f(x)}{\delta x}$$
-
-  
-
-5.  These are just differentiations of $f(x)$ and $g(x)$! So, we can
-
-substitute their differentiations:
-
-  
-
-$$\lim_{\delta x \to 0}\frac{f(x+\delta x)}{g(x)g(x+\delta x)}(-g'(x))+\frac{1}{g(x)}f'(x)$$
-
-  
-
-6.  Now, we approximate: $$\delta x \rightarrow 0$$
-
-$$\frac{f(x)}{g(x)g(x)}g'(x)+\frac{f'(x)}{g(x)}$$
-
-$$= \boxed{\frac{f'(x)g(x)-g'(x)f(x)}{(g(x))^2}}$$
-
-  
-
-</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTE2NTY5MV19
+eyJoaXN0b3J5IjpbLTI1MjU0NDI1MV19
 -->
