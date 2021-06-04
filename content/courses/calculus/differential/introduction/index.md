@@ -11,64 +11,32 @@ index: 6
 
 Okay, so now you\'re a whiz at limits, but you still don\'t feel like you\'re doing Calculus!
 
-  
-
 Yeah, I know - you want to start writing $\frac{dy}{dx}$ and those weird
-
 S-shaped signs, that look like $\int$. I know I did!
 
   
 
 In that case, my friend, we have some good news - we\'re not so far from
-
 all that. Just hang in there.
-
-  
-
 On with the lesson.
-
-  
-
-  
 
 Suppose we have a function $y=3x-5$.
 
-  
-
 What\'s the slope?
 
-  
-
 **It\'s 3, right?**
-
-  
-
 Good. Just checking.
-
-  
 
 Okay, next question. What\'s the slope of the line $$y=x^2?$$
 
-  
-
-[Continue](#sec1){#button1 .btn .btn-success .text-light}
-
-  
-
-::: {#sec1 .collapse .show}
 
 What do you mean, you don\'t know?
 
-  
+Oh\... you mean it keeps changing? Right. When $x$ increases at a constant
 
-Oh\... you mean it keeps changing? Right. When x increases at a constant
+speed, the speed at which $y$ increases increases.
 
-speed, the speed at which y increases increases.
-
-  
-
-Go back, and read that to yourself a few more times, until it makes
-
+ Go back, and read that to yourself a few more times, until it makes
 sense.
 
   
@@ -363,5 +331,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzc0MDUxOSwxMTQ3NTc2NDJdfQ==
+eyJoaXN0b3J5IjpbLTExNjUxOTMxNTcsMTE0NzU3NjQyXX0=
 -->
