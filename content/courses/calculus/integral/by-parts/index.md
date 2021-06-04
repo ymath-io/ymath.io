@@ -13,7 +13,8 @@ Recall that $$\frac{d\ \color{teal}f(x) \color{green}g(x)}{dx} = \color{teal}f'(
 
 In order to see this a bit better, we'll perform the following substitution: $$\textcolor{orchid}{h(x)} = \textcolor{teal}{f'(x)}.$$ The Fundamental Theorem of Calculus tells us that $$\int \textcolor{orchid}{h(x)}\ dx = \textcolor{teal}{f(x)}.$$
 
+Let's substitute! Replacing alll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDM2NDc3LC0yNzA0MjMxODYsMTkxMT
-U2MjgzNCwxNDc1NDcwOTEyLC03MDk0MjExNjJdfQ==
+eyJoaXN0b3J5IjpbNTUyNDI0OTUsLTI3MDQyMzE4NiwxOTExNT
+YyODM0LDE0NzU0NzA5MTIsLTcwOTQyMTE2Ml19
 -->
