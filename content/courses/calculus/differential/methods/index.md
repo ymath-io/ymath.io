@@ -21,8 +21,11 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
 @1 Try it on your own first, and plug it in when you think you&apos;ve got it.
 
+That is what we call the 
+
 @2 Now division!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjM0ODE1MSw1NjgwODg4ODRdfQ==
+eyJoaXN0b3J5IjpbOTUyNDgwNDc5LDEzNjYzNDgxNTEsNTY4MD
+g4ODg0XX0=
 -->
