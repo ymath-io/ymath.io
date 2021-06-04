@@ -104,9 +104,9 @@ Their respective $y$ values on the graph will be $f(a)$ and
 
 $f(a+\delta x)$.
 
-<iframee 
+<iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph"/>
 
-Okay, we\'re trying a new input style here. To type $\delta$ (\"change
+To type $\delta$ (\"change
 
 in\"), type \"delta\", and the symbol should pop up on its own.
 
@@ -114,15 +114,10 @@ in\"), type \"delta\", and the symbol should pop up on its own.
 
 Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.
 
-  
+ 
 
-The general formula for slope is []{#answer1 .form-control-sm .answerb
+The general formula for slope is 
 
-style="border-color:var(--grey6) !important"}.![](data:image/svg+xml;base64,PHN2ZyBpZD0idHUxIiBjbGFzcz0iYmkgYmktaGFuZC10aHVtYnMtdXAiIHdpZHRoPSIyZW0iIGhlaWdodD0iMmVtIiBzdHlsZT0iZGlzcGxheTpub25lIiB2aWV3Ym94PSIwIDAgMTYgMTYiIGZpbGw9InZhcigtLXN1Y2Nlc3MpIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjg1NCAzLjY0NmEuNS41IDAgMCAxIDAgLjcwOGwtNyA3YS41LjUgMCAwIDEtLjcwOCAwbC0zLjUtMy41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDYuNSAxMC4yOTNsNi42NDYtNi42NDdhLjUuNSAwIDAgMSAuNzA4IDB6Ij48L3BhdGg+Cjwvc3ZnPg==){#tu1
-
-.bi .bi-hand-thumbs-up}
-
-  
 
 The slope of the line going through the green and blue points can be
 
@@ -256,5 +251,19 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mzk3Nzc2MCwxMTQ3NTc2NDJdfQ==
+eyJkaXNjdXNzaW9ucyI6eyJaRXJSbnhOYmNYTGdlRWJqIjp7In
+N0YXJ0IjoyNTUwLCJlbmQiOjI1ODIsInRleHQiOiJUaGUgZ2Vu
+ZXJhbCBmb3JtdWxhIGZvciBzbG9wZSBpcyJ9LCIxS0hDTklpT1
+liU1FmVEZiIjp7InN0YXJ0Ijo2MDAsImVuZCI6NjYxLCJ0ZXh0
+IjoiT2theSwgbmV4dCBxdWVzdGlvbi4gV2hhdFxcJ3MgdGhlIH
+Nsb3BlIG9mIHRoZSBsaW5lICQkeT14XjI/JCQifX0sImNvbW1l
+bnRzIjp7ImdYc3E3NEhTeWt6RzFwdGIiOnsiZGlzY3Vzc2lvbk
+lkIjoiWkVyUm54TmJjWExnZUViaiIsInN1YiI6ImdoOjY1MzE4
+Njg1IiwidGV4dCI6IkltcG9ydCBhcyBwcmFjdGljZSBwcm9ibG
+VtIiwiY3JlYXRlZCI6MTYyMjg0MDgzNDk5OH0sIjFyN0FhU2R2
+TnV2aWt5WGIiOnsiZGlzY3Vzc2lvbklkIjoiMUtIQ05JaU9ZYl
+NRZlRGYiIsInN1YiI6ImdoOjY1MzE4Njg1IiwidGV4dCI6Imlt
+cG9ydCBhcyBwcmFjdGljZSBwcm9ibGVtIiwiY3JlYXRlZCI6MT
+YyMjg0MDg1NjE3MH19LCJoaXN0b3J5IjpbMTc4MTgzNDg3Miwx
+MTQ3NTc2NDJdfQ==
 -->
