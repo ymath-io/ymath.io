@@ -19,17 +19,10 @@ For example, if we have a function $h(x) ={f(x)}{g(x)}$ and we want to
 find $$\frac{d h(x)}{dx},$$ then we can find a formula for this in terms
 of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
-  
-
-
-  
-
- @1 Try it on your own first, and plug it in when you think you\'ve got it.
-
+@1 Try it on your own first, and plug it in when you think you\'ve got it.
 
 @2 Now division!
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ2MDQwNTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTE4Nzg3OTZdfQ==
 -->
