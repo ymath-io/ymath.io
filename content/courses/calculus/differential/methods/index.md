@@ -41,7 +41,7 @@ of $f(x)$ and $g(x)$, since $h(x)$ is defined using them.
 
   
 
- @1Try it on your own first, and plug it in when you think you\'ve got it.
+ @1 Try it on your own first, and plug it in when you think you\'ve got it.
 
 
 
@@ -123,5 +123,5 @@ $$= \boxed{\frac{f'(x)g(x)-g'(x)f(x)}{(g(x))^2}}$$
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI5NTMyXX0=
+eyJoaXN0b3J5IjpbLTIxMTY0NDAyODRdfQ==
 -->
