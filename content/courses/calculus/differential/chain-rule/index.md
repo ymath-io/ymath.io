@@ -1,9 +1,9 @@
 ---
 type: lesson
 index: 10
-title: 
+title: Chain Rule
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjQwMzEzNV19
+eyJoaXN0b3J5IjpbLTEwNzY0NDAxOTZdfQ==
 -->
