@@ -19,12 +19,18 @@ $$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot \textcolor{green}{g\left(x\r
 
 Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! Remember - integration kills differentiation, and vice-versa!
 
-So, we integrate both sides:
+So, we integrate both sides.
 
 
-$$\ \int h\left(x\right)dx\ \cdot g\left(x\right)=$$ $$\int h\left(x\right)g\left(x\right)\ dx+ \int g'\left(x\right) \int h\left(x\right)dx \ dx$$
+$$g\left(x\right) \int h\left(x\right)dx=$$ $$\int h\left(x\right)g\left(x\right)\ dx+ \int g'\left(x\right) \int h\left(x\right)dx \ dx.$$
+
+Rearranging to isolate $\int h\left(x\right)g\left(x\right)\ dx$, we see that
+$$\int h\left(x\right)g\left(x\right)\ dx =$$ $$g\left(x\right) \int h\left(x\right)dx - \int g'\left(x\right) \int h\left(x\right)dx \ dx.$$ 
+
+
+And, this is int
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzQ5MjIwNiwtMTU1MTMyMzA0NSw5OT
+eyJoaXN0b3J5IjpbMTQ2ODY0MjU0NCwtMTU1MTMyMzA0NSw5OT
 M1NjA3NDMsLTI3MDQyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5
 MTIsLTcwOTQyMTE2Ml19
 -->
