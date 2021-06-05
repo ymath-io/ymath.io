@@ -80,7 +80,7 @@ in\"), type \"\delta\", and the symbol should pop up on its own.
 
 @1
 
-The slope of the line going through the green and blue points can be expressed as 
+
 
 The second one was a bit tricky. The answer is
 
@@ -147,5 +147,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDU2MDk0NCwtMTkxNTg2OTgxNl19
+eyJoaXN0b3J5IjpbLTM0OTUzMDMzMSwtMTkxNTg2OTgxNl19
 -->
