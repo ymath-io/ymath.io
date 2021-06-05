@@ -22,9 +22,9 @@ Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! Remember - in
 So, we integrate both sides:
 
 
-$$\ \int h\left(x\right)dx\ \cdot g\left(x\right)=\int h\left(x\right)g\left(x\right)\ dx+\big{\int}\int h\left(x\right)dx\ \cdot g'\left(x\right)\ dx$$
+$$\ \int h\left(x\right)dx\ \cdot g\left(x\right)=\int h\left(x\right)g\left(x\right)\ dx+ \int{\int{h\left(x\right)dx}\ \cdot g'\left(x\right)\ dx$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MjE1ODg0LC0xNTUxMzIzMDQ1LDk5Mz
+eyJoaXN0b3J5IjpbODUzNTA4MDI3LC0xNTUxMzIzMDQ1LDk5Mz
 U2MDc0MywtMjcwNDIzMTg2LDE5MTE1NjI4MzQsMTQ3NTQ3MDkx
 MiwtNzA5NDIxMTYyXX0=
 -->
