@@ -5,16 +5,12 @@ description: An intuitive introduction to derivatives
 index: 6
 
 ---
-## Slope of a \... non-linear function!
-
-  
 
 Okay, so now you\'re a whiz at limits, but you still don\'t feel like you\'re doing Calculus!
 
 Yeah, I know - you want to start writing $\frac{dy}{dx}$ and those weird
 S-shaped signs, that look like $\int$. I know I did!
 
-  
 
 In that case, my friend, we have some good news - we\'re not so far from
 all that. Just hang in there.
