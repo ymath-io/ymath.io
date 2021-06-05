@@ -75,8 +75,8 @@ $f(a+\delta x)$.
 <iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 
-Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$. To type $\delta$ (\"change
-in\"), type \"delta\", and the symbol should pop up on its own.
+Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.  To type $\delta$ (\"change
+in\"), type \"\delta\", and the symbol should pop up on its own.
 
 @1
 
@@ -148,5 +148,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NTQyMzQwXX0=
+eyJoaXN0b3J5IjpbLTE5MTU4Njk4MTZdfQ==
 -->
