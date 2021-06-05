@@ -17,9 +17,10 @@ Let's substitute! Replacing all occurrences of $\textcolor{teal}{f(x)},$ we get:
 
 $$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot \textcolor{green}{g\left(x\right)}}{dx}=\textcolor{orchid}{h\left(x\right)}\textcolor{green}{g\left(x\right)}+\int \textcolor{orchid}{h(x)}\ dx\cdot \textcolor{green}{g'\left(x\right)}.$$
 
+Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEzMjMwNDUsOTkzNTYwNzQzLC0yNz
-A0MjMxODYsMTkxMTU2MjgzNCwxNDc1NDcwOTEyLC03MDk0MjEx
-NjJdfQ==
+eyJoaXN0b3J5IjpbMTcyODYwNDEyMywtMTU1MTMyMzA0NSw5OT
+M1NjA3NDMsLTI3MDQyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5
+MTIsLTcwOTQyMTE2Ml19
 -->
