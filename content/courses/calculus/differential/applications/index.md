@@ -4,7 +4,6 @@ title: Applications
 index: 12
 
 ---
-
 Now that you\'ve learned how to find the derivatives of basic (and
 not-so-basic) functions, let\'s try putting this knowledge to use in the
 real world.
@@ -41,7 +40,7 @@ equation, and derivative is just another word for slope.
 Now, let\'s find the derivative of the other function:
 $$\frac{d\frac{4}{3}\pi r^3}{dr}=\frac{4}{3}\pi\ \cdot\ \frac{dr^3}{dr}=\frac{4}{3}\pi\cdot3r^2=4\pi r^2.$$
 Food for thought: isn\'t that the surface area formula? Make a theory.
-Maybe prove it.
+Maybe prove it. 
 
 Okay, so now we know the following values:
 $$\frac{dv}{dr},\frac{dv}{ds}$$ And we want to know what is
@@ -54,3 +53,6 @@ $$\frac{3}{r^2}=\frac{dr}{ds}.$$ And we are done! Now, try the following
 problem on your own.
 
 @1
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODQxNjk0NDY2XX0=
+-->

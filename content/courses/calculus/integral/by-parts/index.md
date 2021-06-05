@@ -17,9 +17,20 @@ Let's substitute! Replacing all occurrences of $\textcolor{teal}{f(x)},$ we get:
 
 $$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot \textcolor{green}{g\left(x\right)}}{dx}=\textcolor{orchid}{h\left(x\right)}\textcolor{green}{g\left(x\right)}+\int \textcolor{orchid}{h(x)}\ dx\cdot \textcolor{green}{g'\left(x\right)}.$$
 
+Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! Remember - integration kills differentiation, and vice-versa!
 
+So, we integrate both sides.
+
+
+$$\textcolor{green}{g\left(x\right)} \int \textcolor{orchid}{h(x)}\ dx=$$ $$\int \textcolor{orchid}{h(x)}~\textcolor{green}{g\left(x\right)}\ dx+ \int\textcolor{green}{g'\left(x\right)}\int \textcolor{orchid}{h(x)}dx \ dx.$$
+
+Rearranging to isolate $\int \textcolor{orchid}{h(x)}~\textcolor{green}{g\left(x\right)}\ dx$, we see that
+$$\int \textcolor{orchid}{h(x)}~\textcolor{green}{g\left(x\right)}\ dx =$$ $$\textcolor{green}{g\left(x\right)} \int \textcolor{orchid}{h(x)}\ dx - \int \textcolor{green}{g'\left(x\right)} \int \textcolor{orchid}{h(x)}\ dx \ dx.$$ 
+
+
+And, this is integration by parts! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEzMjMwNDUsOTkzNTYwNzQzLC0yNz
-A0MjMxODYsMTkxMTU2MjgzNCwxNDc1NDcwOTEyLC03MDk0MjEx
-NjJdfQ==
+eyJoaXN0b3J5IjpbLTU2NzYzOTc0OCwtMTU1MTMyMzA0NSw5OT
+M1NjA3NDMsLTI3MDQyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5
+MTIsLTcwOTQyMTE2Ml19
 -->
