@@ -80,11 +80,8 @@ in\"), type \"\delta\", and the symbol should pop up on its own.
 
 @1
 
+@2
 
-
-The second one was a bit tricky. The answer is
-
-$$\frac{f(a+\delta x)-f(a)}{\delta x}.$$
 
 The above expression describes the change in the $y$-value, or $f(x)$,
 and divides it by $\delta x$, or the change in $x$.
@@ -147,5 +144,6 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTUzMDMzMSwtMTkxNTg2OTgxNl19
+eyJoaXN0b3J5IjpbLTEzMTA5MTUzODAsLTE5MTU4Njk4MTZdfQ
+==
 -->
