@@ -17,10 +17,14 @@ Let's substitute! Replacing all occurrences of $\textcolor{teal}{f(x)},$ we get:
 
 $$\frac{d\ \int \textcolor{orchid}{h(x)}\ dx\ \cdot \textcolor{green}{g\left(x\right)}}{dx}=\textcolor{orchid}{h\left(x\right)}\textcolor{green}{g\left(x\right)}+\int \textcolor{orchid}{h(x)}\ dx\cdot \textcolor{green}{g'\left(x\right)}.$$
 
-Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! R
+Now, there's a big ugly $\frac{d}{dx}$ here - let's get rid of it! Remember - integration kills differentiation, and vice-versa!
+
+So, we integrate both sides:
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM2MTM3MywtMTU1MTMyMzA0NSw5OT
+eyJoaXN0b3J5IjpbMTUxNjkyMjg3OCwtMTU1MTMyMzA0NSw5OT
 M1NjA3NDMsLTI3MDQyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5
 MTIsLTcwOTQyMTE2Ml19
 -->
