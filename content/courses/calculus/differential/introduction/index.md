@@ -103,9 +103,9 @@ $f(a+\delta x)$.
 <iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph"/>
 
 Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$. 
-To type $\Delta$ (\"change in\"), type \"\Delta\", and the symbol should pop up on its own.
+To type $\Delta$ (\"change in\"), type \"\Delta\", and the symbol should pop up on its own. (Similarly, "\delta" for a smaller change!)
 
-The general formula for slope is 
+@1
 
 
 The slope of the line going through the green and blue points can be expressed as 
@@ -215,13 +215,13 @@ $$\frac{\delta y}{\delta x}=2x$$
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJaRXJSbnhOYmNYTGdlRWJqIjp7In
 RleHQiOiJUaGUgZ2VuZXJhbCBmb3JtdWxhIGZvciBzbG9wZSBp
-cyIsInN0YXJ0IjoyNTQzLCJlbmQiOjI1NzV9LCI3VHR6NkxWNj
+cyIsInN0YXJ0IjoyNTU2LCJlbmQiOjI1ODh9LCI3VHR6NkxWNj
 ZPR2MwaGZtIjp7InRleHQiOiJncmVlbiBhbmQgYmx1ZSBwb2lu
-dHMgY2FuIGJlIGV4cHJlc3NlZCBhcyIsInN0YXJ0IjoyNjE5LC
-JlbmQiOjI2NjB9LCJCWHhSUzVaNFd0WTJVRElOIjp7InRleHQi
+dHMgY2FuIGJlIGV4cHJlc3NlZCBhcyIsInN0YXJ0IjoyNjMyLC
+JlbmQiOjI2NzN9LCJCWHhSUzVaNFd0WTJVRElOIjp7InRleHQi
 OiIqKlF1aWNrIGNoZWNrOioqIFdoYXQgaXMgdGhlIHJlbGF0aW
 9uc2hpcCBiZXR3ZWVuICRmJyh4KSQgYW5kICRmKHgpJD8iLCJz
-dGFydCI6Mzg2NiwiZW5kIjozOTM1fX0sImNvbW1lbnRzIjp7Im
+dGFydCI6Mzg3OSwiZW5kIjozOTQ4fX0sImNvbW1lbnRzIjp7Im
 dYc3E3NEhTeWt6RzFwdGIiOnsiZGlzY3Vzc2lvbklkIjoiWkVy
 Um54TmJjWExnZUViaiIsInN1YiI6ImdoOjY1MzE4Njg1IiwidG
 V4dCI6IkltcG9ydCBhcyBwcmFjdGljZSBwcm9ibGVtIiwiY3Jl
@@ -233,6 +233,6 @@ ODM5OH0sIkE4bFVCRUMxbjN2VHRSRjEiOnsiZGlzY3Vzc2lvbk
 lkIjoiQlh4UlM1WjRXdFkyVURJTiIsInN1YiI6ImdoOjY1MzE4
 Njg1IiwidGV4dCI6ImltcG9ydCBhcyBwcmFjdGljZSBwcm9ibG
 VtIiwiY3JlYXRlZCI6MTYyMjg0MDk2Mjc0MH19LCJoaXN0b3J5
-IjpbNjQ1Mjc0ODMzLDk5OTg3NzAzMCwxNDE0ODgzMzU1LDE1OT
-A2Nzg4NzksMTE0NzU3NjQyXX0=
+IjpbMTM4OTI2OTM5Miw5OTk4NzcwMzAsMTQxNDg4MzM1NSwxNT
+kwNjc4ODc5LDExNDc1NzY0Ml19
 -->
