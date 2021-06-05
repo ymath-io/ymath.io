@@ -72,7 +72,7 @@ $a$ and $a+\delta x$.
 Their respective $y$ values on the graph will be $f(a)$ and
 $f(a+\delta x)$.
 
-<iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph"></iframe>
 
 
 Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.  To type $\delta$ (\"change
@@ -80,8 +80,7 @@ in\"), type \"\delta\", and the symbol should pop up on its own.
 
 @1
 
-The slope of the line going through the green and blue points can be
-expressed as 
+The slope of the line going through the green and blue points can be expressed as 
 
 The second one was a bit tricky. The answer is
 
@@ -148,5 +147,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU4Njk4MTZdfQ==
+eyJoaXN0b3J5IjpbLTg5MDU2MDk0NCwtMTkxNTg2OTgxNl19
 -->
