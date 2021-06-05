@@ -1,37 +1,8 @@
+---
+type: lesson
+title: More Practice
 
-
-Topics within Calculus
-
-<a href="../" class="nav-link">Home</a>
-
-<a href="../../limits" class="nav-link">Limits</a>
-
-<a href="../" class="nav-link">Derivatives</a>
-
-<a href="../practice" class="nav-link ml-3 my-1">Practice</a>
-
-<a href="../methods" class="nav-link ml-3 my-1">Methods</a>
-
-<a href="../xn-der" class="nav-link ml-3 my-1"><span class="math inline"><em>x</em><sup><em>n</em></sup></span> Derivative</a>
-
-<a href="../chain-rule" class="nav-link ml-3 my-1">Chain Rule</a>
-
-<a href="../m-practice" class="nav-link ml-3 my-1 active">More Practice</a>
-
-<a href="../physics" class="nav-link ml-3 my-1">Physics</a>
-
-<a href="../rt" class="nav-link ml-3 my-1">Reference Table</a>
-
-<a href="../integrals" class="nav-link">Integrals</a>
-
-<a href="#" class="nav-link disabled">Chapter 4 - Coming Soon</a>
-
-------------------------------------------------------------------------
-:::
-
-::: col-sm-9
-::: container
-## More Practice
+---
 
 In the previous section, we learned useful formulae for solving
 derivatives. They are called the
@@ -197,5 +168,5 @@ Here are some practice problems to use these formulas.
 ::: page-footer
 :::
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5Mjg5ODI2XX0=
+eyJoaXN0b3J5IjpbMTY0MjE0NjIyLDk5OTI4OTgyNl19
 -->
