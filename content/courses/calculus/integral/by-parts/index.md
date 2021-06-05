@@ -28,9 +28,9 @@ Rearranging to isolate $\int h\left(x\right)g\left(x\right)\ dx$, we see that
 $$\int h\left(x\right)g\left(x\right)\ dx =$$ $$g\left(x\right) \int h\left(x\right)dx - \int g'\left(x\right) \int h\left(x\right)dx \ dx.$$ 
 
 
-And, this is int
+And, this is integration by parts! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODY0MjU0NCwtMTU1MTMyMzA0NSw5OT
-M1NjA3NDMsLTI3MDQyMzE4NiwxOTExNTYyODM0LDE0NzU0NzA5
-MTIsLTcwOTQyMTE2Ml19
+eyJoaXN0b3J5IjpbMjYyOTg1NTIzLC0xNTUxMzIzMDQ1LDk5Mz
+U2MDc0MywtMjcwNDIzMTg2LDE5MTE1NjI4MzQsMTQ3NTQ3MDkx
+MiwtNzA5NDIxMTYyXX0=
 -->
