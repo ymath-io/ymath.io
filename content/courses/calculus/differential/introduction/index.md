@@ -27,9 +27,6 @@ Good. Just checking.
 
 Okay, next question. What\'s the slope of the line $$y=x^2?$$
 
-<a href="#sec1" id="button1" class="btn btn-success text-light">Continue</a>
-
-::: {#sec1 .collapse .show}
 What do you mean, you don\'t know?
 
 Oh\... you mean it keeps changing? Right. When x increases at a constant
@@ -77,10 +74,9 @@ $f(a+\delta x)$.
 
 <iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-Okay, we\'re trying a new input style here. To type $\delta$ (\"change
-in\"), type \"delta\", and the symbol should pop up on its own.
 
-Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.
+Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$. To type $\delta$ (\"change
+in\"), type \"delta\", and the symbol should pop up on its own.
 
 @1
 
@@ -152,25 +148,5 @@ $\delta x =0$:
 $$\frac{\delta y}{\delta x}=2x$$
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJaRXJSbnhOYmNYTGdlRWJqIjp7In
-RleHQiOiJUaGUgZ2VuZXJhbCBmb3JtdWxhIGZvciBzbG9wZSBp
-cyIsInN0YXJ0IjoyNTU2LCJlbmQiOjI1ODh9LCI3VHR6NkxWNj
-ZPR2MwaGZtIjp7InRleHQiOiJncmVlbiBhbmQgYmx1ZSBwb2lu
-dHMgY2FuIGJlIGV4cHJlc3NlZCBhcyIsInN0YXJ0IjoyNjMyLC
-JlbmQiOjI2NzN9LCJCWHhSUzVaNFd0WTJVRElOIjp7InRleHQi
-OiIqKlF1aWNrIGNoZWNrOioqIFdoYXQgaXMgdGhlIHJlbGF0aW
-9uc2hpcCBiZXR3ZWVuICRmJyh4KSQgYW5kICRmKHgpJD8iLCJz
-dGFydCI6Mzg3OSwiZW5kIjozOTQ4fX0sImNvbW1lbnRzIjp7Im
-dYc3E3NEhTeWt6RzFwdGIiOnsiZGlzY3Vzc2lvbklkIjoiWkVy
-Um54TmJjWExnZUViaiIsInN1YiI6ImdoOjY1MzE4Njg1IiwidG
-V4dCI6IkltcG9ydCBhcyBwcmFjdGljZSBwcm9ibGVtIiwiY3Jl
-YXRlZCI6MTYyMjg0MDgzNDk5OH0sIlJ1UjBWamZRT0NiY2tGVD
-IiOnsiZGlzY3Vzc2lvbklkIjoiN1R0ejZMVjY2T0djMGhmbSIs
-InN1YiI6ImdoOjY1MzE4Njg1IiwidGV4dCI6ImltcG9ydCBhcy
-BwcmFjdGljZSBwcm9ibGVtIiwiY3JlYXRlZCI6MTYyMjg0MDky
-ODM5OH0sIkE4bFVCRUMxbjN2VHRSRjEiOnsiZGlzY3Vzc2lvbk
-lkIjoiQlh4UlM1WjRXdFkyVURJTiIsInN1YiI6ImdoOjY1MzE4
-Njg1IiwidGV4dCI6ImltcG9ydCBhcyBwcmFjdGljZSBwcm9ibG
-VtIiwiY3JlYXRlZCI6MTYyMjg0MDk2Mjc0MH19LCJoaXN0b3J5
-IjpbMTAyMTgxNDQyNl19
+eyJoaXN0b3J5IjpbMjk5NTQyMzQwXX0=
 -->
