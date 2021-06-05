@@ -1,7 +1,4 @@
-::: container
-::: row
-::: col-sm-3
-### Calculus
+
 
 Topics within Calculus
 
@@ -199,3 +196,6 @@ Here are some practice problems to use these formulas.
 
 ::: page-footer
 :::
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTk5Mjg5ODI2XX0=
+-->
