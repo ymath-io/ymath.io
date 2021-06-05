@@ -1,6 +1,6 @@
 <template>
-  <div class='sm:grid grid-cols-3'>
-  <div class='sm:col-span-1 mb-4 sm:mb-1'>
+  <div :class="{'sm:grid':!!text}" class='grid-cols-4'>
+  <div v-if="text" class='sm:col-span-1 mb-4 sm:mb-1'>
     {{/* the text to the 'left' of the practice problem */}}
     {{text}}
   </div>
