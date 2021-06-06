@@ -23,7 +23,7 @@
             </div>
           </div>
 
-          <div class='ml-auto justify-end flex'>
+          <div v-if='false' class='ml-auto  justify-end flex'>
             <form v-if='dev' role='search'
                   action='/search'
                   method='get'
