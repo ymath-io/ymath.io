@@ -1,5 +1,5 @@
 ---
-title: Integration by Substitution
+title: Substitution
 index: 18
 type: lesson
 
@@ -28,5 +28,5 @@ $$\int f(x)\ dx  \cdot \frac{dx}{d\ g(x)}=  \int f(g(x))\ d x$$
 
 Notice how the second factor is the reciprocal of the differentiation of $g(x)$. So, we compute the differentiation of the second function, multiply by the first function, and differentiate it normally. This is generally much easier to do, as you will see in the practice problems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMTIzMDc1XX0=
+eyJoaXN0b3J5IjpbLTczNjU1MjI2NywyODIxMjMwNzVdfQ==
 -->
