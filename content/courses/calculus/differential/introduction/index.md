@@ -27,9 +27,6 @@ Good. Just checking.
 
 Okay, next question. What\'s the slope of the line $$y=x^2?$$
 
-<a href="#sec1" id="button1" class="btn btn-success text-light">Continue</a>
-
-::: {#sec1 .collapse .show}
 What do you mean, you don\'t know?
 
 Oh\... you mean it keeps changing? Right. When x increases at a constant
@@ -75,21 +72,16 @@ $a$ and $a+\delta x$.
 Their respective $y$ values on the graph will be $f(a)$ and
 $f(a+\delta x)$.
 
-<iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/crcyhxkkmm?embed" class="graph"></iframe>
 
-Okay, we\'re trying a new input style here. To type $\delta$ (\"change
-in\"), type \"delta\", and the symbol should pop up on its own.
 
-Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.
+Make sure to write your answers in terms of $f(x)$, $a$, and $\delta x$.  To type $\delta$ (\"change
+in\"), type \"\delta\", and the symbol should pop up on its own.
 
 @1
 
-The slope of the line going through the green and blue points can be
-expressed as 
+@2
 
-The second one was a bit tricky. The answer is
-
-$$\frac{f(a+\delta x)-f(a)}{\delta x}.$$
 
 The above expression describes the change in the $y$-value, or $f(x)$,
 and divides it by $\delta x$, or the change in $x$.
@@ -151,22 +143,7 @@ $\delta x =0$:
 
 $$\frac{\delta y}{\delta x}=2x$$
 
-
-
-
-
-
-              
-
--   <a href="../" class="page-link"><span aria-hidden="true">«</span></a>
--   <a href="../" class="page-link">Before you go</a>
--   <a href="" class="page-link">•</a>
--   <a href="practice" class="page-link">Practice</a>
--   <a href="definition" class="page-link"><span aria-hidden="true">»</span></a>
-:::
-:::
-:::
-:::
-
-::: page-footer
-:::
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzMTA5MTUzODAsLTE5MTU4Njk4MTZdfQ
+==
+-->
