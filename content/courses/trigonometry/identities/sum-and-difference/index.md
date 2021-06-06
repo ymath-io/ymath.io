@@ -1,7 +1,7 @@
 ---
 title: Sum and Differences
 decription: Sum and Differences!
-index: 3
+index: 6
 type: lesson
 
 ---

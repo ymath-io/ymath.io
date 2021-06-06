@@ -1,7 +1,7 @@
 ---
-title: Identities
-decription: Identities!
-index: 1
+title: Exploration
+description: Identities!
+index: 5
 type: lesson
 
 ---

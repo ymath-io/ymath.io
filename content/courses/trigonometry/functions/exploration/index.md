@@ -1,11 +1,11 @@
 ---
-title: Functions
+title: Exploration
 type: lesson
-desciptions: A lesson about functions!
-index: 2
+desciption: A lesson about functions!
+index: 3
 
 ---
-## FUNCTIONS
+
 
 Draw a unit circle. Be sure to label the radius and axes.
 

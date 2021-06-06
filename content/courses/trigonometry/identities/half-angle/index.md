@@ -1,7 +1,7 @@
 ---
 title: Half Angles
 decription: Half Angles!
-index: 2
+index: 7
 type: lesson
 
 ---

@@ -1,8 +1,8 @@
 ---
-title: Home
+title: Introduction
 type: lesson
 description: An introduction to Trigonometry and what it is.
-index: 1
+index: 2
 
 ---
 

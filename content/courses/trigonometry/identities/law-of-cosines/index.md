@@ -1,12 +1,10 @@
 ---
 title: Law of Cosines
 decription: Law of Cosines!
-index: 5
+index: 9
 type: lesson
 
 ---
-
-## LAW OF COSINES
 
 There are many proofs for the Law of Cosines on the internet, but not
 all of them take the best approach. Here is my explanation, and I hope
@@ -30,7 +28,7 @@ of the third side?
 **Question:** Given the values **a**, **b**, and **x** in the diagram
 below, how do we find **c**?
 
-From [Functions](../../functions/exploration/index.md), recall that given an angle and hypotenuse of a right triangle, we can express the legs in terms of the hypotenuse. Hence, we can label the following sides:
+From [Functions](/learn/trigonometry/functions/exploration/), recall that given an angle and hypotenuse of a right triangle, we can express the legs in terms of the hypotenuse. Hence, we can label the following sides:
 
 IMAGE HERE
 

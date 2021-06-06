@@ -1,18 +1,16 @@
 ---
 title: Law of Sines
 decription: Law of Sines!
-index: 4
+index: 8
 type: lesson
 
 ---
-
-## LAW OF SINES
 
 
 The Law of Sines is one of the first most important relationships
 between trigonometric functions and geometry.
 
-In [Functions](../../functions/exploration/index.md), we learned about trigonometry in right triangles. Now, let's look at a triangle with unknown angles:
+In [Functions](/learn/trigonometry/functions/exploration/), we learned about trigonometry in right triangles. Now, let's look at a triangle with unknown angles:
 
 IMAGE HERE
 
