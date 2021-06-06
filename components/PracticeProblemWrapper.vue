@@ -4,7 +4,7 @@
     {{/* the text to the 'left' of the practice problem */}}
     {{text}}
   </div>
-    <div class='sm:col-span-2 ' v-if='fetched'>
+    <div class='sm:col-span-3 ' v-if='fetched'>
       {{/* the actual practice problem */}}
       <practice-problem
       :answers='doc.answers'

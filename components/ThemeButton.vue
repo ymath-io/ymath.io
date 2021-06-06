@@ -15,10 +15,6 @@ export default {
     toggle: function(){
       localStorage.darkMode = document.body.parentElement.classList.toggle('dark');
     }
-  },
-  mounted(){
-    const isDark = localStorage.darkMode==='true' || (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    document.body.parentElement.classList.toggle('dark', isDark )
   }
 }
 </script>
