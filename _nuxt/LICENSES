@@ -17,6 +17,8 @@
  * Released under the MIT License.
  */
 
+//! moment.js
+
 
 /*!
   * vue-router v3.5.1
