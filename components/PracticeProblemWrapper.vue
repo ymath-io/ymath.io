@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'sm:grid':!!text}" class='grid-cols-4'>
+  <div :class="{'sm:grid':!!text}" class='grid-cols-4 my-5'>
   <div v-if="text" class='sm:col-span-1 mb-4 sm:mb-1'>
     {{/* the text to the 'left' of the practice problem */}}
     {{text}}

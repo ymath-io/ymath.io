@@ -2,8 +2,9 @@
 title: Mathematical Programming
 index: 0
 author: Saumya Singhal
-thumbnail: "/img/math-photo.jpeg"
+thumbnail: "/img/prog-banner.png"
 type: course
+description: A new way to program - with numbers!
 
 ---
 

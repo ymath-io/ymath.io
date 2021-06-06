@@ -2,6 +2,9 @@
 type: course
 index: 1
 title: Physics - Mechanics
+thumbnail: "/img/physics-banner.png"
+author: Saumya Singhal
+description: Learn how the world works!
 
 ---
 <!--stackedit_data:

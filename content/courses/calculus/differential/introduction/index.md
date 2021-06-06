@@ -113,17 +113,8 @@ When we plug in a definition of $f(x)$, such as $f(x)=x^2$ to the limit,
 we can evaluate the limit to get another function, which we call
 $f'(x)$.
 
-**Quick check:** What is the relationship between $f'(x)$ and $f(x)$?
 
-
-
-The definition of $f'(x)$ goes like this:
-
-The value of $f'(a)$, for any $a$ within the domain of $f(x)$, evaluates
-to the instantaneous slope of the function $f(x)$ when $x=a$.
-
-Basically, if $f(x)$ is your velocity, then $f'(x)$ is your
-acceleration.
+@3
 
 
 Now, let\'s try an example. Let\'s try to find the slope of $f(x)=x^2$.
