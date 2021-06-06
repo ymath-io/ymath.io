@@ -1,5 +1,5 @@
 <template>
-  <div class='bg-gray-100 dark:bg-gray-900 '>
+  <div class='bg-gray-100 dark:bg-gray-900' style='min-height: 100vh;display: flex;flex-direction: column'>
     <nav class='bg-gray-100 dark:bg-gray-900 sticky top-0 z-20 bg-opacity-80 backdrop-filter backdrop-blur-sm'>
       <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div class='flex items-center justify-between h-16'>
@@ -61,14 +61,15 @@
       </div>
     </nav>
     <Nuxt />
+    <site-footer/>
   </div>
 </template>
 <script>
 import Vue from 'vue'
 
 const navigation = [{ name: 'Home', to: '/', exact: true }, { name: 'Learn', to: '/learn' }, {
-  name: 'Practice',
-  to: '/practice'
+  name: 'Library',
+  to: '/library'
 }, { name: 'About', to: '/about' }, { name: 'FAQ', to: '/faq' }, { name: 'Beta Features', dev: true, to: '/test' }]
 const profile = ['Profile', 'Settings', 'Sign out']
 export default Vue.extend({
