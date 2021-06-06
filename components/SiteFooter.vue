@@ -44,7 +44,7 @@ export default {
   async fetch() {
     this.courses = await this.$content('/', { deep: true })
       .where({ type: 'course' })
-      .only(['title'])
+      .only(['title', 'path'])
       .fetch()
 
   }
