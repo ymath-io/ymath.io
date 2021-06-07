@@ -53,7 +53,7 @@ Wow, thanks! Fork and submit a pull request on the [Github repository](https://g
 
 ###### **... and I want to tell you!**
 
-Open a new issue on the [Github repository](https://github.com/ymath-io/ymath.io/issues), and explain exactly what the bug is. Screenshots will always make it 2x clearer. Thank you!
+Open a new issue on the [Github repository](https://github.com/ymath-io/ymath.io/issues/new), and explain exactly what the bug is. Screenshots will always make it 2x clearer. Thank you!
 
 #### If you have a question that is not answered here, email me at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and I'll do my best to get back to you.
 <!--stackedit_data:
