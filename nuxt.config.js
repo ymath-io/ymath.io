@@ -161,5 +161,9 @@ export default {
       config.resolve.alias['vue'] = 'vue/dist/vue.common';
 
     }
+  },
+
+  generate: {
+    fallback: '404.html'
   }
 }
