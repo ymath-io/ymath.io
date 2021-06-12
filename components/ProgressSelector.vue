@@ -2,7 +2,7 @@
 
   <button
     ref='butt'
-    :class='[`bg-`+item.color, `text-`+item.color]'
+    :class='[item.id]'
     class='dropdown bg-opacity-20  cursor-pointer  py-2 px-3 my-1 rounded-md dark:hover:bg-opacity-10 hover:bg-opacity-20 '>
     <span >{{item.title}} <m-icon icon='chevron-down'/> </span>
     <div class='dropdown-content '>
@@ -54,6 +54,22 @@ export default {
 </script>
 
 <style scoped>
+.skipped {
+  @apply bg-purple-500 text-purple-500;
+}
+
+.completed {
+  @apply bg-green-400 text-green-400;
+}
+
+.in-progress {
+  @apply bg-yellow-500 text-yellow-500;
+}
+
+.not-started {
+  @apply bg-blue-400 text-blue-400;
+}
+
 .dropdown {
   @apply relative inline-block focus:outline-none;
 }
