@@ -5,7 +5,7 @@
 
     </div>
 
-    <div class='px-1 md:px-5 grid-rows-4 pb-3 pt-3 col-span-3 md:col-span-12'>
+    <div class='px-1 md:px-5 grid-rows-5 pb-3 pt-3 col-span-3 md:col-span-12'>
       <h1 class='text-xl font-bold row-span-1 text-green-500'>
         <a class='stretched-link'
            :href='`/learn/${course.path.split("/")[2]}`'>
@@ -15,11 +15,12 @@
       <p class='dark:text-gray-400 text-gray-600  row-span-2 my-2'>
         {{ course.description }}
       </p>
-      <div class='row-span-1 text-center'>
+      <progress-bar class='row-span-1' :value='completionProgress'/>
+      <!-- add a progress bar, there is an extra row-span already -->
+      <div class='row-span-1 mt-auto text-center'>
         <a class='dark:text-gray-500  text-gray-500'>By {{ course.author }}</a>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -35,6 +36,46 @@ export default {
       },
       type: Object
     }
+  },
+  data:()=>({
+    lessons:[],
+    completionProgress: 0,
+  }),
+  async fetch(){
+    const courseid = this.course.path.split("/")[2];
+    this.lessons = (await this.$content('courses',courseid, {deep:true}).where({type:'lesson'}).only(['path', 'title','index']).sortBy('index').fetch()).map(lesson=>{
+      lesson.path = lesson.path.split('/');
+      lesson.path.shift();lesson.path.shift();
+      lesson.path.pop();
+      lesson.path = lesson.path.join('/');
+      return lesson;
+    });
+    let completed = 0;
+    // skipped and completed = 1
+    // in progress = 0.5
+    this.lessons.forEach(lesson =>{
+      const prog = localStorage.getItem(`progress:${lesson.path}`) || 'not-started';
+      switch (prog) {
+        case 'not-started':
+          completed += 0;
+          break;
+        case 'in-progress':
+          completed += 0.5;
+          break;
+        case 'completed':
+          completed += 1;
+          break;
+        case 'skipped':
+          completed += 1;
+          break;
+
+      }
+    });
+    this.completionProgress = completed / (this.lessons.length || 1)
+  },
+  mounted(){
+    // fetch the completion status for each lesson!
+
   }
 }
 </script>

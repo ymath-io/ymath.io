@@ -2,7 +2,7 @@
 <div>
   <h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1>
   <nuxt-content :document='document'/>
-
+  <div class='text-center mt-10'><progress-selector  v-model='progress'/></div>
 </div>
 </template>
 
@@ -11,7 +11,24 @@ export default {
   async asyncData({$content, params}){
     const [document] = await $content('courses', params.course, params.chapter, params.lesson).fetch();
     return {
-      document
+      document, params
+    }
+  },
+  mounted(){
+     this.progress = localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`] || 'not-started';
+
+    window.addEventListener('storage', function(event) {
+      this.progress = localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`];
+    })
+  },
+  data(){
+    return {
+      progress:'not-started'
+    }
+  },
+  watch:{
+    progress(){
+      localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`] = this.progress;
     }
   }
 }
