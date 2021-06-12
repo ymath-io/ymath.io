@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1623539035",layout:"default",error:a,serverRendered:true,routePath:"\u002Flearn\u002Fphysics-c-mechanics\u002Frotational-motion\u002Fcentripetal-acceleration",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"03d328a8"}}}}(null));
