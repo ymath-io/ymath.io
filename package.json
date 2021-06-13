@@ -33,6 +33,7 @@
     "remark-captions": "^2.2.1",
     "remark-math": "^4.0.0",
     "remark-mermaid": "^0.2.0",
+    "storyblok-nuxt": "^2.0.1",
     "tailwindcss-shadow-outline-colors": "^0.0.8",
     "vue": "^2.6.12",
     "vue-json-viewer": "^2.2.19",

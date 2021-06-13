@@ -58,7 +58,7 @@ export default {
     let completed = 0;
     // skipped and completed = 1
     // in progress = 0.5
-    this.lessons.forEach(lesson =>{
+    this.lessons.forEach( lesson => {
       const prog = localStorage.getItem(`progress:${lesson.path}`);
       switch (prog) {
         case 'not-started':

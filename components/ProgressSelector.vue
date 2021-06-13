@@ -3,10 +3,13 @@
   <button
     ref='butt'
     :class='[item.id]'
-    class='dropdown bg-opacity-20  cursor-pointer  py-2 px-3 my-1 rounded-md dark:hover:bg-opacity-10 hover:bg-opacity-20 '>
-    <span >{{item.title}} <m-icon icon='chevron-down'/> </span>
+    class='dropdown bg-opacity-10 cursor-pointer  py-2 px-3 my-1 rounded-md dark:hover:bg-opacity-10 hover:bg-opacity-20 '>
+    <span>{{ item.title }} <m-icon icon='chevron-down' /> </span>
     <div class='dropdown-content '>
-      <div @click='()=>{$emit(`input`, option.id);$refs.butt.blur()}' :key='option.id' v-for='option in items' :class='[value===option.id?`active`:``, `bg-`+option.color]'>{{option.title}}</div>
+      <div @click='()=>{$emit(`input`, option.id);$refs.butt.blur()}' :key='option.id' v-for='option in items'
+           :class='[value===option.id? `active`:``, option.color]'>
+        {{ option.title }}
+      </div>
     </div>
   </button>
 
@@ -21,32 +24,32 @@ export default {
       type: String
     }
   },
-  computed:{
-    item(){
-      return this.items.find(e=>e.id===this.value)
+  computed: {
+    item() {
+      return this.items.find(e => e.id === this.value)
     }
   },
-  data:()=>({
-    items:[
+  data: () => ({
+    items: [
       {
-        id:'not-started',
-        title:'Not Started',
-        color:'blue-400',
+        id: 'not-started',
+        title: 'Not Started',
+        color: 'bg-blue-400'
       },
       {
-        id:'in-progress',
-        title:'In progress',
-        color:'yellow-500',
+        id: 'in-progress',
+        title: 'In progress',
+        color: 'bg-yellow-500'
       },
       {
-        id:'completed',
-        title:'Completed',
-        color:'green-400',
+        id: 'completed',
+        title: 'Completed',
+        color: 'bg-green-400'
       },
       {
-        id:'skipped',
-        title:'Skipped',
-        color:'purple-500',
+        id: 'skipped',
+        title: 'Skipped',
+        color: 'bg-purple-500'
       }
     ]
   })
@@ -55,19 +58,19 @@ export default {
 
 <style scoped>
 .skipped {
-  @apply bg-purple-500 text-purple-500;
+  @apply bg-purple-500 bg-opacity-20 text-purple-500;
 }
 
 .completed {
-  @apply bg-green-400 text-green-400;
+  @apply bg-green-400 bg-opacity-20 text-green-400;
 }
 
 .in-progress {
-  @apply bg-yellow-500 text-yellow-500;
+  @apply bg-yellow-500 bg-opacity-20 text-yellow-500;
 }
 
 .not-started {
-  @apply bg-blue-400 text-blue-400;
+  @apply bg-blue-400 bg-opacity-20 text-blue-400;
 }
 
 .dropdown {
@@ -79,7 +82,7 @@ div.dropdown-content div:not(.dropdown-content) {
 }
 
 div.dropdown-content div:not(.dropdown-content):not(.active) {
-  @apply bg-opacity-0 hover:bg-opacity-10 hover:bg-gray-400;
+  @apply bg-opacity-0 text-dark dark:text-darkText hover:bg-opacity-10 hover:bg-gray-400;
 }
 
 div.dropdown-content div:not(.dropdown-content).active {
@@ -91,7 +94,7 @@ div.dropdown-content div:not(.dropdown-content).active {
   display: none;
   position: absolute;
   min-width: 160px;
-  @apply rounded-lg py-1 px-2 dark:bg-gray-800 dark:text-darkText left-0 mt-2 shadow-2xl;
+  @apply rounded-lg py-1 px-2 dark:bg-gray-800 bg-white dark:text-darkText left-0 mt-2 shadow-2xl;
   z-index: 1;
 }
 
