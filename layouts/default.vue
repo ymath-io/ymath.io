@@ -40,7 +40,7 @@
           <div class='-mr-2 ml-auto justify-end flex md:hidden'>
             <!-- Mobile menu button -->
             <button @click='expandMenu=!expandMenu'
-                    class='bg-gray-100 dark:bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400  hover:bg-gray-200 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-800 focus:ring-white'>
+                    class=' inline-flex items-center justify-center p-2 rounded-md text-gray-400   focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-800 dark:focus:ring-gray-800 focus:ring-white'>
               <span class='sr-only'>Open main menu</span>
               <m-icon class='block h-6 w-6' icon='menu' v-if='!expandMenu'></m-icon>
               <m-icon class='block h-6 w-6' icon='close' v-else></m-icon>

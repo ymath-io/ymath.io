@@ -106,7 +106,10 @@ module.exports = {
         dark: "#24283b",
         darkText:"#e6e8f1"
       },
-
+      transitionProperty: {
+        'max-height': 'max-height',
+        'spacing': 'margin, padding',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

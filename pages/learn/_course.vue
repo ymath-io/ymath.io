@@ -1,31 +1,32 @@
 <template>
-  <div>
-    <div class='select dark:select-dark pb-16'   v-if='fetched'>
-      <header-banner shift>
+  <div >
+    <div class='select dark:select-dark '   v-if='fetched'>
+      <header-banner  shift>
         {{course.title}}
 
       </header-banner>
       <main style='min-height: 100%'
-        class='max-w-7xl h-full grid gap-12 sm:grid-cols-4 mx-auto py-0 mx-4  sm:px-6 md:px-7 lg:px-8'>
+        class=' h-full grid sm:gap-12 sm:grid-cols-4  py-0  '>
 
-        <div class='sm:col-span-1 px-4 sm:pl-0 w-screen sm:w-full h-full border-b-2 sm:border-b-0 sm:pr-6 dark:border-gray-800 border-gray-200 py-3 sm:py-6' :key='JSON.stringify(params)'>
-          <h2 class='text-2xl pb-2 dark:text-darkText font-medium'>Chapters</h2>
+        <div style='height: calc(100vh - 64px);top:64px' class='sm:col-span-1   w-screen overflow-y-scroll sm:sticky sm:w-full sm:border-r-2  border-b-2 sm:border-b-0  dark:border-gray-800 border-gray-200 ' :key='JSON.stringify(params)'>
+
           <side-bar-item
           :item='{
             title:"Home",
             to:`/learn/${params.course}`,
-            active: !params.chapter
+            active: level===`course`
           }'
           />
           <side-bar-item
+
             :key='index'
             v-for='(subject, index) in subjects'
             :item='subject'
           />
         </div>
-        <div  class='sm:col-span-3 w-screen sm:w-full problem-child h-full px-4 sm:px-0 pb-6 pt-1 sm:py-6'>
+        <div  class='sm:col-span-3 w-screen sm:w-full problem-child h-full pb-6 '>
 
-          <div v-if='prev || next' class='mb-15 w-full flex flex-col sm:flex-row border-t-2 dark:border-gray-800 border-gray-200'>
+          <div v-if='prev || next' class='mb-15 w-full flex flex-col sm:flex-row border-t-0 dark:border-gray-800 border-gray-200'>
             <a :href='prev.href' v-if='prev' class='text-md btn-primary mx-auto sm:ml-1 sm:mr-auto flex-col'>
               <m-icon class='' icon='chevron-left'/> <span>{{prev.title}}</span>
             </a>
@@ -34,8 +35,8 @@
               <span>{{next.title}}</span> <m-icon class='' icon='chevron-right'/>
             </a>
           </div>
-          <div class='mb-15 h-10 border-t-2 dark:border-gray-800 border-gray-200'/>
-          <nuxt-child />
+          <div class='mb-15 h-6 border-t-2 dark:border-gray-800 border-gray-200'/>
+          <nuxt-child class='pl-4 pr-4 sm:pr-20 ' />
           <div class='mt-0 h-10 border-b-2 dark:border-gray-800 border-gray-200'/>
           <div v-if='prev || next' class='mt-15 w-full flex flex-col sm:flex-row border-b-2 dark:border-gray-800 border-gray-200'>
             <a :href='prev.href' v-if='prev' class='text-md btn-primary mx-auto sm:ml-1 sm:mr-auto flex-col'>
@@ -63,12 +64,15 @@ export default {
 
     const [course] = await $content('courses', params.course).fetch()
     // fetch chapters
+    let level = 'course';
     let prev,next;
     if (params.lesson){
       [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/${params.chapter}/${params.lesson}/index`).only(['path', 'title']).fetch()
+      level = 'lesson';
     }
     else if (params.chapter){
       [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/${params.chapter}/index`).only(['path', 'title']).fetch()
+      level = 'chapter';
     }
     else {
       [prev, next] = await $content('courses', params.course, {deep:true}).sortBy('index').surround(`/courses/${params.course}/index`).only(['path', 'title']).fetch();
@@ -98,8 +102,8 @@ export default {
       subject.to = Object.assign([],({ ...subject.path.split('/'), 1:'learn', 4:'' })).join('/')
       // if le subject is le active subject then we highlighteth
       if (subject.path.split('/')[3] === params.chapter) {
-        subject.active = !params.lesson
-        subject.children = await $content('courses', params.course, params.chapter, { deep: true })
+        subject.active = !params.lesson}
+        subject.children = await $content('courses', params.course, subject.path.split('/')[3], { deep: true })
           .where({ type: 'lesson' })
           .sortBy('index')
           .only(['title', 'slug', 'path'])
@@ -110,9 +114,9 @@ export default {
           k.active = params.lesson && params.lesson===k.path.split('/')[4]
         })
 
-      }
+
     }
-    return { course, subjects, fetched: true, params, prev, next }
+    return { course, subjects, fetched: true, level, params, prev, next }
   }
 }
 </script>

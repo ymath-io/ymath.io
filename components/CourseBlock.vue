@@ -16,10 +16,6 @@
         {{ course.description }}
       </p>
       <progress-bar class='row-span-1' :value='completionProgress'/>
-      <!-- add a progress bar, there is an extra row-span already -->
-      <div class='row-span-1 mt-auto text-center'>
-        <a class='dark:text-gray-500  text-gray-500'>By {{ course.author }}</a>
-      </div>
     </div>
   </div>
 </template>
@@ -40,6 +36,7 @@ export default {
   data:()=>({
     lessons:[],
     completionProgress: 0,
+
   }),
   async fetch(){
     const courseid = this.course.path.split("/")[2];
@@ -78,6 +75,7 @@ export default {
           break;
       }
     });
+
     this.completionProgress = completed / (this.lessons.length || 1)
   }
 }

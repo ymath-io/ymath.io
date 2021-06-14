@@ -89,7 +89,6 @@ div.dropdown-content div:not(.dropdown-content).active {
   @apply bg-opacity-10 hover:bg-opacity-20;
 }
 
-
 .dropdown-content {
   display: none;
   position: absolute;

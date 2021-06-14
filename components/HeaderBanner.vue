@@ -5,6 +5,9 @@
         <slot name='thumbnail'></slot>
       </div>
       <div class='col-span-3 align-baseline items-baseline ' :class='{"grid grid-rows-2":subtitle}'>
+        <span v-if='category' class='uppercase font-semibold tracking-wide text-gray-500 text-sm'>
+          <slot name='category'></slot>
+        </span>
         <h1 class='text-3xl   dark:text-gray-100 font-bold text-gray-900' :class='{"row-span-1":subtitle}'>
           <slot/>
         </h1>
@@ -21,7 +24,7 @@
 <script>
 export default {
   name: 'Header',
-  props:{'shift':Boolean, subtitle:Boolean}
+  props:{'shift':Boolean, category:Boolean, subtitle:Boolean}
 }
 </script>
 

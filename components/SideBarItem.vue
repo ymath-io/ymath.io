@@ -1,15 +1,16 @@
 <template>
-  <div>
-    <div style='position: relative'
-         :class='{"ml-8 ":item.sub,  "bg-green-400 dark:bg-green-500 border-none font-bold  text-white shadow-primary-xl":item.active, "hover:shadow-2xl hover:bg-white dark:hover:bg-gray-800":!item.active}'
-         class='px-3 py-2 my-2.5 transition-shadow ease-in-out hover:border-transparent  border-2 border-gray-200 dark:border-gray-800 dark:text-gray-200 duration-500   rounded-2xl '>
-      <a :href='item.to' class='stretched-link'>{{ item.title }}</a>
+  <div class=' border-b-2 dark:border-gray-800 border-gray-200'>
+    <div @click='open=!open' style='position: relative'
+         class='px-3 py-2  cursor-pointer flex flex-row focus:outline-none w-full dark:text-gray-200 duration-500 rounded-0 '>
+      <a >{{ item.title }}</a>
+      <m-icon v-if='item.children' class='transform duration-500 ease-in-out transition-transform' :class="[open?'rotate-0':'-rotate-90']" icon='chevron-down'/>
     </div>
-    <SideBarItem
-      v-for='(child, childIdx) of item.children'
-      :item='child'
-      :key='childIdx'
-    />
+    <div class=' duration-500 overflow-hidden ease-in-out transition-max-height' :class="{'max-h-0 ':!open, 'max-h-screen':open}">
+      <div  class='py-2 pr-3 pl-6' :key='idx' v-for='(child, idx) of item.children'>
+        <a :href='child.to'>{{child.title}}</a>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -20,7 +21,10 @@ export default {
     'active': Boolean, 'item': {
       type: Object, default: { title: 'Item.title', active: false, sub: false, children: [] }
     }, 'sub': Boolean
-  }
+  },
+  data:()=>({
+    open: true
+  })
 }
 </script>
 
