@@ -1,7 +1,7 @@
 <template>
   <div class=' border-b-2 dark:border-gray-800 border-gray-200'>
     <div @click='open=!open' style='position: relative'
-         class='px-3 py-2  cursor-pointer flex flex-row focus:outline-none w-full dark:text-gray-200 duration-500 rounded-0 '>
+         class='px-3 py-2 font-semibold cursor-pointer flex flex-row focus:outline-none w-full dark:text-gray-200 duration-500 rounded-0 '>
       <a >{{ item.title }}</a>
       <m-icon v-if='item.children' class='transform duration-500 ease-in-out transition-transform' :class="[open?'rotate-0':'-rotate-90']" icon='chevron-down'/>
     </div>

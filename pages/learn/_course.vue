@@ -1,7 +1,7 @@
 <template>
   <div >
     <div class='select dark:select-dark '   v-if='fetched'>
-      <header-banner  shift>
+      <header-banner course-shift>
         {{course.title}}
 
       </header-banner>
@@ -10,13 +10,6 @@
 
         <div style='height: calc(100vh - 64px);top:64px' class='sm:col-span-1   w-screen overflow-y-scroll sm:sticky sm:w-full sm:border-r-2  border-b-2 sm:border-b-0  dark:border-gray-800 border-gray-200 ' :key='JSON.stringify(params)'>
 
-          <side-bar-item
-          :item='{
-            title:"Home",
-            to:`/learn/${params.course}`,
-            active: level===`course`
-          }'
-          />
           <side-bar-item
 
             :key='index'
