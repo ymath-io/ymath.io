@@ -149,6 +149,9 @@ export default {
         }
         Object.assign(doc, docInfo)
       }
+      else if(['course','chapter','lesson'].includes(doc.type)) {
+        doc.url = doc.slug+'hi'
+      }
     }
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build

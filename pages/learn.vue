@@ -4,7 +4,8 @@
 
 <script>
 export default {
-  name:'learn'
+  name:'learn',
+  layout:'learn'
 }
 </script>
 

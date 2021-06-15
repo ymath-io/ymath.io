@@ -1,7 +1,13 @@
 <template>
+  <div v-if="fetched">
 
-        <nuxt-content :document='course' />
+    <nuxt-content :document="course"/>
 
+  <div :key="subject.title" v-for="subject of subjects">
+    {{subject.url+''}}
+  </div>
+
+  </div>
 </template>
 
 <script>
@@ -14,10 +20,9 @@ export default {
       .only(['title', 'slug'])
       .fetch()
     return { course, subjects, fetched: true }
-  }
+  },
 }
 </script>
 
 <style scoped>
-
 </style>

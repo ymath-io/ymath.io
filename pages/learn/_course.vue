@@ -1,15 +1,14 @@
 <template>
   <div >
     <div class='select dark:select-dark '   v-if='fetched'>
-      <header-banner course-shift>
-        {{course.title}}
+      <main style='min-height: 100%;top:64px'
+        class=' h-full grid sm:gap-12 sm:grid-cols-4 sticky py-0  '>
 
-      </header-banner>
-      <main style='min-height: 100%'
-        class=' h-full grid sm:gap-12 sm:grid-cols-4  py-0  '>
-
-        <div style='height: calc(100vh - 64px);top:64px' class='sm:col-span-1   w-screen overflow-y-scroll sm:sticky sm:w-full sm:border-r-2  border-b-2 sm:border-b-0  dark:border-gray-800 border-gray-200 ' :key='JSON.stringify(params)'>
-
+        <div style='height: calc(100vh - 64px);' 
+        class='sm:col-span-1 
+        scrollbar-thin scrollbar-thumb-rounded-full dark:scrollbar-thumb-gray-800 scrollbar-thumb-gray-200 scrollbar-track-transparent w-screen overflow-y-scroll
+         sm:sticky sm:w-full sm:border-r-2 flex flex-col border-b-2 sm:border-b-0  dark:border-gray-800 border-gray-200 ' :key='JSON.stringify(params)'>
+          <div class="text-center"><h1 class="tracking-wide font-semibold text-green-400 uppercase text-xl">{{course.title}}</h1></div>
           <side-bar-item
 
             :key='index'
@@ -17,7 +16,7 @@
             :item='subject'
           />
         </div>
-        <div  class='sm:col-span-3 w-screen sm:w-full problem-child h-full pb-6 '>
+        <div style='height: calc(100vh - 64px);'  class='sm:col-span-3 w-screen sm:w-full overflow-scroll h-full pb-6 '>
 
           <div v-if='prev || next' class='mb-15 w-full flex flex-col sm:flex-row border-t-0 dark:border-gray-800 border-gray-200'>
             <a :href='prev.href' v-if='prev' class='text-md btn-primary mx-auto sm:ml-1 sm:mr-auto flex-col'>

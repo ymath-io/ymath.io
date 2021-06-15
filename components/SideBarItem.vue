@@ -1,15 +1,47 @@
 <template>
-  <div class=' border-b-2 dark:border-gray-800 border-gray-200'>
-    <div @click='open=!open' style='position: relative'
-         class='px-3 py-2 font-semibold cursor-pointer flex flex-row focus:outline-none w-full dark:text-gray-200 duration-500 rounded-0 '>
-      <a >{{ item.title }}</a>
-      <m-icon v-if='item.children' class='transform duration-500 ease-in-out transition-transform' :class="[open?'rotate-0':'-rotate-90']" icon='chevron-down'/>
+  <div class="border-b-2 dark:border-gray-800 border-gray-200">
+    <div
+      @click="open = !open"
+      style="position: relative"
+      class="
+        px-3
+        py-2
+        font-semibold
+        cursor-pointer
+        flex flex-row
+        focus:outline-none
+        w-full
+        dark:text-gray-200
+        duration-500
+        rounded-0
+      "
+    >
+      <a>{{ item.title }}</a>
+      <m-icon
+        v-if="item.children"
+        class="transform duration-300 ease-in-out transition-transform"
+        :class="[open ? 'rotate-0' : '-rotate-90']"
+        icon="chevron-down"
+      />
     </div>
-    <div class=' duration-500 overflow-hidden ease-in-out transition-max-height' :class="{'max-h-0 ':!open, 'max-h-screen':open}">
-      <div  class='py-2 pr-3 pl-6' :key='idx' v-for='(child, idx) of item.children'>
-        <a :href='child.to'>{{child.title}}</a>
+    <div
+      class="
+        duration-500
+        dark:text-darkText
+        overflow-hidden
+        ease-in-out
+        transition-max-height
+      "
+      :class="{ 'max-h-0 ': !open, 'max-h-screen': open }"
+    >
+      <div
+        class="py-2 pr-3 pl-14 relative sidebar-subitem"
+        :key="idx+child.progress"
+        :class="[child.progress]"
+        v-for="(child, idx) of item.children"
+      >
+        <a :href="child.to">{{ child.title }}</a>
       </div>
-
     </div>
   </div>
 </template>
@@ -18,16 +50,93 @@
 export default {
   name: 'SideBarItem',
   props: {
-    'active': Boolean, 'item': {
-      type: Object, default: { title: 'Item.title', active: false, sub: false, children: [] }
-    }, 'sub': Boolean
+    active: Boolean,
+    item: {
+      type: Object,
+      default: { title: 'Item.title', active: false, sub: false, children: [] },
+    },
+    sub: Boolean,
   },
-  data:()=>({
-    open: true
-  })
+  data: () => ({
+    open: true,
+  }),
+  mounted() {
+    this.fetchCompletion();
+    let v = this;
+    window.addEventListener('storage', ()=>{
+      console.log('heello');
+      v.fetchCompletion();
+    })
+  },
+  methods: {
+    fetchCompletion() {
+      console.log('hello!!!!')
+      for (const child of this.item.children) {
+        let path = child.path.split('/')
+        path.shift()
+        path.shift()
+        path.pop()
+        path = path.join('/')
+        path;
+        child.progress =
+          localStorage.getItem(`progress:${path}`) || 'not-started'
+      }
+    },
+  },
 }
 </script>
 
 <style scoped>
+.sidebar-subitem::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  display: block;
+  left: 27px;
+  top: 0px;
+  bottom: 0px;
+  @apply bg-gray-300 dark:bg-gray-700;
+}
 
+.sidebar-subitem:first-of-type::before {
+  top: 22px;
+}
+.sidebar-subitem:last-of-type::before {
+  bottom: calc(100% - 22px);
+}
+
+.sidebar-subitem::after {
+  border-radius: 100%;
+  @apply bg-gray-300 dark:bg-gray-700 absolute;
+  content: '';
+  left: 24px;
+  top: 18px;
+  height: 8px;
+  width: 8px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.sidebar-subitem.skipped::before {
+  @apply bg-purple-500;
+}
+
+.sidebar-subitem.skipped::after {
+  @apply bg-purple-500;
+}
+
+.sidebar-subitem.in-progress::before {
+  @apply bg-yellow-400;
+}
+
+.sidebar-subitem.in-progress::after {
+  @apply bg-yellow-400;
+}
+
+.sidebar-subitem.completed::before {
+  @apply bg-green-400;
+}
+
+.sidebar-subitem.completed::after {
+  @apply bg-green-400;
+}
 </style>
