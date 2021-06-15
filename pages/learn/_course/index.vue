@@ -34,7 +34,7 @@ export default {
     for (const subj of subjects){
       let path = subj.path.split('/');
       path.shift();path.shift();path.pop();
-      path = path.join('/');subj.to = path;
+      path = path.join('/');subj.to = '/learn/'+path;
     }
     return { course, subjects, fetched: true }
   },
