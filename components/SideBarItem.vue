@@ -36,8 +36,8 @@
     >
       <div
         class="py-2 pr-3 pl-14 relative sidebar-subitem"
-        :key="idx+child.progress"
-        :class="[child.progress]"
+        :key="idx+''+child.progress"
+        :class="child.progress"
         v-for="(child, idx) of item.children"
       >
         <a :href="child.to">{{ child.title }}</a>
@@ -64,13 +64,14 @@ export default {
     this.fetchCompletion();
     let v = this;
     window.addEventListener('storage', ()=>{
-      console.log('heello');
+      v.fetchCompletion();
+    });
+    window.addEventListener('completionChange', ()=>{
       v.fetchCompletion();
     })
   },
   methods: {
     fetchCompletion() {
-      console.log('hello!!!!')
       for (const child of this.item.children) {
         let path = child.path.split('/')
         path.shift()
@@ -83,6 +84,16 @@ export default {
       }
     },
   },
+  watch:{
+    item:{
+      handler(){
+        console.log(this.item.children);
+        this.fetchCompletion();
+      },
+      deep: true,
+
+    }
+  }
 }
 </script>
 

@@ -11,14 +11,14 @@ export default {
   async asyncData({$content, params}){
     const [document] = await $content('courses', params.course, params.chapter, params.lesson).fetch();
     return {
-      document, params
+      document, params, storageKey:`progress:${params.course}/${params.chapter}/${params.lesson}`
     }
   },
   mounted(){
-     this.progress = localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`] || 'not-started';
+     this.progress = localStorage[this.storageKey] || 'not-started';
 
     window.addEventListener('storage', function(event) {
-      this.progress = localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`];
+      this.progress = localStorage[this.storageKey];
     })
   },
   data(){
@@ -28,7 +28,8 @@ export default {
   },
   watch:{
     progress(){
-      localStorage[`progress:${this.params.course}/${this.params.chapter}/${this.params.lesson}`] = this.progress;
+      localStorage[this.storageKey] = this.progress;
+      window.dispatchEvent( new Event('completionChange') );
     }
   }
 }

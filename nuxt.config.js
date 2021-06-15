@@ -1,6 +1,7 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
+  telemetry: true,
   loading: {
     color: '#28a745',
     height: '3px'

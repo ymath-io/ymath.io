@@ -11,7 +11,7 @@
     </div>
     <div class="py-4 px-4 bg-gray-300 rounded-lg bg-opacity-30">
         <h3 class="font-bold">Up next for you:</h3>
-        <div class="flex flex-row align-middle"><a href="#" class="flex hover:underline align-middle items-center">Lesson 7</a> <a :href="subject.to" class="bg-blue-400 cursor-pointer ml-auto text-white py-2 px-3 rounded-xl">Start</a></div>
+        <div class="flex flex-row align-middle"><a href="#" class="flex hover:underline align-middle items-center">Lesson 7</a> <a :href="subject.to" class="bg-blue-400 cursor-pointer ml-auto text-white py-1 px-3 rounded-xl">Start</a></div>
     </div>
     </div>
   </div>

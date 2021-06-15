@@ -9,14 +9,9 @@ description: Learn how to accurately approximate asymptotes of functions.
 Limits are the basis for almost everything in calculus. By the time you get to derivatives, you'll be doing limits and
 you won't even know it. To become familiar with what a limit is, let's consider the function
 
-$$ 
-f(x) = \frac{x^2-1}{x-1}. 
-$$
-
+$$ f(x) = \frac{x^2-1}{x-1}. $$
 
 @1 Try this.
-
-
 
 $\frac{0}{0}$ is indeterminate, so the function $f(x)$ would be indeterminate at $x=1$. However, the function is defined
 at $x=0.9$ and $x=1.1$:
@@ -39,21 +34,19 @@ Try dragging the black point to $x=1$ in the above graph, and you will notice th
 
 However, notice that it "looks like"
 
-$$ 
-f(1)=2. 
-$$
+$$ f(1)=2. $$
 
 So, we can say that
 
-$$ 
-\lim_{x\to 1} f(x) = 2. 
-$$
+$$ \lim_{x\to 1} f(x) = 2. $$
 
-The English for this is "As $x$ approaches 1, $f(x)$ approaches $2$."
+The English for this is &ldquo; As $x$ approaches 1, $f(x)$ approaches $2$.&rdquo;
 
-Another possible interpretation is "The limit of $f(x)$ as $x$ approaches 1 is $2$."
+Another possible interpretation is &ldquo;The limit of $f(x)$ as $x$ approaches 1 is $2$.&rdquo;
 
-This does not mean that $f(1)=2$ , but rather that if $x$ is very close to $1$, then is $f(x)$ very close to $2$.
+This does not mean that $f(1)=2$, but rather that if $x$ is very close to $1$, then is $f(x)$ very close to $2$.
+
+
 
 @2 Look closely at the graph.
 
