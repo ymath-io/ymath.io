@@ -35,6 +35,10 @@
     .shadow-primary-2xl {
       box-shadow: 0 25px 50px -12px rgba(40, 167, 69, 0.39);
     }
+    .clip-text {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }
 

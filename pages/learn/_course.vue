@@ -8,7 +8,8 @@
         class='sm:col-span-1 
         scrollbar-thin scrollbar-thumb-rounded-full dark:scrollbar-thumb-gray-800 scrollbar-thumb-gray-200 scrollbar-track-transparent w-screen overflow-y-scroll
          sm:sticky sm:w-full sm:border-r-2 flex flex-col border-b-2 sm:border-b-0  dark:border-gray-800 border-gray-200 ' :key='JSON.stringify(params)'>
-          <div class="text-center"><h1 class="tracking-wide font-semibold text-green-400 uppercase text-xl">{{course.title}}</h1></div>
+          <div class="text-center"><h1 class="tracking-wide font-semibold text-green-400 uppercase text-2xl">{{course.title}}</h1></div>
+         <hr class="border-bottom-gray-200" />
           <side-bar-item
 
             :key='index'
