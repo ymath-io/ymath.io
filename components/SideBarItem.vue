@@ -37,10 +37,10 @@
       <div
         class="py-2 pr-3 pl-14 relative sidebar-subitem"
         :key="idx+''+child.progress"
-        :class="child.progress"
+        :class="child.active?'active':child.progress"
         v-for="(child, idx) of item.children"
       >
-        <a :href="child.to">{{ child.title }}</a>
+        <a class="stretched-link" :href="child.to">{{ child.title }}</a>
       </div>
     </div>
   </div>
@@ -126,6 +126,9 @@ export default {
   width: 8px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
+.sidebar-subitem {
+  @apply hover:bg-gray-200 hover:bg-opacity-70;
+}
 
 .sidebar-subitem.skipped::before {
   @apply bg-purple-500;
@@ -133,6 +136,18 @@ export default {
 
 .sidebar-subitem.skipped::after {
   @apply bg-purple-500;
+}
+
+.sidebar-subitem.active::before {
+  @apply bg-green-600;
+}
+
+.sidebar-subitem.active::after {
+  @apply bg-green-600;
+}
+
+.sidebar-subitem.active {
+  @apply text-green-500 bg-green-400 bg-opacity-10 ;
 }
 
 .sidebar-subitem.in-progress::before {
@@ -144,10 +159,10 @@ export default {
 }
 
 .sidebar-subitem.completed::before {
-  @apply bg-green-400;
+  @apply bg-emerald-400;
 }
 
 .sidebar-subitem.completed::after {
-  @apply bg-green-400;
+  @apply bg-emerald-400;
 }
 </style>

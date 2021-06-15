@@ -101,10 +101,10 @@ export default {
           .sortBy('index')
           .only(['title', 'slug', 'path'])
           .fetch()
-        subject.children.forEach(k=> {
+        subject.children.forEach(k => {
           k.progress='not-started'
           k.to = Object.assign([],({ ...k.path.split('/'), 1:'learn', 5:'' })).join('/')
-          k.active = params.lesson && params.lesson===k.path.split('/')[4]
+          k.active = params.lesson && params.lesson===k.path.split('/')[4] && params.chapter == k.path.split('/')[3]
         })
 
 
