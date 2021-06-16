@@ -36,8 +36,7 @@ In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied to
 
 ## Warnings
 Recall from the first lesson that towers of exponents are evaluated from the top down. So, 
-
+$$x^{y^z}=x^{\left(y^z\right)}=2^1=2$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTEwMDMwMTgsLTE1OTcwMTA5NzNdfQ
-==
+eyJoaXN0b3J5IjpbNzQ5MTYxNjE4LC0xNTk3MDEwOTczXX0=
 -->
