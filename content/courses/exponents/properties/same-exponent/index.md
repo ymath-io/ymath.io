@@ -5,7 +5,7 @@ title: Same Exponent Properties
 
 ---
 
-You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Now, we'll be looking at some properties of exponents.
+
 
 ### List of Exponent Properties
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
@@ -20,5 +20,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTgyNDU3NV19
+eyJoaXN0b3J5IjpbLTM4NDkxNDYyNiwxMDIxODI0NTc1XX0=
 -->
