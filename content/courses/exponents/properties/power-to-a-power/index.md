@@ -1,7 +1,7 @@
 ---
 type: lesson
-index: 3
-title: Properties
+index: 5
+title: Power to a Power Property
 
 ---
 
@@ -34,5 +34,5 @@ $$=\underbrace{xxx \ldots x}_\text{$ab$ times}
 
 In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTg1NjMxOV19
+eyJoaXN0b3J5IjpbLTE1OTcwMTA5NzNdfQ==
 -->
