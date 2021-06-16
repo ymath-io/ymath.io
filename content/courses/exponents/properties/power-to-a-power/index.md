@@ -5,7 +5,7 @@ title: Power to a Power Property
 
 ---
 
-You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Now, we'll be looking at some properties of exponents.
+This is the last property we'll be learning in this chapter. 
 
 - Power to a Power: $(x^a)^b=x^{ab}$
 
@@ -34,5 +34,5 @@ $$=\underbrace{xxx \ldots x}_\text{$ab$ times}
 
 In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcwMTA5NzNdfQ==
+eyJoaXN0b3J5IjpbODkxNTY4NTA0LC0xNTk3MDEwOTczXX0=
 -->
