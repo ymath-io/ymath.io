@@ -5,7 +5,7 @@ title: Same Base Properties
 
 ---
 
-You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Today, we will learn two properties of exponents - the Product of Powers .
+You might remember that when you learned about multiplication, you learned about some properties like the Associative Property, Commutative Property, and the Distributive Property. Today, we will learn two properties of exponents - the Product of Powers Property and the Quotient of Powers Property.
 
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
 - Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
@@ -119,5 +119,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1MzE2MzU3XX0=
+eyJoaXN0b3J5IjpbNjY0MDY4MTE3XX0=
 -->
