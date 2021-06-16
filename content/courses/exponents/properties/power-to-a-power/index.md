@@ -36,8 +36,9 @@ In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied to
 
 ## Warnings
 Recall from the first lesson that towers of exponents are evaluated from the top down. So, 
-$$x^{y^z}=x^{\left(y^z\right)}\neq \left(x^y\right)^z$$
+$$x^{y^z}=x^{\left(y^z\right)}\neq \left(x^y\right)^z=x^{yz}$$
 $$x^{y^z}\neq x^{yz}$$
+(Technically, it's only tr $y^z\neq yz$, which is most of the time.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDg5MDE2MiwtMTU5NzAxMDk3M119
+eyJoaXN0b3J5IjpbLTEwNDI2NTUxNSwtMTU5NzAxMDk3M119
 -->
