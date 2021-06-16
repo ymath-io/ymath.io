@@ -83,12 +83,12 @@ $$x^2 \cdot y^3=(xx)(yyy)$$
 $$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
 In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the "property" will be false! 
 
-Speaking of incorrect properties, make sure the powers are being multiplied, not added together. 
+Speaking of incorrect properties, make sure the powers are being multiplied, not added together, when you use the Product of Powers Property. It's not called the Addition of Powers Property for a reason.
 $$x^2+x^3\neq x^5$$
 
 In case you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
 $$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNTIzMzM1LC04MzYxODY3NzIsNjY0MD
-Y4MTE3XX0=
+eyJoaXN0b3J5IjpbMTgwMTI2MTc0NywtODM2MTg2NzcyLDY2ND
+A2ODExN119
 -->
