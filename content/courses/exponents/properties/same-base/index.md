@@ -77,7 +77,7 @@ Since $a\geq b$, there are at least as many $``x"$s in the numerator as the deno
 
 We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
-### Warnings
+## Warnings
 The bases of the powers have to be the same for both of these properties to work. This is why we have been referring to them as the same base properties. For example, if you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
 $$x^2 \cdot y^3=(xx)(yyy)$$
 $$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
@@ -101,6 +101,6 @@ $$x^5-x^2
 =x^2\cdot x^3+x^2\cdot 1
 =x^2(x^3-1)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM4NTk3MzAsLTgzNjE4Njc3Miw2Nj
-QwNjgxMTddfQ==
+eyJoaXN0b3J5IjpbNDkzMjQ0MzA3LC04MzYxODY3NzIsNjY0MD
+Y4MTE3XX0=
 -->
