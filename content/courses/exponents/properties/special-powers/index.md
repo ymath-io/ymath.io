@@ -1,6 +1,6 @@
 ---
 type: lesson
-index: 4
+index: 6
 title: Special Powers
 
 ---
@@ -95,5 +95,5 @@ $$10^3=10\cdot 10\cdot 10=1000$$
 Notice a pattern? Since multiplying a number by 10 adds a zero to the end, the product of $x$ $10$'s is a $1$ with $x$ zeroes at the end. Thus, 
 $10^x$ is a $1$ followed by $x$ zeroes. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE2NzI0NzldfQ==
+eyJoaXN0b3J5IjpbLTE3MzkzODEzNDVdfQ==
 -->
