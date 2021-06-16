@@ -56,9 +56,9 @@ Awesome, we've just proved the Product of Powers Property! (Actually, we've show
 The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
 $$x^2 \cdot y^3=(xx)(yyy)$$
 $$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
-In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the property will be false! 
+In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the "property" will be false! 
 
-Speaking of false properties, make sure the powers are being multiplied, not added together. 
+Speaking of incorrect properties, make sure the powers are being multiplied, not added together. 
 $$x^2+x^3\neq x^5$$
 
 In case you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
@@ -119,5 +119,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQxNDEwMDIsNjY0MDY4MTE3XX0=
+eyJoaXN0b3J5IjpbLTgzNjE4Njc3Miw2NjQwNjgxMTddfQ==
 -->
