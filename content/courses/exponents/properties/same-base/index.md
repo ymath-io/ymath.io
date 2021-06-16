@@ -86,17 +86,17 @@ In case you missed it, all the expressions on the second line are **not equal** 
 Speaking of incorrect properties, make sure the powers are being multiplied, not added together, when you use the Product of Powers Property. It's not called the Addition of Powers Property for a reason.
 $$x^2+x^3\neq x^5$$
 
-Similarly, 
+Similarly, the Quotient of Powers Property requires
 $$x^5-x^2\neq x^3$$
 
-In case you're curious, a valid way to rewrite the above expressions is to use the Product of Powers Property along with the Distributive Property.  
+In case you're curious, a valid way to rewrite the above expressions is to use one of the same base properties along with the Distributive Property.  
 $$x^2+x^3
 =x^2\cdot1+x^2\cdot x^1
 =x^2(1+x)$$
 $$x^5-x^2
 =x^2\cdot x^3+x^2\cdot 1
-=x^2(1+x)$$
+=x^2(x^3-1)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA4MjUyMzksLTgzNjE4Njc3Miw2Nj
-QwNjgxMTddfQ==
+eyJoaXN0b3J5IjpbNzk0NjkzMjc0LC04MzYxODY3NzIsNjY0MD
+Y4MTE3XX0=
 -->
