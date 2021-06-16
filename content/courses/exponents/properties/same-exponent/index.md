@@ -1,7 +1,7 @@
 ---
 type: lesson
-index: 3
-title: Properties
+index: 4
+title: Same Exponent Properties
 
 ---
 
@@ -20,5 +20,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Nzk0NTY3M119
+eyJoaXN0b3J5IjpbMTAyMTgyNDU3NV19
 -->
