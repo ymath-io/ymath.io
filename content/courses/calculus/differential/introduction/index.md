@@ -133,8 +133,13 @@ And, now that $\delta x$ is out of the denominator, we can substitute
 $\delta x =0$:
 
 $$\frac{\delta y}{\delta x}=2x$$
+title: Introduction
+description: An intuitive introduction to derivatives
+index: 6
 
+---
+Okay, so now you're a whiz at limits, but you still don't feel like you're doing Calculus!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA5MTUzODAsLTE5MTU4Njk4MTZdfQ
-==
+eyJoaXN0b3J5IjpbLTEyMDgxMzI4MjksLTEzMTA5MTUzODAsLT
+E5MTU4Njk4MTZdfQ==
 -->
