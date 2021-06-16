@@ -45,18 +45,18 @@ Notice that $3^0$ actually equals $1$! In the following lessons, you will learn 
 The *Order of Operations* is a standard order of evaluating an expression. Many students use the mnemonic PEMDAS to remember that expressions in **p**arentheses are evaluated first, followed by **e**xponents, **m**ultiplication and **d**ivision, and **a**dition and **s**ubtraction. However, be very careful if you use PEMDAS. Multiplication and division are considered to be on the same level, meaning that both $3\cdot4\div5$ and $3\div4\cdot5$ are evaluated from left to right. Similarly, addition and subtraction are on the same level, so $3+4-5$ and $3-4+5$ are evaluated from left to right.
 
 For "towers" or "stacks" of exponents, evaluate the expression from top to bottom. For instance, 
-$$2^{3^0}=2^{(3^0)}=2^1=2$$
-$$2^{3^0}\neq(2^3)^0=8^0=1$$
-$$w^{x^{y^z}}=w^{(x^{(y^z)})}$$
+$$2^{3^0}=2^{\left(3^0\right)}=2^1=2$$
+$$2^{3^0}\neq\left(2^3\right)^0=8^0=1$$
+$$w^{x^{y^z}}=w^{\left(x^{\left(y^z\right)}\right)}$$
 
 ### Warnings
 - Usually, $x^y$ is not equal to $y^x$. For example, $2^3=8$ and $3^2=9$. This is different from addition and multiplication, where you can switch the numbers around. 
 - Be careful with the Order of Operations. Exponents come before all operations except parentheses!
-$$x\cdot y^z=x\cdot(y^z)​\neq (x\cdot y)^z$$
-$$-y^z=-1\cdot(y^z)​\neq (-y)^z$$
+$$x\cdot y^z=x\cdot\left(y^z\right)​\neq \left(x\cdot y\right)^z$$
+$$-y^z=-1\cdot\left(y^z\right)​\neq \left(-y)^z$$
 The second example shows a very common error. A negative sign is the same as multiplying by $-1$, so make sure you evaluate the exponent before the negative sign.
 
 Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMDUwNDkwXX0=
+eyJoaXN0b3J5IjpbNzAzMjgwMDYsNjgyMDUwNDkwXX0=
 -->
