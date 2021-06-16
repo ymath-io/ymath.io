@@ -1,12 +1,8 @@
 <template>
   <div style='position: relative'
        class='inline-block  grid grid-cols-5 md:grid-cols-none gap-3 md:gap-0 m-3 max-w-96 shadow-md transition-shadow duration-300 ease-in-out hover:shadow-2xl dark:bg-gray-800 bg-white rounded-xl'>
-    <div class='col-span-2 md:col-span-12 m-2 md:m-0'>
-      <img
-        alt='physics'
-        class='md:rounded-t-xl rounded-xl md:rounded-b-none'
-        :src='course.thumbnail'
-      />
+    <div :style='{background: `url(${course.thumbnail}) center`,backgroundSize:`cover`}' class='col-span-2 md:col-span-12 m-2 md:m-0 md:rounded-t-xl rounded-xl h-40 md:rounded-b-none'>
+
     </div>
 
     <div class='px-1 md:px-5 grid-rows-4 pb-3 pt-3 col-span-3 md:col-span-12'>

@@ -1,4 +1,16 @@
-# YMath.io
+
+
+# <img src="https://ymath.io/favicon.png" height="40px" />   YMath.io
+
+This is the repository for the redesign of https://ymath.io/. The redesign is hosted at https://dev.ymath.io/.
+
+
+## Writing content
+
+Join the [Discord server](https://discord.gg/NPbfRt4wNM) to apply to be a writer!
+
+If you're already onboard, check out the content writing guide [here](https://github.com/ymath-io/ymath.io/tree/main/content).
+
 
 ## Build Setup
 

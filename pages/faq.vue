@@ -4,9 +4,9 @@
       {{ document.title }}
     </header-banner>
     <main
-      class='max-w-7xl h-full grid gap-12 grid-cols-4 mx-auto pt-6 pb-10 px-4 sm:px-6 md:px-7 lg:px-8'>
+      class='max-w-7xl h-full sm:grid gap-12 grid-cols-4 mx-auto pt-6 pb-10 px-4 sm:px-6 md:px-7 lg:px-8'>
       <div class='col-span-1'>
-        <ul class='prose dark:prose-dark'>
+        <ul class='prose dark:prose-dark mb-5'>
           <li
             v-for="link of document.toc"
             :key="link.id"

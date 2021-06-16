@@ -13,7 +13,10 @@ $$
 f(x) = \frac{x^2-1}{x-1}. 
 $$
 
-What is the value of this function at $x=1$?
+
+@1 Try this.
+
+
 
 $\frac{0}{0}$ is indeterminate, so the function $f(x)$ would be indeterminate at $x=1$. However, the function is defined
 at $x=0.9$ and $x=1.1$:
@@ -52,7 +55,7 @@ Another possible interpretation is "The limit of $f(x)$ as $x$ approaches 1 is $
 
 This does not mean that $f(1)=2$ , but rather that if $x$ is very close to $1$, then is $f(x)$ very close to $2$.
 
-Notice that the graphed function is linear. What linear function does it look like?
+@2 Look closely at the graph.
 
 The function covers _almost all_ points covered by the function $x+1$.
 

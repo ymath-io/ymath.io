@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 description: Setup your environment and tools to get started with writing content for YMath!
+
 ---
 
 Welcome to the content writing guide for YMath! 
@@ -28,5 +29,6 @@ Continue on to [Writing Content](./index.md)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDQ4NjkzOCwxOTcxMjYwOSwxNTkxODY2NDY0XX0= 
+eyJoaXN0b3J5IjpbNDQyNDkzNzA5LDIwODQ0ODY5MzgsMTk3MT
+I2MDksMTU5MTg2NjQ2NF19
 -->

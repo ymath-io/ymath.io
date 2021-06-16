@@ -1,7 +1,10 @@
+---
+title: Substitution
+index: 18
+type: lesson
 
 ---
-title: Integration by Substitution
----
+
 Remember the  [Chain Rule](https://ymath.io/calculus/derivatives/chain-rule)? The Chain Rule said that we can perform the following algebra:
 $$\frac{ d f(g(x))}{d g(x)} \cdot \frac{d g(x)}{dx} = \frac{ d f(g(x))}{dx}.$$
 
@@ -25,5 +28,5 @@ $$\int f(x)\ dx  \cdot \frac{dx}{d\ g(x)}=  \int f(g(x))\ d x$$
 
 Notice how the second factor is the reciprocal of the differentiation of $g(x)$. So, we compute the differentiation of the second function, multiply by the first function, and differentiate it normally. This is generally much easier to do, as you will see in the practice problems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMTIzMDc1XX0=
+eyJoaXN0b3J5IjpbLTczNjU1MjI2NywyODIxMjMwNzVdfQ==
 -->

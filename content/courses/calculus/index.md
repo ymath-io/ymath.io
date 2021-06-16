@@ -3,7 +3,7 @@ type: course
 description: Equip yourself with calculus - it's not scary.
 title: Calculus
 author: Saumya Singhal
-thumbnail: "/img/calculus.jpg"
+thumbnail: "/img/calc-banner.png"
 index: 0
 
 ---
