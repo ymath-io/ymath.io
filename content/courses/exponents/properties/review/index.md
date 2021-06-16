@@ -1,6 +1,6 @@
 ---
 type: lesson
-index: 3
+index: 7
 title: Properties
 
 ---
@@ -123,5 +123,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkwODI0NTFdfQ==
+eyJoaXN0b3J5IjpbNDEwNDY3NDk3XX0=
 -->
