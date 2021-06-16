@@ -46,7 +46,7 @@ Let's make an even more general statement! What is $x^a \cdot x^b$? Even though 
 $$x^a \cdot x^b = 
 	(\underbrace{xxx\ldots x}_\text{$a$ times})
 	(\underbrace{xxx\ldots x}_\text{$b$ times})$$
-$$= (\underbrace{xxx\ldots x}_\text{$a+b$ times})= x^{a+b}$$
+$$= \underbrace{xxx\ldots x}_\text{$a+b$ times}= x^{a+b}$$
 
 Since $x^a$ is the product of $a$ $``x"$s, and $x^b$ is the product of $b$ $``x"$s, the product of $x^a$ and $x^b$ is the product of $(a+b)$ $``x"$s.
 
@@ -61,7 +61,7 @@ In case you missed it, all the expressions on the second line are **not equal** 
 Speaking of false properties, make sure the powers are being multiplied, not added together. 
 $$x^2+x^3\neq x^5$$
 
-If you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
+In case you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
 $$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 
 ## Quotient of Powers
@@ -119,5 +119,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MDY4MTE3XX0=
+eyJoaXN0b3J5IjpbLTE1MjQxNDEwMDIsNjY0MDY4MTE3XX0=
 -->
