@@ -33,7 +33,11 @@ $$=\underbrace{xxx \ldots x}_\text{$ab$ times}
 =x^{ab}$$
 
 In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
+
+## Warnings
+Recall from the first lesson that towers of exponents are evaluated from the top down. So, 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ0OTYwODAsLTE1OTcwMTA5NzNdfQ
+eyJoaXN0b3J5IjpbLTEwOTEwMDMwMTgsLTE1OTcwMTA5NzNdfQ
 ==
 -->
