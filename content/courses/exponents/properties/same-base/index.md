@@ -52,18 +52,6 @@ Since $x^a$ is the product of $a$ $``x"$s, and $x^b$ is the product of $b$ $``x"
 
 Awesome, we've just proved the Product of Powers Property! (Actually, we've shown that it works for integers, which is good enough for now.) Can you see why it's called the Product of Powers Property?
 
-### Warnings
-The bases of the powers have to be the same for this property to work. If you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
-$$x^2 \cdot y^3=(xx)(yyy)$$
-$$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
-In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the "property" will be false! 
-
-Speaking of incorrect properties, make sure the powers are being multiplied, not added together. 
-$$x^2+x^3\neq x^5$$
-
-In case you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
-$$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
-
 ## Quotient of Powers
 The Quotient of Powers Property is very similar to the Product of Powers Property, except, as you probably guessed, it involves quotients instead of products. It lets us easily simplify expressions like $\frac{x^5}{x^2}$.
 
@@ -89,35 +77,18 @@ Since $a\geq b$, there are at least as many $``x"$s in the numerator as the deno
 
 We just showed that $\frac{x^a}{x^b}=x^{a-b}$!
 
-## Power to a Power
-Is there a way to simplify $(x^a)^b$? Let's first substitute some values so that we can write the powers as repeated multiplication.
+### Warnings
+The bases of the powers have to be the same for both of these properties to work. For example, if you try to simplify $x^2\cdot y^3$, you will not get anywhere since it's already simplified.
+$$x^2 \cdot y^3=(xx)(yyy)$$
+$$\neq x^5\neq y^5 \neq (x+y)^5 \neq (xy)^5$$
+In case you missed it, all the expressions on the second line are **not equal** to the expressions on the first line.  Don't make up new properties unless you know that they're true. Chances are, the "property" will be false! 
 
-$$(x^2)^3
-=(x^2)\cdot(x^2)\cdot(x^2)
-=(x\cdot x)\cdot(x\cdot x)\cdot(x\cdot x)
-=x^6$$
+Speaking of incorrect properties, make sure the powers are being multiplied, not added together. 
+$$x^2+x^3\neq x^5$$
 
-There are $3$ groups of $2$ $``x"$s being multiplied together, which makes $2\cdot3=6$ $``x"$s in total. 
-
-Now we can simplify the general expression.
-
-$$(x^a)^b=\underbrace{(x^a)(x^a)\dots(x^a)}
-_\text{$b$ times}$$
-$$= \underbrace{
-	\underbrace{(xxx \ldots x)}_\text{$a$ times}
-	\underbrace{(xxx \ldots x)}_\text{$a$ times} \ldots 
-	\underbrace{(xxx \ldots x)}_\text{$a$ times}
-}_\text{$b$ times}$$
-$$=\underbrace{xxx \ldots x}_\text{$ab$ times}
-=x^{ab}$$
-
-In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
-
-## Power of a Product
-Coming soon!
-
-## Power of a Quotient
-Coming soon!
+In case you're curious, a valid way to rewrite the above expression is to use the Product of Powers Property along with the Distributive Property.  
+$$x^2+x^3=x^2\cdot1+x^2\cdot x^1=x^2(1+x)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjE4Njc3Miw2NjQwNjgxMTddfQ==
+eyJoaXN0b3J5IjpbNjczNTIzMzM1LC04MzYxODY3NzIsNjY0MD
+Y4MTE3XX0=
 -->
