@@ -5,12 +5,8 @@ title: Same Exponent Properties
 
 ---
 
-In the previous lesson, we learned that two powers with the same base can be combined together. But what if two powers have the same exponent? There are 
+In the previous lesson, we learned that two powers with the same base can be combined together. But what if two powers have the same exponent? There are properties involving this scenario, too - the Power of a Product Property and the Power of a Quotient Property. 
 
-### List of Exponent Properties
-- Product of Powers: $x^a\cdot x^b=x^{a+b}$
-- Quotient of Powers: $\frac{x^a}{x^b}=x^{a-b}$
-- Power to a Power: $(x^a)^b=x^{ab}$
 - Power of a Product: $(xy)^a=x^a\cdot y^a$
 - Power of a Quotient: $\left(\frac{x}{y}\right)^a=\frac{x^a}{y^a}$
 
@@ -20,5 +16,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjY2OTU3OCwxMDIxODI0NTc1XX0=
+eyJoaXN0b3J5IjpbNzYyMDc0Mjc2LDEwMjE4MjQ1NzVdfQ==
 -->
