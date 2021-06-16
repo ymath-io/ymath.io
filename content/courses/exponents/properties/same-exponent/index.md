@@ -5,7 +5,7 @@ title: Same Exponent Properties
 
 ---
 
-
+In the previous lesson, we learned that two powers with the same base can be combined together. But what if two powers have the same exponent? There are 
 
 ### List of Exponent Properties
 - Product of Powers: $x^a\cdot x^b=x^{a+b}$
@@ -20,5 +20,5 @@ Coming soon!
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDkxNDYyNiwxMDIxODI0NTc1XX0=
+eyJoaXN0b3J5IjpbLTMyNjY2OTU3OCwxMDIxODI0NTc1XX0=
 -->
