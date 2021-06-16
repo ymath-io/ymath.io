@@ -10,7 +10,7 @@ export default {
   name: 'ProgressBar',
   props:{
     value:{
-      default:30,type:Number
+      default:0.3,type:Number
     }
   }
 }

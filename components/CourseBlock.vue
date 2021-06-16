@@ -49,7 +49,8 @@ export default {
     });
   },
   fetchOnServer: true,
-  mounted(){
+  async mounted(){
+     await this.$fetch();
     // when we use `generate` perhaps this will run properly
     // fetch the completion status for each lesson!
     let completed = 0;
