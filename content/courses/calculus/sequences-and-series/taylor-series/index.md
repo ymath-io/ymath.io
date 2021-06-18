@@ -5,6 +5,7 @@ title: Taylor Series
 ---
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQxMDA2MzVdfQ==
+eyJoaXN0b3J5IjpbLTk5NTY5Mjk3MywtMTE3NDEwMDYzNV19
 -->
