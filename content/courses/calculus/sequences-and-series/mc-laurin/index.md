@@ -1,10 +1,10 @@
 ---
 index: 3.4
-title: Practice with Taylor Series
+title: McLaurin Series
 type: lesson
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDM2MDk2LC0xMTQ3OTg0Njc1LC0yMD
-A1MTg5NjUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTQzOTE3MzkwOSwtMTE0Nzk4NDY3NSwtMj
+AwNTE4OTY1LDczMDk5ODExNl19
 -->
