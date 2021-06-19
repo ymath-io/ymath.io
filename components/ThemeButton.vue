@@ -1,5 +1,5 @@
 <template>
-  <div @click='toggle' class='h-6 -mt-3 mx-2 cursor-pointer w-6'>
+  <div @click='toggle' class='h-6 -mt-6 mx-2 mr-8 sm:mr-2 cursor-pointer w-6'>
     <svg class="hex-icon-sun">
       <path d="M19,1 Q21,0,23,1 L39,10 Q41.5,11,42,14 L42,36 Q41.5,39,39,40 L23,49 Q21,50,19,49 L3,40 Q0.5,39,0,36 L0,14 Q0.5,11,3,10 L19,1"></path>
       <circle cx="21" cy="25" r="7"></circle>
@@ -15,10 +15,6 @@ export default {
     toggle: function(){
       localStorage.darkMode = document.body.parentElement.classList.toggle('dark');
     }
-  },
-  mounted(){
-    const isDark = localStorage.darkMode==='true' || (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    document.body.parentElement.classList.toggle('dark', isDark )
   }
 }
 </script>

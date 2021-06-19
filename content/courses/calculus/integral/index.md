@@ -1,7 +1,7 @@
 ---
 type: chapter
 title: Integral Calculus
-index: 13
+index: 13.5
 
 ---
 Before you begin this chapter, it is integral that you are very comfortable with derivatives and you can easily replicate the [reference table](https://ymath.io/calculus/derivatives/rt) without any help.

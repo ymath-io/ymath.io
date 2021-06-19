@@ -1,7 +1,7 @@
 <template>
   <div class='mt-auto bg-gray-200 w-full dark:bg-gray-800 pt-4 pb-6'>
 
-    <div class='mx-72 linknasium grid gap-6 grid-cols-4'>
+    <div class='md:mx-72 mx-3 linknasium grid sm:gap-3 md:gap-6 grid-cols-4'>
       <div class='col-span-1  text-right'>
         <h1 class='footer-heading'>Community</h1>
         <div class='dark:text-darkText'>
@@ -21,12 +21,12 @@
           <a :href='`/learn/${course.path.split("/")[2]}`' class='block' :key='course.title' v-for='course in courses'>{{ course.title }}</a>
         </div>
       </div>
-      <div class='col-span-1 text-left'>
+      <div class='sm:col-span-1 sm:text-left'>
         <Logo size='70' class='mt-3' />
       </div>
 
     </div>
-    <div class='lg:mx-96 border-t-2 border-gray-300 mt-4 py-2'>
+    <div class='lg:mx-96 mx-4 border-t-2 dark:border-gray-700 border-gray-300 mt-4 py-2'>
       <span class='text-gray-400'>&copy; {{ (new Date()).getFullYear() }}</span> <a class='link' href='/'>YMath.io</a>
       <span class='text-gray-400'>owned and operated by</span> <a class='link' href='//github.com/saumyasinghal747'>Saumya
       Singhal</a>

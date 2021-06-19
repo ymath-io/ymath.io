@@ -6,6 +6,10 @@ export default {
     height: '3px'
   },
 
+  router:{
+    middleware:['setTheme']
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -157,5 +161,9 @@ export default {
       config.resolve.alias['vue'] = 'vue/dist/vue.common';
 
     }
+  },
+
+  generate: {
+    fallback: '404.html'
   }
 }
