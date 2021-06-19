@@ -1,14 +1,104 @@
 <template>
-<div>
-  <header-banner>
-    About
-  </header-banner>
-</div>
+  <div>
+    <header-banner>
+      About
+    </header-banner>
+    <div class='sm:grid grid-cols-4 xl:mx-40 lg:mx-32 my-16'>
+      <div class='col-span-1 flex'>
+        <div class='
+            sm:h-40
+            w-full
+            h-40
+            sm:w-40
+            mr-auto
+            sm:rounded-full
+          '>
+
+        </div>
+      </div>
+      <div class='col-span-3 mt-4'>
+        <h2 class='
+            text-4xl
+            inline-block
+            leading-normal
+            tracking-tighter
+            font-bold
+            text-transparent
+            bg-clip-text bg-gradient-to-r
+            from-teal-500
+            via-green-400
+            to-lime-500
+            mb-3
+          '>
+        {{ about.overview.title }}
+      </h2>
+        <p class='dark:text-darkText whitespace-pre-wrap text-gray-800'>
+          {{ about.overview.body }}
+        </p>
+      </div>
+    </div>
+    <div class='mb-16 lg:mx-32 xl:mx-48'><h2 class='
+          text-4xl
+          inline-block
+          leading-normal
+          tracking-tighter
+          font-bold
+          text-transparent
+          bg-clip-text bg-gradient-to-r
+          from-lightBlue-500
+          via-indigo-500
+          to-purple-500
+          mb-3
+        '>
+      {{ about.meet.title }}
+    </h2>
+      <div v-for='(person, idx) of about.meet.people' class='sm:grid mb-5 grid-cols-4'>
+        <div class='col-span-1 flex' :class='{"sm:hidden":idx%2 === 0}'>
+          <img :src='person.photo'
+               class='
+            w-full
+            h-40
+            sm:w-40
+            mr-auto
+            sm:rounded-full
+          '>
+        </div>
+        <div class='col-span-3 flex'>
+          <div class='my-auto'><h3 class='font-bold tracking-wide text-2xl'>
+            {{ person.name }}
+          </h3> <small class='text-black text-base text-opacity-50'>
+            {{ person.position }}
+          </small>
+            <hr data-v-0a606064='' class='border-gray-300 mb-2'>
+            <div data-v-0a606064=''>
+              {{ person.about }}
+            </div>
+          </div>
+        </div>
+
+        <div v-if='idx % 2 === 0' class='col-span-1 hidden  sm:flex'>
+          <div class='
+            sm:h-40
+            w-full
+            h-40
+            sm:w-40
+            ml-auto
+            sm:rounded-full
+            bg-cover bg-center
+          ' :style="`background-image: url('${person.photo}');`"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'about'
+  name: 'about',
+  async asyncData({ $content }) {
+    const about = await $content('home/about').fetch()
+    return { about }
+  }
 }
 </script>
 
