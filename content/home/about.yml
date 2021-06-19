@@ -10,6 +10,6 @@ meet:
       position: "Founder: Software Developer and Content Creator"
       about: Hi, I'm Saumya, a junior at Gunn High School in Palo Alto, CA. I started YMath as a way of sharing some trigonometry lessons I had written in a notebook. My friends like to joke that I've taken the hippocratic oath for explaining math. In my free time, I enjoy programming various web apps and preparing for the AMC series competitions.
     - name: Sophia Zhu
-      photo: http://placekitten.com/g/300/300
-      position: Content Creator
-      about:
+      photo: /img/people/sophia.jpeg
+      position: Product Manager and Content Creator
+      about: Hey, I'm Sophia, a rising junior at Irvington High School in Fremont, CA. I enjoy many forms of math - learning new topics, solving competition problems, and writing the Exponents course on YMath. I also like to play the violin, write code, and attempt various arts and crafts (sometimes successfully!).
