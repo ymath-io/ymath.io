@@ -1,5 +1,6 @@
 <template>
   <header class='bg-transparent border-b-2 dark:border-gray-800 border-gray-200'>
+    <div style="height:64px"></div>
     <div class=' py-6 px-4 sm:px-6 lg:px-8' :class='{"grid gap-12 grid-cols-4 ":shift,
      "grid grid-cols-4 gap-12":courseShift,
      "max-w-7xl mx-auto":!courseShift}'>

@@ -6,11 +6,13 @@
       class="
         px-3
         py-2
+        sidebar-item
         font-semibold
         cursor-pointer
         flex flex-row
         focus:outline-none
         w-full
+        flex
         dark:text-gray-200
         duration-500
         rounded-0
@@ -19,7 +21,7 @@
       <a>{{ item.title }}</a>
       <m-icon
         v-if="item.children"
-        class="transform duration-300 ease-in-out transition-transform"
+        class="transform ml-auto mr-1 duration-300 ease-in-out transition-transform"
         :class="[open ? 'rotate-0' : '-rotate-90']"
         icon="chevron-down"
       />
@@ -126,7 +128,7 @@ export default {
   width: 8px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
-.sidebar-subitem {
+.sidebar-subitem, .sidebar-item {
   @apply hover:bg-gray-200 hover:bg-opacity-70;
 }
 
