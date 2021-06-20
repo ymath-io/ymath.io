@@ -9,10 +9,11 @@ In [Differential Calculus](/learn/calculus/differential), we learned that the de
 
 <details>
 <summary>Example</summary>
-O
+
+
 </details>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM1MjA1MywxMTc4ODU4MjEsLTk5NT
+eyJoaXN0b3J5IjpbLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NT
 Y5Mjk3MywtMTE3NDEwMDYzNV19
 -->
