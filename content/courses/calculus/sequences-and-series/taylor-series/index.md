@@ -11,8 +11,9 @@ We can use this information to construct a line tangent to the function. These t
 
 But often, a line isn't a great representation of a function. Especially when the function isn't a line.
 
+So, instead of a line, which is a first degree polynomial, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLT
-ExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5
-Mjk3MywtMTE3NDEwMDYzNV19
+eyJoaXN0b3J5IjpbMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMT
+cxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4
+NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAwNjM1XX0=
 -->
