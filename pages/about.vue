@@ -3,8 +3,8 @@
     <header-banner>
       About
     </header-banner>
-    <div class='sm:grid grid-cols-4 xl:mx-40 lg:mx-32 my-16'>
-      <div class='col-span-1 flex'>
+    <div class='no:sm:grid grid-cols-4 section my-16'>
+      <div class='col-span-1 hidden flex'>
         <div class='
             sm:h-40
             w-full
@@ -13,7 +13,6 @@
             mr-auto
             sm:rounded-full
           '>
-
         </div>
       </div>
       <div class='col-span-3 mt-4'>
@@ -30,14 +29,14 @@
             to-lime-500
             mb-3
           '>
-        {{ about.overview.title }}
-      </h2>
+          {{ about.overview.title }}
+        </h2>
         <p class='dark:text-darkText whitespace-pre-wrap text-gray-800'>
           {{ about.overview.body }}
         </p>
       </div>
     </div>
-    <div class='mb-16 lg:mx-32 xl:mx-48'><h2 class='
+    <div class='mb-16 section'><h2 class='
           text-4xl
           inline-block
           leading-normal
@@ -52,25 +51,28 @@
         '>
       {{ about.meet.title }}
     </h2>
-      <div v-for='(person, idx) of about.meet.people' class='sm:grid mb-5 grid-cols-4'>
-        <div class='col-span-1 flex' :class='{"sm:hidden":idx%2 === 0}'>
+      <div v-for='(person, idx) of about.meet.people' class='sm:grid gap-4 mb-10 grid-cols-4'>
+        <div class='col-span-1 w-full flex' :class='{"sm:hidden":idx%2 === 0}'>
           <img :src='person.photo'
                class='
-            w-full
-            h-40
+
+            object-contain
             sm:w-40
+            sm:h-40
+            max-w-full
+            max-h-full
             mr-auto
             sm:rounded-full
           '>
         </div>
-        <div class='col-span-3 flex'>
-          <div class='my-auto'><h3 class='font-bold tracking-wide text-2xl'>
+        <div class='col-span-3 mx-8 my-4 sm:my-0 md:mx-0 flex'>
+          <div class='my-auto'><h3 class='font-bold text-black dark:text-darkText tracking-wide text-2xl'>
             {{ person.name }}
-          </h3> <small class='text-black text-base text-opacity-50'>
+          </h3> <small class='text-black dark:text-white dark:text-opacity-60 text-base text-opacity-50'>
             {{ person.position }}
           </small>
-            <hr data-v-0a606064='' class='border-gray-300 mb-2'>
-            <div data-v-0a606064=''>
+            <hr class=' border-gray-300 mb-2'>
+            <div class='text-black dark:text-darkText'>
               {{ person.about }}
             </div>
           </div>
@@ -89,6 +91,25 @@
         </div>
       </div>
     </div>
+    <div class='mb-16 section'>
+      <h2 class='
+          text-4xl
+          inline-block
+          leading-normal
+          tracking-tight
+          font-bold
+          text-transparent
+          bg-clip-text bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500
+          mb-3
+        '>
+        {{ about.contributors.title }}
+      </h2>
+      <div class='flex flex-wrap flex-row'>
+        <div :key='n' v-for='cont of about.contributors.people' class='w-40 h-48 border border-2 border-amber-300 bg-teal-500'>
+
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -103,5 +124,7 @@ export default {
 </script>
 
 <style scoped>
-
+.section {
+  @apply md:mx-12 lg:mx-32 xl:mx-48 ;
+}
 </style>

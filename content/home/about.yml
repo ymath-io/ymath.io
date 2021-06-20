@@ -13,3 +13,8 @@ meet:
       photo: /img/people/sophia.jpeg
       position: Product Manager and Content Creator
       about: Hey, I'm Sophia, a rising junior at Irvington High School in Fremont, CA. I enjoy many forms of math - learning new topics, solving competition problems, and writing the Exponents course on YMath. I also like to play the violin, write code, and attempt various arts and crafts (sometimes successfully!).
+contributors:
+  title: Contributors
+  people:
+    - name: Anya Lin
+      photo: /img/people/anya.png
