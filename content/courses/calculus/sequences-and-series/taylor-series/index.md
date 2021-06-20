@@ -9,10 +9,10 @@ In [Differential Calculus](/learn/calculus/differential), we learned that the de
 
 We can use this information to construct a line tangent to the function. These tangent lines are often a good approximation for values close to the tangent point as well.
 
-But, what about a tangent curve?
+But often, a line isn't a great representation of a function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NDk0NDQ3LC0xMTc5NjQ5NzM3LC0yNz
-I3ODQ4OTQsMTE3ODg1ODIxLC05OTU2OTI5NzMsLTExNzQxMDA2
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLT
+I3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEw
+MDYzNV19
 -->
