@@ -17,21 +17,21 @@ As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = 
 
 ## Using Derivatives to Mimic Behavior
 
-Let's say we have a function $f(x)$, and we want to construct a tangent line at $x=a$.
+Let's say we have a function $f(x)$, and we want to construct a tangent line at $x=c$.
 
 ### Why do lines work?
-When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that value to the slope of the line. In this way, the line and the function have the same first derivative at $x=a$.
+When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that value to the slope of the line. In this way, the line and the function have the same first derivative at $x=c$.
 ### Taking it a slope further
 The second derivative of every line is 0, unlike most functions you'll want to mimic. But, with a quadratic equation, we can control the second derivative.
 
-I
+In a quadratic equation of the form $$y=ax^2+bx+c, $$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDcyNDc2MCw0ODc4NTk5MTksMzY2OD
-MyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwt
-MTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNywtMj
-cyNzg0ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAw
-NjM1XX0=
+eyJoaXN0b3J5IjpbLTE3MDgyNDAwMzksNDg3ODU5OTE5LDM2Nj
+gzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUs
+LTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLT
+I3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEw
+MDYzNV19
 -->
