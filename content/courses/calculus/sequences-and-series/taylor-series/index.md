@@ -17,16 +17,15 @@ As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = 
 
 ## Using Derivatives to Mimic Behavior
 
-Let's say we have a function $f(x)$
+Let's say we have a function $f(x)$, and we want to construct a tangent line at $x=a$.
 
 ### Why do lines work?
 When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that to the slope of the line.
 ### Taking it a slope further
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OT
-k1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2
-MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOT
-k1NjkyOTczLC0xMTc0MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbLTE3MjgzNDI0NzgsMzY2ODMyMDc0LDY4Nz
+k0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUx
+MywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LD
+ExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAwNjM1XX0=
 -->
