@@ -36,7 +36,8 @@
         </p>
       </div>
     </div>
-    <div class='mb-16 section'><h2 class='
+    <div class='mb-16 section'>
+      <h2 class='
           text-4xl
           inline-block
           leading-normal
@@ -104,11 +105,18 @@
         '>
         {{ about.contributors.title }}
       </h2>
-      <div class='flex flex-wrap flex-row'>
-        <div :key='n' v-for='cont of about.contributors.people' class='w-40 h-48 border border-2 border-amber-300 bg-teal-500'>
-
+      <div v-show='false' class='flex flex-wrap flex-row'>
+        <div :key='n' v-for='(cont, n) of about.contributors.people' class='w-20 h-24  sm:w-40 sm:h-48 flex flex-col '>
+        <img class=' object-cover flex-grow' :src='cont.photo' :alt='cont.name'/>
+          <div class='py-3 bg-gray-200 px-3'>{{cont.name}}</div>
         </div>
       </div>
+      <div class='prose dark:prose-dark'>
+        <ul>
+          <li :key='n' v-for='(cont, n) of about.contributors.people'>{{cont.name}}</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </template>
@@ -126,5 +134,8 @@ export default {
 <style scoped>
 .section {
   @apply md:mx-12 lg:mx-32 xl:mx-48 ;
+}
+.section > h2 {
+  @apply mx-12 sm:mx-0;
 }
 </style>
