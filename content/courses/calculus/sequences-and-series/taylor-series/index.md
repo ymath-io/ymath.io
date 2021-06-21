@@ -24,14 +24,13 @@ When we construct a line tangent to a function, we measure the slope (derivative
 ### Taking it a slope further
 The second derivative of every line is 0, unlike most functions you'll want to mimic. But, with a quadratic equation, we can control the second derivative.
 
-In a quadratic equation of the form $$y=ax^2+bx+c, $$
-
+In a quadratic equation of the form $$y=ax^2+bx+c, $$ the second derivative is  $2a$, and the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgyNDAwMzksNDg3ODU5OTE5LDM2Nj
-gzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUs
-LTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLT
-I3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEw
-MDYzNV19
+eyJoaXN0b3J5IjpbMTExOTcyODAxNCwtMTcwODI0MDAzOSw0OD
+c4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEs
+MTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMT
+E3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1Njky
+OTczLC0xMTc0MTAwNjM1XX0=
 -->
