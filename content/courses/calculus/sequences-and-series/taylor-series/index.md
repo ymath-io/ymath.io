@@ -20,13 +20,16 @@ As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = 
 Let's say we have a function $f(x)$, and we want to construct a tangent line at $x=a$.
 
 ### Why do lines work?
-When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that to the slope of the line.
+When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that value to the slope of the line. In this way, the line and the function have the same first derivative at $x=a$.
 ### Taking it a slope further
+With a 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3ODU5OTE5LDM2NjgzMjA3NCw2ODc5ND
-Y4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExODY4MTk1MTMs
-LTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMT
-c4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEwMDYzNV19
+eyJoaXN0b3J5IjpbLTE0MjMxNzE2NjksNDg3ODU5OTE5LDM2Nj
+gzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUs
+LTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLT
+I3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEw
+MDYzNV19
 -->
