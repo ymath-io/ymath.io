@@ -17,10 +17,10 @@ As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = 
 
 ## Mimicking in the second degree
 
-In order to mimic the function 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjE1MzU4NSwxODI5OTk1MDEsMTgxMj
-Q2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0
-OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC
-0xMTc0MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbLTIwNzg3MjgwMzksMTgyOTk5NTAxLDE4MT
+I0NjAwMzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2
+NDk3MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3My
+wtMTE3NDEwMDYzNV19
 -->
