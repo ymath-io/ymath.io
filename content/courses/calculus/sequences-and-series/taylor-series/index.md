@@ -24,12 +24,13 @@ When we construct a line tangent to a function, we measure the slope (derivative
 ### Taking it a slope further
 The second derivative of every line is 0, unlike most functions you'll want to mimic. But, with a quadratic equation, we can control the second derivative.
 
-In a quadratic equation of the form $$g(x)=ax^2+bx+c, $$ we have $$g'(k) = 2ak+b$$  and $$g''(x)=2k$$.
+In a quadratic equation of the form $$g(x)=ax^2+bx+c, $$ we have $$g'(k) = 2ax+b$$  and $$g''(x)=2k$$.
 
+<!--  time to introduce the (x-a --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTg0MTIyMiwtMTcwODI0MDAzOSw0OD
-c4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEs
-MTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMT
-E3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1Njky
-OTczLC0xMTc0MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbLTE1OTI1MTY3NDksLTE3MDgyNDAwMzksND
+g3ODU5OTE5LDM2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAx
+LDE4MTI0NjAwMzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLT
+ExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5
+Mjk3MywtMTE3NDEwMDYzNV19
 -->
