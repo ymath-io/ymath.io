@@ -1,6 +1,6 @@
 ---
 type: lesson
-index: 3.5 <-- wats this
+index: 10
 title: Practice
 
 ---
@@ -9,6 +9,8 @@ Here are some problems to practice what you have learned! If you need a hint on 
 @1
 
 @2
+
+@3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMTEwNjE4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEyNDEzMTExNzksNzMwOTk4MTE2XX0=
 -->
