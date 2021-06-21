@@ -4,7 +4,7 @@ index: 10
 title: Practice
 
 ---
-Here are some problems to practice what you have learned! If you need a hint on any of them, there's a few for each problem.
+Here are some questions to practice what you have learned! If you need a hint on any of them, there's a few for each problem.
 
 @1
 
@@ -12,5 +12,5 @@ Here are some problems to practice what you have learned! If you need a hint on 
 
 @3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDEzMTExNzksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU0NzIwNDMxNiw3MzA5OTgxMTZdfQ==
 -->
