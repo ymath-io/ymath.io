@@ -16,14 +16,17 @@ We can't achieve this with a straight line. But, what if we tried a curved line?
 As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = \sin(x).$
 
 ## Using Derivatives to Mimic Behavior
+
+Let's say we have a function $f(x)$
+
 ### Why do lines work?
 When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that to the slope of the line.
 ### Taking it a slope further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDkyNTU0MjAsNjg3OTQ2ODk4LDE4Mj
-k5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNzEzNzQw
-NTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1ODIxLC
-05OTU2OTI5NzMsLTExNzQxMDA2MzVdfQ==
+eyJoaXN0b3J5IjpbMzY2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OT
+k1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2
+MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOT
+k1NjkyOTczLC0xMTc0MTAwNjM1XX0=
 -->
