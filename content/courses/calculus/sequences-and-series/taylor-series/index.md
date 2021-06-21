@@ -13,11 +13,13 @@ But often, a line isn't a great representation of a function. Especially when th
 
 So, instead of a line, which is a first degree polynomial,  let's see if we can use a second-degree polynomial - a quadratic equation!
 
+As an example, we'll try to find a "tangent" quadratic to the  function $f(x) = \sin(x)$
+
 ## Mimicking in the second degree
 
-In order to mimic the
+In order to mimic the fun
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NTUxMDMyLDE4MTI0NjAwMzUsLTExOD
+eyJoaXN0b3J5IjpbMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExOD
 Y4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4
 NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEwMDYzNV
 19
