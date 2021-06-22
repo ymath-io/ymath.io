@@ -24,7 +24,7 @@
           />
         </div>
         <div  class='sm:col-span-3 w-screen sm:w-full problem-child h-full px-4 sm:px-0 pb-6 pt-1 sm:py-6'>
-        
+
           <div v-if='prev || next' class='mb-15 w-full flex flex-col sm:flex-row border-t-2 dark:border-gray-800 border-gray-200'>
             <a :href='prev.href' v-if='prev' class='text-md btn-primary mx-auto sm:ml-1 sm:mr-auto flex-col'>
               <m-icon class='' icon='chevron-left'/> <span>{{prev.title}}</span>
@@ -104,16 +104,16 @@ export default {
           .sortBy('index')
           .only(['title', 'slug', 'path'])
           .fetch()
-        subject.children.forEach(k=> {
+        subject.children.forEach(k => {
           k.sub = true;
           k.to = Object.assign([],({ ...k.path.split('/'), 1:'learn', 5:'' })).join('/')
           k.active = params.lesson && params.lesson===k.path.split('/')[4]
         })
-
       }
     }
     return { course, subjects, fetched: true, params, prev, next }
-  }
+  },
+
 }
 </script>
 

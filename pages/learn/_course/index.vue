@@ -14,6 +14,11 @@ export default {
       .only(['title', 'slug'])
       .fetch()
     return { course, subjects, fetched: true }
+  },
+  head(){
+    return {
+      title:this.course.title
+    }
   }
 }
 </script>

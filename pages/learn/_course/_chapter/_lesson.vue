@@ -13,6 +13,12 @@ export default {
     return {
       document
     }
+  },
+  head(){
+    return {
+      title: this.document.title,
+
+    }
   }
 }
 </script>

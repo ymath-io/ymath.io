@@ -127,6 +127,9 @@ export default {
   async asyncData({ $content }) {
     const about = await $content('home/about').fetch()
     return { about }
+  },
+  head: {
+    title: 'About'
   }
 }
 </script>
