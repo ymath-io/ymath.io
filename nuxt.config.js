@@ -7,7 +7,6 @@ export default {
     height: '3px'
   },
   router:{
-    //middleware:['setTheme']
   },
 
   // Target: https://go.nuxtjs.dev/config-target

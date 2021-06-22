@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="select dark:select-dark" v-if="fetched">
-      
+
       <div v-show="false" :style="{backgroundColor:course.color,height:'84px'}"></div>
       <div  v-show="false" :style="{backgroundColor:`${course.color}`}" style="height:60px" class=" flex">
           <div class="mb-2 ml-16 ">
@@ -37,7 +37,7 @@
           :key="JSON.stringify(params)"
         >
 
-        <div class="sticky top-0">
+        <div class="sticky bg-gray-100 w-full pb-3 z-10 text-center top-0">
           <h1 class="text-2xl font-bold font-sans">
             {{course.title}}
           </h1>
@@ -60,7 +60,7 @@
               {{ course.title }}
             </h1>-->
           </div>
-          
+
           <side-bar-item
             :key="index"
             v-for="(subject, index) in subjects"
@@ -75,7 +75,7 @@
             v-if="prev || next && level !=='course'"
             class="
               mb-15
-              
+
               flex flex-col
               sm:flex-row
               border-t-0
@@ -154,7 +154,9 @@ export default {
     let level = 'course'
     let prev, next
     if (params.lesson) {
+
       ;[prev, next] = await $content('courses', params.course, { deep: true })
+        //.where({'type':'lesson'})
         .sortBy('index')
         .surround(
           `/courses/${params.course}/${params.chapter}/${params.lesson}/index`
@@ -171,6 +173,7 @@ export default {
       level = 'chapter'
     } else {
       ;[prev, next] = await $content('courses', params.course, { deep: true })
+
         .sortBy('index')
         .surround(`/courses/${params.course}/index`)
         .only(['path', 'title'])
