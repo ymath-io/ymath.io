@@ -1,10 +1,10 @@
 ---
 index: 3.4
-title: McLaurin Series
+title: MacLaurin Series
 type: lesson
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTE3MzkwOSwtMTE0Nzk4NDY3NSwtMj
-AwNTE4OTY1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQ2OTk0MTM4LC0xMTQ3OTg0Njc1LC0yMD
+A1MTg5NjUsNzMwOTk4MTE2XX0=
 -->
