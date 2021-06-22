@@ -6,9 +6,8 @@ export default {
     color: '#28a745',
     height: '3px'
   },
-
-  router: {
-    middleware: ['setTheme']
+  router:{
+    //middleware:['setTheme']
   },
 
   // Target: https://go.nuxtjs.dev/config-target
@@ -16,6 +15,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    __dangerouslyDisableSanitizers: ['script'],
     title: 'YMath.io',
     meta: [
       { charset: 'utf-8' },
@@ -29,8 +29,14 @@ export default {
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css' },
-      { rel: 'stylesheet', href: 'https://unpkg.com/mathlive@0.27.4/dist/mathlive.css' },
-      { rel: 'stylesheet', href: 'https://unpkg.com/mathlive@0.27.4/dist/mathlive.core.css' }
+      {rel:'stylesheet', href: 'https://unpkg.com/mathlive@0.27.4/dist/mathlive.css'},
+      {rel:'stylesheet', href:'https://unpkg.com/mathlive@0.27.4/dist/mathlive.core.css'}
+    ],
+    script: [
+      {
+        innerHTML:"const isDark = localStorage.darkMode === 'true' || (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.classList.toggle('dark', isDark)",
+        type:'text/javascript'
+      }
     ]
   },
 
