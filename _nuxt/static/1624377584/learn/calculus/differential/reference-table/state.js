@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1624377584",layout:"default",error:a,serverRendered:true,routePath:"\u002Flearn\u002Fcalculus\u002Fdifferential\u002Freference-table",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"51087e8e"}}}}(null));
