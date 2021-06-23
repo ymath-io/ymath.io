@@ -9,7 +9,7 @@ In the previous lesson, we saw how derivatives can help us find the slope of a f
 
 In this lesson, we'll look at an interesting application of the above - constructing tangent lines to curvy functions.
 
-<iframe src="https://www.desmos.com/calculator/vcpwd6c0uz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/vcpwd6c0uz?embed" width="500" height="500" frameborder="0"></iframe>
 
 Let's say we have a function $f(x)$, and we want to construct a line tangent to the function at the point $\left(a,f(a)\right).$
 
@@ -20,7 +20,8 @@ For the function to 'align' with the line at the desired point, they must have t
 Using point-slope form, we have:
 $$\text{point} = (a, f(a))$$ $$\text{slope} = f'(a)$$
 
-$$ y - f(a) = f'(a) (x-a).$$
+$$y - f(a) = f'(a) (x-a).$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcyNTQ0NzksMTc4NDU5ODA3OV19
+eyJoaXN0b3J5IjpbNzE5NzE4ODIxLC0xOTU3MjU0NDc5LDE3OD
+Q1OTgwNzldfQ==
 -->
