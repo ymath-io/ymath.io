@@ -7,7 +7,10 @@
 
 <script>
 export default {
-  name: 'library'
+  name: 'library',
+  head: {
+    title:'Library'
+  }
 }
 </script>
 

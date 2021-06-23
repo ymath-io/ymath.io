@@ -15,7 +15,6 @@
             <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
           </li>
         </ul>
-
       </div>
       <div class='col-span-3'>
         <nuxt-content :document='document' />
@@ -35,6 +34,9 @@ export default {
       document,
       fetched: true
     }
+  },
+  head: {
+    title:'Frequently Asked Questions'
   }
 }
 </script>

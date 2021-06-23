@@ -25,6 +25,9 @@ export default Vue.extend({
     return {
       courses, fetched: true
     }
+  },
+  head:{
+    title:'Learn'
   }
 })
 </script>
