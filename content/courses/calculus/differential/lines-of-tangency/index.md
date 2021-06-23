@@ -23,10 +23,12 @@ $$\text{point} = (a, f(a))$$ $$\text{slope} = f'(a)$$
 $$y - f(a) = f'(a) (x-a).$$
 
 Now, we'll try this with an example.
-Let's say we want to graph a line tangent to $$y=x^3.$$
+Let's say we want to graph a line tangent to $$y=x^3$$ at $$x=-1.$$
+
+For context, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMjU3NzExLDE5NjcxMDExOTIsLTEwMD
-UxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1NDQ3OSwxNzg0NTk4
-MDc5XX0=
+eyJoaXN0b3J5IjpbLTE4MTkyNDY0NjEsNTIxMjU3NzExLDE5Nj
+cxMDExOTIsLTEwMDUxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1
+NDQ3OSwxNzg0NTk4MDc5XX0=
 -->
