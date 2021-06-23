@@ -1,5 +1,5 @@
 ---
-index: 7.2
+index: 9.2
 title: Tangent Lines
 type: lesson
 
@@ -22,6 +22,6 @@ $$\text{point} = (a, f(a))$$ $$\text{slope} = f'(a)$$
 
 $$y - f(a) = f'(a) (x-a).$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NzE4ODIxLC0xOTU3MjU0NDc5LDE3OD
-Q1OTgwNzldfQ==
+eyJoaXN0b3J5IjpbMjAxOTQxMDA4NywtMTk1NzI1NDQ3OSwxNz
+g0NTk4MDc5XX0=
 -->
