@@ -18,8 +18,9 @@ What should be the slope of the line?
 For the function to 'align' with the line at the desired point, they must have the same slope. So, the slope of the line must be equal to $f'(a)$, the slope of the function at $x=a$.
 
 Using point-slope form, we have:
-$$\text{point} = (a, f(z
-$$\text{slope} = f'(a)$$
+$$\text{point} = (a, f(a))$$ $$\text{slope} = f'(a)$$
+
+$$ y - f(a) = f'(a) (x-a).$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzkwNTgxNywxNzg0NTk4MDc5XX0=
+eyJoaXN0b3J5IjpbLTE5NTcyNTQ0NzksMTc4NDU5ODA3OV19
 -->
