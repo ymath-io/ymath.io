@@ -67,6 +67,7 @@
             :item="subject"
           />
         </div>
+
         <div
           style="height: calc(100vh - 64px)"
           class="sm:col-span-3 w-screen pr-4 sm:pr-20 sm:w-full overflow-scroll h-full pb-6"
@@ -90,6 +91,7 @@
             >
               <m-icon class="" icon="chevron-left" />
               <span>{{ prev.title }}</span>
+
             </a>
 
             <a

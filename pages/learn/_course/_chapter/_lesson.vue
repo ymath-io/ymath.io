@@ -31,6 +31,12 @@ export default {
       localStorage[this.storageKey] = this.progress;
       window.dispatchEvent( new Event('completionChange') );
     }
+  },
+  head(){
+    return {
+      title: this.document.title,
+
+    }
   }
 }
 </script>

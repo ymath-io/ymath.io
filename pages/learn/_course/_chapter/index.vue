@@ -11,6 +11,11 @@ export default {
   async asyncData({$content, params}){
     const [document] = await $content('courses', params.course, params.chapter).fetch()
     return {document}
+  },
+  head(){
+    return {
+      title: 'Home',
+    }
   }
 }
 </script>
