@@ -9,7 +9,7 @@ In the previous lesson, we saw how derivatives can help us find the slope of a f
 
 In this lesson, we'll look at an interesting application of the above - constructing tangent lines to curvy functions.
 
-
+<iframe src="https://www.desmos.com/calculator/vcpwd6c0uz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDU5ODA3OV19
+eyJoaXN0b3J5IjpbOTE0NjA0OTUyLDE3ODQ1OTgwNzldfQ==
 -->
