@@ -7,7 +7,7 @@ type: lesson
 
 In the previous lesson, we saw how derivatives can help us find the slope of a function. When the function's slope varies, the derivative gives us a formula for the slope, given the location.
 
-In this lesson, we'll look at an interesting application of the above - constructing lines tangent to nonlinear functions.
+In this lesson, we'll look at an interesting application of the above — constructing lines tangent to nonlinear functions.
 
 <iframe src="https://www.desmos.com/calculator/vcpwd6c0uz?embed"  class="graph"></iframe>
 
@@ -26,6 +26,7 @@ Now, we'll try this with an example.
 Let's say we want to graph a line tangent to $$y=x^3.$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzEwMTE5MiwtMTAwNTE0MzE1OSwtOT
-QzMTk4NTQ5LC0xOTU3MjU0NDc5LDE3ODQ1OTgwNzldfQ==
+eyJoaXN0b3J5IjpbNTIxMjU3NzExLDE5NjcxMDExOTIsLTEwMD
+UxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1NDQ3OSwxNzg0NTk4
+MDc5XX0=
 -->
