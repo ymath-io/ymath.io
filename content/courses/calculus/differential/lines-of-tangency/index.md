@@ -15,7 +15,11 @@ Let's say we have a function $f(x)$, and we want to construct a line tangent to 
 
 What should be the slope of the line? 
 
-For the function to 'align' with the line at the desired point, they must have the same slope
+For the function to 'align' with the line at the desired point, they must have the same slope. So, the slope of the line must be equal to $f'(a)$, the slope of the function at $x=a$.
+
+Using point-slope form, we have:
+$$\text{point} = (a, f(z
+$$\text{slope} = f'(a)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgwNDI0MzEsMTc4NDU5ODA3OV19
+eyJoaXN0b3J5IjpbMjEwNzkwNTgxNywxNzg0NTk4MDc5XX0=
 -->
