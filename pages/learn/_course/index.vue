@@ -2,13 +2,13 @@
   <div v-if="fetched" class="mt-10">
 
   <chapter-block :subject="subject" :key="subject.title" v-for="subject of subjects"/>
-  
+
   <div class="my-4">
-<h1 class="text-2xl font-bold tracking-wide">About this course</h1>
+<h1 class="text-2xl dark:text-darkText font-bold tracking-wide">About this course</h1>
     <hr class="border-gray-200 mb-4"/>
     <nuxt-content :document="course" />
   </div>
-  
+
 
   </div>
 </template>

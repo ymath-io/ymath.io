@@ -37,8 +37,8 @@
           :key="JSON.stringify(params)"
         >
 
-        <div class="sticky bg-gray-100 w-full pb-3 z-10 text-center top-0">
-          <h1 class="text-2xl font-bold font-sans">
+        <div class="sticky bg-gray-100 dark:bg-gray-900 w-full py-3 z-10 text-center top-0">
+          <h1 class="text-2xl dark:text-darkText font-bold font-sans">
             {{course.title}}
           </h1>
         </div>
