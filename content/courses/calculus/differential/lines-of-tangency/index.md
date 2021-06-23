@@ -15,7 +15,7 @@ Let's say we have a function $f(x)$, and we want to construct a line tangent to 
 
 What should be the slope of the line? 
 
-For the function to 'align' with the line 
+For the function to 'align' with the line at the desired point, they must have the same slope
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY2OTk2NTIsMTc4NDU5ODA3OV19
+eyJoaXN0b3J5IjpbLTE4NDgwNDI0MzEsMTc4NDU5ODA3OV19
 -->
