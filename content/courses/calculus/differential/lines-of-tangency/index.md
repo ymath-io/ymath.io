@@ -5,7 +5,9 @@ type: lesson
 
 ---
 
-In the previous lesson, we saw how derivatives can help us find the slope of a fu
+In the previous lesson, we saw how derivatives can help us find the slope of a function. When the function's slope varies, the derivative gives us a formula for the slope, given the location.
+
+In this lesson, we'll look at an interesting application of the above - constructing tangent line
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDQ5NDI1Nl19
+eyJoaXN0b3J5IjpbLTEzNDAxMDc3NjddfQ==
 -->
