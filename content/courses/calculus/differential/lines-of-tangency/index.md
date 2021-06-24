@@ -39,8 +39,9 @@ $$ y - (-1) = 3(x- (-1))$$ $$y+1=3x+3$$ $$\boxed{y=3x+2}.$$
 
 Now, try another example on your own. If you get stuck, use a hint!
 
+@1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDQ4MjU0NCwtOTM4MjMzNTMxLC01NT
+eyJoaXN0b3J5IjpbLTI2ODkxODE5NSwtOTM4MjMzNTMxLC01NT
 A1MDczMDcsLTE4MTkyNDY0NjEsNTIxMjU3NzExLDE5NjcxMDEx
 OTIsLTEwMDUxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1NDQ3OS
 wxNzg0NTk4MDc5XX0=
