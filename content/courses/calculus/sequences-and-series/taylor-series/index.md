@@ -25,11 +25,12 @@ When we construct a line tangent to a function, we measure the slope (derivative
 The second derivative of every line is 0, unlike most functions you'll want to mimic. But, with a quadratic equation, we can control the second derivative.
 
 Let's find a quadratic $g(x)$ tangent to $f(x)$ at $x=a$.
-As opposed to
+As opposed to the line, where we had two requirements, we now have three!
+They are:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3NzAzMzUsLTI0NTYyNjEwMCwtMT
-cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
-OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMT
-cxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4
-NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNz
+A4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4
+LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNz
+EzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1
+ODIxLC05OTU2OTI5NzMsLTExNzQxMDA2MzVdfQ==
 -->
