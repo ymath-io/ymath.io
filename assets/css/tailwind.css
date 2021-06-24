@@ -116,16 +116,24 @@ span.correct .ML__fieldcontainer{
 }
 
 @media (min-width: 992px) {
-  .graph {
+  iframe.graph {
     height: 500px;
     width: 500px;
+  }
+  img.graph {
+    height: 300px;
+    width: 300px;
   }
 }
 
 @media (max-width: 992px) {
-  .graph {
+  iframe.graph {
     height: 80vw;
     width: 80vw;
+  }
+  img.graph {
+    height: 30vw;
+    width: 30vw;
   }
 }
 
