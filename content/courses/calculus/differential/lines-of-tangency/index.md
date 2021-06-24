@@ -31,10 +31,10 @@ For context, $y=x^3$ looks like this:
 
 Now, we'll use the point-slope approach we just came up with.
 
-To find
+To find the slope of $f(x)=x^3$, we need its derivative. Using the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4ODAwNDg1LC05MzgyMzM1MzEsLTU1MD
-UwNzMwNywtMTgxOTI0NjQ2MSw1MjEyNTc3MTEsMTk2NzEwMTE5
-MiwtMTAwNTE0MzE1OSwtOTQzMTk4NTQ5LC0xOTU3MjU0NDc5LD
-E3ODQ1OTgwNzldfQ==
+eyJoaXN0b3J5IjpbMTI0MTc5OTM1MywtOTM4MjMzNTMxLC01NT
+A1MDczMDcsLTE4MTkyNDY0NjEsNTIxMjU3NzExLDE5NjcxMDEx
+OTIsLTEwMDUxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1NDQ3OS
+wxNzg0NTk4MDc5XX0=
 -->
