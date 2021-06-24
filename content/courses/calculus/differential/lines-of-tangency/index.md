@@ -28,9 +28,13 @@ Let's say we want to graph a line tangent to $$y=x^3$$ at $$x=-1.$$
 For context, $y=x^3$ looks like this:
 
 <img class="graph" src="/img/graphs/x-cubed.png"/>
+
+Now, we'll use the point-slope approach we just came up with.
+
+To find
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODIzMzUzMSwtNTUwNTA3MzA3LC0xOD
-E5MjQ2NDYxLDUyMTI1NzcxMSwxOTY3MTAxMTkyLC0xMDA1MTQz
-MTU5LC05NDMxOTg1NDksLTE5NTcyNTQ0NzksMTc4NDU5ODA3OV
-19
+eyJoaXN0b3J5IjpbOTk4ODAwNDg1LC05MzgyMzM1MzEsLTU1MD
+UwNzMwNywtMTgxOTI0NjQ2MSw1MjEyNTc3MTEsMTk2NzEwMTE5
+MiwtMTAwNTE0MzE1OSwtOTQzMTk4NTQ5LC0xOTU3MjU0NDc5LD
+E3ODQ1OTgwNzldfQ==
 -->
