@@ -31,9 +31,13 @@ For context, $y=x^3$ looks like this:
 
 Now, we'll use the point-slope approach we just came up with.
 
-To find the slope of $f(x)=x^3$, we need its derivative. Using the
+To find the slope of $f(x)=x^3$, we need its derivative. Using the [power rule](/learn/calculus/differential/power-rule), we know that $$f'(x)=3x^2.$$
+So, the slope at $x=-1$ is $$f'(-1)=3(-1)^2=\boxed{3}.$$
+
+Using point-slope, we get  
+$$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTc5OTM1MywtOTM4MjMzNTMxLC01NT
+eyJoaXN0b3J5IjpbMTk2MzUzNDc5NSwtOTM4MjMzNTMxLC01NT
 A1MDczMDcsLTE4MTkyNDY0NjEsNTIxMjU3NzExLDE5NjcxMDEx
 OTIsLTEwMDUxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1NDQ3OS
 wxNzg0NTk4MDc5XX0=
