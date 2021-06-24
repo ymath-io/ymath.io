@@ -26,8 +26,11 @@ Now, we'll try this with an example.
 Let's say we want to graph a line tangent to $$y=x^3$$ at $$x=-1.$$
 
 For context, $y=x^3$ looks like this:
+
+<img class="graph" src="/img/graphs/x-cubed.png"/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDUwNzMwNywtMTgxOTI0NjQ2MSw1Mj
-EyNTc3MTEsMTk2NzEwMTE5MiwtMTAwNTE0MzE1OSwtOTQzMTk4
-NTQ5LC0xOTU3MjU0NDc5LDE3ODQ1OTgwNzldfQ==
+eyJoaXN0b3J5IjpbLTkzODIzMzUzMSwtNTUwNTA3MzA3LC0xOD
+E5MjQ2NDYxLDUyMTI1NzcxMSwxOTY3MTAxMTkyLC0xMDA1MTQz
+MTU5LC05NDMxOTg1NDksLTE5NTcyNTQ0NzksMTc4NDU5ODA3OV
+19
 -->
