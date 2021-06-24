@@ -25,10 +25,9 @@ $$y - f(a) = f'(a) (x-a).$$
 Now, we'll try this with an example.
 Let's say we want to graph a line tangent to $$y=x^3$$ at $$x=-1.$$
 
-For context, 
-
+For context, $y=x^3$ looks like this:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkyNDY0NjEsNTIxMjU3NzExLDE5Nj
-cxMDExOTIsLTEwMDUxNDMxNTksLTk0MzE5ODU0OSwtMTk1NzI1
-NDQ3OSwxNzg0NTk4MDc5XX0=
+eyJoaXN0b3J5IjpbLTU1MDUwNzMwNywtMTgxOTI0NjQ2MSw1Mj
+EyNTc3MTEsMTk2NzEwMTE5MiwtMTAwNTE0MzE1OSwtOTQzMTk4
+NTQ5LC0xOTU3MjU0NDc5LDE3ODQ1OTgwNzldfQ==
 -->
