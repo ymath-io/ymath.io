@@ -56,11 +56,14 @@ This is definitely nicer than a line. Now that we've seen greatness, let's get g
 What should the next term  be to make this a cubic function?
 At first glance, you might say
 $$\frac{1}{3}f'''(a)(x-a)^3.$$
-The purpose of that fractional coefficient is to make up for the scalar residue caused by differentiation. However, the problem here is that when this term comes into play, it will have been differentiated *thrice*,  and we need to cancel out not just a scalar of $3$, but $3!$. This goes for any following terms.
+The purpose of that fractional coefficient is to make up for the scalar residue caused by differentiation. 
+However, the problem here is that when this term comes into play, it will have been differentiated *thrice*,  and we need to cancel out not just a scalar of $3$, but $3!$. We didn't have to deal with this in the second  degree term, because $2!=2$. This factorial rule goes for any following terms.
 
+So, a cubic would look like
+$$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2!}f''(a)(x-a)^2 + \frac{1}{3!}f'''(a)(x-a)^3.$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDU1NDAwNCw5OTMyMDM5NzIsMzkyMD
+eyJoaXN0b3J5IjpbLTUwODEzNzY4MSw5OTMyMDM5NzIsMzkyMD
 U2MTU2LC0xOTMxMzA3MTI5LDE2NTkzNDIyMjcsLTE4NzQ0ODk4
 NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEwMCwtMT
 cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
