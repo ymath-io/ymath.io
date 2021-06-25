@@ -62,13 +62,13 @@ However, the problem here is that when this term comes into play, it will have b
 So, a cubic would look like
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2!}f''(a)(x-a)^2 + \frac{1}{3!}f'''(a)(x-a)^3.$$
 
-Sadly, the third 
+Sadly, in our example, the third degree term is $0$ because $-\sin(0)=0.$ So, there's nothing new to see.  This doesn't satisfy our greed. Let's upgrade to the $6\text{th}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTgxODg2MiwtNTA4MTM3NjgxLDk5Mz
-IwMzk3MiwzOTIwNTYxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIy
-NywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMj
-Q1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIw
-NzQsNjg3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMT
-g2ODE5NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3
-ODQ4OTRdfQ==
+eyJoaXN0b3J5IjpbOTgxNzE5NDc5LC01MDgxMzc2ODEsOTkzMj
+AzOTcyLDM5MjA1NjE1NiwtMTkzMTMwNzEyOSwxNjU5MzQyMjI3
+LC0xODc0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2ODU5LC0yND
+U2MjYxMDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LDM2NjgzMjA3
+NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExOD
+Y4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4
+NDg5NF19
 -->
