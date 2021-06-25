@@ -51,7 +51,7 @@ $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2}f''(a)(x-a)^2.$$
 Let's try it out! With $f(x) = \cos x$ and $a=0$,  we have
 <img class="graph" src="/img/graphs/cosx-taylor-2.png" />
 
-This is definitely nicer than a line. Now that we've seen greatness, let's get greedy!
+This is definitely nicer than a line. And, it lines up well at $x=0$, which was our $a$ value. Now that we've seen greatness, let's get greedy!
 
 What should the next term  be to make this a cubic function?
 At first glance, you might say
@@ -63,11 +63,11 @@ So, a cubic would look like
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2!}f''(a)(x-a)^2 + \frac{1}{3!}f'''(a)(x-a)^3.$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODEzNzY4MSw5OTMyMDM5NzIsMzkyMD
-U2MTU2LC0xOTMxMzA3MTI5LDE2NTkzNDIyMjcsLTE4NzQ0ODk4
-NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEwMCwtMT
-cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
-OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMT
-cxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4
-NTgyMV19
+eyJoaXN0b3J5IjpbMTg5NzI0OTMzMywtNTA4MTM3NjgxLDk5Mz
+IwMzk3MiwzOTIwNTYxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIy
+NywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMj
+Q1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIw
+NzQsNjg3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMT
+g2ODE5NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3
+ODQ4OTRdfQ==
 -->
