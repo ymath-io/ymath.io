@@ -62,15 +62,19 @@ However, the problem here is that when this term comes into play, it will have b
 So, a cubic would look like
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2!}f''(a)(x-a)^2 + \frac{1}{3!}f'''(a)(x-a)^3.$$
 
-Sadly, in our example, the third degree term is $0$ because $\sin(0)=0.$ So, there's nothing new to see.  This doesn't satisfy our greed. Let's upgrade to the 6th degree!
+Sadly, in our example, the third degree term is $0$ because $\sin(0)=0.$ So, there's nothing new to see.  This doesn't satisfy our greed. Let's upgrade to the 8th degree!
+
+<img class="graph" src="/img/graphs/cosx-taylor-8.png" />
+
+That's more like it. And, if we graphed an infinite degree series, it would line up exactly!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjczNjAxOCwtNTA4MTM3NjgxLDk5Mz
-IwMzk3MiwzOTIwNTYxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIy
-NywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMj
-Q1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIw
-NzQsNjg3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMT
-g2ODE5NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3
-ODQ4OTRdfQ==
+eyJoaXN0b3J5IjpbLTIwNDE4ODE0MjcsMTMwMjczNjAxOCwtNT
+A4MTM3NjgxLDk5MzIwMzk3MiwzOTIwNTYxNTYsLTE5MzEzMDcx
+MjksMTY1OTM0MjIyNywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLT
+EwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1
+OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4LDE4Mjk5OTUwMSwxOD
+EyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNzEzNzQwNTYxLC0xMTc5
+NjQ5NzM3XX0=
 -->
