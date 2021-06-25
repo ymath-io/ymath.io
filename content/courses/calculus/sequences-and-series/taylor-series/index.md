@@ -54,9 +54,10 @@ Let's try it out! With $f(x) = \cos x$ and $a=0$,  we have
 This is definitely nicer than a line. Now that we've seen greatness, let's get greedy!
 
 What should the next term  be to make this a cubic function?
-
+At first glance, you might say
+$$\frac{1}{3}f'''(a)(x-a)^3.$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDI3NDExNCw5OTMyMDM5NzIsMzkyMD
+eyJoaXN0b3J5IjpbMTk3MDY1MjU4NSw5OTMyMDM5NzIsMzkyMD
 U2MTU2LC0xOTMxMzA3MTI5LDE2NTkzNDIyMjcsLTE4NzQ0ODk4
 NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEwMCwtMT
 cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
