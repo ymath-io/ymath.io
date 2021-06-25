@@ -41,12 +41,14 @@ In short, the higher degree erms are hindering the lower degree terms from servi
 
 We can solve this by setting up higher degree terms to cancel out when they are not needed. This is done by replacing
 $$x \rightarrow x-a.$$
+
+Since these two terms have the same derivative, this replacement won't disturb the parts of our
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzIzMDI3MSwtMTkzMTMwNzEyOSwxNj
-U5MzQyMjI3LC0xODc0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2
-ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LD
-M2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAw
-MzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3Mz
-csLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3
-NDEwMDYzNV19
+eyJoaXN0b3J5IjpbLTY0OTczMjEsLTE5MzEzMDcxMjksMTY1OT
+M0MjIyNywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1
+OSwtMjQ1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNj
+Y4MzIwNzQsNjg3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1
+LC0xMTg2ODE5NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC
+0yNzI3ODQ4OTQsMTE3ODg1ODIxLC05OTU2OTI5NzMsLTExNzQx
+MDA2MzVdfQ==
 -->
