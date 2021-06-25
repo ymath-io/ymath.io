@@ -34,12 +34,13 @@ Take a moment to think about this yourself.
 ---
 
 A naive  approach to this is
-$$g(x) = f(a) + f'(a)(x-a) + \frac{1}{2}f''(a)x^2$$
+$$g(x) = f(a) + f'(a)(x-a) + \frac{1}{2}f''(a)x^2.$$ 
+This only satis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMzg3OTI4LDE2NTkzNDIyMjcsLTE4Nz
-Q0ODk4NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEw
-MCwtMTcwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nz
-k0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUx
-MywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LD
-ExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbLTc3Mjg3NDU1OCwxNjU5MzQyMjI3LC0xOD
+c0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2ODU5LC0yNDU2MjYx
+MDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LDM2NjgzMjA3NCw2OD
+c5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExODY4MTk1
+MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4NDg5NC
+wxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEwMDYzNV19
 -->
