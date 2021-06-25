@@ -49,13 +49,16 @@ So, we have
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2}f''(a)(x-a)^2.$$
 
 Let's try it out! With $f(x) = \cos x$ and $a=0$,  we have
-<img class="graph
+<img class="graph" src="/img/graphs/cosx-taylor-2.png" />
+
+This is definitely nicer than a line. Now that we've seen greatness, let's get greedy!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4ODU4MjYzLDk5MzIwMzk3MiwzOTIwNT
-YxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIyNywtMTg3NDQ4OTg1
-NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNz
-A4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4
-LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNz
-EzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1
-ODIxXX0=
+eyJoaXN0b3J5IjpbMTQ0MzMyMTcwMyw5OTMyMDM5NzIsMzkyMD
+U2MTU2LC0xOTMxMzA3MTI5LDE2NTkzNDIyMjcsLTE4NzQ0ODk4
+NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEwMCwtMT
+cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
+OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMT
+cxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4
+NTgyMV19
 -->
