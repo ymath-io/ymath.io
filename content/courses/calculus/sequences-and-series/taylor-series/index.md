@@ -26,11 +26,15 @@ The second derivative of every line is 0, unlike most functions you'll want to m
 
 Let's find a quadratic $g(x)$ tangent to $f(x)$ at $x=a$.
 As opposed to the line, where we had two requirements, we now have three!
-They are:
+They are: 
+$$f(a)=g(a)$$ $$f'(a)=g'(a)$$ $$f''(a)=g''(a).$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNz
-A4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4
-LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNz
-EzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1
-ODIxLC05OTU2OTI5NzMsLTExNzQxMDA2MzVdfQ==
+eyJoaXN0b3J5IjpbNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NT
+YyNjEwMCwtMTcwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0
+LDY4Nzk0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4Nj
+gxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0
+ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0MTAwNjM1XX
+0=
 -->
