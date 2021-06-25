@@ -29,12 +29,12 @@ As opposed to the line, where we had two requirements, we now have three!
 They are: 
 $$f(a)=g(a)$$ $$f'(a)=g'(a)$$ $$f''(a)=g''(a).$$
 
-Take
+Take a moment to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5MDY2ODYyLDczNDMyNzM0OSwtMTAyNz
-Y2ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5
-LDM2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0Nj
-AwMzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3
-MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMT
-E3NDEwMDYzNV19
+eyJoaXN0b3J5IjpbLTE4NzQ0ODk4NTQsNzM0MzI3MzQ5LC0xMD
+I3NjY4NTksLTI0NTYyNjEwMCwtMTcwODI0MDAzOSw0ODc4NTk5
+MTksMzY2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEsMTgxMj
+Q2MDAzNSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0
+OTczNywtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC
+0xMTc0MTAwNjM1XX0=
 -->
