@@ -56,13 +56,15 @@ This is definitely nicer than a line. Now that we've seen greatness, let's get g
 What should the next term  be to make this a cubic function?
 At first glance, you might say
 $$\frac{1}{3}f'''(a)(x-a)^3.$$
-The purpose of that fractional coeffici
+The purpose of that fractional coefficient is to make up for the scalar residue caused by differentiation. However, the problem here is that when this term comes into play, it will have been differentiated *thrice*,  and we need to cancel out not just a scalar of $3$, but $3!$. This goes for any following terms.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI4OTE1MzEsOTkzMjAzOTcyLDM5Mj
-A1NjE1NiwtMTkzMTMwNzEyOSwxNjU5MzQyMjI3LC0xODc0NDg5
-ODU0LDczNDMyNzM0OSwtMTAyNzY2ODU5LC0yNDU2MjYxMDAsLT
-E3MDgyNDAwMzksNDg3ODU5OTE5LDM2NjgzMjA3NCw2ODc5NDY4
-OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExODY4MTk1MTMsLT
-E3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMTc4
-ODU4MjFdfQ==
+eyJoaXN0b3J5IjpbLTk0NDU1NDAwNCw5OTMyMDM5NzIsMzkyMD
+U2MTU2LC0xOTMxMzA3MTI5LDE2NTkzNDIyMjcsLTE4NzQ0ODk4
+NTQsNzM0MzI3MzQ5LC0xMDI3NjY4NTksLTI0NTYyNjEwMCwtMT
+cwODI0MDAzOSw0ODc4NTk5MTksMzY2ODMyMDc0LDY4Nzk0Njg5
+OCwxODI5OTk1MDEsMTgxMjQ2MDAzNSwtMTE4NjgxOTUxMywtMT
+cxMzc0MDU2MSwtMTE3OTY0OTczNywtMjcyNzg0ODk0LDExNzg4
+NTgyMV19
 -->
