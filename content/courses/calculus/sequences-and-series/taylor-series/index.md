@@ -48,13 +48,14 @@ Since these two terms have the same derivative, this replacement won't disturb t
 So, we have
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2}f''(a)(x-a)^2.$$
 
-Let's try it out! With $f(x) = \sin x$ and $a=0$,  we have
+Let's try it out! With $f(x) = \cos x$ and $a=0$,  we have
+<img class="graph
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMjAzOTcyLDM5MjA1NjE1NiwtMTkzMT
-MwNzEyOSwxNjU5MzQyMjI3LC0xODc0NDg5ODU0LDczNDMyNzM0
-OSwtMTAyNzY2ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksND
-g3ODU5OTE5LDM2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAx
-LDE4MTI0NjAwMzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLT
-ExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5
-Mjk3M119
+eyJoaXN0b3J5IjpbNTM4ODU4MjYzLDk5MzIwMzk3MiwzOTIwNT
+YxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIyNywtMTg3NDQ4OTg1
+NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNz
+A4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4
+LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNz
+EzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1
+ODIxXX0=
 -->
