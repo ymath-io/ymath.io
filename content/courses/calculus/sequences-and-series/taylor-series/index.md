@@ -35,12 +35,15 @@ Take a moment to think about this yourself.
 
 A naive  approach to this is
 $$g(x) = f(a) + f'(a)(x-a) + \frac{1}{2}f''(a)x^2.$$ 
-This only satis
+This only satisfies the third criteria.  If we take away the third term, it satisfies only the second criteria. If we take away the second term as well, it only satisfies the first criteria.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mjg3NDU1OCwxNjU5MzQyMjI3LC0xOD
-c0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2ODU5LC0yNDU2MjYx
-MDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LDM2NjgzMjA3NCw2OD
-c5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAwMzUsLTExODY4MTk1
-MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3MzcsLTI3Mjc4NDg5NC
-wxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3NDEwMDYzNV19
+eyJoaXN0b3J5IjpbLTE5MzEzMDcxMjksMTY1OTM0MjIyNywtMT
+g3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMjQ1NjI2
+MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNj
+g3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5
+NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OT
+QsMTE3ODg1ODIxLC05OTU2OTI5NzMsLTExNzQxMDA2MzVdfQ==
+
 -->
