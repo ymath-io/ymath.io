@@ -46,13 +46,13 @@ $$x \rightarrow x-a.$$
 Since these two terms have the same derivative, this replacement won't disturb the parts of our naive solution that work.
 
 So, we have
-$$g(x)=f(a)+f'(a)(x-a)
+$$g(x)=f(a)+f'(a)(x-a) + \frac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMDU2MTU2LC0xOTMxMzA3MTI5LDE2NT
-kzNDIyMjcsLTE4NzQ0ODk4NTQsNzM0MzI3MzQ5LC0xMDI3NjY4
-NTksLTI0NTYyNjEwMCwtMTcwODI0MDAzOSw0ODc4NTk5MTksMz
-Y2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAz
-NSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNy
-wtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0
-MTAwNjM1XX0=
+eyJoaXN0b3J5IjpbMTQzNDA4NTE3MywzOTIwNTYxNTYsLTE5Mz
+EzMDcxMjksMTY1OTM0MjIyNywtMTg3NDQ4OTg1NCw3MzQzMjcz
+NDksLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNzA4MjQwMDM5LD
+Q4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4LDE4Mjk5OTUw
+MSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNzEzNzQwNTYxLC
+0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1ODIxLC05OTU2
+OTI5NzNdfQ==
 -->
