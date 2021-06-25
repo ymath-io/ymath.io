@@ -46,13 +46,15 @@ $$x \rightarrow x-a.$$
 Since these two terms have the same derivative, this replacement won't disturb the parts of our naive solution that work.
 
 So, we have
-$$g(x)=f(a)+f'(a)(x-a) + \frac
+$$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2}f''(a)(x-a)^2.$$
+
+Let's try it out! With $f(x) = \sin x$ and $a=0$,  we have
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDA4NTE3MywzOTIwNTYxNTYsLTE5Mz
-EzMDcxMjksMTY1OTM0MjIyNywtMTg3NDQ4OTg1NCw3MzQzMjcz
-NDksLTEwMjc2Njg1OSwtMjQ1NjI2MTAwLC0xNzA4MjQwMDM5LD
-Q4Nzg1OTkxOSwzNjY4MzIwNzQsNjg3OTQ2ODk4LDE4Mjk5OTUw
-MSwxODEyNDYwMDM1LC0xMTg2ODE5NTEzLC0xNzEzNzQwNTYxLC
-0xMTc5NjQ5NzM3LC0yNzI3ODQ4OTQsMTE3ODg1ODIxLC05OTU2
-OTI5NzNdfQ==
+eyJoaXN0b3J5IjpbOTkzMjAzOTcyLDM5MjA1NjE1NiwtMTkzMT
+MwNzEyOSwxNjU5MzQyMjI3LC0xODc0NDg5ODU0LDczNDMyNzM0
+OSwtMTAyNzY2ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksND
+g3ODU5OTE5LDM2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAx
+LDE4MTI0NjAwMzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLT
+ExNzk2NDk3MzcsLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5
+Mjk3M119
 -->
