@@ -21,6 +21,7 @@ Let's say we have a function $f(x)$, and we want to construct a tangent line at 
 
 ### Why do lines work?
 When we construct a line tangent to a function, we measure the slope (derivative) of the function at the tangent point, and assign that value to the slope of the line. In this way, the line and the function have the same first derivative at $x=a$.
+
 ### Taking it a slope further
 The second derivative of every line is 0, unlike most functions you'll want to mimic. But, with a quadratic equation, we can control the second derivative.
 
@@ -47,11 +48,11 @@ Since these two terms have the same derivative, this replacement won't disturb t
 So, we have
 $$g(x)=f(a)+f'(a)(x-a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzY4MDc3OCwtMTkzMTMwNzEyOSwxNj
-U5MzQyMjI3LC0xODc0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2
-ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LD
-M2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAw
-MzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3Mz
-csLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3
-NDEwMDYzNV19
+eyJoaXN0b3J5IjpbMzkyMDU2MTU2LC0xOTMxMzA3MTI5LDE2NT
+kzNDIyMjcsLTE4NzQ0ODk4NTQsNzM0MzI3MzQ5LC0xMDI3NjY4
+NTksLTI0NTYyNjEwMCwtMTcwODI0MDAzOSw0ODc4NTk5MTksMz
+Y2ODMyMDc0LDY4Nzk0Njg5OCwxODI5OTk1MDEsMTgxMjQ2MDAz
+NSwtMTE4NjgxOTUxMywtMTcxMzc0MDU2MSwtMTE3OTY0OTczNy
+wtMjcyNzg0ODk0LDExNzg4NTgyMSwtOTk1NjkyOTczLC0xMTc0
+MTAwNjM1XX0=
 -->
