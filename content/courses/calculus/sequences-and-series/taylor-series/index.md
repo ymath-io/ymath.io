@@ -62,8 +62,9 @@ However, the problem here is that when this term comes into play, it will have b
 So, a cubic would look like
 $$g(x)=f(a)+f'(a)(x-a) + \frac{1}{2!}f''(a)(x-a)^2 + \frac{1}{3!}f'''(a)(x-a)^3.$$
 
+Sadly, the third 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzI0OTMzMywtNTA4MTM3NjgxLDk5Mz
+eyJoaXN0b3J5IjpbLTI2NTgxODg2MiwtNTA4MTM3NjgxLDk5Mz
 IwMzk3MiwzOTIwNTYxNTYsLTE5MzEzMDcxMjksMTY1OTM0MjIy
 NywtMTg3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMj
 Q1NjI2MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIw
