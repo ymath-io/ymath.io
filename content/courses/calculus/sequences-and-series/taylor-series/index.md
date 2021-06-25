@@ -37,13 +37,16 @@ A naive  approach to this is
 $$g(x) = f(a) + f'(a)(x-a) + \frac{1}{2}f''(a)x^2.$$ 
 This only satisfies the third criteria.  If we take away the third term, it satisfies only the second criteria. If we take away the second term as well, it only satisfies the first criteria.
 
+In short, the higher degree erms are hindering the lower degree terms from serving their purpose.
 
+We can solve this by setting up higher degree terms to cancel out when they are not needed. This is done by replacing
+$$x \rightarrow x-a.$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEzMDcxMjksMTY1OTM0MjIyNywtMT
-g3NDQ4OTg1NCw3MzQzMjczNDksLTEwMjc2Njg1OSwtMjQ1NjI2
-MTAwLC0xNzA4MjQwMDM5LDQ4Nzg1OTkxOSwzNjY4MzIwNzQsNj
-g3OTQ2ODk4LDE4Mjk5OTUwMSwxODEyNDYwMDM1LC0xMTg2ODE5
-NTEzLC0xNzEzNzQwNTYxLC0xMTc5NjQ5NzM3LC0yNzI3ODQ4OT
-QsMTE3ODg1ODIxLC05OTU2OTI5NzMsLTExNzQxMDA2MzVdfQ==
-
+eyJoaXN0b3J5IjpbMTk4MzIzMDI3MSwtMTkzMTMwNzEyOSwxNj
+U5MzQyMjI3LC0xODc0NDg5ODU0LDczNDMyNzM0OSwtMTAyNzY2
+ODU5LC0yNDU2MjYxMDAsLTE3MDgyNDAwMzksNDg3ODU5OTE5LD
+M2NjgzMjA3NCw2ODc5NDY4OTgsMTgyOTk5NTAxLDE4MTI0NjAw
+MzUsLTExODY4MTk1MTMsLTE3MTM3NDA1NjEsLTExNzk2NDk3Mz
+csLTI3Mjc4NDg5NCwxMTc4ODU4MjEsLTk5NTY5Mjk3MywtMTE3
+NDEwMDYzNV19
 -->
