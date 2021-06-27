@@ -12,7 +12,7 @@ $$3^5=3\cdot3\cdot3\cdot3\cdot3$$
 
 In the example above, $3^5$ means "multiply 3 by itself 5 times." The small "$5$" in the top right is called the *exponent,* and the "$3$" in the bottom left is called the *base.* A base together with its exponent is called a *power*.
 
-To type a power on a computer, type {base}^{exponent}. For example, for $3$^$5$ we would type $3$^$5$ or {$3$}^{$5$}. On YMath, you won't need the curly braces -- the website handles it automatically!
+To type a power on a computer, type {base}^{exponent}. For example, for $3$^$5$ we would type $3$^$5$. 
 
 Let's look at another example. 
 $$(x-1)^{2y}$$
@@ -62,6 +62,6 @@ The second example shows a very common error. A negative sign is the same as mul
 
 Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc1MDk0MiwtMTUyMjI1NTk4MCwtMj
-AxNDE1NTg0MSw2ODIwNTA0OTBdfQ==
+eyJoaXN0b3J5IjpbNDA3Njk2ODY1LC0xNTIyMjU1OTgwLC0yMD
+E0MTU1ODQxLDY4MjA1MDQ5MF19
 -->
