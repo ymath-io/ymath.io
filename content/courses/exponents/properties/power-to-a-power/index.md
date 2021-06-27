@@ -35,10 +35,11 @@ $$=\underbrace{xxx \ldots x}_\text{$ab$ times}
 In $(x^a)^b$, there are $b$ groups of $``\left(x^a\right)"$s being multiplied together. This makes a total of $ab$ $``x"$s multiplied together. Therefore, $(x^a)^b=x^{ab}$.
 
 ## Warnings
-Recall from the first lesson that towers of exponents are evaluated from the top down. So, 
+Recall from the first lesson that towers of exponents are evaluated from the top down. So, in general,
 $$x^{y^z}=x^{\left(y^z\right)}\neq \left(x^y\right)^z=x^{yz}$$
 $$x^{y^z}\neq x^{yz}$$
-(That is, unless $y^z$ happens to equal $yz$, which is pretty unlikely.)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NDU2MzY4LC0xNTk3MDEwOTczXX0=
+eyJoaXN0b3J5IjpbLTEwNjg2NTcyNjcsLTE1OTcwMTA5NzNdfQ
+==
 -->
