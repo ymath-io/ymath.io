@@ -20,6 +20,8 @@ The base is $x-1$, and the exponent is $2y$. So, this expression means to multip
 
 @1
 
+@2
+
 Now for an interesting question: what is $3^0$? Well, we are multiplying $3$ by itself $0$ times, so the answer is $0$, right? Not quite--we'll use something called an identity element to show why that isn't the case. 
 
 ### Identity Element
@@ -60,6 +62,6 @@ The second example shows a very common error. A negative sign is the same as mul
 
 Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTE4NTU3NiwtMTUyMjI1NTk4MCwtMj
+eyJoaXN0b3J5IjpbLTkxMTE1MTUzNCwtMTUyMjI1NTk4MCwtMj
 AxNDE1NTg0MSw2ODIwNTA0OTBdfQ==
 -->
