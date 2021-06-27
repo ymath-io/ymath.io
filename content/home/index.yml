@@ -1,0 +1,31 @@
+sections:
+  - type: open
+    title: Redefining Learning Math
+    body: Become an independent learner. Learn to ask the right questions.
+      YMath courses use the socratic method to train you to not just do math, but also think mathematically.
+    button:
+      title: Get Started
+      href: /learn
+  - type: bubble
+    title: Fully Self—Paced and Free
+    body: At YMath, we believe that everyone should have access o any level of education they choose.
+      You are free to skip around and take our lessons at your own pace.
+  - type: open
+    title: Made For Students, By Students
+    body: YMath was started in the notebook of a high school freshman during distance learning in the COVID-19 pandemic.
+      All of our courses are written by high schoolers.
+    button:
+      title: Meet the Team
+      href: /about
+  - type: bubble
+    title: Fully Open Source
+    body: Got a suggestion, want to report a bug, or just curious about the code? Check out our GitHub repository!
+    button:
+      title: Go to GitHub
+      href: //github.com/ymath-io/ymath.io
+  - type: open
+    title: Got a question?
+    body: Good news! YMath is on Discord! Talk about math, get important updates, or apply to be a writer!
+    button:
+      title: Join the server
+      href: //discord.gg/NPbfRt4wNM
