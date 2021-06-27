@@ -14,6 +14,8 @@ In the example above, $3^5$ means "multiply 3 by itself 5 times." The "$5$" is c
 
 To type a power on a computer, type {base}^{exponent}. For example, for $3$^$5$ we would type $3$^$5$ or {$3$}^{$5$}. 
 
+@1 Evaluate 2^4.
+
 Let's look at another example. 
 $$(x-1)^{2y}$$
 The base is $x-1$, and the exponent is $2y$. So, this expression means to multiply $x-1$ by itself $2y$ times.
@@ -58,5 +60,6 @@ The second example shows a very common error. A negative sign is the same as mul
 
 Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQxNTU4NDEsNjgyMDUwNDkwXX0=
+eyJoaXN0b3J5IjpbLTExNjgyOTkyOTUsLTIwMTQxNTU4NDEsNj
+gyMDUwNDkwXX0=
 -->
