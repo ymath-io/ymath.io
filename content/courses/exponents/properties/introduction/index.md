@@ -10,7 +10,7 @@ Sometimes, we want to multiply a number by itself many times. Instead of having 
 $$3^5=3\cdot3\cdot3\cdot3\cdot3$$
 (read as 3 to the power of 5, 3 to the 5th power, or 3 to the 5th)
 
-In the example above, $3^5$ means "multiply 3 by itself 5 times." The "$5$" is called the *exponent,* and the "$3$" is called the *base.* A base together with its exponent is called a *power*.
+In the example above, $3^5$ means "multiply 3 by itself 5 times." The small "$5$" in the top right is called the *exponent,* and the "$3$" in the bottom left is called the *base.* A base together with its exponent is called a *power*.
 
 To type a power on a computer, type {base}^{exponent}. For example, for $3$^$5$ we would type $3$^$5$ or {$3$}^{$5$}. 
 
@@ -60,6 +60,6 @@ The second example shows a very common error. A negative sign is the same as mul
 
 Now that we know how to evaluate exponents (and how not to evaluate them), we are ready to practice our new skills!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI4ODQzNDIsLTE1MjIyNTU5ODAsLT
-IwMTQxNTU4NDEsNjgyMDUwNDkwXX0=
+eyJoaXN0b3J5IjpbMTAyMTE4NTU3NiwtMTUyMjI1NTk4MCwtMj
+AxNDE1NTg0MSw2ODIwNTA0OTBdfQ==
 -->
