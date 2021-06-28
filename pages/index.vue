@@ -49,7 +49,11 @@
       </div>
       <div :class="{'bg-green-400 bg-opacity-20 -mx-5 my-5 py-52':section.type==='bubble'}" v-for='section of [doc.sections[3]]' class='grid  my-5   grid-cols-3 ' style='border-top-right-radius: 50vw 15vw;border-top-left-radius: 50vw 15vw;border-bottom-left-radius: 50vw 15vw;border-bottom-right-radius: 50vw 15vw'   >
         <div class='hero-image  col-span-1 ml-32'>
+            <div class='relative'>
+              <img style='z-index:0' class='absolute transform scale-125 top-0' src='/img/mascot/scenes/code-wall.png'/>
+              <img style='z-index: 1' class='relative transform scale-75' src='/img/mascot/front-view.png'/>
 
+            </div>
         </div>
         <div class='col-span-2 pl-16  text-center pr-16 mr-32'>
           <h1 class='text-4xl my-5 dark:text-darkText font-bold font-sans'>{{section.title}}</h1>
