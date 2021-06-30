@@ -142,6 +142,28 @@ module.exports = {
     }
   },
   plugins: [
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    function ({addUtilities, theme}) {
+      const extendUnderline = {};
+      let themeColors = theme('colors')
+      for (let color of  Object.keys(themeColors)){
+        if (typeof themeColors[color] == 'string'){
+          extendUnderline[`.underline-${color}`] = {
+            'textDecoration': 'underline',
+            'text-decoration-color': themeColors[color],
+          }
+        }
+        else {
+          // it is an object
+          for (let varnt of Object.keys(themeColors[color])){
+            extendUnderline[`.underline-${color}-${varnt}`] = {
+              'textDecoration': 'underline',
+              'text-decoration-color': themeColors[color][varnt],
+            }
+          }
+        }
+      }
+      addUtilities(extendUnderline)
+    }
   ],
 }
