@@ -13,7 +13,7 @@
       <div class="" :style="{backgroundColor:course.color,height:'64px'}"></div>
       <main
            style="min-height: 100%; top: 64px"
-        class="h-full grid sm:gap-12 sm:grid-cols-4 sticky mb-0 py-0"
+        class="h-full grid sm:grid-cols-4 sticky mb-0 py-0"
       >
         <div
           style="height: calc(100vh - 64px)"
@@ -33,7 +33,6 @@
             sm:border-b-0
             dark:border-gray-800
             border-gray-200
-
           "
           :key="JSON.stringify(params)"
         >
@@ -43,25 +42,6 @@
             {{course.title}}
           </h1>
         </div>
-
-          <div class="text-center">
-           <!--- <h1
-              class="
-                tracking-wide
-                font-extrabold
-                bg-gradient-to-l bg-clip-text
-                text-transparent
-                from-green-400
-                to-green-600
-                my-3
-                uppercase
-                text-2xl
-              "
-            >
-              {{ course.title }}
-            </h1>-->
-          </div>
-
           <side-bar-item
             :key="index"
             v-for="(subject, index) in subjects"
@@ -71,13 +51,18 @@
 
         <div
           style="height: calc(100vh - 64px)"
-          class="sm:col-span-3 w-screen pr-4 sm:pr-20 sm:w-full overflow-scroll h-full pb-6"
+          id='content-wrapper'
+          class="sm:col-span-3 block w-screen sm:pl-12 pr-4 sm:pr-20 sm:w-full overflow-x-scroll overflow-y-scroll h-full pb-6"
         >
+          <div style='' class=' -ml-12 -mr-20 z-10 sticky h-1 top-0 '>
+            <div :style='{width:scrollProgress+`%`}' class=' z-10  h-full bg-opacity-80 backdrop-filter backdrop-blur bg-green-400'>
+
+            </div>
+          </div>
           <div
             v-if="prev || next && level !=='course'"
             class="
-              mb-15
-
+              mb-15 mt-1
               flex flex-col
               sm:flex-row
               border-t-0
@@ -238,6 +223,20 @@ export default {
     }
     return { course, subjects, fetched: true, level, params, prev, next }
   },
+  data:()=>({
+    scrollProgress:0
+  }),
+  mounted() {
+    const v = this;
+    document.addEventListener('DOMContentLoaded',()=>{
+        const target = document.querySelector('#content-wrapper');
+
+        target.addEventListener('scroll', (e)=>{
+          v.scrollProgress = 100*(target.scrollTop  )/(target.scrollHeight - target.clientHeight);
+        })
+      }
+    )
+  }
 }
 </script>
 
