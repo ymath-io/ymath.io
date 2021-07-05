@@ -33,6 +33,7 @@
             sm:border-b-0
             dark:border-gray-800
             border-gray-200
+
           "
           :key="JSON.stringify(params)"
         >

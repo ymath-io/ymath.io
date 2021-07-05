@@ -1,8 +1,8 @@
 <template>
 <div>
-  <div class="flex flex-row"><h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1><progress-selector class="ml-auto"  v-model='progress'/></div> 
+  <div class="flex flex-row"><h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1><progress-selector class="ml-auto"  v-model='progress'/></div>
   <nuxt-content :document='document'/>
-  <div class='text-center mt-10'><progress-selector  v-model='progress'/></div>
+  <div class='text-right mt-10'><progress-selector  v-model='progress'/></div>
 </div>
 </template>
 
