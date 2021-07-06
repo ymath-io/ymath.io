@@ -221,7 +221,7 @@ export default {
           params.chapter == k.path.split('/')[3]
       })
     }
-    return { course, subjects, fetched: true, level, params, prev, next }
+    return { course, subjects, fetched: true, level, params, prev, next, path:`${params.course}/${params.chapter}/${params.lesson}` }
   },
   data:()=>({
     scrollProgress:0
@@ -233,6 +233,9 @@ export default {
 
         target.addEventListener('scroll', (e)=>{
           v.scrollProgress = 100*(target.scrollTop  )/(target.scrollHeight - target.clientHeight);
+          if (v.scrollProgress > 98){
+            localStorage.setItem('progress:'+v.path, 'completed');
+          }
         })
       }
     )

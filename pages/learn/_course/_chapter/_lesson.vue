@@ -11,13 +11,17 @@ export default {
   async asyncData({$content, params}){
     const [document] = await $content('courses', params.course, params.chapter, params.lesson).fetch();
     return {
-      document, params, storageKey:`progress:${params.course}/${params.chapter}/${params.lesson}`
+      document, params, storageKey:`progress:${params.course}/${params.chapter}/${params.lesson}`, id:Math.random()
     }
   },
   mounted(){
      this.progress = localStorage[this.storageKey] || 'not-started';
 
     window.addEventListener('storage', function(event) {
+      this.progress = localStorage[this.storageKey];
+    });
+    window.addEventListener('completionChange', function(event) {
+      if (event === this.id) return;
       this.progress = localStorage[this.storageKey];
     })
   },
