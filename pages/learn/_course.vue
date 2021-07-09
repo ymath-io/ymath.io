@@ -154,6 +154,7 @@ export default {
       level = 'lesson'
     } else if (params.chapter) {
       ;[prev, next] = await $content('courses', params.course, { deep: true })
+
         .sortBy('index')
         .surround(`/courses/${params.course}/${params.chapter}/index`)
         .only(['path', 'title'])
@@ -161,7 +162,7 @@ export default {
       level = 'chapter'
     } else {
       ;[prev, next] = await $content('courses', params.course, { deep: true })
-
+        .where({type:{$neq:'chapter'}})
         .sortBy('index')
         .surround(`/courses/${params.course}/index`)
         .only(['path', 'title'])
@@ -246,5 +247,8 @@ export default {
 <style>
 .scroll-down::before {
   @apply  text-4xl animate-bounce;
+}
+.body {
+  @apply overflow-y-scroll;
 }
 </style>
