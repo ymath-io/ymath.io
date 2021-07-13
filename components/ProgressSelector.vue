@@ -4,7 +4,7 @@
     ref='butt'
     :class='[item.id]'
     class='dropdown bg-opacity-10 cursor-pointer  py-2 px-3 my-1 rounded-md dark:hover:bg-opacity-10 hover:bg-opacity-20 '>
-    <span>Mark as {{ actionItem.title }}  </span>  <m-icon icon='chevron-down' />
+    <span> {{ item.title }}  </span>  <m-icon icon='chevron-down' />
     <div class='dropdown-content '>
       <div @click='()=>{$emit(`input`, option.id);$refs.butt.blur()}' :key='option.id' v-for='option in items'
            :class='[value===option.id? `active`:``, option.color]'>

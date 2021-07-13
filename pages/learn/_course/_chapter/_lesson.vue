@@ -22,7 +22,7 @@ export default {
     });
     window.addEventListener('completionChange', function(event) {
       if (event === this.id) return;
-      this.progress = localStorage[this.storageKey];
+      this.progress = localStorage.getItem([this.storageKey]);
     })
   },
   data(){
@@ -33,7 +33,7 @@ export default {
   watch:{
     progress(){
       localStorage[this.storageKey] = this.progress;
-      window.dispatchEvent( new Event('completionChange') );
+      window.dispatchEvent( new CustomEvent('completionChange', {id: this.id }) );
     }
   },
   head(){

@@ -236,6 +236,7 @@ export default {
           v.scrollProgress = 100*(target.scrollTop  )/(target.scrollHeight - target.clientHeight);
           if (v.scrollProgress > 98){
             localStorage.setItem('progress:'+v.path, 'completed');
+            window.dispatchEvent( new Event('completionChange') );
           }
         })
       }
@@ -245,9 +246,7 @@ export default {
 </script>
 
 <style>
-.scroll-down::before {
-  @apply  text-4xl animate-bounce;
-}
+
 .body {
   @apply overflow-y-scroll;
 }
