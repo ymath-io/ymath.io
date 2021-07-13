@@ -1,13 +1,12 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
+  telemetry: true,
   loading: {
     color: '#28a745',
     height: '3px'
   },
-
   router:{
-    //middleware:['setTheme']
   },
 
   // Target: https://go.nuxtjs.dev/config-target
@@ -49,8 +48,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-   // {src:'~/plugins/mathquill.js', mode:'client'},
-    '~/plugins/jsonviewer.js'
+    // {src:'~/plugins/mathquill.js', mode:'client'},
+    '~/plugins/tooltip.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -61,7 +60,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/moment',
+    '@nuxtjs/moment'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -71,7 +70,8 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    ['storyblok-nuxt', { accessToken: '4IYlGOvziwx30Herizt9Ewtt', cacheProvider: 'memory' }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -83,15 +83,15 @@ export default {
       lang: 'en'
     },
     meta: {
-      name:'YMath.io',
-      description:'Self-paced high school math material, explained to be understood.',
+      name: 'YMath.io',
+      description: 'Self-paced high school math material, explained to be understood.',
       author: 'Saumya Singhal',
-      theme_color:'#00ab33',
-      ogHost:'https://dev.ymath.io',
-      favicon:true,
+      theme_color: '#00ab33',
+      ogHost: 'https://dev.ymath.io',
+      favicon: true,
       mobileAppIOS: true,
       appleStatusBarStyle: 'black-translucent',
-      ogImage:true,
+      ogImage: true
     }
   },
 
@@ -99,7 +99,7 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        'remark-math','remark-mermaid' ,'remark-captions', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
+        'remark-math', 'remark-mermaid', 'remark-captions', 'remark-squeeze-paragraphs', 'remark-slug', 'remark-autolink-headings', 'remark-external-links', 'remark-footnotes'
       ],
       rehypePlugins: [
         'rehype-katex', 'rehype-minify-whitespace', 'rehype-sort-attribute-values', 'rehype-sort-attributes', 'rehype-raw'
@@ -113,49 +113,51 @@ export default {
   hooks: {
     'content:file:beforeParse': (file) => {
       if (file.extension !== '.md') return
-      file.data = file.data.replace(/\$\$/g, '\n$$$\n');
+      file.data = file.data.replace(/\$\$/g, '\n$$$\n')
 
       try {
-        const [course, chapter, lesson] = file.path.split('/content/courses/')[1].split('/');
+        const [course, chapter, lesson] = file.path.split('/content/courses/')[1].split('/')
 
-        file.data = file.data.replace(/^\s*@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`);
+        file.data = file.data.replace(/^\s*@(\d)(.*)$/gm, `<practice-problem-wrapper :number='$1' path='courses/${course}/${chapter}/${lesson}' text='$2' ></practice-problem-wrapper>`)
         //console.log(file.data);
-      }
-      catch (e) {
+      } catch (e) {
 
       }
     },
     'content:file:beforeInsert': async (doc, db) => {
-      if (doc.type === 'problem'){
-        let parse = db.markdown.toJSON;
-        parse = parse.bind(db.markdown);
+      if (doc.type === 'problem') {
+        let parse = db.markdown.toJSON
+        parse = parse.bind(db.markdown)
         // text is the body content, w/o frontmatter
-        const {text} = doc;
+        const { text } = doc
         let docInfo = {
-          problemStatement:'',
-          hints:[],
-          solutions:[]
+          problemStatement: '',
+          hints: [],
+          solutions: []
         }
         // 1. separate by @
-        const splitted = text.split('@');
-        splitted.shift();
-        for ( const rawFragment of splitted){
-          let text = rawFragment.split('\n');
-          const type = text.shift();
-          text = text.join('\n').trim();
+        const splitted = text.split('@')
+        splitted.shift()
+        for (const rawFragment of splitted) {
+          let text = rawFragment.split('\n')
+          const type = text.shift()
+          text = text.join('\n').trim()
           switch (type) {
             case 'statement':
-              docInfo.problemStatement = await parse(text);
-              break;
+              docInfo.problemStatement = await parse(text)
+              break
             case 'hint':
-              docInfo.hints.push(await parse(text));
-              break;
+              docInfo.hints.push(await parse(text))
+              break
             case 'solution':
-              docInfo.solutions.push(await parse(text));
+              docInfo.solutions.push(await parse(text))
 
           }
         }
-        Object.assign(doc, docInfo);
+        Object.assign(doc, docInfo)
+      }
+      else if(['course','chapter','lesson'].includes(doc.type)) {
+        doc.url = doc.slug+'hi'
       }
     }
   },
@@ -166,7 +168,7 @@ export default {
       ]
     },
     extend(config, ctx) {
-      config.resolve.alias['vue'] = 'vue/dist/vue.common';
+      config.resolve.alias['vue'] = 'vue/dist/vue.common'
 
     }
   },
