@@ -103,7 +103,7 @@ import Vue from 'vue'
 export default Vue.extend({
   components: {},
   data: () => ({
-    bubbleClasses:'bg-green-400 bg-opacity-20 px-12  -mx-12 py-52',
+    bubbleClasses:'bg-green-400 bg-opacity-20 px-12  -mx-12 py-48',
     sectionClasses:'grid gap-4 my-5 py-24 grid-cols-3 ',
     bubbleStyle: {borderRadius:'50vw / 15vw'}
   }),
