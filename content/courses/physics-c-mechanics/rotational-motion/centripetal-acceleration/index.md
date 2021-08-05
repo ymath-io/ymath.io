@@ -1,7 +1,7 @@
 ---
 index: 3
 title: Centripetal Acceleration
-type: lesson
+type: lesson-draft
 
 ---
 

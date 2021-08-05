@@ -1,5 +1,5 @@
 ---
-type: chapter
+type: chapter-draft
 title: Rotational Motion
 index: 2
 
