@@ -1,8 +1,12 @@
 <template>
   <div>
     <div class='overflow-x-hidden'>
+      <div>
+
+      </div>
       <div :class="[section.type==='bubble'? bubbleClasses:'', sectionClasses]" v-for='section of [doc.sections[0]]' :style='section.type==="bubble"?bubbleStyle:{}'   >
         <div class='col-span-2 pl-16  text-right pr-16 ml-32'>
+          <h1 class='block text-green-400 font-bold text-7xl tracking-wide'>Why Math?</h1>
           <h1 class='text-4xl  dark:text-darkText my-5 underline-green-500 font-bold font-sans'>{{section.title}}</h1>
           <p class='text-xl  dark:text-darkText leading-loose my-3'>{{section.body}}</p>
           <div class="my-5" v-if='section.button'>
@@ -13,7 +17,7 @@
 
         </div>
         <div class='hero-image flex col-span-1 mr-32'>
-          <img  style='transform: scaleX(-1);' class='my-auto transform  mx-auto' src='/img/mascot/flying.png' />
+          <img  style='transform: scaleX(-1) rotate(-10deg);' class='my-auto transform  mx-auto' src='/img/mascot/flying.png' />
         </div>
       </div>
       <div :class="[section.type==='bubble'? bubbleClasses:'', sectionClasses]" v-for='section of [doc.sections[1]]' :style='section.type==="bubble"?bubbleStyle:{}' >
