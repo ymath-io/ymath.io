@@ -1,11 +1,11 @@
 <template>
-  <div class='bg-gray-100 dark:bg-gray-900' style='min-height: 100vh;display: flex;flex-direction: column'>
+  <div class='bg-gray-100 select dark:bg-gray-900' style='min-height: 100vh;display: flex;flex-direction: column'>
     <nav class='bg-gray-100 dark:bg-gray-900 sticky top-0 z-20 bg-opacity-80 backdrop-filter backdrop-blur-sm'>
       <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div class='flex items-center justify-between h-16'>
           <div class='flex items-center grid gap-12 grid-cols-4'>
             <div class='flex-shrink-0 col-span-1'>
-              <a href='/'><img class='h-8 w-8 ml-auto  rounded-lg shadow-lg' src='https://ymath.io/favicon.png' alt='YMath Logo' /></a>
+              <a href='/'><img class='h-8 max-w-none ml-auto  rounded-lg shadow-lg' src='https://ymath.io/favicon.png' alt='YMath Logo' /></a>
             </div>
 
             <div class='hidden md:block col-span-3'>
