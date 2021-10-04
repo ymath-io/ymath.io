@@ -20,6 +20,8 @@ $$(xy)^a
 =x^ay^a$$
 Yup, it works! As in the name of the property, a *product* ($xy$) to a *power* ($a$) is $x^a y^a$. Note that we can substitute in any numbers for $x$, $y$, and $a$.
 
+@1 
+
 ## Power of a Quotient
 The expression $\left(\frac{x}{y}\right)^a$ seems similar to $(xy)^2$, so let's use the same strategy as before. 
 $$\left(\frac{x}{y}\right)^a
@@ -28,6 +30,6 @@ $$\left(\frac{x}{y}\right)^a
 =\frac{x^a}{y^a}$$
 So, the *quotient* $\frac{x}{y}$ to the *power* of $a$ is $\frac{x^a}{y^a}$. Cool!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg1ODI1NzAsNzYyMDc0Mjc2LDEwMj
-E4MjQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTg2NDg3ODc1Nyw3NjIwNzQyNzYsMTAyMT
+gyNDU3NV19
 -->
