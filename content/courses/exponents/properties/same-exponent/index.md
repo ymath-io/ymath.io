@@ -31,7 +31,11 @@ $$\left(\frac{x}{y}\right)^a
 =\frac{\overbrace{x\cdot x\ldots x}^\text{$a$ times}}{\underbrace{y\cdot y\ldots y}_\text{$a$ times}}
 =\frac{x^a}{y^a}$$
 So, the *quotient* $\frac{x}{y}$ to the *power* of $a$ is $\frac{x^a}{y^a}$. Cool!
+
+@3
+
+@4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTU0MDc1MSw3NjIwNzQyNzYsMTAyMT
-gyNDU3NV19
+eyJoaXN0b3J5IjpbLTIxMjg4MzU3NDIsNzYyMDc0Mjc2LDEwMj
+E4MjQ1NzVdfQ==
 -->
