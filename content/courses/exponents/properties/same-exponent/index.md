@@ -18,13 +18,11 @@ $$(xy)^a
 =\underbrace{(xy)(xy)\dots(xy)}_\text{$a$ times}
 =\underbrace{x\cdot x\dots x}_\text{$a$ times} \cdot \underbrace{y\cdot y\dots y}_\text{$a$ times}
 =x^ay^a$$
-Yup, it works! We showed that
-$$(xy)^a=x^ay^a$$
-for any positive integer value of $a$.
+Yup, it works! A product ($xy$) to the power of $a$ is $x^a y^a$
 
 ## Power of a Quotient
-Coming soon!
+$\frac{x^a}{y^a}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjUyNTkwMSw3NjIwNzQyNzYsMTAyMT
+eyJoaXN0b3J5IjpbLTgyMDMzNDM2Miw3NjIwNzQyNzYsMTAyMT
 gyNDU3NV19
 -->
