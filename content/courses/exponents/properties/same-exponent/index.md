@@ -16,12 +16,13 @@ $$(xy)^2=(xy)(xy)=x\cdot x\cdot y\cdot y=x^2y^2$$
 Interesting. Does this work for any exponent?
 $$(xy)^a
 =\underbrace{(xy)(xy)\dots(xy)}_\text{$a$ times}
-=\underbrace{x\cdot x\dots x\cdot}\underbrace{y\cdot y\dots y}
-=x^2y^2$$
+=\underbrace{x\cdot x\dots x}_\text{$a$ times} \cdot \underbrace{y\cdot y\dots y}_\text{$a$ times}
+=x^ay^a$$
+Yup, it works!
 
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjI2OTY4MCw3NjIwNzQyNzYsMTAyMT
-gyNDU3NV19
+eyJoaXN0b3J5IjpbLTE1NzczMDUwMzgsNzYyMDc0Mjc2LDEwMj
+E4MjQ1NzVdfQ==
 -->
