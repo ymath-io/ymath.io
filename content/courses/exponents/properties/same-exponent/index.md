@@ -33,9 +33,7 @@ $$\left(\frac{x}{y}\right)^a
 So, the *quotient* $\frac{x}{y}$ to the *power* of $a$ is $\frac{x^a}{y^a}$. Cool!
 
 @3
-
-@4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg4MzU3NDIsNzYyMDc0Mjc2LDEwMj
-E4MjQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTc0MzgzOTIzOCw3NjIwNzQyNzYsMTAyMT
+gyNDU3NV19
 -->
