@@ -14,11 +14,14 @@ In the previous lesson, we learned that two powers with the same base can be com
 Let's try simplifying $(xy)^2$. We expand to get
 $$(xy)^2=(xy)(xy)=x\cdot x\cdot y\cdot y=x^2y^2$$
 Interesting. Does this work for any exponent?
-$$(xy)^a=\underbrace{(xy)(xy)\c}=x\cdot x\cdot y\cdot y=x^2y^2$$
+$$(xy)^a
+=\underbrace{(xy)(xy)\dots(xy)}_\text{$a$ times}
+=\underbrace{x\cdot x\dots x\cdot}\underbrace{y\cdot y\dots y}
+=x^2y^2$$
 
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTc0ODE5Myw3NjIwNzQyNzYsMTAyMT
+eyJoaXN0b3J5IjpbLTUyNjI2OTY4MCw3NjIwNzQyNzYsMTAyMT
 gyNDU3NV19
 -->
