@@ -24,8 +24,10 @@ Yup, it works! Note the name of the property -- a *product* ($xy$) to a *power* 
 The expression $\left(\frac{x}{y}\right)^a$ seems similar to $(xy)^2$, so let's use the same strategy as before. 
 $$\left(\frac{x}{y}\right)^a
 =\underbrace{\left(\frac{x}{y}\right) \left(\frac{x}{y}\right) \dots \left(\frac{x}{y}\right)}_\text{$a$ times}
-=\frac{\overbrace{x\cdot x\ldots x}^\text{$a$ times}}{\underbrace{y\cdot y\ldots y}_\text{$a$ times}}$$
+=\frac{\overbrace{x\cdot x\ldots x}^\text{$a$ times}}{\underbrace{y\cdot y\ldots y}_\text{$a$ times}}
+=\frac{x^a}{y^a}$$
+So, the $a$th *power* of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk0ODE3NTIsNzYyMDc0Mjc2LDEwMj
-E4MjQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMjAxMDE3Mjk1OCw3NjIwNzQyNzYsMTAyMT
+gyNDU3NV19
 -->
