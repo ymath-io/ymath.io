@@ -18,7 +18,7 @@ $$(xy)^a
 =\underbrace{(xy)(xy)\dots(xy)}_\text{$a$ times}
 =\underbrace{x\cdot x\dots x}_\text{$a$ times} \cdot \underbrace{y\cdot y\dots y}_\text{$a$ times}
 =x^ay^a$$
-Yup, it works! Note the name of the property -- a *product* ($xy$) to a *power* ($a$) is $x^a y^a$.
+Yup, it works! Note the name of the property -- a *product* ($xy$) to a *power* ($a$) is $x^a y^a$. Note that we can s
 
 ## Power of a Quotient
 The expression $\left(\frac{x}{y}\right)^a$ seems similar to $(xy)^2$, so let's use the same strategy as before. 
@@ -26,8 +26,8 @@ $$\left(\frac{x}{y}\right)^a
 =\underbrace{\left(\frac{x}{y}\right) \left(\frac{x}{y}\right) \dots \left(\frac{x}{y}\right)}_\text{$a$ times}
 =\frac{\overbrace{x\cdot x\ldots x}^\text{$a$ times}}{\underbrace{y\cdot y\ldots y}_\text{$a$ times}}
 =\frac{x^a}{y^a}$$
-So, the $a$th *power* of 
+So, the *quotient* $\frac{x}{y}$ to the *power* of $a$ is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDE3Mjk1OCw3NjIwNzQyNzYsMTAyMT
+eyJoaXN0b3J5IjpbLTc1NjgyNjMzMCw3NjIwNzQyNzYsMTAyMT
 gyNDU3NV19
 -->
