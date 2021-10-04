@@ -11,10 +11,11 @@ In the previous lesson, we learned that two powers with the same base can be com
 - Power of a Quotient: $\left(\frac{x}{y}\right)^a=\frac{x^a}{y^a}$
 
 ## Power of a Product
-Coming soon!
+Let's first try to simplify $(1\cdot2)^3$. By the Order of Operations, we first simplify $1\cdot2=2$, then raise it to the third power
 
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMDc0Mjc2LDEwMjE4MjQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMTgwMTU3NTcxOCw3NjIwNzQyNzYsMTAyMT
+gyNDU3NV19
 -->
