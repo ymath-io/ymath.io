@@ -22,6 +22,8 @@ Yup, it works! As in the name of the property, a *product* ($xy$) to a *power* (
 
 @1 
 
+@2
+
 ## Power of a Quotient
 The expression $\left(\frac{x}{y}\right)^a$ seems similar to $(xy)^2$, so let's use the same strategy as before. 
 $$\left(\frac{x}{y}\right)^a
@@ -30,6 +32,6 @@ $$\left(\frac{x}{y}\right)^a
 =\frac{x^a}{y^a}$$
 So, the *quotient* $\frac{x}{y}$ to the *power* of $a$ is $\frac{x^a}{y^a}$. Cool!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDg3ODc1Nyw3NjIwNzQyNzYsMTAyMT
+eyJoaXN0b3J5IjpbLTYyOTU0MDc1MSw3NjIwNzQyNzYsMTAyMT
 gyNDU3NV19
 -->
