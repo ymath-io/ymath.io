@@ -18,11 +18,13 @@ $$(xy)^a
 =\underbrace{(xy)(xy)\dots(xy)}_\text{$a$ times}
 =\underbrace{x\cdot x\dots x}_\text{$a$ times} \cdot \underbrace{y\cdot y\dots y}_\text{$a$ times}
 =x^ay^a$$
-Yup, it works!
+Yup, it works! We showed that
+$$(xy)^a=x^ay^a$$
+for any positive integer value of $a$.
 
 ## Power of a Quotient
 Coming soon!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzczMDUwMzgsNzYyMDc0Mjc2LDEwMj
-E4MjQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMTUzNjUyNTkwMSw3NjIwNzQyNzYsMTAyMT
+gyNDU3NV19
 -->
