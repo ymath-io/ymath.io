@@ -21,8 +21,10 @@ $$(xy)^a
 Yup, it works! Note the name of the property -- a *product* ($xy$) to a *power* ($a$) is $x^a y^a$.
 
 ## Power of a Quotient
-$\frac{x^a}{y^a}$$
+The expression $\left(\frac{x}{y}\right)^a$ looks somewhat similar to $(xy)^2$, so let's use the same strategy as before. 
+$$\left(\frac{x}{y}\right)^a
+=\left(\frac{x}{y}\right) \left(\frac{x}{y}\right)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjY3NzYyNyw3NjIwNzQyNzYsMTAyMT
-gyNDU3NV19
+eyJoaXN0b3J5IjpbMjc1MDY2NTU1LDc2MjA3NDI3NiwxMDIxOD
+I0NTc1XX0=
 -->
