@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-3 px-4 rounded-xl shadow-xl my-3">
+  <div class="bg-white dark:bg-gray-800 py-3 px-4 rounded-xl shadow-xl my-3">
     <div class="grid grid-cols-4">
       <h1
         class="
@@ -15,15 +15,15 @@
       </h1>
       <progress-bar class="w-full col-span-1 ml-auto my-auto" :value="0.3" />
     </div>
-    <hr class="mb-3" />
+    <hr class="mb-3 invisible" />
     <div class="grid grid-cols-4">
       <div class="grid lg:grid-cols-3 col-span-3">
-        <a href="#" class="hover:underline" :key="n" v-text="n.title" v-for="n of lessons"></a>
+        <a href="#" class="hover:underline text" :key="n" v-text="n.title" v-for="n of lessons"></a>
       </div>
-      <div class="py-4 px-4 bg-gray-300 rounded-lg bg-opacity-30">
-        <h3 class="font-bold">Up next for you:</h3>
+      <div class="py-4 px-4 bg-gray-300 dark:bg-gray-700 rounded-lg bg-opacity-30">
+        <h3 class="font-bold text mb-1">Up next for you:</h3>
         <div class="flex flex-row align-middle">
-          <a href="#" class="flex hover:underline align-middle items-center"
+          <a href="#" class="flex text hover:underline align-middle items-center"
             >Lesson 7</a
           >
           <a

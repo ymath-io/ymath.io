@@ -21,7 +21,7 @@
       <a>{{ item.title }}</a>
       <m-icon
         v-if="item.children"
-        class="transform ml-auto mr-5 duration-300 ease-in-out transition-transform"
+        class="transform ml-auto mr-1 duration-300 ease-in-out transition-transform"
         :class="[open ? 'rotate-0' : '-rotate-90']"
         icon="chevron-down"
       />
@@ -129,7 +129,7 @@ export default {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .sidebar-subitem, .sidebar-item {
-  @apply hover:bg-gray-200 hover:bg-opacity-70;
+  @apply hover:bg-gray-200 hover:bg-opacity-70 dark:hover:bg-gray-800;
 }
 
 .sidebar-subitem.skipped::before {

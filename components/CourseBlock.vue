@@ -15,8 +15,12 @@
       <p class='dark:text-gray-400 text-gray-600  row-span-2 my-2'>
         {{ course.description }}
       </p>
-      <progress-bar class='row-span-1' :value='completionProgress'/>
-    </div>
+      <progress-bar v-if="completionProgress" class='row-span-1' :value='completionProgress'/>
+      <div v-else class="row-span-1">
+<a  class="rounded-lg bg-green-500 py-2 px-3 font-semibold text-darkText inline float-right">Begin</a>
+    
+      </div>
+      </div>
   </div>
 </template>
 

@@ -1,9 +1,19 @@
 <template>
   <div>
     <div class="select dark:select-dark" v-if="fetched">
+      
+      <div v-show="false" :style="{backgroundColor:course.color,height:'84px'}"></div>
+      <div  v-show="false" :style="{backgroundColor:`${course.color}`}" style="height:60px" class=" flex">
+          <div class="mb-2 ml-16 ">
+              <a class="text-4xl text font-bold tracking-wide text-black text-opacity-80">{{course.title}}</a>
+              <hr class="border-black border-opacity-40"/>
+              <p class="text-md text-black text-opacity-70 ml-1 mtt-1">{{course.description}}</p>
+          </div>
+      </div>
+      <div class="" :style="{backgroundColor:course.color,height:'64px'}"></div>
       <main
-        style="min-height: 100%; top: 64px"
-        class="h-full grid sm:gap-12 sm:grid-cols-4 sticky py-0"
+           style="min-height: 100%; top: 64px"
+        class="h-full grid sm:gap-12 sm:grid-cols-4 sticky mb-0 py-0"
       >
         <div
           style="height: calc(100vh - 64px)"
@@ -19,14 +29,22 @@
             sm:border-r-2
             flex flex-col
             border-b-2
+            pb-7
             sm:border-b-0
             dark:border-gray-800
             border-gray-200
           "
           :key="JSON.stringify(params)"
         >
+
+        <div class="sticky text-center top-0">
+          <h1 class="text-2xl text font-bold font-sans">
+            {{course.title}}
+          </h1>
+        </div>
+
           <div class="text-center">
-            <h1
+           <!--- <h1
               class="
                 tracking-wide
                 font-extrabold
@@ -36,11 +54,11 @@
                 to-green-600
                 my-3
                 uppercase
-                text-3xl
+                text-2xl
               "
             >
               {{ course.title }}
-            </h1>
+            </h1>-->
           </div>
           
           <side-bar-item
@@ -54,7 +72,7 @@
           class="sm:col-span-3 w-screen pr-4 sm:pr-20 sm:w-full overflow-scroll h-full pb-6"
         >
           <div
-            v-if="prev || next"
+            v-if="prev || next && level !=='course'"
             class="
               mb-15
               
@@ -84,14 +102,16 @@
             </a>
           </div>
           <div
+          v-if="prev || next && level !=='course'"
             class="mb-15 h-6 border-t-2 dark:border-gray-800 border-gray-200"
           />
           <nuxt-child class="pl-4 " />
           <div
-            class="mt-0 h-10 border-b-2 dark:border-gray-800 border-gray-200"
+          v-if="prev || next && level !=='course'"
+            class="mt-0 h-6 border-b-2 dark:border-gray-800 border-gray-200"
           />
           <div
-            v-if="prev || next"
+            v-if="prev || next && level !=='course'"
             class="
               mt-15
               w-full
@@ -216,4 +236,7 @@ export default {
 </script>
 
 <style>
+.scroll-down::before {
+  @apply  text-4xl animate-bounce;
+}
 </style>
