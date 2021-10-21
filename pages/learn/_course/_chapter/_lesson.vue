@@ -1,8 +1,8 @@
 <template>
 <div>
-  <div class="flex flex-row"><h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1><progress-selector class="ml-auto"  v-model='progress'/></div> 
+  <div class="flex flex-row"><h1 class='font-semibold text-green-400 text-3xl mb-4'>{{document.title}}</h1><progress-selector class="ml-auto"  v-model='progress'/></div>
   <nuxt-content :document='document'/>
-  <div class='text-center mt-10'><progress-selector  v-model='progress'/></div>
+  <div class='text-right mt-10'><progress-selector  v-model='progress'/></div>
 </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   async asyncData({$content, params}){
     const [document] = await $content('courses', params.course, params.chapter, params.lesson).fetch();
     return {
-      document, params, storageKey:`progress:${params.course}/${params.chapter}/${params.lesson}`
+      document, params, storageKey:`progress:${params.course}/${params.chapter}/${params.lesson}`, id:Math.random()
     }
   },
   mounted(){
@@ -19,6 +19,10 @@ export default {
 
     window.addEventListener('storage', function(event) {
       this.progress = localStorage[this.storageKey];
+    });
+    window.addEventListener('completionChange', function(event) {
+      if (event === this.id) return;
+      this.progress = localStorage.getItem([this.storageKey]);
     })
   },
   data(){
@@ -29,7 +33,13 @@ export default {
   watch:{
     progress(){
       localStorage[this.storageKey] = this.progress;
-      window.dispatchEvent( new Event('completionChange') );
+      window.dispatchEvent( new CustomEvent('completionChange', {id: this.id }) );
+    }
+  },
+  head(){
+    return {
+      title: this.document.title,
+
     }
   }
 }

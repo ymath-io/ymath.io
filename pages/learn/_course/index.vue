@@ -10,6 +10,7 @@
   </div>
   
 
+
   </div>
 </template>
 
@@ -34,6 +35,11 @@ export default {
     }
     return { course, subjects, fetched: true }
   },
+  head(){
+    return {
+      title:this.course.title
+    }
+  }
 }
 </script>
 

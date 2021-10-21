@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="select dark:select-dark" v-if="fetched">
-      
+
       <div v-show="false" :style="{backgroundColor:course.color,height:'84px'}"></div>
       <div  v-show="false" :style="{backgroundColor:`${course.color}`}" style="height:60px" class=" flex">
           <div class="mb-2 ml-16 ">
-              <a class="text-4xl text font-bold tracking-wide text-black text-opacity-80">{{course.title}}</a>
+              <a class="text-4xl font-bold tracking-wide text-black text-opacity-80">{{course.title}}</a>
               <hr class="border-black border-opacity-40"/>
               <p class="text-md text-black text-opacity-70 ml-1 mtt-1">{{course.description}}</p>
           </div>
@@ -13,7 +13,7 @@
       <div class="" :style="{backgroundColor:course.color,height:'64px'}"></div>
       <main
            style="min-height: 100%; top: 64px"
-        class="h-full grid sm:gap-12 sm:grid-cols-4 sticky mb-0 py-0"
+        class="h-full grid sm:grid-cols-4 sticky mb-0 py-0"
       >
         <div
           style="height: calc(100vh - 64px)"
@@ -37,45 +37,32 @@
           :key="JSON.stringify(params)"
         >
 
-        <div class="sticky text-center top-0">
+        <div class="sticky bg-gray-100 dark:bg-gray-900 w-full py-3 z-10 text-center top-0">
           <h1 class="text-2xl text font-bold font-sans">
             {{course.title}}
           </h1>
         </div>
-
-          <div class="text-center">
-           <!--- <h1
-              class="
-                tracking-wide
-                font-extrabold
-                bg-gradient-to-l bg-clip-text
-                text-transparent
-                from-green-400
-                to-green-600
-                my-3
-                uppercase
-                text-2xl
-              "
-            >
-              {{ course.title }}
-            </h1>-->
-          </div>
-          
           <side-bar-item
             :key="index"
             v-for="(subject, index) in subjects"
             :item="subject"
           />
         </div>
+
         <div
           style="height: calc(100vh - 64px)"
-          class="sm:col-span-3 w-screen pr-4 sm:pr-20 sm:w-full overflow-scroll h-full pb-6"
+          id='content-wrapper'
+          class="sm:col-span-3 block w-screen sm:pl-12 pr-4 sm:pr-20 sm:w-full overflow-x-scroll overflow-y-scroll h-full pb-6"
         >
+          <div style='' class=' -ml-12 -mr-20 z-10 sticky h-1 top-0 '>
+            <div :style='{width:scrollProgress+`%`}' class=' z-10  h-full bg-opacity-80 backdrop-filter backdrop-blur bg-green-400'>
+
+            </div>
+          </div>
           <div
             v-if="prev || next && level !=='course'"
             class="
-              mb-15
-              
+              mb-15 mt-1
               flex flex-col
               sm:flex-row
               border-t-0
@@ -154,7 +141,9 @@ export default {
     let level = 'course'
     let prev, next
     if (params.lesson) {
+
       ;[prev, next] = await $content('courses', params.course, { deep: true })
+        //.where({'type':'lesson'})
         .sortBy('index')
         .surround(
           `/courses/${params.course}/${params.chapter}/${params.lesson}/index`
@@ -171,6 +160,7 @@ export default {
       level = 'chapter'
     } else {
       ;[prev, next] = await $content('courses', params.course, { deep: true })
+        .where({type:{$neq:'chapter'}})
         .sortBy('index')
         .surround(`/courses/${params.course}/index`)
         .only(['path', 'title'])
@@ -230,13 +220,32 @@ export default {
           params.chapter == k.path.split('/')[3]
       })
     }
-    return { course, subjects, fetched: true, level, params, prev, next }
+    return { course, subjects, fetched: true, level, params, prev, next, path:`${params.course}/${params.chapter}/${params.lesson}` }
   },
+  data:()=>({
+    scrollProgress:0
+  }),
+  mounted() {
+    const v = this;
+    document.addEventListener('DOMContentLoaded',()=>{
+        const target = document.querySelector('#content-wrapper');
+
+        target.addEventListener('scroll', (e)=>{
+          v.scrollProgress = 100*(target.scrollTop  )/(target.scrollHeight - target.clientHeight);
+          if (v.scrollProgress > 98){
+            localStorage.setItem('progress:'+v.path, 'completed');
+            window.dispatchEvent( new Event('completionChange') );
+          }
+        })
+      }
+    )
+  }
 }
 </script>
 
 <style>
-.scroll-down::before {
-  @apply  text-4xl animate-bounce;
+
+.body {
+  @apply overflow-y-scroll;
 }
 </style>

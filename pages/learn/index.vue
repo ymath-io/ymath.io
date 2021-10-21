@@ -3,7 +3,7 @@
     <header-banner>Courses</header-banner>
     <main style='height: 100%'>
       <div v-if='fetched'
-           class='max-w-7xl grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto py-6 xs:px-3 xs:mx-5 sm:px-6 md:px-7 lg:px-8'>
+           class='max-w-7xl grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 mx-auto py-6 xs:px-3 xs:mx-5 sm:px-6 md:px-7 lg:px-8'>
 
         <course-block v-for='course in courses'
                       :course='course'
@@ -25,6 +25,9 @@ export default Vue.extend({
     return {
       courses, fetched: true
     }
+  },
+  head:{
+    title:'Learn'
   }
 })
 </script>

@@ -129,7 +129,7 @@ export default {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .sidebar-subitem, .sidebar-item {
-  @apply hover:bg-gray-200 hover:bg-opacity-70 dark:hover:bg-gray-800;
+  @apply hover:bg-gray-200 dark:hover:bg-gray-800 hover:bg-opacity-70 dark:hover:bg-opacity-70;
 }
 
 .sidebar-subitem.skipped::before {
