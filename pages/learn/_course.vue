@@ -151,30 +151,29 @@ export default {
         )
         .only(['path', 'title'])
         .fetch()
-      level = 'lesson'
+      level = 'lesson';
     } else if (params.chapter) {
       ;[prev, next] = await $content('courses', params.course, { deep: true })
-
         .sortBy('index')
         .surround(`/courses/${params.course}/${params.chapter}/index`)
         .only(['path', 'title'])
         .fetch()
-      level = 'chapter'
+      level = 'chapter';
     } else {
-      ;[prev, next] = await $content('courses', params.course, { deep: true })
+      [prev, next] = await $content('courses', params.course, { 'deep': true })
         .where({type:{$neq:'chapter'}})
         .sortBy('index')
         .surround(`/courses/${params.course}/index`)
         .only(['path', 'title'])
-        .fetch()
+        .fetch();
     }
 
     if (prev) {
-      const segments = prev.path.split('/')
-      delete segments[0]
-      segments[1] = 'learn'
-      delete segments[segments.length - 1]
-      prev.href = segments.join('/')
+      const segments = prev.path.split('/');
+      delete segments[0];
+      segments[1] = 'learn';
+      delete segments[segments.length - 1];
+      prev.href = segments.join('/');
     }
     if (next) {
       const segments = next.path.split('/')
