@@ -1,5 +1,5 @@
 ---
-type: course
+type: course-draft
 index: 1
 title: Physics - Mechanics
 thumbnail: "/img/physics-banner.png"
