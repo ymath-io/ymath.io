@@ -5,7 +5,7 @@ author: Saumya Singhal
 thumbnail: "/img/prog-banner.png"
 type: course
 description: A new way to program - with numbers!
-color: #D347B2
+color: "#D347B2"
 
 ---
 
