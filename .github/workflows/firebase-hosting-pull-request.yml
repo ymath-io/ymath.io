@@ -14,7 +14,7 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOCRATHEMATICS }}'
           projectId: socrathematics
-          expires: 60d
+          expires: 30d
           target: ymath-beta
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
