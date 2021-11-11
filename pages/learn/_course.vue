@@ -38,7 +38,7 @@
         >
 
         <div class="sticky bg-gray-100 dark:bg-gray-900 w-full py-3 z-10 text-center top-0">
-          <h1 class="text-2xl dark:text-darkText font-bold font-sans">
+          <h1 class="text-2xl text font-bold font-sans">
             {{course.title}}
           </h1>
         </div>
@@ -77,7 +77,6 @@
             >
               <m-icon class="" icon="chevron-left" />
               <span>{{ prev.title }}</span>
-
             </a>
 
             <a

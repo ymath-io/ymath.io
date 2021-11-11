@@ -18,8 +18,10 @@
     }
 
     .select ::selection {
-      background-color: rgba(148, 253, 171, 0.21)
+      background-color: rgba(148, 253, 171, 0.21);
+      @apply dark:select-dark;
     }
+
 
     .shadow-blue-md {
       box-shadow: 0 2px 4px -1px rgba(0, 118, 255, 0.39);
@@ -50,6 +52,10 @@
 /* style the mathlive inputs */
 body {
   @apply bg-gray-100 dark:bg-gray-900
+}
+
+.text {
+  @apply text-dark dark:text-darkText;
 }
 
 hr {

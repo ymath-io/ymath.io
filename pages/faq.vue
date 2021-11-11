@@ -41,6 +41,13 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style >
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+  pointer-events: none;
+}
 </style>
