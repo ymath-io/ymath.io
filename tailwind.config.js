@@ -44,7 +44,10 @@ module.exports = {
         dark: "#24283b",
         darkText:"#e6e8f1"
       },
-
+      transitionProperty: {
+        'max-height': 'max-height',
+        'spacing': 'margin, padding',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
@@ -135,6 +138,7 @@ module.exports = {
   },
   variants: {
     boxShadow:['dark','hover','focus'],
+    scrollbar: ['rounded','dark'],
     extend: {
       margin: ['hover', 'focus'],
       typography: ['dark'],
@@ -143,6 +147,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('tailwind-scrollbar'),
     function ({addUtilities, theme}) {
       const extendUnderline = {};
       let themeColors = theme('colors')

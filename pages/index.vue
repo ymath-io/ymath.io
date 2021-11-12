@@ -1,7 +1,8 @@
 <template>
   <div>
-    <div class='overflow-x-hidden'>
-      <div :class="[section.type==='bubble'? bubbleClasses:'', sectionClasses]" v-for='section of [doc.sections[0]]' :style='section.type==="bubble"?bubbleStyle:{}'   >
+
+    <div class='overflow-x-hidden mt-10'>
+      <div :key="sidx" :class="[section.type==='bubble'? bubbleClasses:'', sectionClasses]" v-for='(section, sidx) of [doc.sections[0]]' :style='section.type==="bubble"?bubbleStyle:{}'   >
         <div class='hero-image md:hidden col-span-1 md:mr-32'>
           <img  style='transform: scaleX(-1) rotate(-20deg);'  class='md:my-auto w-1/2 transform  mx-auto' src='/img/mascot/flying.png'  alt='Flying Y'/>
         </div>

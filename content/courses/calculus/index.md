@@ -5,6 +5,7 @@ title: Calculus
 author: Saumya Singhal
 thumbnail: "/img/calc-banner.png"
 index: 0
+color: "#99CACB"
 
 ---
 So you want to learn Calculus? Well, this is definitely a try-this-at-home type of thing to do. But first, you're going

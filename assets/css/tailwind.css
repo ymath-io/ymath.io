@@ -9,6 +9,9 @@
       --tw-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06);
       box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     }
+    .bg-gray-800-50 {
+      background-color: #1A212F;
+    }
 
     .select-dark ::selection {
       background-color: rgba(111, 181, 127, 0.21)
@@ -37,6 +40,10 @@
     .shadow-primary-2xl {
       box-shadow: 0 25px 50px -12px rgba(40, 167, 69, 0.39);
     }
+    .clip-text {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }
 
@@ -45,6 +52,10 @@
 /* style the mathlive inputs */
 body {
   @apply bg-gray-100 dark:bg-gray-900
+}
+
+.text {
+  @apply text-dark dark:text-darkText;
 }
 
 hr {
