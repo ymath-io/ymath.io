@@ -10,7 +10,7 @@
               <p class="text-md text-black text-opacity-70 ml-1 mtt-1">{{course.description}}</p>
           </div>
       </div>
-      <div class="" :style="{backgroundColor:course.color,height:'64px'}"></div>
+      <div  class="" :style="{backgroundColor:'transparent',height:'64px'}"></div>
       <main
            style="min-height: 100%; top: 64px"
         class="h-full grid sm:grid-cols-4 sticky mb-0 py-0"
@@ -160,7 +160,7 @@ export default {
       level = 'chapter';
     } else {
       [prev, next] = await $content('courses', params.course, { 'deep': true })
-        .where({type:{$neq:'chapter'}})
+        .where({'type':{'$in':['course','lesson']}})
         .sortBy('index')
         .surround(`/courses/${params.course}/index`)
         .only(['path', 'title'])
@@ -233,6 +233,7 @@ export default {
         target.addEventListener('scroll', (e)=>{
           v.scrollProgress = 100*(target.scrollTop  )/(target.scrollHeight - target.clientHeight);
           if (v.scrollProgress > 98){
+            console.log('omg')
             localStorage.setItem('progress:'+v.path, 'completed');
             window.dispatchEvent( new Event('completionChange') );
           }
