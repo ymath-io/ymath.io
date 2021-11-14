@@ -9,6 +9,11 @@ sections:
   label: Home
   create: all
   match: "**/*.md"
+- type: directory
+  path: content/courses
+  label: All Courses
+  create: all
+  match: "**/*"
 - type: heading
   label: Courses
 - type: directory
