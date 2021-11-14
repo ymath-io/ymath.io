@@ -18,4 +18,6 @@ fields:
   hidden: true
 pages:
 - content/courses/calculus/differential/introduction/index.md
+- content/courses/calculus/differential/introduction/index.md
+- content/courses/calculus/integral/introduction/index.md
 - content/courses/calculus/integral/introduction/index.md
