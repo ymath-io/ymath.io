@@ -39,8 +39,8 @@ sections:
 - type: document
   path: content/nav.json
   label: Menu
-upload_dir: static/img
-public_path: "/img"
+upload_dir: static
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
