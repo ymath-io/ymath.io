@@ -17,6 +17,14 @@ sections:
   create: all
   match: "**/*.md"
 - type: directory
+  path: content/courses/trigonometry
+  label: Trigonometry
+  create: all
+  match: "**/*"
+  templates:
+  - chapter
+  - lesson
+- type: directory
   path: content/courses/calculus
   label: Calculus
   create: all
