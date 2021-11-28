@@ -8,8 +8,11 @@
 
 <script>
 export default {
-  async asyncData({$content, params}){
+  async asyncData({$content, params, error}){
     const [document] = await $content('courses', params.course, params.chapter, params.lesson).fetch();
+    if (!document){
+      return error({ statusCode: 404, message: 'Page Not Found' })
+    }
     return {
       document
     }

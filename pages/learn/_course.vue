@@ -59,9 +59,12 @@
 
 export default {
 
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, params, error }) {
 
-    const [course] = await $content('courses', params.course).fetch()
+    const [course] = await $content('courses', params.course).where({'type':{'$eq':'course'}}).fetch()
+    if (!course){
+      return error({ statusCode: 404, message: 'Page Not Found' })
+    }
     // fetch chapters
     let prev,next;
     if (params.lesson){

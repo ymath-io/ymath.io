@@ -62,6 +62,8 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
+    '@/modules/sitemapRouteGenerator',
+    '@nuxtjs/sitemap'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -169,6 +171,9 @@ export default {
       config.resolve.alias['vue'] = 'vue/dist/vue.common';
 
     }
+  },
+  sitemap: {
+    hostname: 'https://dev.ymath.io'
   },
 
   generate: {
