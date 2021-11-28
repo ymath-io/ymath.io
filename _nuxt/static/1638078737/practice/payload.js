@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/practice", {data:[{}],fetch:{"data-v-7b7c61e4:0":{courses:[{title:"Calculus",path:"\u002Fcourses\u002Fcalculus\u002Findex"},{title:"Mathematical Programming",path:"\u002Fcourses\u002Fmath-programming\u002Findex"}]}},mutations:void 0});
