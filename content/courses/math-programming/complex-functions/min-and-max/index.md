@@ -24,17 +24,7 @@ Let's try to make a $\max$ function using only standard functions.
 
 What we'll do is figure out whether $x-y$ is positive or negative. Then,
 we'll return $x$ if it is positive and $y$ if it is negative.  To figure
-out whether it is positive or negative, we compute
-$$\text{isPositive}\left(x-y\right) =
-\frac{\left|x-y\right|}{x-y}\Rightarrow\left\{+\rightarrow1,
--\rightarrow-1\right\}$$ If positive, we'll get $1,$ and if negative,
-we will get $-1.$ Great - how do we put this to use? First,  we'll
-configure the positive-negative function to output binary. This means
-outputting $1$ if it is positive, and $0$ if it is negative.  
-
-$$\text{isPositive}\left(x-y\right) =
-\frac{\left|x-y\right|}{x-y}+1\Rightarrow\left\{+\rightarrow2,
--\rightarrow0\right\}$$ 
+out whether it is positive or negative, we compute 
 
 $$\text{isPositive}\left(x-y\right) = \frac{\frac{\left|x-y\right|}{x-y}+1}{2}\Rightarrow\left\{+\rightarrow1,
 -\rightarrow 0 \right\}$$

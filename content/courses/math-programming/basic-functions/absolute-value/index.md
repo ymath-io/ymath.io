@@ -26,7 +26,10 @@ To find the magnitude of a value $x$, we need a function that ignores its sign. 
 
 $$\text{absoluteValue(x)}=\sqrt{x^2}.$$
 
-Happy absolute-valueing!
+Happy absolute-valueing![^1]
+
+
+[^1]: This functionality will be reffered to in the future using conventional absolute value signs. The ability to compute the absolute value of a quantity will be assumed hereafter.
 
 
 <!--stackedit_data:
