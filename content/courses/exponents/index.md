@@ -1,5 +1,5 @@
 ---
-type: course
+type: course-draft
 index: 0
 description: Master the most efficient computation since multiplication!
 title: Exponents
