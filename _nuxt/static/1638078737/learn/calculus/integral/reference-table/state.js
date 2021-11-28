@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1638078737",layout:"default",error:a,serverRendered:true,routePath:"\u002Flearn\u002Fcalculus\u002Fintegral\u002Freference-table",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"3aea361c"}}}}(null));
