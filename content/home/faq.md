@@ -5,7 +5,7 @@ description: Got questions? We've got answers!
 ---
 ## How do I use this website?
 
-That's a question you could answer - how do _you_ use this website?_
+That's a question you could answer - how do _you_ use this website?
 
 ## How do you think I should use this website?
 
@@ -35,7 +35,7 @@ Every time I finish learning something, I write a course on it.
 
 You can do it too!
 
-If you feel you're proficient in a topic I haven't included on this site, send me a sample course at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and we can work on getting your content on here, with your name or pen-name on it. 
+If you feel you're proficient in a topic I haven't included on this site, send me a sample course at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and we can work on getting your content on here, with your name or pen-name on it.
 
 ## Who are you, anyways?
 
@@ -56,6 +56,7 @@ Wow, thanks! Fork and submit a pull request on the [Github repository](https://g
 Open a new issue on the [Github repository](https://github.com/ymath-io/ymath.io/issues/new), and explain exactly what the bug is. Screenshots will always make it 2x clearer. Thank you!
 
 #### If you have a question that is not answered here, email me at [saumyasmathtutoring@gmail.com](mailto:saumyasmathtutoring@gmail.com) and I'll do my best to get back to you.
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE5NDYyMzY0MDZdfQ==
--->
+\-->

@@ -9,6 +9,11 @@ sections:
   label: Home
   create: all
   match: "**/*.md"
+- type: directory
+  path: content/courses
+  label: All Courses
+  create: all
+  match: "**/*"
 - type: heading
   label: Courses
 - type: directory
@@ -16,6 +21,14 @@ sections:
   label: Exponents
   create: all
   match: "**/*.md"
+- type: directory
+  path: content/courses/trigonometry
+  label: Trigonometry
+  create: all
+  match: "**/*"
+  templates:
+  - chapter
+  - lesson
 - type: directory
   path: content/courses/calculus
   label: Calculus
@@ -26,8 +39,8 @@ sections:
 - type: document
   path: content/nav.json
   label: Menu
-upload_dir: static/img
-public_path: "/img"
+upload_dir: static
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

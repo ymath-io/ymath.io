@@ -6,7 +6,7 @@ fields:
   name: type
   label: type
   default: chapter
-  hidden: true
+  hidden: false
 - type: text
   name: title
   label: title
