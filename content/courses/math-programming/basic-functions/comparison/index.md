@@ -31,8 +31,8 @@ $$\text{isPositive}\left(x\right) = \frac{\frac{\left|x\right|}{x}+1}{2}\Rightar
 
 So now, we just need to plug in $x-y$ to this function, and we will get our answer.
 
-$$\text{isLarger}\left(x, y\right) = \frac{\frac{\left|x-y\right|}{x-y}+1}{2}\Rightarrow\left\{+\rightarrow1,
--\rightarrow 0 \right\}$$
+$$\text{isLarger}\left(x, y\right) = \frac{\frac{\left|x-y\right|}{x-y}+1}{2}\Rightarrow\left\{\text{yes}\rightarrow1,
+\text{no}\rightarrow 0 \right\}$$
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNDQ1OTI3ODE0LC0xMzg1Njg5MTI0XX0=
