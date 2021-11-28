@@ -1,7 +1,7 @@
 ---
 index: 3.5
 title: "Positivity"
-type: lesson-draft
+type: lesson
 
 ---
 
