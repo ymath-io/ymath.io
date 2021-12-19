@@ -1,6 +1,6 @@
 ---
 type: course
-description: Equip yourself with calculus - it's not scary.
+description: Equip yourself with calculus - it's not scary!
 title: Calculus
 author: Saumya Singhal
 thumbnail: "/img/calc-banner.png"
