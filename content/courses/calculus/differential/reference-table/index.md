@@ -1,5 +1,5 @@
 ---
-title: Reference Table
+title: Derivatives Reference Table
 index: 13
 type: lesson
 

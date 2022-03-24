@@ -9,11 +9,12 @@ export default {
     if (!document){
       return error({ statusCode: 404, message: 'Page Not Found' })
     }
+    
     return { chapter: document }
   },
   head() {
     return {
-      titleTemplate: '%s | ' + this.chapter.title + ' • YMath.io'
+      title: this.chapter.title
     }
   }
 }

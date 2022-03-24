@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Applications
+title: Applications of Derivatives
 index: 12
 
 ---

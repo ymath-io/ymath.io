@@ -105,7 +105,7 @@ export default {
         subject.children = await $content('courses', params.course, params.chapter, { deep: true })
           .where({ type: 'lesson' })
           .sortBy('index')
-          .only(['title', 'slug', 'path'])
+          .only(['title', 'slug', 'path', 'menuTitle'])
           .fetch()
         subject.children.forEach(k => {
           k.sub = true;
@@ -116,7 +116,11 @@ export default {
     }
     return { course, subjects, fetched: true, params, prev, next }
   },
-
+  head() {
+    return {
+      titleTemplate: '%s | Free Online ' + this.course.title + ' Course • YMath.io'
+    }
+  }
 }
 </script>
 

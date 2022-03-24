@@ -1,14 +1,19 @@
 <template>
-
-        <nuxt-content :document='course' />
-
+  <div>
+    <h1 class="font-semibold text-green-400 text-3xl mb-4">
+      Course Description
+    </h1>
+    <nuxt-content :document="course" />
+  </div>
 </template>
 
 <script>
 export default {
   async asyncData({ $content, params, error }) {
-    const [course] = await $content('courses', params.course).where({'type':{'$eq':'course'}}).fetch()
-    if (!course){
+    const [course] = await $content('courses', params.course)
+      .where({ type: { $eq: 'course' } })
+      .fetch()
+    if (!course) {
       return error({ statusCode: 404, message: 'Page Not Found' })
     }
     // fetch chapters
@@ -18,14 +23,13 @@ export default {
       .fetch()
     return { course, subjects, fetched: true }
   },
-  head(){
+  head() {
     return {
-      title:this.course.title
+      titleTemplate: this.course.title + ' • YMath.io',
     }
-  }
+  },
 }
 </script>
 
 <style scoped>
-
 </style>

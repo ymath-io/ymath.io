@@ -1,5 +1,6 @@
 ---
-title: Applications 
+title: Applications of Limits
+menuTitle: Applications
 index: 4
 type: lesson 
 

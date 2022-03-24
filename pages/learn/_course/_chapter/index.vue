@@ -12,9 +12,9 @@ export default {
     const [document] = await $content('courses', params.course, params.chapter).fetch()
     return {document}
   },
-  head(){
+  head() {
     return {
-      title: 'Home',
+      //titleTemplate: this.document.title + ' • YMath.io'
     }
   }
 }

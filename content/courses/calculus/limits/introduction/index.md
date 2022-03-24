@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Introduction
+title: Introduction with Limits
 index: 2
 description: Learn how to accurately approximate asymptotes of functions.
 
@@ -12,7 +12,6 @@ you won't even know it. To become familiar with what a limit is, let's consider 
 $$ 
 f(x) = \frac{x^2-1}{x-1}. 
 $$
-
 
 @1 Try this.
 

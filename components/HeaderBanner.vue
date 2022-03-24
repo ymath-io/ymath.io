@@ -5,9 +5,9 @@
         <slot name='thumbnail'></slot>
       </div>
       <div class='col-span-3 align-baseline items-baseline ' :class='{"grid grid-rows-2":subtitle}'>
-        <h1 class='text-3xl   dark:text-gray-100 font-bold text-gray-900' :class='{"row-span-1":subtitle}'>
+        <span class='text-3xl   dark:text-gray-100 font-bold text-gray-900' :class='{"row-span-1":subtitle}'>
           <slot/>
-        </h1>
+        </span>
         <h3 v-if='subtitle' class='row-span-1 mt-auto text-md dark:text-gray-400 font-normal text-gray-90'>
           <slot name='subtitle'></slot>
         </h3>

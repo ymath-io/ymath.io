@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Practice
+title: Practice with Derivatives
 index: 7
 
 ---

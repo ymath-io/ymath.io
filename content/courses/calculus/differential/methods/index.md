@@ -1,7 +1,7 @@
 ---
 type: lesson
 index: 8
-title: Methods
+title: Product and Division of Derivatives
 
 ---
 

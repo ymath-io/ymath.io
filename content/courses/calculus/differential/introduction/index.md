@@ -2,7 +2,7 @@
 type: lesson
 index: 6
 description: An intuitive introduction to derivatives
-title: Introduction
+title: Introduction to Derivatives
 
 ---
 
