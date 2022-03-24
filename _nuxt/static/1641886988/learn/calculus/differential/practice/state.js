@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1641886988",layout:"default",error:a,serverRendered:true,routePath:"\u002Flearn\u002Fcalculus\u002Fdifferential\u002Fpractice",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"026f117c"}}}}(null));
