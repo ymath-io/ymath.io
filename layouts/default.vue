@@ -5,7 +5,7 @@
         <div class='flex items-center justify-between h-16'>
           <div class='flex items-center grid gap-12 grid-cols-4'>
             <div class='flex-shrink-0 col-span-1'>
-              <a href='/'><img class='h-8 max-w-none ml-auto  rounded-lg shadow-lg' src='/logo.png' alt='YMath Logo' /></a>
+              <a href='/'><img class='h-8 max-w-none ml-auto  rounded-lg shadow-lg' src='/icon.png' alt='YMath Logo' /></a>
             </div>
 
             <div class='hidden md:block col-span-3'>
