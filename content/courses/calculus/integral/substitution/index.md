@@ -22,7 +22,7 @@ $$\int f(g(x)) d\ x \cdot \frac{d g(x)}{d g(x)}=  \int f(g(x))\ d x$$
 
 All we did was multiply the left side by 1, so nothing really changed. We can continue by rearranging some terms:
 
-$$\int f(g(x))\ d\ g(x) \cdot \frac{dx}{d\ g(x)}=  \int f(g(x))\ d x$$
+$$\int f(g(x))\ d\ g(x) \cdot \frac{d\ g(x)}{dx}=  \int f(g(x))\ d x$$
 
 $$\int f(x)\ dx  \cdot \frac{dx}{d\ g(x)}=  \int f(g(x))\ d x$$
 
